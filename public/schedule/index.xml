@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Schedule on STA 199</title>
-    <link>/schedule/</link>
+    <link>https://sta199-fa20-002.netlify.app/schedule/</link>
     <description>Recent content in Schedule on STA 199</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>en-us</copyright>
     
-        <atom:link href="/schedule/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://sta199-fa20-002.netlify.app/schedule/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Week 01: Intro</title>
-      <link>/schedule/week-01/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-01/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-01/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-01/</guid>
       <description>table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Welcome to STA 199! Welcome to STA 199! Live lecture slides     Tour of website + Sakai UN Votes   Wednesday Meet the Toolkit Meet the Toolkit Tour of RStudio + GitHub    Readings          How to read an R help page Required   The murky tale of Flint&amp;rsquo;s deceptive water data Required   ROpenSci&amp;rsquo;s Reproducibility Guide Optional   1500 scientists lift the lid on reproducibility Optional    Assignments          Submit GitHub username due Wed, Aug 19 at 11:59p   Complete Get to know you survey due Wed, Aug 19 at 11:59p   Lab 01 due Wed, Aug 26 at 11:59p   Read syllabus     Other resources Complete the following Duke StatSci Learning R tutorials to prepare for Thursday&amp;rsquo;s lab.</description>
       <content>&lt;style&gt;
 table {
@@ -122,10 +122,10 @@ font-size: 18px;
     
     <item>
       <title>Week 02: Data viz</title>
-      <link>/schedule/week-02/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-02/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-02/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-02/</guid>
       <description> table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Data and visualization Data and visualization AE 03: Visualizing Starwars   Wednesday Visualizing different types of data Visualizing different types of data AE 04: Airbnb in Edinburgh    Readings          Ch 1: Look at Data Required   R for Data Science: Data visualization Required   The evolution of a ggplot Optional    Assignments          Lab 02 due Wed, Sep 2 at 11:59p    Announcements  Peer tutoring groups and other services available through the Academic Resource Center  </description>
       <content>&lt;style&gt;
 table {
@@ -205,10 +205,10 @@ font-size: 18px;
     
     <item>
       <title>Week 03: Data wrangle</title>
-      <link>/schedule/week-03/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-03/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-03/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-03/</guid>
       <description>table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Tidy data and data wrangling Tidy data and data wrangling: Part 1 AE 05: NC Bike Crashes     Tidy data and data wrangling: Part 2      Data wrangling demo (optional)    Wednesday Joining data from multiple sources Joining data from multiple data sources AE 06: Join data sets + data wrangling    Readings          OpenIntro Statistics: 2.</description>
       <content>&lt;style&gt;
 table {
@@ -296,10 +296,10 @@ font-size: 18px;
     
     <item>
       <title>Week 04: Probability</title>
-      <link>/schedule/week-04/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-04/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-04/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-04/</guid>
       <description> table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Intro to probability Intro to probability AE 07: Asthma   Wednesday Conditional probability Conditional probability AE 08: Alinity     Conditional probability: Work out exercises     Readings          OpenIntro Statistics: 3.1 - 3.2 (click “Read Free Sample” to access PDF) Required    Assignments          HW 01 due Wed, Sep 16 at 11:59p   Lab 04 due Wed, Sep 16 at 11:59p    </description>
       <content>&lt;style&gt;
 table {
@@ -377,10 +377,10 @@ font-size: 18px;
     
     <item>
       <title>Week 05: Bootstrap &#43; Data Ethics</title>
-      <link>/schedule/week-05/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-05/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-05/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-05/</guid>
       <description>table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Bootstrap Estimation Bootstrap Estimation: Pt 1 AE 09: Time spent on email     Bootstrap Estimation: Pt 2    Wednesday Data science ethics Data science ethics AE 10: Data Science Ethics    Readings          Introduction to Modern Statistics: 5.</description>
       <content>&lt;style&gt;
 table {
@@ -461,10 +461,10 @@ font-size: 18px;
     
     <item>
       <title>Week 06: Sim-based testing</title>
-      <link>/schedule/week-06/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-06/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-06/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-06/</guid>
       <description>table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Simulation-based testing: Part 1 Simulation-based testing: Pt 1 AE 11: Hypothesis Testing   Wednesday Simulation-based testing: Part 2 Simulation-based testing: Part 2 AE 12: Hypohtesis Testing, Part 2    Readings          Introduction to Modern Statistics: 5.1 Randomization tests Required   Infer examples Optional    Assignments          Exam 01 open Thu, Sep 24 at 9a; due Sun, Sep 27 at 11:59p    Announcements From the StatSci Majors Union (both events count towards stats experiences) If you are interested in statistics, machine learning, or data science and wondering about your possible pathways after Duke, the StatSci Majors Union and the Department of Statistical Science have got you covered!</description>
       <content>&lt;style&gt;
 table {
@@ -557,10 +557,10 @@ font-size: 18px;
     
     <item>
       <title>Week 07: Central Limit Theorem</title>
-      <link>/schedule/week-07/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-07/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-07/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-07/</guid>
       <description>table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Central Limit Theorem (CLT) Central Limit Theorem AE 13: Bone density   Wednesday Inference with the CLT Inference with the CLT AE 14: Pokemon    Readings          Introduction to Modern Statistics: 5.3 Mathematical models Required   Infer examples Optional    Assignments          Lab 06 due Oct 7 at 11:59p   Project proposal due Oct 9 at 11:59p    Announcements Tea with a TA!</description>
       <content>&lt;style&gt;
 table {
@@ -651,10 +651,10 @@ font-size: 18px;
     
     <item>
       <title>Week 08: Two-sample-inference</title>
-      <link>/schedule/week-08/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-08/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-08/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-08/</guid>
       <description>table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Two-sample inference Two-sample inference AE 15: Parkinson&amp;rsquo;s disease   Wednesday Two-sample inference: Part 2 Two-sample inference: Part 2 AE 16: Is yawning contagious?    Comparing three or more groups Comparing three or more groups      Calculations for Chi-square test     Readings          Introduction to Modern Statistics: 5.</description>
       <content>&lt;style&gt;
 table {
@@ -752,10 +752,10 @@ font-size: 18px;
     
     <item>
       <title>Week 09: Linear models</title>
-      <link>/schedule/week-09/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-09/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-09/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-09/</guid>
       <description>table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Statistics experience  No AE 17   Wednesday Introducing linear models Introducing linear models AE 18: Car prices     Interpreting models      Categorical predictors      Prediction + tidy output     Readings          Introduction to Modern Statistics: 3 Introduction to linear models Required    Assignments          Statistics experience due Oct 18 at 11:59p   HW 02 due Oct 19 at 11:59p   Lab 07 due Oct 21 at 11:59p    Announcements Tea with a TA!</description>
       <content>&lt;style&gt;
 table {
@@ -877,10 +877,10 @@ font-size: 18px;
     
     <item>
       <title>Week 10: Multiple linear regression</title>
-      <link>/schedule/week-10/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-10/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-10/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-10/</guid>
       <description>table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Multiple linear regression Multiple linear regression AE 19: Paris Paintings     Assessing model fit    Wednesday MLR: Inference + conditions MLR: Inference + conditions AE 20: Number of trail users    Readings          Introduction to Modern Statistics: 4.</description>
       <content>&lt;style&gt;
 table {
@@ -996,10 +996,10 @@ font-size: 18px;
     
     <item>
       <title>Week 11: Classification &#43; Text analysis</title>
-      <link>/schedule/week-11/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-11/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-11/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-11/</guid>
       <description>table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Classification Classification AE 21: Spam filters   Wednesday Text analysis Text analysis AE 22: Text Analysis    Strings (Optional) Strings (Optional)     Assignments          Draft report due Wed, Oct 28 at 11:59p   HW 03 due Sun, Nov 8 at 11:59p   Peer review due Thu, Nov 5 at 11:59p    Announcements Tea with a TA!</description>
       <content>&lt;style&gt;
 table {
@@ -1111,10 +1111,10 @@ font-size: 18px;
     
     <item>
       <title>Week 12: Spatial data</title>
-      <link>/schedule/week-12/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-12/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-12/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-12/</guid>
       <description>table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Spatial data + visualization Spatial data + visualization AE 23: Spatial data   Wednesday No lecture: Statistics experience      Assignments          Peer review due Thu, Nov 5 at 11:59p   HW 03 due Sun, Nov 8 at 11:59p   Statistics experience #2 due Sun, Nov 8 at 11:59p   Lab 08 due Wed, Nov 11 at 11:59p    Announcements Tea with a TA!</description>
       <content>&lt;style&gt;
 table {
@@ -1197,10 +1197,10 @@ font-size: 18px;
     
     <item>
       <title>Week 13: Web scraping &#43; functions</title>
-      <link>/schedule/week-13/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-13/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-13/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-13/</guid>
       <description> table { font-size: 18px; }  Lectures     Slides Videos Application Exercise (AE)     Monday Web scraping Web scraping AE 25: Web scraping   Wednesday Functions + automation Functions AE 26: Functions + Automation     Automation     Assignments          Lab 08 due Wed, Nov 11 at 11:59p   Written report due Sun, Nov 15 at 11:59p   Video presentation due Tue, Nov 17 at 11:59p   Final repo due Tue, Nov 17 at 11:59p   Watch and comment on presentations Nov 18 - Nov 20    </description>
       <content>&lt;style&gt;
 table {
@@ -1279,10 +1279,10 @@ font-size: 18px;
     
     <item>
       <title>Week 14</title>
-      <link>/schedule/week-14/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-14/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-14/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-14/</guid>
       <description>Check back for details!</description>
       <content>&lt;p&gt;Check back for details!&lt;/p&gt;
 </content>
@@ -1290,10 +1290,10 @@ font-size: 18px;
     
     <item>
       <title>Week 15</title>
-      <link>/schedule/week-15/</link>
+      <link>https://sta199-fa20-002.netlify.app/schedule/week-15/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/schedule/week-15/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/schedule/week-15/</guid>
       <description>Check back for details!</description>
       <content>&lt;p&gt;Check back for details!&lt;/p&gt;
 </content>
@@ -1301,10 +1301,10 @@ font-size: 18px;
     
     <item>
       <title>Course info</title>
-      <link>/home/band_two/</link>
+      <link>https://sta199-fa20-002.netlify.app/home/band_two/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/home/band_two/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/home/band_two/</guid>
       <description> .column { width: 100%; } table { width: 100%; font-size: 20px; font-weight: 400; }     Lecture All Students Mon and Wed 10:15a - 11:30a   Labs Lab 05 Thu 8:30a - 9:45a    Lab 06 Thu 3:30p - 4:45p    Lab 07 Thu 5:15p - 6:30p    Lab 08 Asynchronous     </description>
       <content>&lt;style&gt;
   .column {
@@ -1354,10 +1354,10 @@ font-size: 18px;
     
     <item>
       <title>Help</title>
-      <link>/help/</link>
+      <link>https://sta199-fa20-002.netlify.app/help/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/help/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/help/</guid>
       <description>Getting help in the course We expect everyone will have questions at some point in the semester, so we encourage you to use the following resources for help:
 Ask questions during lectures and lab If you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
 Office hours The teaching team is here to help you be successful in the course.</description>
@@ -1418,10 +1418,10 @@ Go to &lt;a href=&#34;http://studentaffairs.duke.edu/dukereach&#34;&gt;studentaf
     
     <item>
       <title>Project: Showcase your inner data scientist!</title>
-      <link>/project/</link>
+      <link>https://sta199-fa20-002.netlify.app/project/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/project/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/project/</guid>
       <description>Timeline Proposal due Friday, October 9
 Draft report due Wednesday, October 28
 Peer feedback due Thursday, November 5
@@ -1811,12 +1811,12 @@ output:
 &lt;p&gt;❌ &lt;strong&gt;NO! The x-axis is hard to read because the names overlap.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#00f&#34;&gt;ggplot&lt;/span&gt;(data &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mpg, &lt;span style=&#34;color:#00f&#34;&gt;aes&lt;/span&gt;(x &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; manufacturer)) &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#00f&#34;&gt;geom_bar&lt;/span&gt;()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://sta199-fa20-002.netlify.app/project/index_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;✅ &lt;strong&gt;YES! Names are readable&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#00f&#34;&gt;ggplot&lt;/span&gt;(data &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mpg, &lt;span style=&#34;color:#00f&#34;&gt;aes&lt;/span&gt;(x &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; manufacturer)) &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#00f&#34;&gt;geom_bar&lt;/span&gt;() &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#00f&#34;&gt;coord_flip&lt;/span&gt;()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://sta199-fa20-002.netlify.app/project/index_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;do-a-little-more-to-make-the-plot-look-professional&#34;&gt;Do a little more to make the plot look professional!&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Informative title and axis labels&lt;/li&gt;
@@ -1836,7 +1836,7 @@ output:
        y &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ba2121&#34;&gt;&amp;#34;Count&amp;#34;&lt;/span&gt;, 
        title &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ba2121&#34;&gt;&amp;#34;The most common manufacturer is Dodge&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#00f&#34;&gt;theme_bw&lt;/span&gt;() 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://sta199-fa20-002.netlify.app/project/index_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;tables-and-model-output&#34;&gt;Tables and model output&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Use the &lt;code&gt;kable&lt;/code&gt; function from the knitr package to neatly output all tables and model output. This will also ensure all model coefficients are displayed.
@@ -1909,10 +1909,10 @@ output:
     
     <item>
       <title>STA 199: Intro to Data Science</title>
-      <link>/home/band_one/</link>
+      <link>https://sta199-fa20-002.netlify.app/home/band_one/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/home/band_one/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/home/band_one/</guid>
       <description>Intro to data science and statistical thinking. Learn to explore, visualize,and analyze data to understand natural phenomena, investigate patterns, model outcomes,and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, data visualization, and effectively communicating results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language.</description>
       <content>&lt;p&gt;Intro to data science and statistical thinking. Learn to explore, visualize,and analyze data to understand natural phenomena, investigate patterns, model outcomes,and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, data visualization, and effectively communicating results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language.&lt;/p&gt;
 </content>
@@ -1920,10 +1920,10 @@ output:
     
     <item>
       <title>Syllabus</title>
-      <link>/syllabus/</link>
+      <link>https://sta199-fa20-002.netlify.app/syllabus/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/syllabus/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/syllabus/</guid>
       <description>Click here to download a PDF copy of the syllabus.
 Course Learning Objectives By the end of the semester, you will…
  learn to explore, visualize, and analyze data in a reproducible and shareable manner gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, and data visualization work on problems and case studies inspired by and based on real-world questions and data learn to effectively communicate results through written assignments and final project presentation  Course community Duke Community Standard As a student in this course, you have agreed to uphold the Duke Community Standard as well as the practices specific to this course.</description>
@@ -1969,7 +1969,7 @@ Course Learning Objectives By the end of the semester, you will…
 &lt;li&gt;The teaching team is here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments. A lot of questions are most effectively answered in-person, so office hours are a valuable resource. Please use them!&lt;/li&gt;
 &lt;li&gt;Outside of class and office hours, any general questions about course content or assignments should be posted on Piazza. There is a chance another student has already asked a similar question, so please check the other posts on Piazza before adding a new question. If you know the answer to a question posted on Piazza, I encourage you to respond!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Check out the &lt;a href=&#34;/help/&#34;&gt;Help&lt;/a&gt; tab for more information about getting help and resources.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&#34;https://sta199-fa20-002.netlify.app/help/&#34;&gt;Help&lt;/a&gt; tab for more information about getting help and resources.&lt;/p&gt;
 &lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;
 &lt;p&gt;If there is a question that&amp;rsquo;s not appropriate for the public forum (Piazza), you are welcome to email me directly. &lt;strong&gt;If you email me, please include &amp;ldquo;STA 199&amp;rdquo; in the subject line.&lt;/strong&gt; Barring extenuating circumstances, I will respond to STA 199 emails within 48 hours Monday - Friday. I have more limited access to email on weekends.&lt;/p&gt;
 &lt;h2 id=&#34;activities--assessment&#34;&gt;Activities &amp;amp; Assessment&lt;/h2&gt;
@@ -2174,10 +2174,10 @@ Course Learning Objectives By the end of the semester, you will…
     
     <item>
       <title>Teaching team and office hours</title>
-      <link>/home/band_three/</link>
+      <link>https://sta199-fa20-002.netlify.app/home/band_three/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
-      <guid>/home/band_three/</guid>
+      <guid>https://sta199-fa20-002.netlify.app/home/band_three/</guid>
       <description> .column { width: 100%; } table { width: 525px; font-size: 17px; font-weight: 400; padding-top: 5px; padding-bottom: 5px; }            Instructor Prof. Maria Tackett Mon 1p - 2p   TAs Salvador Arellano Tue 10a - 12p    Morris Greenberg Fri 12p - 1p    Caroline Levenson Wed 2p - 4p    Ezinne Nwankwo Mon &amp;amp; Wed 8:30a - 9:30a    Matty Pahren Tue &amp;amp; Thu 2p - 3p    Felipe Ossa Wed &amp;amp; Fri 5p - 6p   R Support TA George Lindner Tue 5p - 6p &amp;amp; Fri 3:30p - 4:30p    </description>
       <content>&lt;style&gt;
   .column {

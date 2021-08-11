@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <!-- page -->
-<div id="homeContent" class="pushFooter">
+<div id="homeContent">
 
 <!-- band_one.md populates this section -->
 {{ with .Site.GetPage "/home/band_one.md" }}
@@ -43,7 +43,8 @@
   
 {{ end }}
 
-<!-- band_three.md populates this section -->
+<!--
+<!-- band_three.md populates this section 
 {{ with .Site.GetPage "/home/band_three.md" }}
 
   <div class="band third">
@@ -60,10 +61,11 @@
         {{ partial "homepage_sticky_3" . }}
         {{ partial "homepage_sticky_4" . }} 
       </div>
-    </div> <!-- bandContent -->
-  </div> <!-- band -->
+    </div> <!-- bandContent 
+  </div>  
 
-{{ end }}
+{{ end }} -->
+
 </div> <!-- homeContent -->
 
 

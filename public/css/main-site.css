@@ -432,18 +432,21 @@ a {
   position: relative;
   z-index: 11;
   min-height: 100%;
-  margin-bottom: -92px; }
+  margin-bottom: 50px; }
+  
 
 .pushFooter:after {
   content: "";
-  height: 92px;
+  height: 50px;
   display: block; }
+
+
 
 #rStudioFooter {
   position: relative;
   z-index: 12;
   box-sizing: border-box;
-  height: 92px; }
+  height: 50px; }
   #rStudioFooter.band {
     background-color: #75aadb;
     color: #fff;
@@ -451,6 +454,7 @@ a {
     font-weight: normal;
     font-size: 12px;
     line-height: 25px; }
+    
   #rStudioFooter .bandContent {
     display: flex;
     justify-content: space-between;
@@ -492,7 +496,7 @@ a {
     margin: 0 2px; } }
 
 #rStudioFooter {
-  min-height: 92px;
+  min-height: 50px;
   height: auto; }
   #rStudioFooter.band {
     background-color: #767381; }

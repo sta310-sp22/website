@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
   <title>Categories on STA 199</title>
-  <link>/categories/</link>
+  <link>https://sta199-fa20-002.netlify.app/categories/</link>
   <description>Recent content in Categories on STA 199</description>
   <generator>Hugo -- gohugo.io</generator>
 <language>en-us</language>
 
-<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+<atom:link href="https://sta199-fa20-002.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
 
 
 <item>
   <title>Week 01: Intro</title>
-  <link>/schedule/week-01/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-01/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-01/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-01/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -121,10 +121,10 @@ font-size: 18px;
   
 <item>
   <title>Week 02: Data viz</title>
-  <link>/schedule/week-02/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-02/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-02/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-02/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -203,10 +203,10 @@ font-size: 18px;
   
 <item>
   <title>Week 03: Data wrangle</title>
-  <link>/schedule/week-03/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-03/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-03/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-03/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -293,10 +293,10 @@ font-size: 18px;
   
 <item>
   <title>Week 04: Probability</title>
-  <link>/schedule/week-04/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-04/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-04/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-04/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -373,10 +373,10 @@ font-size: 18px;
   
 <item>
   <title>Week 05: Bootstrap &#43; Data Ethics</title>
-  <link>/schedule/week-05/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-05/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-05/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-05/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -456,10 +456,10 @@ font-size: 18px;
   
 <item>
   <title>Week 06: Sim-based testing</title>
-  <link>/schedule/week-06/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-06/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-06/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-06/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -551,10 +551,10 @@ font-size: 18px;
   
 <item>
   <title>Week 07: Central Limit Theorem</title>
-  <link>/schedule/week-07/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-07/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-07/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-07/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -644,10 +644,10 @@ font-size: 18px;
   
 <item>
   <title>Week 08: Two-sample-inference</title>
-  <link>/schedule/week-08/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-08/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-08/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-08/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -744,10 +744,10 @@ font-size: 18px;
   
 <item>
   <title>Week 09: Linear models</title>
-  <link>/schedule/week-09/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-09/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-09/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-09/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -868,10 +868,10 @@ font-size: 18px;
   
 <item>
   <title>Week 10: Multiple linear regression</title>
-  <link>/schedule/week-10/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-10/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-10/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-10/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -986,10 +986,10 @@ font-size: 18px;
   
 <item>
   <title>Week 11: Classification &#43; Text analysis</title>
-  <link>/schedule/week-11/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-11/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-11/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-11/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -1100,10 +1100,10 @@ font-size: 18px;
   
 <item>
   <title>Week 12: Spatial data</title>
-  <link>/schedule/week-12/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-12/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-12/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-12/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -1185,10 +1185,10 @@ font-size: 18px;
   
 <item>
   <title>Week 13: Web scraping &#43; functions</title>
-  <link>/schedule/week-13/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-13/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-13/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-13/</guid>
   <description>&lt;style&gt;
 table {
 font-size: 18px;
@@ -1266,30 +1266,30 @@ font-size: 18px;
   
 <item>
   <title>Week 14</title>
-  <link>/schedule/week-14/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-14/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-14/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-14/</guid>
   <description>&lt;p&gt;Check back for details!&lt;/p&gt;
 </description>
   </item>
   
 <item>
   <title>Week 15</title>
-  <link>/schedule/week-15/</link>
+  <link>https://sta199-fa20-002.netlify.app/schedule/week-15/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/schedule/week-15/</guid>
+<guid>https://sta199-fa20-002.netlify.app/schedule/week-15/</guid>
   <description>&lt;p&gt;Check back for details!&lt;/p&gt;
 </description>
   </item>
   
 <item>
   <title>Course info</title>
-  <link>/home/band_two/</link>
+  <link>https://sta199-fa20-002.netlify.app/home/band_two/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/home/band_two/</guid>
+<guid>https://sta199-fa20-002.netlify.app/home/band_two/</guid>
   <description>&lt;style&gt;
   .column {
   width: 100%;
@@ -1338,10 +1338,10 @@ font-size: 18px;
   
 <item>
   <title>Help</title>
-  <link>/help/</link>
+  <link>https://sta199-fa20-002.netlify.app/help/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/help/</guid>
+<guid>https://sta199-fa20-002.netlify.app/help/</guid>
   <description>&lt;h2 id=&#34;getting-help-in-the-course&#34;&gt;Getting help in the course&lt;/h2&gt;
 &lt;p&gt;We expect everyone will have questions at some point in the semester, so we encourage you to use the following resources for help:&lt;/p&gt;
 &lt;h2 id=&#34;ask-questions-during-lectures-and-lab&#34;&gt;Ask questions during lectures and lab&lt;/h2&gt;
@@ -1399,10 +1399,10 @@ Go to &lt;a href=&#34;http://studentaffairs.duke.edu/dukereach&#34;&gt;studentaf
   
 <item>
   <title>Project: Showcase your inner data scientist!</title>
-  <link>/project/</link>
+  <link>https://sta199-fa20-002.netlify.app/project/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/project/</guid>
+<guid>https://sta199-fa20-002.netlify.app/project/</guid>
   <description>&lt;h2 id=&#34;timeline&#34;&gt;Timeline&lt;/h2&gt;
 &lt;p&gt;Proposal due &lt;strong&gt;Friday, October 9&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Draft report due &lt;strong&gt;Wednesday, October 28&lt;/strong&gt;&lt;/p&gt;
@@ -1784,12 +1784,12 @@ output:
 &lt;p&gt;❌ &lt;strong&gt;NO! The x-axis is hard to read because the names overlap.&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#00f&#34;&gt;ggplot&lt;/span&gt;(data &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mpg, &lt;span style=&#34;color:#00f&#34;&gt;aes&lt;/span&gt;(x &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; manufacturer)) &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#00f&#34;&gt;geom_bar&lt;/span&gt;()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://sta199-fa20-002.netlify.app/project/index_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;✅ &lt;strong&gt;YES! Names are readable&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#00f&#34;&gt;ggplot&lt;/span&gt;(data &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mpg, &lt;span style=&#34;color:#00f&#34;&gt;aes&lt;/span&gt;(x &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; manufacturer)) &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#00f&#34;&gt;geom_bar&lt;/span&gt;() &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#00f&#34;&gt;coord_flip&lt;/span&gt;()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://sta199-fa20-002.netlify.app/project/index_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;do-a-little-more-to-make-the-plot-look-professional&#34;&gt;Do a little more to make the plot look professional!&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Informative title and axis labels&lt;/li&gt;
@@ -1809,7 +1809,7 @@ output:
        y &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ba2121&#34;&gt;&amp;#34;Count&amp;#34;&lt;/span&gt;, 
        title &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ba2121&#34;&gt;&amp;#34;The most common manufacturer is Dodge&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
   &lt;span style=&#34;color:#00f&#34;&gt;theme_bw&lt;/span&gt;() 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://sta199-fa20-002.netlify.app/project/index_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;tables-and-model-output&#34;&gt;Tables and model output&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Use the &lt;code&gt;kable&lt;/code&gt; function from the knitr package to neatly output all tables and model output. This will also ensure all model coefficients are displayed.
@@ -1882,20 +1882,20 @@ output:
   
 <item>
   <title>STA 199: Intro to Data Science</title>
-  <link>/home/band_one/</link>
+  <link>https://sta199-fa20-002.netlify.app/home/band_one/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/home/band_one/</guid>
+<guid>https://sta199-fa20-002.netlify.app/home/band_one/</guid>
   <description>&lt;p&gt;Intro to data science and statistical thinking. Learn to explore, visualize,and analyze data to understand natural phenomena, investigate patterns, model outcomes,and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, data visualization, and effectively communicating results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language.&lt;/p&gt;
 </description>
   </item>
   
 <item>
   <title>Syllabus</title>
-  <link>/syllabus/</link>
+  <link>https://sta199-fa20-002.netlify.app/syllabus/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/syllabus/</guid>
+<guid>https://sta199-fa20-002.netlify.app/syllabus/</guid>
   <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;syllabus.pdf&#34;&gt;Click here&lt;/a&gt; to download a PDF copy of the syllabus.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;course-learning-objectives&#34;&gt;Course Learning Objectives&lt;/h2&gt;
 &lt;p&gt;By the end of the semester, you will…&lt;/p&gt;
@@ -1938,7 +1938,7 @@ output:
 &lt;li&gt;The teaching team is here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments. A lot of questions are most effectively answered in-person, so office hours are a valuable resource. Please use them!&lt;/li&gt;
 &lt;li&gt;Outside of class and office hours, any general questions about course content or assignments should be posted on Piazza. There is a chance another student has already asked a similar question, so please check the other posts on Piazza before adding a new question. If you know the answer to a question posted on Piazza, I encourage you to respond!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Check out the &lt;a href=&#34;/help/&#34;&gt;Help&lt;/a&gt; tab for more information about getting help and resources.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&#34;https://sta199-fa20-002.netlify.app/help/&#34;&gt;Help&lt;/a&gt; tab for more information about getting help and resources.&lt;/p&gt;
 &lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;
 &lt;p&gt;If there is a question that&amp;rsquo;s not appropriate for the public forum (Piazza), you are welcome to email me directly. &lt;strong&gt;If you email me, please include &amp;ldquo;STA 199&amp;rdquo; in the subject line.&lt;/strong&gt; Barring extenuating circumstances, I will respond to STA 199 emails within 48 hours Monday - Friday. I have more limited access to email on weekends.&lt;/p&gt;
 &lt;h2 id=&#34;activities--assessment&#34;&gt;Activities &amp;amp; Assessment&lt;/h2&gt;
@@ -2143,10 +2143,10 @@ output:
   
 <item>
   <title>Teaching team and office hours</title>
-  <link>/home/band_three/</link>
+  <link>https://sta199-fa20-002.netlify.app/home/band_three/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>/home/band_three/</guid>
+<guid>https://sta199-fa20-002.netlify.app/home/band_three/</guid>
   <description>&lt;style&gt;
   .column {
   width: 100%;

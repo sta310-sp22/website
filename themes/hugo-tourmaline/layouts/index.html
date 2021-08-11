@@ -11,7 +11,7 @@
       <div class="blurb">
         <div class="tagline">
           {{ .Title }}
-          </div>
+        </div>
         <div>
           {{ .Content | markdownify }}
         </div>
@@ -35,18 +35,22 @@
         </div>
         <a href="http://amzn.to/2aHLAQ1"><img class="bookCover" src="images/cover.png" alt=""></a>
       </div>
+    <!--
       <div class="blurb">
         <div class="tagline small"></div>
         {{ partial "events_sticky" . }}
       </div>
+      -->
     </div> <!-- bandContent -->
   </div> <!-- band -->
 
 {{ end }}
 
+
 <!-- band_three.md populates this section -->
 
 
+<!--
 {{ with .Site.GetPage "/home/band_three.md" }}
 
   <div class="band third">
@@ -60,11 +64,12 @@
           {{.Content | markdownify }}
         </div>
       </div>
-    </div> <!-- bandContent -->
+    </div> <!-- bandContent 
   </div> <!-- band -->
-</div> <!-- homeContent -->
+</div> 
 {{ end }}
 
-{{ end }}
+
+<!--{{ end }}-->
 
 
