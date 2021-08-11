@@ -104,7 +104,7 @@ html, body {
   
 #main {
   overflow: auto;
-  padding-bottom: 92px;
+  padding-bottom: 20px;
 }
 
 .band {
@@ -1107,7 +1107,7 @@ em {
     /*  background-repeat: no-repeat; */
      /*background-size: 570px 690px; */}
   #homeContent .band.second {
-    height: 625px;
+    /*height: auto;*/
     background-color: #fdeba4;
     padding-top: 50px;
     padding-bottom: 25px;
