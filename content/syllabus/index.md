@@ -92,39 +92,33 @@ These are low-stakes quizzes that will be completed at the beginning of each uni
 
 ### Application Exercises (Practice)
 
-The participation of the course grade will be based primarily on individual Application Exercises (AEs), which give you an opportunity to practice using the statistical concepts and/or code discussed in lecture on short data analyses. AEs will be linked in lecture slides and time will be set aside during the optional live sessions to work on them. These AEs are due by the end of the next day; for instance, an AE associated with a lecture on Monday will be due Tuesday at 11:59p. AEs will be graded based on a good-faith effort has been made in attempting all parts. Successful on-time completion of at least 90% of AEs will result in full points for AEs; anything lower than that will be assigned points accordingly.
+A majority of the in-class lectures will be dedicated to working on Application Exercises (AEs). These exercises which give you an opportunity to practice apply the statistical concepts and code introduced in the prepare assignment. These AEs are due within three days of the corresponding lecture period. Specifically, AEs from Monday lectures are due Thursday by 11:59p ET, and AEs from Wednesday lectures are due Saturday by 11:59p ET.
+
+Because these AEs are for practice, they will be graded based on completion, i.e., a good-faith effort has been made in attempting all parts. Successful on-time completion of at least 80% of AEs will result in full credit for AEs in the final course grade.
 
 In addition to AEs will be periodic activities help build a learning community. These will be short, fun activities that will help everyone in the class connect throughout the semester.
 
-The last component of participation will be based on periodic team feedback about each team member's overall contribution to labs and the project.
-
 ### Labs (Perform)
 
-In labs, you will apply the concepts discussed in lecture to various data analysis scenarios, with a focus on the computation. Most lab assignments will be performed in teams, and all team members are expected to contribute equally to the completion of each assignment. You are expected to use the team's Git repository on the course's GitHub page as the central platform for collaboration. Commits to this repository will be used as a metric of each team member's relative contribution for each lab, and you will also be asked to evaluate your team members' engagement periodically during the semester. Lab assignments will be completed using R Markdown, correspond to an appropriate GitHub repository, and submitted as a .pdf file to Gradescope.
+In labs, you will apply the concepts discussed in lecture to various data analysis scenarios, with a focus on the computation. Most lab assignments will be completed in teams, and all team members are expected to contribute equally to the completion of each assignment. You are expected to use the team's Git repository on the course's GitHub page as the central platform for collaboration. Commits to this repository will be used as a metric of each team member's relative contribution for each lab, and there will be periodic peer evaluation on the team collaboration. Lab assignments will be completed using R Markdown, correspond to an appropriate GitHub repository, and submitted for grading in Gradescope.
 
-**Sections 05L - 07L**: If you are in one of these sections, you are expected to attend lab during the scheduled time. You will spend most time working with your team to complete that week's assignment. There will be teaching assistants available if you have questions as you work.
-
-**Section 08L:** Though you do not have a scheduled lab time, you will find a time with your team to work on the weekly lab assignment. The teaching team will provide tips and resources to help you establish a plan for collaboration. You will be able to ask questions during office hours and on Piazza.
-
-*To accommodate unexpected events, the lowest lab grade will be dropped at the end of the semester for all students.*
+*The lowest lab grade will be dropped at the end of the semester.*
 
 ### Homework (Perform)
 
-There will be three individual homework assignments in this course, one corresponding to each unit. In homework, you will apply what you've learned during lecture and lab to complete data analysis tasks. You may discuss homework assignments with other students; however, homework should be completed and submitted individually. Homework must be typed up using R Markdown and GitHub and submitted as a PDF in Gradescope.
+In homework, you will apply what you've learned during lecture and lab to complete data analysis tasks. You may discuss homework assignments with other students; however, homework should be completed and submitted individually. Similar to lab assignments, homework must be typed up using R Markdown and GitHub and submitted as a PDF in Gradescope.
 
-Individual homework extensions will only be given for extenuating circumstances. Please contact Professor Tackett if you have an extenuating circumstance that prohibits you from completing the homework by the stated due date.
+One homework assignment will be dedicated to a *statistics experience*. The statistics experience is an opportunity to engage with statistics and data science outside of the classroom through podcasts, books, seminars, data analysis competitions, and other activities. As you complete these experiences, the goal is to consider how the material you're learning in the course connects with society more broadly.
 
-During the course of the semester, there will be periodic opportunities for you to experience statistics and data science outside of the classroom. The goal of these experiences are for you to think about how the material you're learning in the course can connect with your experiences and society at large.
-
-*To accommodate unexpected events, the lowest homework grade will be dropped at the end of the semester.*
+*The lowest homework grade will be dropped at the end of the semester.*
 
 ### Exams (Perform)
 
-There are two individual, take-home, open-note exams worth 15% each. The exams are an opportunity to assess the knowledge and skills you've learned. Each exam will include small analysis and computational tasks related to the content discussed in lectures, homework assignments, and labs. More details about the content and structure of the exams will be discussed during the semester.
+There will be two, take-home, open-note exams. Through these exams you have the opportunity to demonstrate what you've learned in the course thus far. Each exam will include small analysis and computational tasks related to the content in the prepare, practice, and perform assignments. More details about the content and structure of the exams will be discussed during the semester.
 
 ### Final Project (Perform)
 
-The purpose of the project is to apply what you've learned throughout the semester to analyze an interesting data-based research question using regression. The project will be completed with your lab teams, and each team will present their work in video and in writing during the final exam period. More information about the project will be provided a few weeks into the semester.
+The purpose of the [final project](/project/) is to apply what you've learned throughout the semester to analyze an interesting data-driven research question. The project will be completed with your lab teams, and each team will present their work in video and in writing during the final exam period. More information about the project will be provided during the semester.
 
 ## Grading
 
@@ -132,15 +126,16 @@ The final course grade will be calculated as follows:
 
 <center>
 
-| Category         | Percentage |
-|------------------|------------|
-| Homework         | 20%        |
-| Labs             | 20%        |
-| Final Project    | 20%        |
-| Exam 01          | 15%        |
-| Exam 02          | 15%        |
-| Participation    | 5%         |
-| Stats Experience | 5%         |
+| Category              | Percentage |
+|-----------------------|------------|
+| Homework              | 25%        |
+| Labs                  | 15%        |
+| Final Project         | 15%        |
+| Exam 01               | 17.5%      |
+| Exam 02               | 17.5%      |
+| Comprehension quizzes | 5%         |
+| Application Exercises | 2.5%       |
+| Teamwork              | 2.5%       |
 
 </center>
 
@@ -179,21 +174,31 @@ Please abide by the following as you work on assignments in this course:
 
 Any violations in academic honesty standards as outlined in the [Duke Community Standard](https://studentaffairs.duke.edu/conduct/about-us/duke-community-standard) and those specific to this course will automatically result in a 0 for the assignment and will be reported to the [Office of Student Conduct](https://studentaffairs.duke.edu/conduct) for further action.
 
-### Late Work
+### Late work & extensions
 
-You will have a 24 hour grace period after the due date of homework and lab assignments to turn them in with no penalty. I recommend using this policy as little as possible, but they are there to provide some relief and to accommodate multiple time zones. After the grace period, there is a 20% penalty for each day the assignment is late.
+The due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Note that the lowest homework and lab assignment will be dropped to accommodate such circumstances.
 
-If there are extenuating circumstances that prevent you from completing an assignment by the stated due date, please let Professor Tackett know as soon as possible.
+### Late work policy
 
-**Late work will not be accepted for the exams or the final project.**
+-   Homework and labs may be submitted up to 3 days late. There will be a 5% deduction for each 24-hour period the assignment is late.
+
+-   There is no late work accepted for comprehension quizzes or application exercises, since these are designed to help you prepare for labs and homework.
+
+-   The late work policy for exams will be provided with the exam instructions.
+
+-   The late work policy for the project will be provided with the project instructions.
+
+### Waiver for extenuating circumstances
+
+If there are circumstances that prevent you from completing a lab or homework assignment by the stated due date, you may email Professor Tackett before the deadline to waive the late penalty. In your email, you only need to request the waiver; you do not need to provide explanation. This waiver may only be used for once in the semester, so only use it for a truly extenuating circumstance.
+
+If there are circumstances that are having a longer-term impact on your academic performance, please let your academic dean know, as they can be a resource. Please let Professor Tackett know if you need help contacting your academic dean.
 
 ### Regrade Requests
 
-Regrade requests should be submitted through the regrade request from on Gradescope. **Requests for a regrade must be made within a week of when the assignment is returned; requests submitted later will not be considered.** You should only submit a regrade request if there is an error in the grade calculation or a correct answer was mistakenly marked as incorrect. You should not submit a regrade to dispute the number of points deducted for an incorrect response. *Please note that by submitting a regrade request, your entire assignment may be regraded and you may potentially lose points.*
+Regrade requests must be submitted on Gradescope within a week of when an assignment is returned. Regrade requests will be considered if there was an error in the grade calculation or if you feel a correct answer was mistakenly marked as incorrect. Requests to dispute the number of points deducted for an incorrect response will not be considered. Note that by submitting a regrade request, the entire question will be graded which could potentially result in losing points.
 
-Due to the time consuming nature of responding to regrade requests, you should attend office hours and ask a member of the teaching team about the feedback before submitting the request. When you submit a request, please indicate which member of the teaching team you spoke with. *Note: Grades can only be changed by Professor Tackett. Teaching Assistants cannot change grades on returned assignments.*
-
-**No grades will be changed after the final project presentations.**
+*No grades will be changed after the final project presentations.*
 
 ## Additional resources
 
@@ -207,8 +212,13 @@ There are times may need help with the class that is beyond what can be provided
 
 ### Important dates
 
--   **Aug 17**: Classes begin
--   **Aug 28**: Drop/add ends
--   **Oct 30**: Last day to withdraw with W
--   **Nov 16**: Classes end
--   **Nov 24**: Final exam period, 7p - 10p
+-   **Aug 23:** Classes begin
+-   **Sep 3**: Drop/add ends
+-   **Oct 4-5**: Fall break
+-   **Nov 5**: Last day to withdraw with W
+-   **Nov 24-26:** Thanksgiving recess
+-   **Dec 3**: Classes end
+-   **Dec 4-7**: Reading period
+-   **Dec 8-13**: Final exams
+
+Click [here](https://registrar.duke.edu/fall-2021-academic-calendar) for the full Duke academic calendar.
