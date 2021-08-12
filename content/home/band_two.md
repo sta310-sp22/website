@@ -3,16 +3,13 @@ title: Course info
 ---
 
 <style>
-  .column {
-  width: 100%;
-  }
 
   table {
-  width: 100%;
+  width: auto;
   font-size: 18px;
   font-weight: 400;
   }
-  
+
 </style>
 
 ### Lectures

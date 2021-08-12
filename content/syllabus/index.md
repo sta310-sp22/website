@@ -48,7 +48,7 @@ Announcements will be emailed through Sakai Announcements periodically. Please c
 
 -   If you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
 -   The teaching team is here to help you be successful in the course. You are encouraged to attend office hours to ask questions about the course content and assignments. Many questions are most effectively answered as you discuss them with others, so office hours are a valuable resource. Please use them!
--   Outside of class and office hours, any general questions about course content or assignments should be posted on Ed Discussion. There is a chance another student has already asked a similar question, so please check the other posts Ed Discussion before adding a new question. If you know the answer to a question posted on Piazza, I encourage you to respond!
+-   Outside of class and office hours, any general questions about course content or assignments should be posted on [Ed Discussion](https://edstem.org/us/courses/8027/discussion/). There is a chance another student has already asked a similar question, so please check the other posts in Ed Discussion before adding a new question. If you know the answer to a question posted in the discussion forum, I encourage you to respond!
 
 Check out the [Help](/help/) tab for more resources.
 
@@ -66,29 +66,9 @@ The activities and assessments in this course are designed to help you successfu
 
 -   **Perform**: Includes labs, homework, exams, and the final project. These assignments build upon the prepare and practice assignments and are the opportunity for you to demonstrate your understanding of the course material and how it is applied to analyze real-world data.
 
-The specific activities are detailed below.
+### Prep quizzes (Prepare)
 
-### 
-
-### A Week in STA 199, Section 02!
-
-<center>
-
-| **Monday**    | **Lecture**                                 |
-|---------------|---------------------------------------------|
-| **Tuesday**   | Watch lecture content videos for Wednesday  |
-|               | Monday's AE due                             |
-| **Wednesday** | Attend live lecture session 10:15a - 11:30a |
-|               | Previous week's lab due                     |
-| **Thursday**  | Attend lab session / start new lab          |
-|               | Wednesday's AE due                          |
-| **Friday**    | Watch lecture content videos for Monday     |
-
-</center>
-
-### Comprehension quizzes (Prepare)
-
-These are low-stakes quizzes that will be completed at the beginning of each unit (about once per week) as part of the preparation for lecture. These quizzes include multiple choice and fill-in-the-blank questions. Each quiz will be administered in Sakai and may be taken up to three times. The quiz is due by the beginning of lecture on the specified due date. An overall score of 80% on all quizzes will result in full credit for Comprehension quizzes in the final course grade.
+These are low-stakes quizzes that will be completed at the beginning of each unit (about once per week) as part of the preparation for lecture. These quizzes include multiple choice and fill-in-the-blank questions. Each quiz will be administered in Sakai and may be taken up to three times. The quiz is due by the beginning of lecture on the specified due date. An overall score of 80% on all quizzes will result in full credit for prep quizzes in the final course grade.
 
 ### Application Exercises (Practice)
 
@@ -133,7 +113,7 @@ The final course grade will be calculated as follows:
 | Final Project         | 15%        |
 | Exam 01               | 17.5%      |
 | Exam 02               | 17.5%      |
-| Comprehension quizzes | 5%         |
+| Prep quizzes          | 5%         |
 | Application Exercises | 2.5%       |
 | Teamwork              | 2.5%       |
 
@@ -182,7 +162,7 @@ The due dates for assignments are there to help you keep up with the course mate
 
 -   Homework and labs may be submitted up to 3 days late. There will be a 5% deduction for each 24-hour period the assignment is late.
 
--   There is no late work accepted for comprehension quizzes or application exercises, since these are designed to help you prepare for labs and homework.
+-   There is no late work accepted for prep quizzes or application exercises, since these are designed to help you prepare for labs and homework.
 
 -   The late work policy for exams will be provided with the exam instructions.
 
