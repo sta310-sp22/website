@@ -5,28 +5,49 @@ title: Course info
 <style>
 
 table {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
+  padding: 2px;
   }
+
+body { 
+font-size: 18px;
+}
+
+.pull-left {
+float: left;
+width: 47%;
+}
+
+.pull-right {
+float: right;
+width: 47%;
+}
+
 
 </style>
 
-### Lectures
+<div class = "pull-left">
+
+<h3>Lectures</h3>
 
 <font color="#7A4183"><i class="fas fa-university"></i></font> &nbsp; Soc Sci 136 &nbsp;&nbsp; <font color="#7A4183"><i class="fas fa-calendar"></i></font> &nbsp; Mon and Wed 1:45p - 3p 
+</div>
 <br>
 <br>
 
-### Labs
+<div class = "pull-right">
 
+<h3>Labs</h3>
 Lab 07 &nbsp; &nbsp; <font color="#7A4183"><i class="fas fa-university"></i></font> &nbsp; Soc Sci 311 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <font color="#7A4183"><i class="fas fa-calendar"></i></font> &nbsp; Thu 12p - 1:15p
 
 Lab 08  &nbsp; &nbsp; <font color="#7A4183"><i class="fas fa-university"></i></font> &nbsp; Link Classroom 5 &nbsp;&nbsp; <font color="#7A4183"><i class="fas fa-calendar"></i></font> &nbsp; Thu 3:30p - 4:45p
 
 Lab 09 &nbsp; &nbsp; <font color="#7A4183"><i class="fas fa-university"></i></font> &nbsp; Link Classroom 5 &nbsp;&nbsp; <font color="#7A4183"><i class="fas fa-calendar"></i></font> &nbsp; Thu 5:15p - 6:30p
+</div>
 <br>
 <br>
 
