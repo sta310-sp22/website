@@ -7,7 +7,9 @@
             <td style="width:40%;text-align:left">{{ .title | markdownify }}</td>
 
             {{- if .header }} 
+            <td style="width:5%;text-align:center" class="mid-table-header">Prepare</td>
             <td style="width:5%;text-align:center" class="mid-table-header">Slides</td>
+            <td style="width:5%;text-align:center" class="mid-table-header">AE</td>
             <td style="width:5%;text-align:center" class="mid-table-header">Labs</td>
             <td style="width:5%;text-align:center" class="mid-table-header">HW</td>
             <td style="width:5%;text-align:center" class="mid-table-header">Exam</td>
@@ -15,6 +17,29 @@
 
 
             {{- else }} 
+
+          {{- if .prepare }}
+            <td align="center" style="width:8%;text-align:center"><a
+                    href="{{ .Site.baseurl }}/prepare/{{ .prepare }}">
+                    <i class="fas fa-book-reade fa-lg"></i></a></td>
+            {{- else }}
+            <td align="center" style="width:8%;text-align:center">
+                <font color="f1f1f1">
+                    <i class="fas fa-book-reader fa-lg"></i></font>
+            </td>
+            {{- end }}
+            
+            {{- if .ae }}
+            <td align="center" style="width:8%;text-align:center"><a
+                    href="{{ .Site.baseurl }}/appex/{{ .ae }}">
+                    <i class="fas fa-users fa-lg"></i></a></td>
+            {{- else }}
+            <td align="center" style="width:8%;text-align:center">
+                <font color="f1f1f1">
+                    <i class="fas fa-users fa-lg"></i></font>
+            </td>
+            {{- end }}
+
 
              {{- if .slides }}
             <td align="center" style="width:8%;text-align:center"><a
