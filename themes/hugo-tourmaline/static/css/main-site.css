@@ -1017,7 +1017,7 @@ em {
   
   #homeContent .band .blurb {
     font-weight: 300;
-    display: inline-block;
+   /* display: inline-block; */
     min-height: 160px;
     font-size: 24px;
     line-height: 40px;
@@ -1042,9 +1042,7 @@ em {
         font-size:18px; }
     #homeContent .band .blurb a {
       font-weight: 500; }
-  #homeContent .band.first {
-    max-height:100%; 
-  }
+
 
     #homeContent .band.first .bandContent {
       padding-top: 220px;

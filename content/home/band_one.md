@@ -1,5 +1,4 @@
 ---
-col0: img/sta199_sticker.png
 title: "STA 199: Intro to Data Science"
 ---
 

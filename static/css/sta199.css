@@ -7,8 +7,9 @@
   color: #302c41;
 }
 
-body {
+html,body {
    background-color: #ffffff;
+   height:100%;
 }
 
 body, button, input, textarea {
@@ -137,7 +138,7 @@ div.tagline {
 }
 
 #homeContent .band.first {
-  height:auto;
+  height:100%;
 }
 
 .article-title,               /* Most page titles */
@@ -387,7 +388,7 @@ a.productName {
    background-color: #cccccc;
    box-shadow: inset 0 0 0 1000px rgba(153, 153, 153, 0.80);
    color: #ffffff;
-   height: auto;
+   height: 1000px;
 } 
 
 #homeContent .band.first .blurb {
