@@ -1,7 +1,10 @@
 ---
-title: "Project: Showcase your inner data scientist!"
+title: "STA 199 Final Project"
 ---
 
+*More detail about the project will be released when the project is assigned.*
+
+<!--
 ## Timeline
 
 Proposal due **Friday, October 9**
@@ -472,7 +475,7 @@ tidy(model) %>%
   - [Data Visualization: A Practice Introduction](https://socviz.co/index.html)
   - [Patchwork R Package](https://patchwork.data-imaginist.com/index.html)
 
-
+-->
 
 
 
