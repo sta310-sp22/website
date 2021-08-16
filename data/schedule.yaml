@@ -58,7 +58,7 @@ lessons:
   - date: "Wed, Oct 06"
     title: "Foundations of inference"
   - date: "Thu, Oct 07"
-    title: "Lab 06"
+    title: "Lab: Project"
 
   - week: "Week 08"
     date: "Mon, Oct 11"
@@ -66,7 +66,7 @@ lessons:
   - date: "Wed, Oct 13"
     title: "Simulation-based inference cont'd"
   - date: "Thu, Oct 14"
-    title: "Lab 07"
+    title: "Lab 06"
 
   - week: "Week 09"
     date: "Mon, Oct 18"
@@ -74,7 +74,7 @@ lessons:
   - date: "Wed, Oct 20"
     title: "Inference using CLT"
   - date: "Thu, Oct 21"
-    title: "Lab 08"
+    title: "Lab 07"
     
   - week: "Week 10"
     date: "Mon, Oct 25"
@@ -82,7 +82,7 @@ lessons:
   - date: "Wed, Oct 27"
     title: "Linear regression"
   - date: "Thu, Oct 28"
-    title: "Lab 09"
+    title: "Lab 08"
     
   - week: "Week 11"
     date: "Mon, Nov 01"
@@ -90,7 +90,7 @@ lessons:
   - date: "Wed, Nov 03"
     title: "Linear regression cont'd"
   - date: "Thu, Nov 04"
-    title: "Lab 10"
+    title: "Lab 09"
 
   - week: "Week 12"
     date: "Mon, Nov 08"
