@@ -35,7 +35,16 @@ Lab 07 |Thu | 12p - 1:15p | Soc Sci 311 |
 Lab 08 |Thu | 3:30p - 4:45p | Perkins 071 (Link #5)|
 Lab 09 |Thu | 5:15p - 6:30p |  Perkins 071 (Link #5) |
 
+## Textbooks
 
+### Texts
+
+All books are freely available online. Hardcopies are also available for purchase.
+
+ <span></span>     | <span></span> | <span></span> 
+-----------|---------------------------------|----------------------------------
+[R for Data Science](http://r4ds.had.co.nz/) | Grolemund, Wickham | O'Reilly, 1st edition, 2016
+[Introduction to Modern Statistics ](https://openintro-ims.netlify.app/) | Çetinkaya-Rundel, Hardin | OpenIntro Inc., 1st Edition, 2021
 
 ## Course Learning Objectives
 
