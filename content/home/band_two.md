@@ -48,6 +48,7 @@ Lab 08  &nbsp; &nbsp; <font color="#7A4183"><i class="fas fa-university"></i></f
 
 Lab 09 &nbsp; &nbsp; <font color="#7A4183"><i class="fas fa-university"></i></font> &nbsp; Link Classroom 5 &nbsp;&nbsp; <font color="#7A4183"><i class="fas fa-calendar"></i></font> &nbsp; Thu 5:15p - 6:30p
 </div>
+
 <br>
 <br>
 
