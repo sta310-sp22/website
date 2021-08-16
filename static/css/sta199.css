@@ -136,6 +136,10 @@ div.tagline {
     text-transform: uppercase;
 }
 
+#homeContent .band.first {
+  height:auto;
+}
+
 .article-title,               /* Most page titles */
 .column75 div.sectionTitle {  /* Learn page section title */
   font-family: 'Lato', sans-serif;
@@ -375,12 +379,15 @@ a.productName {
 #homeContent .band.first a:hover {
   } 
   
+  
+
 #homeContent .band.first {
   background-image: url("https://www2.stat.duke.edu/courses/Spring20/sta210.001/img/bikeshare-reg-plots.png");
    background-size: cover;
    background-color: #cccccc;
    box-shadow: inset 0 0 0 1000px rgba(153, 153, 153, 0.80);
    color: #ffffff;
+   height: auto;
 } 
 
 #homeContent .band.first .blurb {

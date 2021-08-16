@@ -1043,10 +1043,13 @@ em {
     #homeContent .band .blurb a {
       font-weight: 500; }
   #homeContent .band.first {
-    height: 690px; }
+    max-height:100%; 
+  }
+
     #homeContent .band.first .bandContent {
       padding-top: 220px;
       height: 100%;
+      font-size: 10px;
 }
   #homeContent .band.second {
     /*height: auto;*/
@@ -1264,3 +1267,6 @@ table, tbody, tfoot, thead, tr, th, td {
 .pl-1 {
   padding-left: .25rem !important;
 }
+
+
+

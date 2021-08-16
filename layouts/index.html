@@ -7,11 +7,11 @@
 {{ with .Site.GetPage "/home/band_one.md" }}
   <div class="band first">
     <div class="bandContent">
-<!-- text on the right -->
+
       <div class="blurb">
         <div class="tagline">
           {{ .Title }}
-          </div>
+        </div>
         <div>
           {{ .Content | markdownify }}
         </div>
@@ -25,7 +25,7 @@
 {{ with .Site.GetPage "/home/band_two.md" }}
 
   <div class="band second">
-    <div class="bandContent">
+    <div class="bandContent" >
       <div class="blurb">
         <div class="tagline">
           {{ .Title }}
@@ -36,11 +36,12 @@
       </div>
     </div> <!-- bandContent -->
   </div> <!-- band -->
-  
-{{ end }}
-
-</div> <!-- homeContent -->
-
 
 {{ end }}
+
+</div> 
+{{ end }}
+
+
+
 
