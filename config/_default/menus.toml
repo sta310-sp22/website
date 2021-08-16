@@ -42,13 +42,11 @@
 
 [[main]]
     url = "https://vm-manage.oit.duke.edu/containers"
-   # pre = "<i class=\"fa fa-code\" aria-hidden\"true\"></i>"
-    name = "<i class=\"fab fa-r-project\"></i>"
+    name = "<i class=\"fab fa-r-project fa-lg\"></i>"
     weight = 70
     
 [[main]]
     url = "https://www.github.com/sta199-fa21-003"
-    # pre = "<i class='fab fa-github fa-lg'></i>"
     name  = "<i class='fab fa-github fa-lg'></i>"
     weight = 80
     
