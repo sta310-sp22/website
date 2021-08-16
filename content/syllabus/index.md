@@ -4,6 +4,39 @@ title: Syllabus
 
 [**Click here**](syllabus.pdf) **to download a PDF copy of the syllabus.**
 
+## Teaching team & office hours
+
+**Instructor**
+
+  Name    |   Contact    |  Office hours  |  <span></span>
+|-------------------|------------------|------------------|------------------ 
+|[Prof. Maria Tackett](http://stat.duke.edu/~mt324/) | <a href="mailto:maria.tackett@duke.edu" title="email"><i class="fa fa-envelope"></i></a> &nbsp; <a href="https://github.com/matackett" title="GitHub"><i class="fab fa-github"></i></a> | TBD | Old Chem 118B
+
+<br> 
+
+**Teaching Assistants**
+
+Name    | Contact    | Office hours  |  <span></span>
+|-------------------|------------------|------------------|------------------ 
+| Meredith Brown| <a href="mailto:meredith.brown@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | <span></span> |
+| Carson Garcia| <a href="mailto:carson.garcia@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | <span></span> |
+| Rob Kravec| <a href="mailto:robert.kravec@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | <span></span> |
+| Shirley Mathur| <a href="mailto:shirley.mathurc@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | <span></span> |
+| Manny Mokel| <a href="mailto:emmanuel.mokel@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | <span></span> |
+| Margaret Reed| <a href="mailto:margaret.reed@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | <span></span> |
+| Yue Yu| <a href="mailto:yue.yu652@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | <span></span> |
+
+## Course info 
+
+ <span></span> | Day  |   Time   |  Location  | 
+|-------------------|------------------|------------------|------------------|
+Lectures | Mon & Wed | 1:45p - 3p | Soc Sci 136 |
+Lab 07 |Thu | 12p - 1:15p | Soc Sci 311 |
+Lab 08 |Thu | 3:30p - 4:45p | Perkins 071 (Link #5)|
+Lab 09 |Thu | 5:15p - 6:30p |  Perkins 071 (Link #5) |
+
+
+
 ## Course Learning Objectives
 
 By the end of the semester, you will...
@@ -142,6 +175,8 @@ The final letter grade will be determined based on the following thresholds:
 
 </center>
 
+## Course policies
+
 ### Academic honesty
 
 **TL;DR: Don't cheat!**
@@ -190,7 +225,7 @@ There are times may need help with the class that is beyond what can be provided
 
 [Duke Counseling & Pyschological Services (CAPS)](https://studentaffairs.duke.edu/caps) helps Duke Students enhance strengths and develop abilities to successfully live, grow and learn in their personal and academic lives. CAPS recognizes that we are living in unprecedented times and that the changes, challenges and stressors brought on by the COVID-19 pandemic have impacted everyone, often in ways that are tax our well-being. CAPS offers many services to Duke undergraduate students, including brief individual and group counseling, couples counseling and more. CAPS staff also provides outreach to student groups, particularly programs supportive of at-risk populations, on a wide range of issues impacting them in various aspects of campus life. CAPS provides services to students via Telehealth. To initiate services, you can contact their front desk at 919-660-1000.
 
-### Important dates
+## Important dates
 
 -   **Aug 23:** Classes begin
 -   **Sep 3**: Drop/add ends
