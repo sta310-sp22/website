@@ -18,12 +18,12 @@
   <description>&lt;style&gt;
 .pull-left{
 float: left;
-width: 40%;
+width: 30%;
 }
 
 .pull-right{
 float: right;
-width: 53%;
+width: 65%;
 }
 &lt;/style&gt; 
 &lt;div class = &#34;pull-left&#34;&gt;
@@ -32,8 +32,7 @@ width: 53%;
 &lt;div class =&#34;pull-right&#34;&gt;
 &lt;h2 style = &#34;color: white&#34;&gt;STA 199: Intro to Data Science&lt;/h2&gt;
 &lt;p&gt;Intro to data science and statistical thinking. Learn to explore, visualize,and analyze data to understand natural phenomena, investigate patterns, model outcomes,and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, data visualization, and effectively communicating results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language.&lt;/p&gt;
-&lt;/div&gt;
-</description>
+&lt;/div&gt;</description>
   </item>
   
 <item>

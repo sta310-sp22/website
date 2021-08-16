@@ -1,8 +1,8 @@
-# Website for STA 199, Section 002 at Duke University 
+# Website for STA 199, Section 003 at Duke University (Fall 2021)
 
 [![Netlify Status]
 
-:link: [sta199-fa20-002.netlify.app](https://sta199-fa20-002.netlify.app/)
+:link: [sta199-fa21-003.netlify.app](https://sta199-fa21-003.netlify.app/)
 
 ## Colors
 
