@@ -1,6 +1,0 @@
----
-title: "Week 15"
-weight: 15
----
-
-Check back for details!

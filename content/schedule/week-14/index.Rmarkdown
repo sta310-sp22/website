@@ -1,6 +1,0 @@
----
-title: "Week 14"
-weight: 14
----
-
-Check back for details!

@@ -1,121 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-01/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-02/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-03/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-04/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-05/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-06/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-07/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-08/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-09/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-10/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-11/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-12/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-13/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-14/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/week-15/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/author/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/author/instructor/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/lessons/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/home/band_two/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/help/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/home/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/project/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/schedule/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/home/band_one/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/syllabus/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://sta199-fa20-002.netlify.app/tags/</loc>
   </url>
-  
-  <url>
-    <loc>https://sta199-fa20-002.netlify.app/home/band_three/</loc>
-  </url>
-  
 </urlset>

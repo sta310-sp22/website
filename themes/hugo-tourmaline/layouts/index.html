@@ -25,7 +25,7 @@
 {{ with .Site.GetPage "/home/band_two.md" }}
 
   <div class="band second">
-    <div class="bandContent">
+    <div class="bandContent" >
       <div class="blurb">
         <div class="tagline">
           {{ .Title }}
@@ -33,39 +33,12 @@
         <div>
           {{ .Content | markdownify }}
         </div>
-        <a href="http://amzn.to/2aHLAQ1"><img class="bookCover" src="images/cover.png" alt=""></a>
       </div>
-    <!--
-      <div class="blurb">
-        <div class="tagline small"></div>
-        {{ partial "events_sticky" . }}
-      </div>
-      -->
     </div> <!-- bandContent -->
   </div> <!-- band -->
 
 {{ end }}
 
-
-<!-- band_three.md populates this section -->
-
-
-<!--
-{{ with .Site.GetPage "/home/band_three.md" }}
-
-  <div class="band third">
-    <div class="bandContent">
-      <div class="hideOnMobile"><img class="bee1" src="images/bee1.jpg" alt=""></div>
-      <div class="blurb">
-        <div class="tagline">
-          {{ .Title }}
-          </div>
-        <div>
-          {{.Content | markdownify }}
-        </div>
-      </div>
-    </div> <!-- bandContent 
-  </div> <!-- band -->
 </div> 
 {{ end }}
 
