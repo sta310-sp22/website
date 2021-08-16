@@ -1,6 +1,6 @@
 # Website for STA 199, Section 003 at Duke University (Fall 2021)
 
-[![Netlify Status]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b5482937-2683-4da7-a16b-028071cd40f6/deploy-status)](https://app.netlify.com/sites/sta199-fa21-003/deploys)
 
 :link: [sta199-fa21-003.netlify.app](https://sta199-fa21-003.netlify.app/)
 
