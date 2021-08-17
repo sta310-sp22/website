@@ -6,8 +6,8 @@
 
 ## Colors
 
-- primary color: #7A4183
-- main accent: #00b3b3
+- primary color: #4187aa
+- main accent: #009f9f
 
 ## Attribution
 
