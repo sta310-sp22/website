@@ -103,7 +103,7 @@ a {
 .article-content ul li::before, 
 .learn-top-nav ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #009f9f; /* Change the color */
+  color: #07acac; /* Change the color */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1.5em; /* Also needed for space (tweak if needed) */
   margin-left: -1.5em; /* Also needed for space (tweak if needed) */
@@ -128,7 +128,7 @@ div.tagline {
   font-size: 1.3em !important;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #009f9f
+  color: #07acac
 ;
 }
 
@@ -144,7 +144,7 @@ div.tagline {
 .article-title,               /* Most page titles */
 .column75 div.sectionTitle {  /* Learn page section title */
   font-family: 'Lato', sans-serif;
-  color: #009f9f;
+  color: #07acac;
   font-weight: normal;
   text-transform: none;
   letter-spacing: normal;
@@ -178,7 +178,7 @@ h3 {
 }
 
 h3 a {
-  color: #009f9f;
+  color: #07acac;
   text-transform: none;
   font-size: 1.5em;
   letter-spacing: normal;
@@ -215,11 +215,11 @@ h4 code {
 }
 
   .sectionTitle, .sectionTitle a{
-    color: #009f9f;
+    color: #07acac;
   }
   
  /* #TOC a { */ /* Get Started Page TOC */
-   /*  color: #009f9fc9;
+   /*  color: #07acacc9;
   } */
 
 
@@ -286,7 +286,7 @@ h4 code {
 }
 
 .column25-left .sectionTitle.current {
-  color: #009f9f;
+  color: #07acac;
   text-decoration: none;
 }
 
@@ -528,7 +528,7 @@ a.learn-top-nav-item,
   letter-spacing: 2pt;
   font-size: 0.8rem !important;
   font-weight: bold;
-  color: #009f9fc9;
+  color: #07acacc9;
 }
 
 .tutorial #TableOfContents ul li {
@@ -537,7 +537,7 @@ a.learn-top-nav-item,
 
 a.learn-top-nav-item:hover,
 .tutorial #TableOfContents a:hover {
-  color: #009f9f;
+  color: #07acac;
   text-decoration: none;
 }
 
@@ -552,7 +552,7 @@ a.learn-top-nav-item:hover,
 .listItem.learn-top-nav:before,
 .listItem.tutorial:after,
 .listItem.tutorial:before {
-    border: 1pt solid #009f9f3d; 
+    border: 1pt solid #07acac3d; 
     bottom: 0;    
     content: '';
     position: absolute;
@@ -586,7 +586,7 @@ a.learn-top-nav-item:hover,
 
 .tutorial #TableOfContents ul li::before {
 	content: "\2022";
-	color: #009f9f;
+	color: #07acac;
 	display: inline-block;
 	width: 1.5em;
 	margin-left: -1.5em; 
@@ -702,12 +702,12 @@ sup {
 
 
 #homeContent .blurb .event {
-	border: 1pt solid #009f9f;
+	border: 1pt solid #07acac;
 	background-color: #ffffff;
 }
 
 #homeContent .blurb .event a {
-	color: #009f9f;
+	color: #07acac;
 }
 
 #homeContent .blurb .event .eventTitle,
@@ -715,7 +715,7 @@ sup {
  /* text-transform: uppercase; */
   letter-spacing: 2pt;
   font-weight: bold !important;
-  color: #009f9f;
+  color: #07acac;
   font-size: 1em;
 }
 
@@ -727,12 +727,12 @@ sup {
 
 
 #homeContent .blurb2 .event {
-	border: 1pt solid #009f9f;
+	border: 1pt solid #07acac;
 	background-color: #ffffff;
 }
 
 #homeContent .blurb2 .event a {
-	color: #009f9f;
+	color: #07acac;
 }
 
 #homeContent  .blurb2 .event .eventTitle,
@@ -740,14 +740,14 @@ sup {
  /* text-transform: uppercase; */
   letter-spacing: 2pt;
   font-weight: bold !important;
-  color: #009f9f;
+  color: #07acac;
   font-size: 1em;
 }
 
 
 
 #homeContent .event .eventTitle a:hover {
-  color: #009f9f;
+  color: #07acac;
   text-decoration: underline;
 }
 
@@ -768,7 +768,7 @@ sup {
 
 
 #homeContent .blurb2 .event .eventTitle a:hover {
-  color: #009f9f;
+  color: #07acac;
   text-decoration: underline;
 }
 
@@ -1137,8 +1137,8 @@ pre {
 /* Style buttons */
 .test-drive-btn {
   background-color: #eab0c46b;
-  border: solid 1pt #009f9f47;
-  color: #009f9f;
+  border: solid 1pt #07acac47;
+  color: #07acac;
   padding: 12px 16px;
   font-size: 16px;
   cursor: pointer;
@@ -1149,7 +1149,7 @@ pre {
 
 /* Darker background on mouse-over */
 .test-drive-btn:hover {
-  background-color: #009f9f;
+  background-color: #07acac;
   color: #fcfcfc;
   border: 1pt solid;
 }
