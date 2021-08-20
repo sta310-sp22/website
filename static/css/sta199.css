@@ -385,7 +385,7 @@ a.productName {
 /*first band*/
 
 #homeContent .band.first {
-  height:auto;
+  height: 100vh;
 }
 
 #homeContent .band.first a{
@@ -400,12 +400,12 @@ background-size: cover;
    background-color: #cccccc; 
  box-shadow: inset 0 0 0 800px rgba(153, 153, 153, 0.80); 
   color: #ffffff; 
-   height: auto;
 } 
 
 
 #homeContent .band.first .blurb {
   font-weight: 600;
+  font-size:30px;
 }
 
 
