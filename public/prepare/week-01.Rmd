@@ -1,0 +1,23 @@
+---
+title: "Preparing for Week 01"
+output: 
+  html_document:
+    css: "prepare.css"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+### Note: All Prepare activities are due **by the beginning of class** on the specified date
+
+## For August 26
+
+`r emo::ji("white_check_mark")` Watch [Meet the Toolkit - Programming](https://youtu.be/Q2QN1RpvLq8) 
+
+- [Slides](https://dukestatsci.github.io/introds/slides/02-meet-toolkit-r/02-meet-toolkit-r.html#1)
+
+`r emo::ji("white_check_mark")` Watch [Meet the Toolkit - Version Control and Collaboration](https://youtu.be/124DQasLyNQ)  
+
+- [Slides](https://rstudio-education.github.io/datascience-box/course-materials/slides/u1-d03-toolkit-git/u1-d03-toolkit-git.html#1)

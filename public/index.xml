@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
   <title>STA 199</title>
-  <link>https://sta199-fa21-003.netlify.app/</link>
+  <link>/</link>
   <description>Recent content on STA 199</description>
   <generator>Hugo -- gohugo.io</generator>
 <language>en-us</language>
 
-<atom:link href="https://sta199-fa21-003.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
 
 
 <item>
   <title></title>
-  <link>https://sta199-fa21-003.netlify.app/home/band_one/</link>
+  <link>/home/band_one/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>https://sta199-fa21-003.netlify.app/home/band_one/</guid>
+<guid>/home/band_one/</guid>
   <description>&lt;style&gt;
 .pull-left{
 float: left;
@@ -37,10 +37,10 @@ width: 65%;
   
 <item>
   <title>Help</title>
-  <link>https://sta199-fa21-003.netlify.app/help/</link>
+  <link>/help/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>https://sta199-fa21-003.netlify.app/help/</guid>
+<guid>/help/</guid>
   <description>&lt;h2 id=&#34;getting-help-in-the-course&#34;&gt;Getting help in the course&lt;/h2&gt;
 &lt;p&gt;We expect everyone will have questions at some point in the semester, so we encourage you to use the following resources for help:&lt;/p&gt;
 &lt;h2 id=&#34;ask-questions-during-lectures-and-lab&#34;&gt;Ask questions during lectures and lab&lt;/h2&gt;
@@ -98,10 +98,10 @@ Go to &lt;a href=&#34;http://studentaffairs.duke.edu/dukereach&#34;&gt;studentaf
   
 <item>
   <title>STA 199 Final Project</title>
-  <link>https://sta199-fa21-003.netlify.app/project/</link>
+  <link>/project/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>https://sta199-fa21-003.netlify.app/project/</guid>
+<guid>/project/</guid>
   <description>&lt;p&gt;&lt;em&gt;More detail about the project will be released when the project is assigned.&lt;/em&gt;&lt;/p&gt;
 &lt;!--
 ## Timeline
@@ -460,10 +460,10 @@ knitr::opts_chunk$set(echo = FALSE,
   
 <item>
   <title>Syllabus</title>
-  <link>https://sta199-fa21-003.netlify.app/syllabus/</link>
+  <link>/syllabus/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
-<guid>https://sta199-fa21-003.netlify.app/syllabus/</guid>
+<guid>/syllabus/</guid>
   <description>&lt;p&gt;&lt;a href=&#34;syllabus.pdf&#34;&gt;&lt;strong&gt;Click here&lt;/strong&gt;&lt;/a&gt; &lt;strong&gt;to download a PDF copy of the syllabus.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;teaching-team--office-hours&#34;&gt;Teaching team &amp;amp; office hours&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Instructor&lt;/strong&gt;&lt;/p&gt;
@@ -634,7 +634,7 @@ knitr::opts_chunk$set(echo = FALSE,
 &lt;li&gt;The teaching team is here to help you be successful in the course. You are encouraged to attend office hours to ask questions about the course content and assignments. Many questions are most effectively answered as you discuss them with others, so office hours are a valuable resource. Please use them!&lt;/li&gt;
 &lt;li&gt;Outside of class and office hours, any general questions about course content or assignments should be posted on &lt;a href=&#34;https://edstem.org/us/courses/8027/discussion/&#34;&gt;Ed Discussion&lt;/a&gt;. There is a chance another student has already asked a similar question, so please check the other posts in Ed Discussion before adding a new question. If you know the answer to a question posted in the discussion forum, I encourage you to respond!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Check out the &lt;a href=&#34;https://sta199-fa21-003.netlify.app/help/&#34;&gt;Help&lt;/a&gt; tab for more resources.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&#34;/help/&#34;&gt;Help&lt;/a&gt; tab for more resources.&lt;/p&gt;
 &lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;
 &lt;p&gt;If there is a question that&amp;rsquo;s not appropriate for the public forum, you are welcome to email me directly. &lt;strong&gt;If you email me, please include &amp;ldquo;STA 199&amp;rdquo; in the subject line.&lt;/strong&gt; Barring extenuating circumstances, I will respond to STA 199 emails within 48 hours Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.&lt;/p&gt;
 &lt;h2 id=&#34;activities--assessment&#34;&gt;Activities &amp;amp; Assessment&lt;/h2&gt;
@@ -666,7 +666,7 @@ knitr::opts_chunk$set(echo = FALSE,
 &lt;h3 id=&#34;exams-perform&#34;&gt;Exams (Perform)&lt;/h3&gt;
 &lt;p&gt;There will be two, take-home, open-note exams. Through these exams you have the opportunity to demonstrate what you&amp;rsquo;ve learned in the course thus far. Each exam will include small analysis and computational tasks related to the content in the prepare, practice, and perform assignments. More details about the content and structure of the exams will be discussed during the semester.&lt;/p&gt;
 &lt;h3 id=&#34;final-project-perform&#34;&gt;Final Project (Perform)&lt;/h3&gt;
-&lt;p&gt;The purpose of the &lt;a href=&#34;https://sta199-fa21-003.netlify.app/project/&#34;&gt;final project&lt;/a&gt; is to apply what you&amp;rsquo;ve learned throughout the semester to analyze an interesting data-driven research question. The project will be completed with your lab teams, and each team will present their work in video and in writing during the final exam period. More information about the project will be provided during the semester.&lt;/p&gt;
+&lt;p&gt;The purpose of the &lt;a href=&#34;/project/&#34;&gt;final project&lt;/a&gt; is to apply what you&amp;rsquo;ve learned throughout the semester to analyze an interesting data-driven research question. The project will be completed with your lab teams, and each team will present their work in video and in writing during the final exam period. More information about the project will be provided during the semester.&lt;/p&gt;
 &lt;h2 id=&#34;grading&#34;&gt;Grading&lt;/h2&gt;
 &lt;p&gt;The final course grade will be calculated as follows:&lt;/p&gt;
 &lt;center&gt;
