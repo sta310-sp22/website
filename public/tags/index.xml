@@ -36,139 +36,6 @@ width: 65%;
   </item>
   
 <item>
-  <title>Course info</title>
-  <link>https://sta199-fa21-003.netlify.app/home/band_two/</link>
-  <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-  
-<guid>https://sta199-fa21-003.netlify.app/home/band_two/</guid>
-  <description>&lt;style&gt;
-
-table {
-  font-size: 18px;
-  font-weight: 400;
-  max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 2px;
-  }
-
-body { 
-font-size: 18px;
-}
-
-.pull-left {
-float: left;
-width: 47%;
-}
-
-.pull-right {
-float: right;
-width: 47%;
-}
-
-
-&lt;/style&gt;
-&lt;div class = &#34;pull-left&#34;&gt;
-&lt;h3&gt;Lectures&lt;/h3&gt;
-&lt;p&gt;&lt;font color=&#34;#7A4183&#34;&gt;&lt;i class=&#34;fas fa-university&#34;&gt;&lt;/i&gt;&lt;/font&gt;   Soc Sci 136    &lt;font color=&#34;#7A4183&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;&lt;/font&gt;   Mon and Wed 1:45p - 3p&lt;/p&gt;
-&lt;/div&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;div class = &#34;pull-right&#34;&gt;
-&lt;h3&gt;Labs&lt;/h3&gt;
-Lab 07 &amp;nbsp; &amp;nbsp; &lt;font color=&#34;#7A4183&#34;&gt;&lt;i class=&#34;fas fa-university&#34;&gt;&lt;/i&gt;&lt;/font&gt; &amp;nbsp; Soc Sci 311 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;font color=&#34;#7A4183&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;&lt;/font&gt; &amp;nbsp; Thu 12p - 1:15p
-&lt;p&gt;Lab 08      &lt;font color=&#34;#7A4183&#34;&gt;&lt;i class=&#34;fas fa-university&#34;&gt;&lt;/i&gt;&lt;/font&gt;   Link Classroom 5    &lt;font color=&#34;#7A4183&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;&lt;/font&gt;   Thu 3:30p - 4:45p&lt;/p&gt;
-&lt;p&gt;Lab 09     &lt;font color=&#34;#7A4183&#34;&gt;&lt;i class=&#34;fas fa-university&#34;&gt;&lt;/i&gt;&lt;/font&gt;   Link Classroom 5    &lt;font color=&#34;#7A4183&#34;&gt;&lt;i class=&#34;fas fa-calendar&#34;&gt;&lt;/i&gt;&lt;/font&gt;   Thu 5:15p - 6:30p&lt;/p&gt;
-&lt;/div&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;h3 id=&#34;teaching-team-and-office-hours&#34;&gt;Teaching team and office hours&lt;/h3&gt;
-&lt;div style = &#34;max-width:100%&#34;&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;span&gt;&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span&gt;&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span&gt;&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span&gt;&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span&gt;&lt;/span&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Instructor&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;http://stat.duke.edu/~mt324/&#34;&gt;Prof. Maria Tackett&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mailto:maria.tackett@duke.edu&#34; title=&#34;email&#34;&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt;&lt;/a&gt;   &lt;a href=&#34;https://github.com/matackett&#34; title=&#34;GitHub&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Thur 10:30a - 12p&lt;/td&gt;
-&lt;td&gt;Old Chem 118B&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;TAs&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.linkedin.com/in/maxbartlett/&#34;&gt;Max Bartlett&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mailto:maxwell.bartlett@duke.edu&#34; title=&#34;email&#34;&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt;&lt;/a&gt;   &lt;a href=&#34;https://github.com/MaxBartlett&#34; title=&#34;GitHub&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Mon 6p - 8p&lt;/td&gt;
-&lt;td&gt;Old Chem 203B&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.linkedin.com/in/alexandra-digiacomo-390b7a166/&#34;&gt;Alexandra DiGiacomo&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mailto:alexandra.digiacomo@duke.edu&#34; title=&#34;email&#34;&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt;&lt;/a&gt;   &lt;a href=&#34;https://github.com/alexandradigiacomo&#34; title=&#34;GitHub&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Sun 1p - 3p&lt;/td&gt;
-&lt;td&gt;Old Chem 203B&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.walker-harrison.com/&#34;&gt;Walker Harrison&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mailto:walker.harrison@duke.edu&#34; title=&#34;email&#34;&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt;&lt;/a&gt;   &lt;a href=&#34;https://github.com/WalkerHarrison&#34; title=&#34;GitHub&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Tues 12p - 2p&lt;/td&gt;
-&lt;td&gt;Old Chem 203B&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.linkedin.com/in/rosvidstevenherrera/&#34;&gt;Steven Herrera&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mailto:rosvid.herrera.tenorio@duke.edu&#34; title=&#34;email&#34;&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt;&lt;/a&gt;   &lt;a href=&#34;https://github.com/stevenherrera24&#34; title=&#34;GitHub&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Fri 1:30p - 3:30p&lt;/td&gt;
-&lt;td&gt;Old Chem 203B&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.linkedin.com/in/jose-san-martin-454471144/&#34;&gt;Jose San Martin&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mailto:jose.san.martin@duke.edu&#34; title=&#34;email&#34;&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt;&lt;/a&gt;   &lt;a href=&#34;https://github.com/DukeBlue&#34; title=&#34;GitHub&#34;&gt;&lt;i class=&#34;fa fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Wed 12:30p - 2:30p&lt;/td&gt;
-&lt;td&gt;Old Chem 203B&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-&lt;h3 id=&#34;texts&#34;&gt;Texts&lt;/h3&gt;
-&lt;p&gt;All texts are freely available online. Hardcopies are also available for purchase.&lt;/p&gt;
-&lt;div style = &#34;max-width: 100%&#34;&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;&lt;span&gt;&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span&gt;&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span&gt;&lt;/span&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;http://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Grolemund, Wickham&lt;/td&gt;
-&lt;td&gt;O&amp;rsquo;Reilly, 1st edition, 2016&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://openintro-ims.netlify.app/&#34;&gt;Introduction to Modern Statistics&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Çetinkaya-Rundel, Hardin&lt;/td&gt;
-&lt;td&gt;OpenIntro, 1st edition, 2021&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/div&gt;
-</description>
-  </item>
-  
-<item>
   <title>Help</title>
   <link>https://sta199-fa21-003.netlify.app/help/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -667,7 +534,7 @@ knitr::opts_chunk$set(echo = FALSE,
 &lt;td&gt;&lt;span&gt;&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Yue Yu&lt;/td&gt;
+&lt;td&gt;Camilla Yu&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;mailto:yue.yu652@duke.edu&#34; title=&#34;email&#34;&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;TBD&lt;/td&gt;
 &lt;td&gt;&lt;span&gt;&lt;/span&gt;&lt;/td&gt;

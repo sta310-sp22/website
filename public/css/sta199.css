@@ -9,7 +9,9 @@
 
 html,body {
    background-color: #ffffff;
-   height:100%;
+   height: auto;
+   min-height: 100%;
+   margin: 0px;
 }
 
 body, button, input, textarea {
@@ -132,14 +134,22 @@ div.tagline {
 ;
 }
 
-#homeContent .band.first .blurb div.tagline {
-    color: #ffffff;
-    text-transform: uppercase;
+#homeContent {
+  height: 100%;
 }
 
 #homeContent .band.first {
-  height:100%;
+  height: 100%;
+  overflow: auto;
 }
+
+#homeContent .band.first .blurb div.tagline {
+    color: #ffffff;
+    text-transform: uppercase;
+    
+}
+
+
 
 .article-title,               /* Most page titles */
 .column75 div.sectionTitle {  /* Learn page section title */
@@ -374,19 +384,23 @@ a.productName {
 /*---- HOME BAND TEXT COLOR -----*/
 /*first band*/
 
+#homeContent .band.first {
+  height:auto;
+}
+
 #homeContent .band.first a{
  } 
   
 #homeContent .band.first a:hover {
   } 
   
-#homeContent .band.first {
+#homeContent .band {
   background-image: url("https://www2.stat.duke.edu/courses/Spring20/sta210.001/img/bikeshare-reg-plots.png"); 
 background-size: cover; 
    background-color: #cccccc; 
  box-shadow: inset 0 0 0 800px rgba(153, 153, 153, 0.80); 
   color: #ffffff; 
-   height: 100%;
+   height: auto;
 } 
 
 
@@ -801,7 +815,7 @@ sup {
 
   .column25-left {
   position: static;
-  padding-top: 0px;
+  padding-top: 50px;
 	padding-right: 0em;
 	border-right: none; 
 	max-width: 100%;
@@ -831,21 +845,6 @@ sup {
     margin: 0 auto;
   }
 }
-
-.hanchor { 
-  font-size: 100%; 
-  /*visibility: hidden; */
-  color: #1a162d50;
-  opacity: 0.6;
-}
-
-h2:hover a { 
-  color: #1a162d99;
-  /*visibility: visible;*/
-  text-decoration: none;
-  opacity: 0.9;
-}
-
 
 /* Copy to Clipboard */
 

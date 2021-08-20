@@ -1005,7 +1005,10 @@ em {
   
 
 #homeContent {
-  background-color: #fff; }
+  background-color: #fff; 
+  height:100%;
+  min-height:100%;
+}
   #homeContent .band .bandContent {
     display: flex;
     justify-content: space-between;
@@ -1013,7 +1016,9 @@ em {
     -ms-flex-pack: justify;
     display: -webkit-box;
     display: -webkit-flex;
-    -webkit-justify-content: space-between; }
+    -webkit-justify-content: space-between; 
+    height: 100%;
+  }
   
   #homeContent .band .blurb {
     font-weight: 300;
@@ -1082,7 +1087,7 @@ em {
     height: auto; }
     #homeContent .band.first .bandContent {
       background-image: none;
-      padding-bottom: 100px; }
+      padding-bottom: 0px; }
   #homeContent .band.second, #homeContent .band.third {
     height: auto; }
     #homeContent .band.second .bandContent, #homeContent .band.third .bandContent {

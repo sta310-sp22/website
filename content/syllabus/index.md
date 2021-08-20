@@ -24,7 +24,7 @@ Name    | Contact    | Office hours  |  <span></span>
 | Shirley Mathur| <a href="mailto:shirley.mathurc@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | <span></span> |
 | Manny Mokel| <a href="mailto:emmanuel.mokel@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | <span></span> |
 | Margaret Reed| <a href="mailto:margaret.reed@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | <span></span> |
-| Yue Yu| <a href="mailto:yue.yu652@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | <span></span> |
+| Camilla Yu| <a href="mailto:yue.yu652@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | <span></span> |
 
 ## Course info 
 
