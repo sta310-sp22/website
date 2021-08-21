@@ -48,15 +48,14 @@ width: 65%;
 &lt;h2 id=&#34;office-hours&#34;&gt;Office hours&lt;/h2&gt;
 &lt;p&gt;The teaching team is here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments. A lot of questions are most effectively answered in-person, so office hours are a valuable resource. Please use them!&lt;/p&gt;
 &lt;p&gt;Join using the Zoom link in &lt;a href=&#34;https://sakai.duke.edu&#34;&gt;Sakai&lt;/a&gt;. You can find the office hours schedule on the &lt;a href=&#34;https://sta199-fa20-002.netlify.app/&#34;&gt;homepage&lt;/a&gt; and in Sakai.&lt;/p&gt;
-&lt;h2 id=&#34;piazza&#34;&gt;Piazza&lt;/h2&gt;
-&lt;p&gt;Outside of class and office hours, any general questions about course content or assignments should be posted on &lt;a href=&#34;https://piazza.com/class/kdtl7z2npb07ds&#34;&gt;Piazza&lt;/a&gt;. There is a chance another student has already asked a similar question, so please check the other posts on Piazza before adding a new question. If you know the answer to a question posted on Piazza, I encourage you to respond!&lt;/p&gt;
+&lt;h2 id=&#34;ed-discussion&#34;&gt;Ed Discussion&lt;/h2&gt;
+&lt;p&gt;Outside of class and office hours, any general questions about course content or assignments should be posted on &lt;a href=&#34;https://edstem.org/us/courses/8027/discussion/&#34;&gt;Ed Discussion&lt;/a&gt;. There is a chance another student has already asked a similar question, so please check the other posts on Ed Discussion before adding a new question. If you know the answer to a question posted on Ed Discussion, I encourage you to respond!&lt;/p&gt;
 &lt;h2 id=&#34;email&#34;&gt;Email&lt;/h2&gt;
-&lt;p&gt;If you have questions about personal matters that are not appropriate for the public forum on Piazza (e.g. illness, accommodations, etc.), you may email Professor Tackett at &lt;a href=&#34;mailto:maria.tackett@duke.edu&#34;&gt;maria.tackett@duke.edu&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Please do not email about course content questions but rather post those on Piazza.&lt;/p&gt;
+&lt;p&gt;If you have questions about personal matters that are not appropriate for the public forum on Ed Discussion (e.g. illness, accommodations, etc.), you may email Professor Tackett at &lt;a href=&#34;mailto:maria.tackett@duke.edu&#34;&gt;maria.tackett@duke.edu&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;resources-for-the-course&#34;&gt;Resources for the course&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://leanpub.com/openintro-statistics&#34;&gt;OpenIntro Statistics 4th ed&lt;/a&gt; by David Diez, Mine Çetinkaya-Rundel, and Christopher Barr&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://openintro-ims.netlify.app/&#34;&gt;Introduction to Modern Statistics&lt;/a&gt; by Mine Çetinkaya-Rundel and Johanna Hardin&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt; by Garret Grolemund and Hadley Wickham&lt;/p&gt;
@@ -464,7 +463,7 @@ knitr::opts_chunk$set(echo = FALSE,
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
 <guid>/syllabus/</guid>
-  <description>&lt;p&gt;&lt;a href=&#34;syllabus.pdf&#34;&gt;&lt;strong&gt;Click here&lt;/strong&gt;&lt;/a&gt; &lt;strong&gt;to download a PDF copy of the syllabus.&lt;/strong&gt;&lt;/p&gt;
+  <description>&lt;p&gt;&lt;a href=&#34;sta199-fa21-003-syllabus.pdf&#34;&gt;&lt;strong&gt;Click here&lt;/strong&gt;&lt;/a&gt; &lt;strong&gt;to download a PDF copy of the syllabus.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;teaching-team--office-hours&#34;&gt;Teaching team &amp;amp; office hours&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Instructor&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
