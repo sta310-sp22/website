@@ -80,6 +80,12 @@ If there is any portion of the course that is not accessible to you due to chall
 
 The [Student Disability Access Office (SDAO)](https://access.duke.edu/students) is available to ensure that students are able to engage with their courses and related assignments. Students should be in touch with the Student Disability Access Office to [request or update accommodations](https://access.duke.edu/requests) under these circumstances.
 
+### Attendance Policy Related to COVID Symptoms, Exposure, or Infection
+
+Student health, safety, and well-being are the university's top priorities. To help ensure your well-being and the well-being of those around you, **please do not come to class if you have symptoms related to COVID-19, have had a known exposure to COVID-19, or have tested positive for COVID-19.** If any of these situations apply to you, you must follow university guidance related to the ongoing COVID-19 pandemic and current health and safety protocols.
+
+If you are experiencing any COVID-19 symptoms, contact student health at 919-681-9355. To keep the university community as safe and healthy as possible, you will be expected to follow these guidelines. Please reach out to me and your academic dean as soon as possible if you need to quarantine or isolate so that we can discuss arrangements for your continued participation in class.  
+
 ### Communication
 
 All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website, <https://www.sta210-fa21-003.netlify.app> .
