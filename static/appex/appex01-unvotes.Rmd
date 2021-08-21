@@ -1,7 +1,7 @@
 ---
 title: "UN Votes"
 author: ""
-date: "08.17.20"
+date: "08.23.21"
 output: 
   html_document: 
     toc: true
@@ -13,7 +13,8 @@ Assembly using data from package `unvotes`.
 
 ```{r set-up, echo = FALSE}
 knitr::opts_chunk$set(warning = FALSE, 
-                      echo = FALSE)
+                      echo = TRUE, 
+                      message = FALSE)
 ```
 
 ```{r load-packages, warning=FALSE, message=FALSE}
@@ -21,6 +22,7 @@ library(unvotes)
 library(tidyverse)
 library(lubridate)
 library(DT)
+library(viridis)
 ```
 
 ## Data
@@ -44,9 +46,7 @@ un_votes
 un_roll_calls
 ```
 
-- The `un_roll_call_issues` data set contains issue classifications of roll 
-  call votes of the United Nations General Assembly. There are many votes that 
-  have no issue classification, and some are classified under more than 
+- The `un_roll_call_issues` data set contains issue classifications of roll call votes of the United Nations General Assembly. There are many votes that have no issue classification, and some are classified under more than 
   one issue.
 
 ```{r view-un_roll_call_issues}
@@ -62,7 +62,7 @@ each year. We'll visualize the results, so let's pick a few countries of
 interest and focus our analysis on them.
 
 ```{r country-list}
-country_list <- c("United States of America", "Ghana", "Mexico", "France")
+country_list <- c("United States", "Ghana", "Mexico", "France")
 ```
 
 ```{r plot-yearly-yes, fig.width=10, warning=FALSE}
@@ -74,7 +74,8 @@ un_votes %>%
             percent_yes = mean(vote == "yes")) %>%
   ggplot(mapping = aes(x = year, y = percent_yes, color = country)) +
     geom_line() +
-    ylab("% of votes that are 'Yes'")
+    ylab("% of votes that are 'Yes'") +
+  scale_color_viridis_d() 
 ```
 
 ### Part 2
@@ -83,7 +84,7 @@ Next, let's see how the voting records have changed over the years on each of th
 
 ```{r plot-yearly-yes-issue, fig.width=10, message = FALSE, warning=FALSE}
 un_votes %>%
-  filter(country %in% c("United States of America", "France")) %>%
+  filter(country %in% c("United States", "France")) %>%
   inner_join(un_roll_calls, by = "rcid") %>%
   inner_join(un_roll_call_issues, by = "rcid") %>%
   group_by(country, year = year(date), issue) %>%
@@ -94,7 +95,8 @@ un_votes %>%
     geom_point() +
     geom_smooth(method = "loess", se = FALSE) + 
     ylab("% of votes that are 'Yes'") +
-    facet_wrap(~ issue)
+    facet_wrap(~ issue) +
+  scale_color_viridis_d() 
 ```
 
 ### Discussion Questions
@@ -110,8 +112,7 @@ un_votes %>%
 
 ## References
 
-1. David Robinson (2017). unvotes: United Nations General Assembly Voting Data. 
-   R package version 0.2.0. https://CRAN.R-project.org/package=unvotes.
+1. David Robinson (2017). unvotes: United Nations General Assembly Voting Data. R package version 0.2.0. https://CRAN.R-project.org/package=unvotes.
 2. Erik Voeten "Data and Analyses of Voting in the UN General Assembly" 
    Routledge Handbook of International Organization, edited by Bob Reinalda 
    (published May 27, 2013).
