@@ -4,7 +4,13 @@
     <title>Welcome to STA 199!</title>
     <meta charset="utf-8" />
     <meta name="author" content="Prof. Maria Tackett" />
-    <link rel="stylesheet" href="sta199-slides.css" type="text/css" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
+    <link href="libs/panelset/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset/panelset.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="slides.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -19,6 +25,20 @@ class: center, middle, inverse, title-slide
 
 
 
+layout: true
+  
+&lt;div class="my-footer"&gt;
+&lt;span&gt;
+&lt;a href="https://introds.org" target="_blank"&gt;introds.org&lt;/a&gt;
+&lt;/span&gt;
+&lt;/div&gt; 
+
+---
+
+
+
+
+---
 
 class: center, middle
 
@@ -26,30 +46,72 @@ class: center, middle
 
 ---
 
-## What is data science?
+## Meet the teaching team: Instructor 
 
-*"Data science is a concept to unify statistics, data analysis, machine learning and their related methods in order to understand and analyze actual phenomena with data. It employs techniques and theories drawn from many fields within the context of &lt;font class="vocab"&gt;mathematics, statistics, information science, and computer science&lt;/font&gt;."*
+
+### Prof. Maria Tackett
+
+--
+
+.pull-left[
+&lt;img src="img/01/capital-one-logo.jpg" width="75%" style="display: block; margin: auto;" /&gt;
+
+&lt;img src="img/01/fbi-fingerprint.jpg" width="75%" style="display: block; margin: auto;" /&gt;
+
+]
+
+--
 
 .pull-right[
-[-Wikipedia](https://en.wikipedia.org/wiki/Data_science)
+&lt;img src="img/01/education.jpg" width="75%" style="display: block; margin: auto;" /&gt;
 ]
+
+---
+
+## Meet the teaching team: TAs
+
+- FILL IN the TAS
+
+
+---
+
+class: middle, center
+
+# Data Science
+
+
+---
+
+## What is data science?
+
+- Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge.
+
+- We're going to learn to do this in a `tidy` way -- more on that later!
+
+- This is a course on introduction to data science, with an emphasis on statistical thinking.
+
+---
+
+## Course FAQ
+
+**Q - What data science background does this course assume?**
+A - None.
+
+**Q - Is this an intro stat course?**
+A - While statistics `\(\neq\)` data science, they are very closely related and have tremendous of overlap. Hence, this course is a great way to get started with statistics. However this course is not your typical high school statistics course.
+
+**Q - Will we be doing computing?**
+A - Yes. We will use the computing language R.
+
 ---
 
 ## Course objectives
 
---
-
 - Learn to explore, visualize, and analyze data in a *reproducible* and *shareable* manner
-
---
 
 - Gain experience in data wrangling, exploratory data analysis, predictive modeling, and data visualization
 
---
-
 - Work on problems and case studies inspired by and based on *real-world questions* and data
-
---
 
 - Learn to effectively communicate results through written assignments and final project presentation
 
@@ -82,98 +144,73 @@ class: center, middle
 - Statistical inference
 
 ]
+
 ---
 
-## Where to find information
+## Examples of data science
 
-.vocab[Course Website]: [sta199-fa20-002.netlify.app/](https://sta199-fa20-002.netlify.app/)
+- [Apple Mobility Trends](https://covid19.apple.com/mobility)
+
+- [Creating interactive redistricting maps](https://projects.fivethirtyeight.com/redistricting-maps/north-carolina/)
+
+- [Tracking their life via Fitbit](https://livefreeordichotomize.com/2017/12/27/a-year-as-told-by-fitbit/)
+
+- [US Spread of COVID-19 maps and analytics](https://www.sharedgeo.org/COVID-19/)
+
+---
+
+## The Course
+
+---
+
+## Course Toolkit
+
+.vocab[Course Website]: [sta199-fa21-003.netlify.app](https://sta199-fa21-003.netlify.app)
   - Central hub for the course!
+  - Quick tour of the website
 
-.vocab[Sakai]
+.vocab[Sakai]: [sakai.duke.edu](https://sakai.duke.edu)
   - Gradebook
-  - Class videos
-  - Link to class meetings on Zoom
   
-  
-.vocab[GitHub]: [https://github.com/sta199-fa20-002](https://github.com/sta199-fa20-002)
-  - Assignment repos (we'll talk more about that later)
+.vocab[Ed Discussion]: [edstem.org/us/courses/8027/discussion](https://edstem.org/us/courses/8027/discussion/)
+  - Class Q&amp;A and discussion forum
+
+.vocab[GitHub]: [github.com/sta199-fa21-003](https://github.com/sta199-fa21-003)
+  - Distribute &amp; work on assignments -- more on this later
 
 ---
 
-class: middle, center
+## Activities - FILL IN!!
 
-## Course strcture
+- **Prepare**
 
----
+- FILL IN!! 
 
-## Class meetings 
+- **Practice**
 
---
+- .vocab[Application Exercises (AE)]: Exercises worked on during lecture.
 
-.vocab[Lecture]
-- Focus on concepts behind data analysis
-- Has two components:
-  - **Lecture content videos** to watch before we meet
-  - **Live lecture session** to ask questions and apply concepts from videos
 
---
+- **Perform**
 
-.vocab[Lab]
-- Focus on computing using R `tidyverse` syntax
-- Apply concepts from lecture to case study scenarios
-- Work on labs individually or in teams of 3 - 4
+  - .vocab[Homework]: Individual assignments combining conceptual and computational skills. 
+
+  - .vocab[Labs]: Individual or team assignments focusing on computational skills. 
+  - .vocab[Exams]: Two take-home exams.
+  - .vocab[Final Project]: Team project presented during the final exam period.
 
 ---
 
-## Textbooks and readings
-
-- [OpenIntro Statistics](https://www.openintro.org/stat/textbook.php?stat_book=os)
-
-
-- [R for Data Science](http://r4ds.had.co.nz/)
-
-
-- Occasional articles and other readings posted on the course website
-
----
-
-## Activities and assessments
-
---
-
-- .vocab[Homework]: Individual assignments combining conceptual and computational skills. 
-
---
-
-- .vocab[Labs]: Individual or team assignments focusing on computational skills. 
-
---
-
-- .vocab[Exams]: Two take-home exams.
-
---
-
-- .vocab[Final Project]: Team project presented during the final exam period.
-
---
-
-- .vocab[Application Exercises]: Exercises worked on during the live lecture session.
-
---
-
-- .vocab[Statistics Experiences]: Engage with statistics outside of the classroom and reflect on your experience.
-
----
-
-## Where to find help in the course
-
+## Where to find help
 --
 
 - Attend .vocab[Office hours] to meet with a member of the teaching team.
+   - FILL IN MY OFFICE HOURS!
+   - Full office hours begin August 30
 
 --
 
-- Use .vocab[Piazza] for general questions about course content and/or assignments, since other students may benefit from the response.
+- Use .vocab[Ed Discuss] for general questions about course content and/or assignments, since other students may benefit from the response.
 
 --
 
@@ -210,18 +247,97 @@ Services provided via Telehealth. To initiate services, you can contact their fr
 
 ---
 
+## Course community &amp; Learning environment
+
+--
+
+- Uphold the Duke Community Standard: 
+&gt; - I will not lie, cheat, or steal in my academic endeavors;
+&gt;- I will conduct myself honorably in all my endeavors; and
+&gt; - I will act if the Standard is compromised.
+
+--
+
+- Respect, honor, and celebrate our diverse community 
+
+--
+
+- Learning environment that is welcoming and accessible to everyone
+
+---
+
+## Attendance
+
+- FILL IN language about COVID
+
+---
+
 class: middle, center
 
-[sta199-fa20-002.netlify.app](https://sta199-fa20-002.netlify.app)
+# Questions? 
+
+- Add Ed discussion board??
+
+---
+
+class: middle, center
+
+# Your turn!
+
+---
+
+---
+
+class: middle, center
+
+## Your Turn!
+
+---
+
+## Create a GitHub account - NEED TO UPDATE LINK!!!!
+
+.instructions[
+Go to https://github.com/, and create an account (unless you already have one). 
+
+After you create your account, go to [bit.ly/sta199-github](https://bit.ly/sta199-github) and enter your Duke email address (NETID@duke.edu) and GitHub username. 
+]
+
+&lt;small&gt;
+Some tips from [Happy Git with R](http://happygitwithr.com/github-acct.html#username-advice).
+&lt;/small&gt;
+
+- &lt;small&gt;Incorporate your actual name!&lt;/small&gt;
+- &lt;small&gt; Reuse your username from other contexts if you can, e.&lt;small&gt; g., Twitter or Slack.&lt;/small&gt;
+- &lt;small&gt; Pick a username you will be comfortable revealing to your future boss.&lt;/small&gt;
+- &lt;small&gt; Be as unique as possible in as few characters as possible. Shorter is better than longer.&lt;/small&gt;
+- &lt;small&gt; Make it timeless.&lt;/small&gt;
+- &lt;small&gt; Avoid words with special meaning in programming (e.g. `NA`).&lt;/small&gt;
+
+
+---
+
+# Let's look at some data!
+
+- Let's take a look at the [UN Votes](https://sta199-fa20-002.netlify.app/appex/appex01-unvotes.html) analysis.
+
+- Add some Ed Discussion questions? 
+
+- Talk with your neighbor??
+
+---
+
+## Reminder for next time!
+
+
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
-"highlightStyle": "github",
+"ratio": "16:9",
 "highlightLines": true,
-"countIncrementalSlides": false,
-"slideNumberFormat": "%current%",
-"ratio": "16:9"
+"highlightStyle": "solarized-light",
+"countIncrementalSlides": false
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
@@ -330,7 +446,7 @@ slideshow._releaseMath(document);
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);

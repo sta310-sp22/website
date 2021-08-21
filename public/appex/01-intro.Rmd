@@ -54,58 +54,7 @@ class: center, middle
 
 # Welcome to STA 199! 
 
----
 
-### How are you feeling right now?
-
-<br>
-
-.center[
-.col-3[
-
-<font class = "large-emoji">
-1) `r emo::ji("slightly_smiling_face")` 
-</font>
-
-
-<br>
-<br>
-
-<font class = "large-emoji">
-4) `r emo::ji("nerd_face")`
-</font>
-]
-
-.col-3[
-
-<font class = "large-emoji">
-2) `r emo::ji("laughing")`
-</font>
-
-<br>
-<br>
-
-<font class = "large-emoji">
-5) `r emo::ji("slightly_frowning_face")`
-</font>
-
-]
-
-.col-3[
-<font class = "large-emoji">
-3) `r emo::ji("sleeping")`
-</font>
-
-<br>
-<br>
-
-<font class = "large-emoji">
-6) `r emo::ji("sunglasses")`
-</font>
-]
-]
-
----
 
 ## What is data science?
 
@@ -318,24 +267,6 @@ knitr::include_graphics("img/01/education.jpg")
 - I encourage you to use your video if you are comfortable. 
 ---
 
-## Course community 
-
---
-
-- Uphold the Duke Community Standard: 
-> - I will not lie, cheat, or steal in my academic endeavors;
->- I will conduct myself honorably in all my endeavors; and
-> - I will act if the Standard is compromised.
-
---
-
-- Respect, honor, and celebrate our diverse community 
-
---
-
-- Learning environment that is welcoming and accessible to everyone
-
---
 
 
 ---
