@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## For August 30
 
+**Note:** All required prepare activities are due **<u>by the beginning of class</u>** on the specified date
+
 ### Required 
 
 `r emo::ji("movie_camera")` Watch [Data and visualization](https://www.youtube.com/watch?v=FddF4b_GuTI) 
@@ -24,6 +26,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ## For September 01 
+
+**Note:** All required prepare activities are due **<u>by the beginning of class</u>** on the specified date
 
 ### Required 
 
@@ -43,10 +47,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 `r emo::ji("book")` Read [IMS:: Chapter 5 - Exploring Categorical Data](https://openintro-ims.netlify.app/explore-categorical.html)
 
-`r emo::ji("memo")` Take Quiz 00 - Data Visualization on Sakai
+`r emo::ji("memo")` Take Quiz 00 under Tests & Quizzes in Sakai.
 
 - Going forward, prepare quizzes will be required. This quiz is optional to give you an opportunity to practice using Sakai quizzes. 
 
-<br> 
 
-**Note:** All required prepare activities are due **<u>by the beginning of class</u>** on the specified date

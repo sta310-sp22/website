@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## For August 26
 
+**Note:** All required prepare activities are due **<u>by the beginning of class (1:45p)</u>** on the specified date.
+
 ### Required 
 
 `r emo::ji("movie_camera")` Watch [Meet the Toolkit - Programming](https://youtu.be/Q2QN1RpvLq8) 
@@ -29,4 +31,3 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <br> 
 
-**Note:** All required prepare activities are due **<u>by the beginning of class</u>** on the specified date
