@@ -88,7 +88,7 @@ If you are experiencing any COVID-19 symptoms, contact student health at 919-681
 
 ### Communication
 
-All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website, <https://www.sta199-fa21-003.netlify.app> .
+All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website, [sta199-fa21-003.netlify.app](https://sta199-fa21-003.netlify.app/)
 
 Announcements will be emailed through Sakai Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course.
 
