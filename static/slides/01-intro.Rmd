@@ -206,8 +206,8 @@ class: middle, center
 
 - **Perform**: Put together what you've learned to analyze real-world data
   -  Weekly team or individual lab assignments
-  -  Periodic individual homeowrk assignments
-  -  Two take-home exames
+  -  Periodic individual homework assignments
+  -  Two take-home exams
   -  Final team project presented during the final exam period.
 
 ---
@@ -325,17 +325,21 @@ countdown::countdown(minutes = 5, seconds = 0)
 
 ---
 
-# Let's look at some data! - UPDATE 
+# Let's look at some data!
 
 - Let's take a look at the [UN Votes](https://sta199-fa21-003.netlify.app/appex/appex01-unvotes.html) analysis.
 
-- Add some Ed Discussion questions? 
+- You may discuss with your neighbor. (Don't forget to introduce yourself first!)
 
-- Talk with your neighbor??
+- Type your answers under the **August 23 - UN Votes** thread on Ed Discussion
+
+```{r echo = F}
+countdown::countdown(minutes = 5, seconds = 0)
+```
 
 ---
 
-## For next Wednesday
+## For Wednesday
 
 - We'll start talking about the computing toolkit
 
@@ -343,8 +347,7 @@ countdown::countdown(minutes = 5, seconds = 0)
 
 - Complete the [All About You survey](https://duke.qualtrics.com/jfe/form/SV_1M8MJovNzBNyMYK) 
 
+- Submit your [GitHub username](https://bit.ly/sta199-fa21-github)
+
 - Bring laptop/tablet/Chromebook to class 
-
-
-
 

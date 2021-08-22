@@ -1,5 +1,5 @@
 ---
-title: "UN Votes"
+title: "AE 01: Welcome + UN Votes"
 author: ""
 date: "08.23.21"
 output: 
@@ -7,6 +7,14 @@ output:
     toc: true
     toc_float: true
 ---
+
+
+## Welcome + course info
+
+- [Click here](https://sta199-fa21-003.netlify.app/slides/01-intro.html#1) for slides
+
+
+## UN Votes
 
 We want to look at the voting history of countries in the United Nations General 
 Assembly using data from package `unvotes`. 
