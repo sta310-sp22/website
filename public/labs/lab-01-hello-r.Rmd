@@ -191,7 +191,7 @@ The other Dozen were generated using simulated annealing and the process is desc
 In the paper, the authors simulate a variety of datasets that the same summary statistics to the Datasaurus but have very different distributions.
 
 ::: {.commit}
-`r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")`nit, commit, and push your changes to GitHub with the commit message "Added answer for Ex 1".
+`r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` Knit, commit, and push your changes to GitHub with the commit message "Added answer for Ex 1".
 Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.\*\*
 :::
 
@@ -333,11 +333,11 @@ To submit your assignment:
 | Ex 2      | 10     |
 | Ex 3      | 11     |
 | Ex 4      | 14     |
-| Overall   | 8      |
+| Workflow & formatting   | 8      |
 
 **Grading notes**:
 
--   The "Overall" grade is to assess the reproducible workflow.t This includes having at least 3 informative commit messages, labeling the code chunks, and updating the name and date in the YAML.
+-   The "Workflow & formatting" grade is to assess the reproducible workflow.t This includes having at least 3 informative commit messages, labeling the code chunks, and updating the name and date in the YAML.
 
 -   The points for resizing figures in Exercise 5 are included in part of the total for the other exercises.
 

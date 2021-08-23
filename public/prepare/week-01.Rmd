@@ -24,6 +24,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 - [Slides](https://rstudio-education.github.io/datascience-box/course-materials/slides/u1-d03-toolkit-git/u1-d03-toolkit-git.html#1)
 
+`r emo::ji("computer")` Reserve an STA198-199 RStudio container. 
+
+  - Go to https://vm-manage.oit.duke.edu/containers
+  - Click **Reserve Container** for the STA198-199 container
+
+
+
 
 ### Optional 
 
