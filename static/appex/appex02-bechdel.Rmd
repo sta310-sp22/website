@@ -7,6 +7,13 @@ output:
     theme: readable
 ---
 
+## Announcement 
+
+- Professor Tackett will have office hours **Thursday, August 26,9:30a - 11:30a** on Zoom. 
+  - Zoom Link: https://duke.zoom.us/j/96752208722
+  - Need your Duke NetID & password to join. 
+  - Full office hours start August 30.
+  
 ## Questions about the course? 
 
 ## Questions from the prepare assignment?
@@ -70,6 +77,16 @@ x * 3
 - Let's fix it! 
 
 ### Bechdel test anlaysis 
+
+### GitHub demo 
+
+- Configure git using SSH -- covered in lab tomorrow!
+- Clone repo + start new project
+- Update document
+- `r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")`  knit, commit, push
+- Check changes in GitHub repo
+- See Commit history
+
 
 ## Submission
 
