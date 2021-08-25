@@ -40,6 +40,8 @@ In the future, you'll learn about collaborating on GitHub and producing a single
 
 ## Configuring SSH and GitHub
 
+### Set up SSH Key
+
 You will authenticate GitHub using SSH.
 Below are an outline of the authentication steps; you are encouraged to follow along as your TA demonstrates the steps.
 [Click here](https://github.com/DukeStatSci/github_auth_guide) to find more detailed instructions.
@@ -51,7 +53,29 @@ Below are an outline of the authentication steps; you are encouraged to follow a
 -   **Step 3**: You will generate a key. It will begin with "ssh-rsa...." R will then ask "Would you like to open a browser now?" You should click 1 for yes.
 -   **Step 4**: You may be asked to provide your username and password to log into GitHub. This would be the ones associated with your account that you set up. After entering this information, you should paste the key in and give it a name.
 
+## Configure git 
+
+There is one more thing we need to do before getting started on the assignment. Specifically,  we need to configure your git so that RStudio can communicate with GitHub. This requires two pieces of information: your name and email address.
+
+To do so, you will use the `use_git_config()` function from the `usethis` package. 
+
+Type the following lines of code in the **console** in RStudio filling in your name and the email address associated with your GitHub account.
+
+
+```{r eval=FALSE}
+usethis::use_git_config(user.name = "GitHub username", 
+               user.email="your email")
+```
+
+For example, mine would be 
+
+```{r eval=FALSE}
+usethis::use_git_config(user.name="matackett",
+               user.email="maria.tackett@duke.edu")
+```
+
 You are now ready interact between GitHub and RStudio!
+
 
 ## Clone the repo & start new RStudio project
 
@@ -94,6 +118,7 @@ Below are the components of the RStudio IDE.
 Below are the components of an R Markdown (.Rmd) file.
 
 ![](img/01/VisualEditor.png)
+
 
 ## Warm up
 
