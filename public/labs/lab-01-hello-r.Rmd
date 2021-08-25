@@ -113,11 +113,11 @@ Then, try to create a project again and it should work.
 
 Below are the components of the RStudio IDE.
 
-![](img/01/r-example-1.png)
+![](img/01/rstudio-panes.png)
 
 Below are the components of an R Markdown (.Rmd) file.
 
-![](img/01/VisualEditor.png)
+![](img/01/rmarkdown.jpg)
 
 
 ## Warm up
@@ -362,8 +362,8 @@ To submit your assignment:
 
 **Grading notes**:
 
--   The "Workflow & formatting" grade is to assess the reproducible workflow.t This includes having at least 3 informative commit messages, labeling the code chunks, and updating the name and date in the YAML.
-
+-   The "Workflow & formatting" grade is to assess the reproducible workflow. This includes having at least 3 informative commit messages, labeling the code chunks, and updating the name and date in the YAML.
+ 
 -   The points for resizing figures in Exercise 5 are included in part of the total for the other exercises.
 
 <hr>
