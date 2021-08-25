@@ -14,6 +14,8 @@ output:
   - Need your Duke NetID & password to join. 
   - Full office hours start August 30.
   
+- We'll use the "August 25 Lecture" thread pinned to the top of Ed Discussion: https://edstem.org/us/courses/8027/discussion/
+
 ## Questions about the course? 
 
 ## Questions from the prepare assignment?
