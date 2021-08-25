@@ -11,6 +11,7 @@ lessons:
     title: "Meet the Toolkit - Programming"
     prepare: "week-01.html"
     slides: "https://dukestatsci.github.io/introds/slides/02-meet-toolkit-r/02-meet-toolkit-r.html#1"
+  #  ae: "appex02-bechdel.html"
   - title: "Meet the Toolkit - Version Control"
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u1-d03-toolkit-git/u1-d03-toolkit-git.html#1"
   - date: "Thu, Aug 26"
