@@ -18,11 +18,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 `r emo::ji("movie_camera")` Watch [Data and visualization](https://www.youtube.com/watch?v=FddF4b_GuTI) 
 
-- [Slides](https://dukestatsci.github.io/introds/slides/02-meet-toolkit-r/02-meet-toolkit-r.html#1)
+- [Slides](https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d01-data-viz/u2-d01-data-viz.html#1)
 
 `r emo::ji("movie_camera")` Watch [Visualizing data with ggplot2](https://www.youtube.com/watch?v=s2NF2J36ljE)  
 
-- [Slides](https://rstudio-education.github.io/datascience-box/course-materials/slides/u1-d03-toolkit-git/u1-d03-toolkit-git.html#1)
+- [Slides](https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d02-ggplot2/u2-d02-ggplot2.html#1)
 
 
 ## For September 01 
