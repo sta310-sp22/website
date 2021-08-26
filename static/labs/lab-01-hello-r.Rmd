@@ -86,7 +86,12 @@ You are now ready interact between GitHub and RStudio!
 
 -   Click on the green **CODE** button, select **Use SSH** (this might already be selected by default, and if it is, you'll see the text **Clone with SSH**). Click on the clipboard icon to copy the repo URL.
 
-![How to Clone using SSH in GitHub](img/01/github-example.png)
+![](img/01/github-example.png)
+
+```{marginfigure}
+If you get an error message that begins with *WARNING: UNPROTECTED PRIVATE KEY FILE!* then this can be fixed by clicking on "Terminal" (the tab next to the console) and pasting in `chmod 400 ~/.ssh/id_rsa` and hitting enter.
+Then, try to create a project again and it should work.
+```
 
 -   Go to <https://vm-manage.oit.duke.edu/containers> and login with your Duke NetID and Password.
 
@@ -104,10 +109,7 @@ You are now ready interact between GitHub and RStudio!
 -   Click *lab-01.Rmd* to open the template R Markdown file.
     This is where you will write up your code and narrative for the lab.
 
-```{marginfigure}
-If you get an error message that begins with *WARNING: UNPROTECTED PRIVATE KEY FILE!* then this can be fixed by clicking on "Terminal" (the tab next to the console) and pasting in `chmod 400 ~/.ssh/id_rsa` and hitting enter.
-Then, try to create a project again and it should work.
-```
+
 
 ## R and R Studio
 
