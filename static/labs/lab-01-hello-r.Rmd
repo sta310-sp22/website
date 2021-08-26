@@ -64,14 +64,14 @@ Type the following lines of code in the **console** in RStudio filling in your n
 
 ```{r eval=FALSE}
 usethis::use_git_config(user.name = "GitHub username", 
-               user.email="your email")
+               user.email = "your email")
 ```
 
 For example, mine would be 
 
 ```{r eval=FALSE}
-usethis::use_git_config(user.name="matackett",
-               user.email="maria.tackett@duke.edu")
+usethis::use_git_config(user.name = "matackett",
+               user.email = "maria.tackett@duke.edu")
 ```
 
 You are now ready interact between GitHub and RStudio!

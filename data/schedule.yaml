@@ -16,8 +16,8 @@ lessons:
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u1-d03-toolkit-git/u1-d03-toolkit-git.html#1"
   - date: "Thu, Aug 26"
     title: "Lab 01: Hello R!"
-  #  slides: "lab-01-slides.html"
-  #  lab: "lab-01-hello-r.html"
+    slides: "lab-01-slides.html"
+    lab: "lab-01-hello-r.html"
     
   - week:  "Week 02"
     date:  "Mon, Aug 30"
