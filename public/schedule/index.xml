@@ -470,11 +470,12 @@ knitr::opts_chunk$set(echo = FALSE,
       
       <guid>/syllabus/</guid>
       <description>Click here to download a PDF copy of the syllabus.
-Teaching team &amp;amp; office hours Instructor
-   Name Contact Office hours      Prof. Maria Tackett   TBD Old Chem 118B    Teaching Assistants
-   Name Contact Office hours      Meredith Brown  Mon 9a - 10a Old Chem 203B     Mon 12p - 1p Zoom   Carson Garcia  Fri 3p - 5p Zoom   Shannon Houser  Tue 3p - 4p Zoom     Thu 2p - 3p Old Chem 203B   Rob Kravec  Thu 9 - 11a Zoom   Shirley Mathur  Tue 6p - 7p Zoom   Shirley Mathur  Wed 9a - 10a Zoom   Manny Mokel  Tue 5p - 6p Zoom     Thu 5p - 6p Zoom   Margaret Reed  Tue 10a - 11a Zoom     Wed 5p - 6p Zoom   Camilla Yu  Tue 9a - 10a Zoom     Wed 5p - 6p Zoom    Course info     Day Time Location     Lectures Mon &amp;amp; Wed 1:45p - 3p Soc Sci 136   Lab 07 Thu 12p - 1:15p Soc Sci 311   Lab 08 Thu 3:30p - 4:45p Perkins 071 (Link #5)   Lab 09 Thu 5:15p - 6:30p Perkins 071 (Link #5)    Textbooks Texts All books are freely available online.</description>
+Teaching team &amp;amp; office hours Click here for the TA office hours Zoom links and locations. You are welcome to attend the office hours for any STA 199 TA, regardless of section.
+Instructor
+   Name Contact Office hours      Prof. Maria Tackett  Thu 9a - 10a Zoom     or by appointment     Teaching Assistants</description>
       <content>&lt;p&gt;&lt;a href=&#34;sta199-fa21-003-syllabus.pdf&#34;&gt;&lt;strong&gt;Click here&lt;/strong&gt;&lt;/a&gt; &lt;strong&gt;to download a PDF copy of the syllabus.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;teaching-team--office-hours&#34;&gt;Teaching team &amp;amp; office hours&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.google.com/spreadsheets/d/1M_E0l5iXmQVkqoCeeM7XpyCo4_oQAirCe860SUjjgII/edit?usp=sharing&#34;&gt;Click here&lt;/a&gt; for the TA office hours Zoom links and locations. You are welcome to attend the office hours for &lt;strong&gt;any&lt;/strong&gt; STA 199 TA, regardless of section.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Instructor&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -488,9 +489,15 @@ Teaching team &amp;amp; office hours Instructor
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;http://stat.duke.edu/~mt324/&#34;&gt;Prof. Maria Tackett&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;mailto:maria.tackett@duke.edu&#34; title=&#34;email&#34;&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt;&lt;/a&gt;   &lt;a href=&#34;https://github.com/matackett&#34; title=&#34;GitHub&#34;&gt;&lt;i class=&#34;fab fa-github&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;TBD&lt;/td&gt;
-&lt;td&gt;Old Chem 118B&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;mailto:maria.tackett@duke.edu&#34; title=&#34;email&#34;&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Thu 9a - 10a&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://duke.zoom.us/j/94653677939&#34;&gt;Zoom&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;or by appointment&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -537,7 +544,7 @@ Teaching team &amp;amp; office hours Instructor
 &lt;td&gt;Old Chem 203B&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Rob Kravec&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.linkedin.com/in/robert-kravec-49873a89&#34;&gt;Rob Kravec&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;mailto:robert.kravec@duke.edu&#34; title=&#34;email&#34;&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;Thu  9 - 11a&lt;/td&gt;
 &lt;td&gt;Zoom&lt;/td&gt;
