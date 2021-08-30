@@ -22,6 +22,7 @@ lessons:
   - week:  "Week 02"
     date:  "Mon, Aug 30"
     title: "Data and visualization"
+    ae: "appex03-starwars.html"
     prepare: "week-02.html"
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d01-data-viz/u2-d01-data-viz.html#1"
   - title: "Visualizing data with ggplot2"
