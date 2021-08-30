@@ -16,6 +16,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Required 
 
+**You can ignore the "Your Turn" sections.**
+
 `r emo::ji("movie_camera")` Watch [Tidy Data](https://youtu.be/Ux85eR3h9hw)
 
 - [Click here](https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d05-tidy-data/u2-d05-tidy-data.html#1) for slides
