@@ -25,7 +25,7 @@ In this lab, you will...
 
 -   Go to the [**sta199-fa21-003**](https://www.github.com/sta199-fa21-003) organization on GitHub. Click on the repo with the prefix **lab-02**. It contains the starter documents you need to complete the lab.
 
-- Clone the repo and start a new project in RStudio. See the [Lab 01 instructions] for details on cloning a repo, starting a new R project and configuring git. 
+- Clone the repo and start a new project in RStudio. See the [Lab 01 instructions](https://sta199-fa21-003.netlify.app/labs/lab-01-hello-r.html) for details on cloning a repo, starting a new R project and configuring git. 
 
 # Packages
 
