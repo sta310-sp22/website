@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>The Central Limit Theorem</title>
+    <title>The Central Limit Theorem (CLT)</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Prof. Maria Tackett" />
+    <meta name="author" content="introds.org" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
@@ -16,9 +16,9 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# The Central Limit Theorem
-## (CLT)
-### Prof. Maria Tackett
+# The Central Limit Theorem (CLT)
+## <br> <br> Introduction to Data Science @ Duke
+### <a href="https://www.introds.org/">introds.org</a>
 
 ---
 
@@ -224,11 +224,13 @@ class: middle, center
 rs_pop &lt;- tibble(x = rbeta(100000, 1, 5) * 100)
 ```
 ]
+.pull-left[
 
-&lt;img src="clt-intro_files/figure-html/unnamed-chunk-4-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="clt-intro_files/figure-html/unnamed-chunk-4-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
 
+.pull-right[
 **The true population parameters**
-.small[
 
 ```
 ## # A tibble: 1 × 2
@@ -290,6 +292,7 @@ samp_2
 ## Sampling from the population - 3
 
 
+
 ```r
 set.seed(3)
 samp_3 &lt;- rs_pop %&gt;%
@@ -328,13 +331,14 @@ sampling &lt;- rs_pop %&gt;%
 ```
 ]
 
-&lt;img src="clt-intro_files/figure-html/unnamed-chunk-13-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+.pull-left[
+&lt;img src="clt-intro_files/figure-html/unnamed-chunk-13-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
 
+.pull-right[
 
-```r
-sampling %&gt;%
-  summarise(mean = mean(xbar), se = sd(xbar))
-```
+**The sample statistics**
+
 
 ```
 ## # A tibble: 1 × 2
@@ -342,6 +346,7 @@ sampling %&gt;%
 ##   &lt;dbl&gt; &lt;dbl&gt;
 ## 1  16.6  1.98
 ```
+]
 
 ---
 
@@ -396,7 +401,7 @@ pnorm(-1.5)
 ## [1] 0.0668072
 ```
 
-&lt;img src="clt-intro_files/figure-html/unnamed-chunk-17-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="clt-intro_files/figure-html/unnamed-chunk-17-1.png" width="55%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -408,7 +413,7 @@ If `\(Z \sim N(0, 1)\)`, what is `\(P(-1 &lt; Z &lt; 2)\)`?
 
 --
 
-&lt;img src="clt-intro_files/figure-html/unnamed-chunk-18-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="clt-intro_files/figure-html/unnamed-chunk-18-1.png" width="55%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -419,7 +424,7 @@ If `\(Z \sim N(0, 1)\)`, what is `\(P(-1 &lt; Z &lt; 2)\)`?
 ]
 
 
-&lt;img src="clt-intro_files/figure-html/unnamed-chunk-19-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="clt-intro_files/figure-html/unnamed-chunk-19-1.png" width="55%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -429,7 +434,7 @@ If `\(Z \sim N(0, 1)\)`, what is `\(P(-1 &lt; Z &lt; 2)\)`?
 If `\(Z \sim N(0, 1)\)`, what is `\(P(-1 &lt; Z &lt; 2)\)`?
 ]
 
-&lt;img src="clt-intro_files/figure-html/unnamed-chunk-20-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="clt-intro_files/figure-html/unnamed-chunk-20-1.png" width="55%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -439,7 +444,7 @@ If `\(Z \sim N(0, 1)\)`, what is `\(P(-1 &lt; Z &lt; 2)\)`?
 If `\(Z \sim N(0, 1)\)`, what is `\(P(-1 &lt; Z &lt; 2)\)`?
 ]
 
-&lt;img src="clt-intro_files/figure-html/unnamed-chunk-21-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="clt-intro_files/figure-html/unnamed-chunk-21-1.png" width="55%" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -473,7 +478,7 @@ qnorm(0.25)
 ```
 
 
-&lt;img src="clt-intro_files/figure-html/unnamed-chunk-24-1.png" width="60%" style="display: block; margin: auto;" /&gt;
+&lt;img src="clt-intro_files/figure-html/unnamed-chunk-24-1.png" width="55%" style="display: block; margin: auto;" /&gt;
 
 ---
 

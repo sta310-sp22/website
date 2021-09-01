@@ -1,8 +1,7 @@
 ---
-title: "The Central Limit Theorem"
-subtitle: "(CLT)"
-author: "Prof. Maria Tackett"
-
+title: "The Central Limit Theorem (CLT)"
+subtitle: "<br> <br> Introduction to Data Science @ Duke"
+author: "[introds.org](https://www.introds.org/)"
 output:
   xaringan::moon_reader:
     css: ["xaringan-themer.css", "slides.css"]
@@ -221,8 +220,9 @@ class: middle, center
 rs_pop <- tibble(x = rbeta(100000, 1, 5) * 100)
 ```
 ]
+.pull-left[
 
-```{r echo=FALSE, fig.height = 1}
+```{r echo=FALSE, out.width = "100%"}
 ggplot(data = rs_pop, aes(x = x)) +
   geom_density(fill = "skyblue", color = "darkblue") +
   labs(title = "Population distribution", x = "") +
@@ -230,9 +230,10 @@ ggplot(data = rs_pop, aes(x = x)) +
         axis.text.y  = element_blank(),
         axis.ticks.y = element_blank())
 ```
+]
 
+.pull-right[
 **The true population parameters**
-.small[
 ```{r echo = F}
 rs_pop %>%
   summarise(mu = mean(x), sigma = sd(x))
@@ -272,6 +273,7 @@ samp_2
 
 ## Sampling from the population - 3
 
+
 ```{r}
 set.seed(3)
 samp_3 <- rs_pop %>%
@@ -301,7 +303,8 @@ sampling <- rs_pop %>%
 ```
 ]
 
-```{r echo=FALSE, fig.height=1.9}
+.pull-left[
+```{r echo=FALSE, out.width = "100%"}
 ggplot(data = sampling, aes(x = xbar)) +
   geom_histogram(binwidth = 1, fill = "skyblue", color = "darkblue") +
   labs(title = "Sampling distribution of sample means") +
@@ -309,11 +312,17 @@ ggplot(data = sampling, aes(x = xbar)) +
         axis.text.y  = element_blank(),
         axis.ticks.y = element_blank())
 ```
+]
 
-```{r}
+.pull-right[
+
+**The sample statistics**
+
+```{r echo = FALSE}
 sampling %>%
   summarise(mean = mean(xbar), se = sd(xbar))
 ```
+]
 
 ---
 
@@ -383,7 +392,7 @@ class: center, middle
 pnorm(-1.5)
 ```
 
-```{r echo = F, fig.height = 2}
+```{r echo = F, out.width = "55%"}
 ggplot(NULL, aes(c(-3,3))) +
   geom_area(stat = "function", fun = dnorm, fill = "#00998a", xlim = c(-3, -1.5), color = "black") +
   geom_area(stat = "function", fun = dnorm, fill = "#FFFFFF", xlim = c(-1.5, 3), color = "black") +
@@ -403,7 +412,7 @@ If $Z \sim N(0, 1)$, what is $P(-1 < Z < 2)$?
 
 --
 
-```{r echo = F, fig.height = 2}
+```{r echo = F, out.width = "55%"}
 from.z <- qnorm(pnorm(-1))
 to.z <- qnorm(pnorm(2))
 
@@ -426,7 +435,7 @@ If $Z \sim N(0, 1)$, what is $P(-1 < Z < 2)$?
 ]
 
 
-```{r echo = F, fig.height = 2}
+```{r echo = F, out.width = "55%"}
 from.z <- -3
 to.z <- qnorm(pnorm(2))
 
@@ -447,7 +456,7 @@ ggplot(NULL, aes(c(-3,3))) +
 If $Z \sim N(0, 1)$, what is $P(-1 < Z < 2)$?
 ]
 
-```{r echo = F, fig.height = 2}
+```{r echo = F, out.width = "55%"}
 from.z <- -3
 to.z <- qnorm(pnorm(-1))
 
@@ -468,7 +477,7 @@ ggplot(NULL, aes(c(-3,3))) +
 If $Z \sim N(0, 1)$, what is $P(-1 < Z < 2)$?
 ]
 
-```{r echo = F, fig.height = 1}
+```{r echo = F, out.width = "55%"}
 from.z <- qnorm(pnorm(-1))
 to.z <- qnorm(pnorm(2))
 
@@ -504,7 +513,7 @@ qnorm(0.25)
 ```
 
 
-```{r echo = F, fig.height = 2}
+```{r echo = F, out.width = "55%"}
 from.z <- -3
 to.z <- qnorm(.25)
  
