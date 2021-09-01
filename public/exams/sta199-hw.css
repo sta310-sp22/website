@@ -7,7 +7,7 @@
 /* Tufte CSS styles */
 
 html {
-	font-size: 17px;
+	font-size: 15px;
 }
 
 body {
@@ -16,41 +16,32 @@ body {
 	background-color: #fefefe;
 	color: #222;
 	counter-reset: li;
-	font-size: 17px;
+	font-size: 16px;
 }
 
-p {
-  font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	background-color: #fefefe;
-	color: #222;
-	counter-reset: li;
-	font-size: 17px;
-}
-  
 
 h1.title {
 	font-weight: 700;
 	font-family: 'Source Sans Pro', sans-serif;
-	color: #7A4183;
+	color: #4187aa;
 }
 
 h1 {
 	font-style: normal;
 	font-family: 'Source Sans Pro', sans-serif;
-	color: #7A4183;
+	color: #4187aa;
 }
 
 h2 {
 	font-style: normal;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
-	color: #7A4183;
+	color: #4187aa;
 }
 
 h3.subtitle {
 	font-style: normal;
-	color: #7A4183;
+	color: #4187aa;
 }
 
 h4 {
@@ -83,6 +74,11 @@ strong {
 	font-style: bold;
 	font-weight: 600;
 	font-family: "Source Sans Pro";
+}
+
+a {
+  color: #07acac;
+  text-decoration: underline;
 }
 
 /* Code formatting */
@@ -158,11 +154,11 @@ ol>li {
 
 ol>li:before {
 	/* Use the counter as content */
-	content: "Question " counter(li)".";
+	content: "Exercise " counter(li)".";
 	/* Increment the counter by 1 */
 	counter-increment: li;
 	position: absolute;
-	color: #7A4183;
+	color: #4187aa;
 	left: -0.5px;
 	font-weight: bold;
 	margin-right: 10px;
@@ -195,6 +191,6 @@ td {
 div .commit {
   font-size: 16px;
   font-weight: 400;
-  color: #00b3b3;
+  color: #07acac;
   text-decoration: italic;
 }

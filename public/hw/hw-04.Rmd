@@ -1,5 +1,5 @@
 ---
-title: "Exam 02"
+title: "HW 04"
 subtitle: ""
 output: 
   tufte::tufte_html:
@@ -14,4 +14,4 @@ editor_options:
     wrap: sentence
 ---
 
-Instructions will be posted when the exam is assigned. 
+Instructions will be posted when the homework is assigned. 
