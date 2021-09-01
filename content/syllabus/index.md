@@ -28,7 +28,7 @@ Name    | Contact    | Office hours  |  <span></span>
 | |  | Thu 2p - 3p | Old Chem 203B |
 | [Rob Kravec](https://www.linkedin.com/in/robert-kravec-49873a89) | <a href="mailto:robert.kravec@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Thu  9 - 11a| Zoom |
 | Shirley Mathur| <a href="mailto:shirley.mathurc@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Tue 6p - 7p | Zoom |
-| Shirley Mathur|  | Wed 9a - 10a | Zoom |
+| |  | Wed 10a - 11a | Zoom |
 | Manny Mokel| <a href="mailto:emmanuel.mokel@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Tue 5p - 6p  |Zoom|
 || | Thu 5p - 6p  |Zoom|
 | Margaret Reed| <a href="mailto:margaret.reed@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Tue 10a - 11a | Zoom|
