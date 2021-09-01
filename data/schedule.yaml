@@ -48,6 +48,8 @@ lessons:
     title: "Working with multiple data frames"
     prepare: "week-03.html"
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d08-multi-df/u2-d08-multi-df.html#1"
+  - title: "HW 01 released"
+    hw: "hw-01.html"
   - date: "Thu, Sep 09"
     title: "Lab 03"
 
@@ -56,6 +58,8 @@ lessons:
     title: "Visualizing spatial data"
   - date: "Wed, Sep 15"
     title: "Strings"
+  - title: "HW 02 released"
+    hw: "hw-02.html"
   - date: "Thu, Sep 16"
     title: "Lab 04"
 
@@ -67,6 +71,7 @@ lessons:
   - date: "Thu, Sep 23"
     title: "NO LAB: Work on Exam 01"
   - title: "Exam 01 released"
+    exam: "exam-01.html"
 
   - week: "Week 06"
     date: "Mon, Sep 27"
@@ -82,6 +87,8 @@ lessons:
     title: "NO CLASS: FALL BREAK"
   - date: "Wed, Oct 06"
     title: "Foundations of inference"
+  - title: "HW 03 released" 
+    hw: "hw-03.html"
   - date: "Thu, Oct 07"
     title: "Lab: Project"
 
@@ -98,6 +105,8 @@ lessons:
     title: "Central Limit Theorem (CLT)"
   - date: "Wed, Oct 20"
     title: "Inference using CLT"
+  - title: "HW 04 released"
+    hw: "hw-04.html"
   - date: "Thu, Oct 21"
     title: "Lab 07"
     
@@ -125,6 +134,7 @@ lessons:
   - date: "Thu, Nov 11"
     title: "NO LAB: Work on Exam 02"
   - title: "Exam 02 released"
+    exam: "exam-02.html"
  
   - week: "Week 13"
     date: "Mon, Nov 15"
@@ -132,6 +142,8 @@ lessons:
   - title: "Exam 02 due"
   - date: "Wed, Nov 17"
     title: "Special topics"
+  - title: "HW 05 released"
+    hw: "hw-05.html"
   - date: "Thu, Nov 18"
     title: "Project"
   
@@ -143,7 +155,6 @@ lessons:
   - date: "Thu, Nov 25"
     title: "NO LAB: Thanksgiving break"
   
-
   - week: "Week 15"
     date: "Mon, Nov 29"
     title: "Special topics"

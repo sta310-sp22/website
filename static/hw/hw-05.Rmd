@@ -1,0 +1,17 @@
+---
+title: "HW 05"
+subtitle: ""
+output: 
+  tufte::tufte_html:
+    css: "sta199-hw.css"
+    tufte_variant: "envisioned"
+    highlight: pygments
+    toc: true
+    toc_depth: 1
+link-citations: yes
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+Instructions will be posted when the homework is assigned. 
