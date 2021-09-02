@@ -1,5 +1,5 @@
 ---
-title: "Inference using the Central Limit Thereom"
+title: "Inference using the Central Limit Theorem"
 subtitle: "<br> <br> Introduction to Data Science @ Duke"
 author: "[introds.org](https://www.introds.org/)"
 output:
@@ -214,7 +214,7 @@ durham %>%
   ggplot(aes(x = quality_library)) + 
     geom_histogram(binwidth = 0.95) +
     labs(x = "Satisfaction with public library system", y = "Count",
-         title = "Most residents are generally satisifed <br> with the public library system")
+         title = "Most residents are generally satisfied <br> with the public library system")
 ```
 ]
 
