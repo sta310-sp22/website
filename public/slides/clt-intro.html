@@ -98,7 +98,7 @@ the mean resting heart rate from this sample, too...
 ## Sampling distribution of the mean
 
 After repeating this many times, we have a data set that has the
-sample averages from the population: `\(\bar{X}_1\)`, `\(\bar{X}_2\)`, `\(\cdots\)`,
+sample means from the population: `\(\bar{X}_1\)`, `\(\bar{X}_2\)`, `\(\cdots\)`,
 `\(\bar{X}_K\)` (assuming we took `\(K\)` total samples).
 
 --
@@ -130,7 +130,7 @@ For now, let's assume we know the underlying standard deviation, `\(\sigma\)`, f
 ## The Central Limit Theorem
 
 For a population with a well-defined mean `\(\mu\)` and standard deviation `\(\sigma\)`,
-these three properties hold for the distribution of sample average `\(\bar{X}\)`,
+these three properties hold for the distribution of sample mean `\(\bar{X}\)`,
 assuming certain conditions hold:
 
 --
@@ -140,7 +140,7 @@ population mean `\(\mu\)`.
 
 --
 
-2. The standard deviation of the distribution of the sample averages is
+2. The standard deviation of the distribution of the sample means is
 `\(\sigma/\sqrt{n}\)`.
   - This is called the **standard error (SE)** of the mean. 
  
@@ -173,7 +173,7 @@ We often write `\(N(\mu, \sigma)\)` to describe this distribution.
 
 ## Wait, *any* distribution?
 
-The central limit theorem tells us that **sample averages** are normally distributed, if we have enough data and certain assumptions hold. 
+The central limit theorem tells us that **sample means** are normally distributed, if we have enough data and certain assumptions hold. 
 
 This is true *even if our original variables are not normally distributed*.
 
@@ -205,7 +205,7 @@ If samples are independent, then by definition one sample's value does not "infl
 ✅ **Sample size / distribution:** 
 
 - if data are numerical, usually n &gt; 30 is considered a large enough sample for the CLT to kick in
-- if we know for sure that the underlying data are normally distributed, then the distribution of sample averages will also be exactly normal, regardless of the sample size
+- if we know for sure that the underlying data are normally distributed, then the distribution of sample means will also be exactly normal, regardless of the sample size
 - if data are categorical, at least 10 successes and 10 failures.
 
 ---
