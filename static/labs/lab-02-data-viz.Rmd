@@ -58,7 +58,7 @@ For more details and code examples for histograms [ggplot2 reference page](https
 ```
 
 
-1. Make a histogram to visualize the population density of counties. Set the binwidth to 10 and include axes labels and a title. 
+1. Make a histogram to visualize the population density of counties. Set the number of bins to 10 and include axes labels and a title. 
     - Describe the shape of the distribution. 
     - Do there appear to be are any outliers? Briefly explain. 
 
@@ -101,7 +101,7 @@ Make sure to commit and push all changed files so that your Git pane is empty af
 7. For this exercise, you should begin with the data wrangling code below. We will learn more about data wrangling code next week. 
 
 ```{r hint, eval = FALSE}
-midwest %>%
+midwest <- midwest %>%
   mutate(metro = ifelse(inmetro == 1, "Yes", "No"))
 ```
 
