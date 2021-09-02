@@ -1,5 +1,5 @@
 ---
-title: "CLT-based inference"
+title: "Inference using the Central Limit Thereom"
 subtitle: "<br> <br> Introduction to Data Science @ Duke"
 author: "[introds.org](https://www.introds.org/)"
 output:

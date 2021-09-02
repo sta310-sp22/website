@@ -90,23 +90,22 @@ Make sure to commit and push all changed files so that your Git pane is empty af
     - Describe what you observe from the plot. 
     - Which state has the single largest county? How do you know based on the plot?
 
-6. *Do some states have a higher percentage of their counties located in a metropolitan area?* Create a segmented bar chart with one bar per state and the fill determined by the distribution of `inmetro`, whether a county is considered in a metro area. The y axis of the segmented barplot should range from 0 to 1. 
+6. *Do some states have a higher percentage of their counties located in a metropolitan area?* Create a segmented bar chart with one bar per state and the fill determined by the distribution of `metro`, whether a county is considered in a metro area. The y axis of the segmented barplot should range from 0 to 1. 
     - What do you notice from the plot?
-
-::: {.commit}
-`r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` Now is another good time to knit, commit, and push your changes to GitHub with a meaningful commit message.
-:::
-
-
-7. For this exercise, you should begin with the data wrangling code below. We will learn more about data wrangling code next week. 
+    
+Note: For this exercise, you should begin with the data wrangling code below. We will learn more about data wrangling code next week. 
 
 ```{r hint, eval = FALSE}
 midwest <- midwest %>%
   mutate(metro = ifelse(inmetro == 1, "Yes", "No"))
 ```
 
+::: {.commit}
+`r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` Now is another good time to knit, commit, and push your changes to GitHub with a meaningful commit message.
+:::
 
-Recreate the plot below. (Hints: [The `ggplot2` reference page](https://ggplot2.tidyverse.org/reference/ggtheme.html) will be helpful in determining the theme. The `size` of the points is 0.75.) 
+
+7. Recreate the plot below. (Hints: [The `ggplot2` reference page](https://ggplot2.tidyverse.org/reference/ggtheme.html) will be helpful in determining the theme. The `size` of the points is 0.75.) 
 
 ![](img/02/ex-07.png)
 
