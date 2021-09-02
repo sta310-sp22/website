@@ -35,7 +35,8 @@ lessons:
   - title: "Visualizing categorical data"
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d04-viz-cat/u2-d04-viz-cat.html#1"
   - date:  "Thu, Sep 02"
-    title: "Lab 02"
+    title: "Lab 02: Data visualization"
+    lab: "lab-02-data-viz.html"
 
   - week: "Week 03"
     date: "Mon, Sep 06"
