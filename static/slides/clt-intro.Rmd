@@ -333,7 +333,7 @@ How do the shapes, centers, and spreads of these distributions compare?
 .pull-left[
 ```{r echo=FALSE, out.width = "100%"}
 p1 <- ggplot(data = rs_pop, aes(x = x)) +
-  geom_histogram(binwidth = 2, fill = "skyblue", color = "darkblue") +
+  geom_density(fill = "skyblue", color = "darkblue") +
   labs(title = "Population distribution", x = "") +
   xlim(-5, 100) +
   theme(axis.title.y = element_blank(),
