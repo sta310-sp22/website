@@ -165,59 +165,60 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2>Getting started</h2>
 <ul>
 <li><p>Go to the <a href="https://www.github.com/sta199-fa21-003"><strong>sta199-fa21-003</strong></a> organization on GitHub. Click on the repo with the prefix <strong>lab-02</strong>. It contains the starter documents you need to complete the lab.</p></li>
-<li><p>Clone the repo and start a new project in RStudio. See the <a href="https://sta199-fa21-003.netlify.app/labs/lab-01-hello-r.html">Lab 01 instructions</a> for details on cloning a repo, starting a new R project and configuring git.</p></li>
+<li><p>Clone the repo and start a new project in RStudio. See the <a href="https://sta199-fa21-003.netlify.app/labs/lab-01-hello-r.html">Lab 01 instructions</a> for details on cloning a repo and starting a new R project.</p></li>
 </ul>
 </div>
 <div id="packages" class="section level1">
 <h1>Packages</h1>
-<p>We will use the We will be using <strong>tidyverse</strong> and <strong>viridis</strong> to create and customize plots in R.</p>
+<p>We will use the <strong>tidyverse</strong> and <strong>viridis</strong> packages to create and customize plots in R.</p>
 </div>
 <div id="data-lets-take-a-trip-to-the-midwest" class="section level1">
 <h1>Data: Let’s take a trip to the Midwest</h1>
-<p>The data in this lab is in the <code>midwest</code> data frame. It is part of the ggplot2 R package, so the <code>midwest</code> data set is automatically loaded when you load the tidyverse package.</p>
+<p>The data in this lab is in the <code>midwest</code> data frame. It is part of the <strong>ggplot2</strong> R package, so the <code>midwest</code> data set is automatically loaded when you load the tidyverse package.</p>
 <p>The data contains demographic characteristics of counties in the Midwest region of the United States.</p>
-<p>Because the data set is part of the ggplot2 package, you can read documentation for the data set, including variable definitions by typing <code>?midwest</code> in the <strong>console</strong>.</p>
+<p>Because the data set is part of the <strong>ggplot2</strong> package, you can read documentation for the data set, including variable definitions by typing <code>?midwest</code> in the <strong>console</strong>.</p>
 </div>
 <div id="exercises" class="section level1">
 <h1>Exercises</h1>
 <p>As we’ve discussed in lecture, your plots should include an informative title, axes should be labeled, and careful consideration should be given to aesthetic choices.</p>
-<p>In addition, the code should exceed the 80 character limit, so that all the code can be read when you knit to PDF. To help with this, you can add a vertical line at 80 characters by clicking “Tools” <span class="math inline">\(\rightarrow\)</span> “Global Options” <span class="math inline">\(\rightarrow\)</span> “Code” <span class="math inline">\(\rightarrow\)</span> “Display”, then set “Margin Column” to 80 and click “Apply”.</p>
-<p>Remember continuing to develop a sound workflow for reproducible data analysis is important as you complete the lab and other assignments in this course. To help you gauge this, you should have at least 3 informative commit message. There will be periodic reminders in this assignment to remind you to <strong>knit, commit, and push</strong> your changes.</p>
+<p>In addition, the code should not exceed the 80 character limit, so that all the code can be read when you knit to PDF. To help with this, you can add a vertical line at 80 characters by clicking “Tools” <span class="math inline">\(\rightarrow\)</span> “Global Options” <span class="math inline">\(\rightarrow\)</span> “Code” <span class="math inline">\(\rightarrow\)</span> “Display”, then set “Margin Column” to 80, and click “Apply”.</p>
+<p>Remember that continuing to develop a sound workflow for reproducible data analysis is important as you complete the lab and other assignments in this course. There will be periodic reminders in this assignment to remind you to <strong>knit, commit, and push</strong> your changes to GithHub. You should have at least 3 commits with meaningful commit messages by the end of the assignment.</p>
+<p><label for="tufte-mn-1" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-1" class="margin-toggle"><span class="marginnote"><span style="display: block;">For more details and code examples for histograms <a href="https://ggplot2.tidyverse.org/reference/geom_histogram.html">ggplot2 reference page</a>.</span></span></p>
 <ol style="list-style-type: decimal">
-<li>Use a histogram to visualize the population density of counties. Set the binwidth to 10 and include axes labels and a title.</li>
-</ol>
+<li>Make a histogram to visualize the population density of counties. Set the binwidth to 10 and include axes labels and a title.
 <ul>
 <li>Describe the shape of the distribution.</li>
 <li>Do there appear to be are any outliers? Briefly explain.</li>
-</ul>
-<div class="commit">
-<p>🧶 ✅ ⬆️ Knit, commit, and push your changes to GitHub with the commit message “Added answer for Ex 1”. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.</p>
-</div>
-<p><label for="tufte-mn-1" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-1" class="margin-toggle"><span class="marginnote"><span style="display: block;">See <a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html"><em>Introduction to the viridis color maps</em></a> to read more about the viridis R package with code examples.</span></span></p>
-<ol start="2" style="list-style-type: decimal">
-<li><p>Create a scatterplot of percentage of people with a college degree (<code>percollege</code>) versus percentage below poverty (<code>percbelowpoverty</code>) with points colored by <code>state</code>. Label the axes and legend and give the plot a title. Use the <code>scale_color_viridis</code> function to apply the viridis color palette to your plot.</p></li>
-<li><p>Describe what you observe in the plot from the previous exercise. In your description, include similarities and differences in the patterns across states.</p></li>
+</ul></li>
 </ol>
-<p><label for="tufte-mn-2" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-2" class="margin-toggle"><span class="marginnote"><span style="display: block;"><code>se = FALSE</code> removes the confidence bands around the line.</span></span></p>
+<p><label for="tufte-mn-2" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-2" class="margin-toggle"><span class="marginnote"><span style="display: block;">See <a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html"><em>Introduction to the viridis color maps</em></a> to read more about the viridis R package and see code examples.</span></span></p>
+<ol start="2" style="list-style-type: decimal">
+<li>Create a scatterplot of the percentage of people with a college degree (<code>percollege</code>) versus percentage below poverty (<code>percbelowpoverty</code>) with points colored by <code>state</code>. Label the axes and legend and give the plot a title. Use the <code>scale_color_viridis</code> function to apply the viridis color palette to your plot.</li>
+</ol>
+<div class="commit">
+<p>🧶 ✅ ⬆️ Knit, commit, and push your changes to GitHub with the commit message “Added answer for Ex 1 -2”. Make sure to commit and push all changed files so that your Git pane is empty afterwards.</p>
+</div>
+<ol start="3" style="list-style-type: decimal">
+<li>Describe what you observe in the plot from the previous exercise. In your description, include similarities and differences in the patterns across states.</li>
+</ol>
+<p><label for="tufte-mn-3" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-3" class="margin-toggle"><span class="marginnote"><span style="display: block;"><code>se = FALSE</code> removes the confidence bands around the line.</span></span></p>
 <ol start="4" style="list-style-type: decimal">
-<li>Now, let’s examine the relationship between the same two variables, using a separate plot for each state. Label the axes and give the plot a title. Use <code>geom_smooth</code> with the argument <code>se = FALSE</code> to add a smooth curve fit to the data. Which plot do you prefer? Briefly explain your choice.</li>
+<li>Now, let’s examine the relationship between the same two variables, using a separate plot for each state. Label the axes and give the plot a title. Use <code>geom_smooth</code> with the argument <code>se = FALSE</code> to add a smooth curve fit to the data. Which plot do you prefer - this plot or the plot in Ex 2? Briefly explain your choice.</li>
 </ol>
 <div class="commit">
 <p>🧶 ✅ ⬆️ Now is another good time to knit, commit, and push your changes to GitHub with a meaningful commit message.</p>
 </div>
 <ol start="5" style="list-style-type: decimal">
-<li><em>Do some states have counties that tend to be geographically larger than others?</em> To explore this question, create side-by-side boxplots of area (<code>area</code>) of a county based on state (<code>state</code>).</li>
-</ol>
+<li><em>Do some states have counties that tend to be geographically larger than others?</em> To explore this question, create side-by-side boxplots of area (<code>area</code>) of a county based on state (<code>state</code>).
 <ul>
 <li>Describe what you observe from the plot.</li>
 <li>Which state has the single largest county? How do you know based on the plot?</li>
-</ul>
-<ol start="6" style="list-style-type: decimal">
-<li><em>Do some states have a higher percentage of their counties located in a metropolitan area?</em> Create a segmented bar chart with one bar per state and the fill determined by whether the state is located in a metropolitan area (<code>inmetro</code>). The y axis of the segmented barplot should range from 0 to 1.</li>
-</ol>
+</ul></li>
+<li><em>Do some states have a higher percentage of their counties located in a metropolitan area?</em> Create a segmented bar chart with one bar per state and the fill determined by the distribution of <code>inmetro</code>, whether a county is considered in a metro area. The y axis of the segmented barplot should range from 0 to 1.
 <ul>
 <li>What do you notice from the plot?</li>
-</ul>
+</ul></li>
+</ol>
 <div class="commit">
 <p>🧶 ✅ ⬆️ Now is another good time to knit, commit, and push your changes to GitHub with a meaningful commit message.</p>
 </div>
@@ -242,8 +243,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Click <em>School Credentials</em> <span class="math inline">\(\rightarrow\)</span> <em>Duke NetID</em> and log in using your NetID credentials.</li>
 <li>Click on your <em>STA 199</em> course.</li>
 <li>Click on the assignment, and you’ll be prompted to submit it.</li>
-<li>Mark the pages associated with each exercise, 1 - 4. All of the papers of your lab should be associated with at least one question (i.e., should be “checked”).</li>
-<li>Select the first page of your .pdf submission to be associated with the <em>“Workflow &amp; formatting”</em> section.</li>
+<li>Mark all the pages associated with exercise. All the pages of your lab should be associated with at least one question (i.e., should be “checked”).</li>
+<li>Select the first page of your .pdf submission to be associated with the <em>“Workflow &amp; formatting”</em> question.</li>
 </ul>
 </div>
 <div id="grading-50-pts" class="section level1">
