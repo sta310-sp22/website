@@ -204,7 +204,7 @@ If samples are independent, then by definition one sample's value does not "infl
 
 ✅ **Sample size / distribution:** 
 
-- if data are numerical, usually n &gt; 30 is considered a large enough sample for the CLT to kick in
+- if data are numerical, usually n &gt; 30 is considered a large enough sample for the CLT to apply
 - if we know for sure that the underlying data are normally distributed, then the distribution of sample means will also be exactly normal, regardless of the sample size
 - if data are categorical, at least 10 successes and 10 failures.
 
@@ -453,6 +453,9 @@ If `\(Z \sim N(0, 1)\)`, what is `\(P(-1 &lt; Z &lt; 2)\)`?
 
 .pull-right[
 
+**P(Z &lt; 2)**
+
+
 ```r
 pnorm(2)
 ```
@@ -474,6 +477,7 @@ If `\(Z \sim N(0, 1)\)`, what is `\(P(-1 &lt; Z &lt; 2)\)`?
 ]
 
 .pull-right[
+**P(Z &lt; -1)**
 
 ```r
 pnorm(-1)
@@ -498,6 +502,8 @@ If `\(Z \sim N(0, 1)\)`, what is `\(P(-1 &lt; Z &lt; 2)\)`?
 ]
 
 .pull-right[
+
+**P(Z &lt; 2) - P(Z &lt; -1)**
 
 
 ```r

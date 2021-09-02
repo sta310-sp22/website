@@ -201,7 +201,7 @@ If samples are independent, then by definition one sample's value does not "infl
 
 `r emo::ji("white_check_mark")` **Sample size / distribution:** 
 
-- if data are numerical, usually n > 30 is considered a large enough sample for the CLT to kick in
+- if data are numerical, usually n > 30 is considered a large enough sample for the CLT to apply
 - if we know for sure that the underlying data are normally distributed, then the distribution of sample means will also be exactly normal, regardless of the sample size
 - if data are categorical, at least 10 successes and 10 failures.
 
@@ -468,6 +468,9 @@ ggplot(NULL, aes(c(-3,3))) +
 ]
 
 .pull-right[
+
+**P(Z < 2)**
+
 ```{r}
 pnorm(2)
 ```
@@ -496,6 +499,7 @@ ggplot(NULL, aes(c(-3,3))) +
 ]
 
 .pull-right[
+**P(Z < -1)**
 ```{r}
 pnorm(-1)
 ```
@@ -527,6 +531,8 @@ ggplot(NULL, aes(c(-3,3))) +
 ]
 
 .pull-right[
+
+**P(Z < 2) - P(Z < -1)**
 
 ```{r}
 pnorm(2) - pnorm(-1)
