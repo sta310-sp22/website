@@ -288,7 +288,7 @@ $$\bar{x} \sim N\left(mean = \mu, SE = \frac{\sigma}{\sqrt{n}}\right)$$
 
 .question[
 How many standard errors away from the hypothesized population mean is the observed sample 
-mean? This is our test statistic, $T$. 
+mean? This is our test statistic. 
 ]
 
 --
