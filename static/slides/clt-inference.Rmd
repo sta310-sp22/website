@@ -182,27 +182,33 @@ Questions were rated 1 - 5, with 1 being "highly dissatisfied" and 5 being
 Is there evidence that, on average, Durham residents are generally satisfied (score greater than 3) with the quality of the public library system? 
 ]
 
+
 ---
 
 ## Exploratory Data Analysis
 
-```{r fig.height=2.5, fig.width=5, message=FALSE}
+.pull-left[
+.small[
+```{r message=FALSE}
 durham <- read_csv("data/durham_survey.csv") %>%
   filter(quality_library != 9)
 ```
+]
 
+.midi[
 ```{r}
 durham %>% 
   summarise(x_bar = mean(quality_library), 
             med = median(quality_library), 
-            sd = sd(quality_library), n = n())
+            sd = sd(quality_library), 
+            n = n())
 ```
+]
+]
 
----
+.pull-right[
 
-## Exploratory Data Analysis
-
-```{r warning = F, echo = F, fig.height = 2.5}
+```{r warning = F, echo = F, out.width = "100%"}
 durham %>% 
   filter(quality_library!= 9) %>% 
   ggplot(aes(x = quality_library)) + 
@@ -210,6 +216,7 @@ durham %>%
     labs(x = "Satisfaction with public library system", y = "Count",
          title = "Most residents are generally satisifed <br> with the public library system")
 ```
+]
 
 ---
 
@@ -274,10 +281,10 @@ $$\bar{x} \sim N\left(mean = \mu, SE = \frac{\sigma}{\sqrt{n}}\right)$$
 
 ---
 
-## Calculations
+## Calculating the test statistic
 
 .question[
-How many standard errors away from the population mean is the observed sample 
+How many standard errors away from the hypothesized population mean is the observed sample 
 mean?
 ]
 
@@ -295,7 +302,7 @@ mean?
 
 ---
 
-## Calculations 
+## Calculating the p-value
 
 .question[
 How likely are we to observe a sample mean that is at least as extreme as the 
@@ -321,7 +328,7 @@ The p-value is very small, so we reject $H_0$.
 
 --
 
-The data provide sufficient evidence at the $\alpha = 0.05$ level that Durham residents, on average, are satisfied with the quality of the public library system.
+The data provide sufficient evidence at the $\alpha = 0.05$ level that Durham residents, on average, are satisfied with the quality of the public library system $(\mu >3)$
 
 --
 
