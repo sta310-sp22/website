@@ -12,7 +12,7 @@ title: Syllabus
 
   Name    |   Contact    |  Office hours  |  <span></span>
 |-------------------|------------------|------------------|------------------ 
-|[Prof. Maria Tackett](http://stat.duke.edu/~mt324/) | <a href="mailto:maria.tackett@duke.edu" title="email"><i class="fa fa-envelope"></i></a>  | Thu 9a - 10a | [Zoom](https://duke.zoom.us/j/94653677939)
+|[Prof. Maria Tackett](http://stat.duke.edu/~mt324/) | <a href="mailto:maria.tackett@duke.edu" title="email"><i class="fa fa-envelope"></i></a>  | Fri 10a - 11a | [Zoom](https://duke.zoom.us/j/94653677939)
 | |  | or by appointment | 
 
 <br> 

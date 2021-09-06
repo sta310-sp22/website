@@ -15,11 +15,14 @@ library(tidyverse)
 
 - Professor Tackett's offices are moved to **Fridays 10a - 11a** on Zoom beginning this week
 
-- [Week 04](https://sta199-fa21-003.netlify.app/prepare/week-04.html) prepare
-
 - Lab 02 due **today at 11:59p** on Gradescope
 
+- Prep Quiz 01 **due Wed, Sep 08 at 1:45p**
+
 - Ed Discussion board for today's lecture: https://edstem.org/us/courses/8027/discussion/590101
+
+
+- [Week 04](https://sta199-fa21-003.netlify.app/prepare/week-04.html) prepare
 
 ## Questions about Lab 02? 
 
