@@ -1,5 +1,5 @@
 ---
-title: "AE 05: Data visualization I"
+title: "AE 05: Data wrangling I"
 subtitle: "NYC Flights"
 date: "`r Sys.Date()`"
 output: 
