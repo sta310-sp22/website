@@ -1,78 +1,51 @@
 ---
-title: "AE 05: Data Wrangling"
-author: "Your Name"
+title: "AE 05: Data visualization I"
+subtitle: "NYC Flights"
 date: "`r Sys.Date()`"
 output: 
   html_document:
     theme: readable
 ---
 
-## Announcements
-
-- Lab 02 due at 11:59p
-
-
-## Questions? 
-
-
-## Clone a repo + start a new project
-
-Go to the `ae-05-[GITHUB USERNAME]` repo, clone it, and start a new project in RStudio. See the [Lab 01](https://sta199-fa20-002.netlify.app/labs/lab-01-hello-r.html#getting-started) for more detailed instructions about cloning a repo and starting a new project. 
-
-## Configure git
-
-Run the following code to configure Git. Fill in your GitHub username and the email address associated with your GitHub account. 
-
-```{r eval=FALSE}
-library(usethis)
-use_git_config(user.name= "your github username", user.email="your email")
-```
-
-## Practice with data wrangling
-
-```{r load-packages, warning = FALSE, message = FALSE}
+```{r load-packages, include = FALSE }
 library(tidyverse)
 ```
 
-The data set contains all North Carolina bike crash data from 2007-2014. The data was originally downloaded on September 6, 2018 and is available in the dsbox R package. 
+## Announcements
 
-Use the code below to load the data from the .csv file
+- Professor Tackett's offices are moved to **Fridays 10a - 11a** on Zoom beginning this week
 
-```{r load-data, warning = FALSE, message = FALSE}
-ncbikecrash <- read_csv("data/ncbikecrash.csv")
-```
+- [Week 04](https://sta199-fa21-003.netlify.app/prepare/week-04.html) prepare
 
+- Lab 02 due **today at 11:59p** on Gradescope
 
-### Part 1
+- Ed Discussion board for today's lecture: https://edstem.org/us/courses/8027/discussion/590101
 
-**Display the first 10 rows of the ncbikecrash data set.**
+## Questions about Lab 02? 
 
-```{r}
+## Lab 01 returned on Gradescope 
 
-```
+- Find solutions on Sakai
+- [See Course Policies](https://sta199-fa21-003.netlify.app/syllabus/#course-policies) in syllabus for regrade request policy
+- Regrade requests must be submitted by **Monday, September 13**
 
+## Code chunk names
 
-### Part 2 
+- Why we name code chunks 
+- Don't include spaces in code chunk names!
+  - `r emo::ji("frowning_face")` ```{r plot data}``` 
+  - `r emo::ji("slightly_smiling_face")` ```{r plot-data}``` 
 
-**Filter for bike crashes in Durham County where the driver age group is 0 to 19.**
+## Questions from the prepare assignment? 
 
-```{r}
+## AE 05: NYC Flights
 
-```
+### Clone a repo + start a new project
 
-### Part 3
+- Go to the `ae-05-[GITHUB USERNAME]` rep in the GitHub course organization:  https://github.com/sta199-fa21-003
 
-**On which day of the week did the most bike crashes occur? Use the `count` function to get the number of bike crashes for each day (`crash_day`). Display the results in descending order.**
+- Access the RStudio Docker containers at https://vm-manage.oit.duke.edu/containers
 
-```{r}
+- See the [Lab 01 instructions](https://sta199-fa21-003.netlify.app/labs/lab-01-hello-r.html) for details on cloning the repo and starting a new project in RStudio. 
 
-```
-
-### Part 4
-
-**Calculate the average estimated crash hour, `crash_hour` (<u>not</u> driver_est_speed) based on whether the crash was a hit and run (`hit_run`).**
-
-```{r}
-
-```
 
