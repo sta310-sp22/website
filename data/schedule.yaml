@@ -49,7 +49,7 @@ lessons:
   - date: "Wed, Sep 08"
     title: "Data wrangling"
     prepare: "week-03.html"
-    ae: "ae-06-data-wrangling-2.html"
+    ae: "appex06-data-wrangling-2.html"
   - title: "HW 01 released"
     hw: "hw-01.html"
   - date: "Thu, Sep 09"
