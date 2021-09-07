@@ -47,7 +47,7 @@ lessons:
   - title: "Working with a single data frame"
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d07-single-df/u2-d07-single-df.html#1"
   - date: "Wed, Sep 08"
-    title: "Data Wrangling I"
+    title: "Data wrangling"
     prepare: "week-03.html"
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d08-multi-df/u2-d08-multi-df.html#1"
   - title: "HW 01 released"
