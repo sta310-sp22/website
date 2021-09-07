@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-## For September 06
+## For September 06 & 08
 
 **Note:** All required prepare activities are due **<u>by the beginning of class</u>** on the specified date
 
@@ -31,6 +31,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - [Click here](https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d07-single-df/u2-d07-single-df.html#1) for slides
 
 
+<!--
 
 ## For September 08
 
@@ -43,7 +44,7 @@ knitr::opts_chunk$set(echo = TRUE)
 `r emo::ji("movie_camera")` Watch [Working with multiple data frames](https://youtu.be/VdV5ABsaf5Y)
 
 - [Click here](https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d08-multi-df/u2-d08-multi-df.html#1) for slides
-
+-->
 
 
 ### Optional 
@@ -52,5 +53,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 `r emo::ji("book")` Read [R for Data Science (R4DS): Chapter 5 - Data transformation](https://r4ds.had.co.nz/transform.html)
 
-`r emo::ji("book")` Read [R4DS - Chapter 13: Relational Data](https://r4ds.had.co.nz/relational-data.html)
 
