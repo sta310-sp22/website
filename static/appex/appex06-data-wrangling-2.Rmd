@@ -1,7 +1,7 @@
 ---
 title: "AE 06: Data wrangling (let's try again!)"
 subtitle: "NYC Flights"
-date: "`r Sys.Date()`"
+date: "2021-09-08"
 output: 
   html_document:
     theme: readable
