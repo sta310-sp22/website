@@ -36,6 +36,7 @@ We will use the **tidyverse** package for this assignment. If you wish to use th
 
 ```{r load-package, eval = FALSE}
 library(tidyverse)
+library(ggridges)
 library(viridis) #optional
 ```
 
