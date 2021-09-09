@@ -180,8 +180,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="the-greatest-crossover-event-in-the-history-of-sta199-labs" class="section level2">
 <h2>The Greatest Crossover Event in the History of STA199 Labs</h2>
 <p>This data was originally collected for <a href="https://fivethirtyeight.com/features/avengers-death-comics-age-of-ultron/">a FiveThirtyEight article</a>. The version of the <code>avengers</code> data we will work with here can be uploaded from the <code>avengers.csv</code> file.</p>
-<p>This dataset includes information about characters across the the entire Marvel Cinematic Universe (MCU), so some of the names will be familiar if you are a fan of the films or comics. Don’t worry if you aren’t a Marvel fan; no background knowledge is needed to succeed on this lab!</p>
-<p>The variable descriptions obtained from the <a href="https://github.com/fivethirtyeight/data/tree/master/avengers">GitHub repo</a> are below.</p>
+<p>This dataset includes information about characters across the entire Marvel Cinematic Universe (MCU), so some of the names will be familiar if you are a fan of the films or comics. Don’t worry if you aren’t a Marvel fan; no background knowledge is needed to successfully complete this lab!</p>
+<p>We will focus on the following variables in this lab:</p>
 <table>
 <colgroup>
 <col width="25%" />
@@ -195,120 +195,83 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </thead>
 <tbody>
 <tr class="odd">
-<td><code>URL</code></td>
-<td>The URL of the comic character on the Marvel Wikia</td>
-</tr>
-<tr class="even">
-<td><code>Name/Alias</code></td>
+<td><code>name</code></td>
 <td>The full name or alias of the character</td>
 </tr>
-<tr class="odd">
-<td><code>Appearances</code></td>
+<tr class="even">
+<td><code>appearances</code></td>
 <td>The number of comic books that character appeared in as of April 30</td>
 </tr>
-<tr class="even">
-<td><code>Current?</code></td>
+<tr class="odd">
+<td><code>current</code></td>
 <td>Is the member currently active on an avengers affiliated team?</td>
 </tr>
-<tr class="odd">
-<td><code>Gender</code></td>
+<tr class="even">
+<td><code>gender</code></td>
 <td>The recorded gender of the character</td>
 </tr>
-<tr class="even">
-<td><code>Probationary</code></td>
+<tr class="odd">
+<td><code>probationary</code></td>
 <td>Sometimes the character was given probationary status as an Avenger, this is the date that happened</td>
 </tr>
-<tr class="odd">
-<td><code>Full/Reserve</code></td>
+<tr class="even">
+<td><code>full_reserve</code></td>
 <td>The month and year the character was introduced as a full or reserve member of the Avengers</td>
 </tr>
-<tr class="even">
-<td><code>Year</code></td>
+<tr class="odd">
+<td><code>year</code></td>
 <td>The year the character was introduced as a full or reserve member of the Avengers</td>
 </tr>
-<tr class="odd">
-<td><code>Years since joining</code></td>
+<tr class="even">
+<td><code>years_since_joining</code></td>
 <td>2015 minus the year</td>
 </tr>
-<tr class="even">
-<td><code>Honorary</code></td>
-<td>The status of the avenger, if they were given “Honorary” Avenger status, if they are simply in the “Academy,” or “Full” otherwise</td>
-</tr>
 <tr class="odd">
-<td><code>Death1</code></td>
+<td><code>death1</code></td>
 <td>Yes if the Avenger died, No if not.</td>
 </tr>
 <tr class="even">
-<td><code>Return1</code></td>
+<td><code>return1</code></td>
 <td>Yes if the Avenger returned from their first death, No if they did not, blank if not applicable</td>
-</tr>
-<tr class="odd">
-<td><code>Death2</code></td>
-<td>Yes if the Avenger died a second time after their revival, No if they did not, blank if not applicable</td>
-</tr>
-<tr class="even">
-<td><code>Return2</code></td>
-<td>Yes if the Avenger returned from their second death, No if they did not, blank if not applicable</td>
-</tr>
-<tr class="odd">
-<td><code>Death3</code></td>
-<td>Yes if the Avenger died a third time after their second revival, No if they did not, blank if not applicable</td>
-</tr>
-<tr class="even">
-<td><code>Return3</code></td>
-<td>Yes if the Avenger returned from their third death, No if they did not, blank if not applicable</td>
-</tr>
-<tr class="odd">
-<td><code>Death4</code></td>
-<td>Yes if the Avenger died a fourth time after their third revival, No if they did not, blank if not applicable</td>
-</tr>
-<tr class="even">
-<td><code>Return4</code></td>
-<td>Yes if the Avenger returned from their fourth death, No if they did not, blank if not applicable</td>
-</tr>
-<tr class="odd">
-<td><code>Death5</code></td>
-<td>Yes if the Avenger died a fifth time after their fourth revival, No if they did not, blank if not applicable</td>
-</tr>
-<tr class="even">
-<td><code>Return5</code></td>
-<td>Yes if the Avenger returned from their fifth death, No if they did not, blank if not applicable</td>
-</tr>
-<tr class="odd">
-<td><code>Notes</code></td>
-<td>Descriptions of deaths and resurrections.</td>
 </tr>
 </tbody>
 </table>
+<p>See FiveThirtyEight’s <a href="https://github.com/fivethirtyeight/data/tree/master/avengers">GitHub repo</a> for the full codebook.</p>
 <ol style="list-style-type: decimal">
-<li>You are interested in creating a dataset with the most “classic” Avengers. Use <code>filter</code> to a new dataset with only Avengers that were created 1) in 1970 or earlier and 2) were not given probationary status. Assign the new dataset as <code>classic_avengers</code>. Confirm that once you have filtered, you are left with a data frame with 27 observations.</li>
+<li>You are interested in creating a data frame with the most “classic” Avengers. Use <code>filter</code> to make a new data frame that only includes Avengers that were 1) created in 1970 or earlier and 2) were not given probationary status. Assign the new data frame as <code>classic_avengers</code>. Confirm that once you have filtered, you are left with a data frame with 27 observations.</li>
 </ol>
 <div class="commit">
 <p>🧶 ✅ ⬆️ Now is a good time to knit, commit, and push you work to GitHub.</p>
 </div>
 <ol start="2" style="list-style-type: decimal">
-<li><em>Who are the newest classic Avengers?</em> Using a single pipeline: Create a new variable called <code>years_served</code> that represents the number of years served <strong>as of 2021.</strong> (Hint: you can use either the <code>year</code> variable or <code>years_since_joining</code> variables to do this.) Then, arrange the dataset in <em>ascending</em> order of <code>years_served</code>. Lastly, select the <code>name</code> and <code>years_served</code> variables and print the first three rows using <code>slice</code>.
+<li><em>Who are the newest classic Avengers?</em> Using a single pipeline: Create a new variable called <code>years_served</code> that represents the number of years served <strong>as of 2021.</strong>. (Hint: you can use either the <code>year</code> variable or <code>years_since_joining</code> variables to do this.) Then, arrange the dataset in ascending order of <code>years_served</code>. Lastly, select the <code>name</code> and <code>years_served</code> and display the first three rows.
 <ul>
 <li>Report the names of the three newest classic Avengers and how long they have served in your narrative.</li>
 </ul></li>
-<li><em>Has the percentage of female Avengers changed much over time?</em> To explore this question, find the percentage of female Avengers in the <code>classic_avengers</code> dataset and compare it to the percentage of females among <strong>all</strong> Avengers. What do you conclude based on these results?</li>
+<li><em>Has the percentage of female Avengers changed over time?</em> To explore this question, find the percentage of female Avengers in the <code>classic_avengers</code> dataset and compare it to the percentage of females among <strong>all</strong> Avengers. What do you conclude based on these results?</li>
 </ol>
 <div class="commit">
 <p>🧶 ✅ ⬆️ Now is another good time to knit, commit, and push you work to GitHub.</p>
 </div>
 <ol start="4" style="list-style-type: decimal">
-<li>Sort the full <code>avengers</code> dataset in descending order of <code>appearances</code> and display only the columns <code>name</code>, <code>appearances</code>, <code>death1</code>, and <code>return1</code>. Display the top five observations.
+<li>Sort the full <code>avengers</code> dataset in descending order of <code>appearances</code> and display only the columns <code>name</code>, <code>appearances</code>, <code>death1</code>, and <code>return1</code> for the top five observations.
 <ul>
-<li>What do you notice about these Avengers in terms of deaths and returns?</li>
+<li>What do you observe about these Avengers in terms of deaths and returns?</li>
 </ul></li>
-<li>Use the full <code>avengers</code> dataset to examine the mean and median number of appearances for Avengers who have died at least once compared to those who have <strong>not</strong> died at least once. What do you learn about Marvel movies from your results? What do the mean and median tell you about the distribution of appearances for these two groups?</li>
+<li>Use the full <code>avengers</code> dataset to examine the mean and median number of appearances for Avengers who have died at least once compared to those who have <strong>not</strong> died at least once.
+<ul>
+<li>What do you learn about Marvel movies from your results?</li>
+<li>What do the mean and median tell you about the distribution of appearances for these two groups?</li>
+</ul></li>
 </ol>
 <div class="commit">
 <p>🧶 ✅ ⬆️ Now is another good time to knit, commit, and push you work to GitHub.</p>
 </div>
 <ol start="6" style="list-style-type: decimal">
-<li><p><em>Are newer or older Avengers more popular?</em> Calculate the mean number of appearances for each introduction year (<code>year</code>). Then create a scatterplot of the mean appearances by introduction year. Do <strong>not</strong> include observations with the introduction year 1900, as “1900” is an indication for missing values of <code>full_reserve</code>.</p>
-<p>What are 2 - 3 observations you have about the mean appearances based on introduction year?</p></li>
+<li><em>Who’s more popular - the new or classic Avengers?</em> Calculate the mean number of appearances for each introduction year (<code>year</code>). Then create a scatterplot of the mean appearances by introduction year. Do <strong>not</strong> include observations with the introduction year 1900, as “1900” indicates the value of <code>full_reserve</code> is missing.
+<ul>
+<li>What are 2 - 3 observations you have about the mean appearances based on introduction year?</li>
+</ul></li>
 </ol>
 <div class="commit">
 <p>🧶 ✅ ⬆️ Knit, commit, and push your final changes to GitHub with a meaningful commit message.</p>
