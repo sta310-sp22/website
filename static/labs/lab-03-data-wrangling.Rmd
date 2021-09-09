@@ -99,7 +99,7 @@ Header | Definition
 :::
 
 
-6. *Are newer or older Avengers more popular?* Calculate the mean number of appearances for each introduction year (`year`). Then create a scatterplot of the mean appearances by introduction year. Do **not** include the introduction year 1900. 
+6. *Are newer or older Avengers more popular?* Calculate the mean number of appearances for each introduction year (`year`). Then create a scatterplot of the mean appearances by introduction year. Do **not** include observations with the introduction year 1900, as "1900" is an indication for missing values of `full_reserve`. 
 
     What are 2 - 3 observations you have about the mean appearances based on introduction year? 
 
