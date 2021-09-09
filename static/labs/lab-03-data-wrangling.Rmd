@@ -27,35 +27,88 @@ In this lab, you will...
 
 - Clone the repo and start a new project in RStudio. See the [Lab 01 instructions](https://sta199-fa21-003.netlify.app/labs/lab-01-hello-r.html) for details on cloning a repo and starting a new R project.
 
-# The Greatest Crossover Event in the History of STA199 Labs
+# Packages 
 
-We will also load the `tidyverse` package as usual.
+We just need the **tidyverse** for this lab. 
 
 ```{r load-packages, message = FALSE}
 library(tidyverse)
 ```
 
-This data was originally collected for a [FiveThirtyEight](https://fivethirtyeight.com/features/avengers-death-comics-age-of-ultron/) piece. The version of the `avengers` data we will work with here can be uploaded from the `avengers.csv` file provided with this lab. This dataset covers the entire Marvel Cinematic Universe(MCU), so some of the names will be familar if you are a fan of the filmes, while other might be from the comics. Don't worry if you aren't a Marvel fan though, no background knowledge is needed to succeed on this lab!
+# Data 
 
-More information on the variables is available at this link [this link](https://github.com/fivethirtyeight/data/tree/master/avengers).
+## The Greatest Crossover Event in the History of STA199 Labs
 
-1. You are interested in creating a dataset with the most "classic" Avengers. Using `filter`, create a new dataset with only Avengers that were created 1) in 1970 or earlier and 2) were not given probationary status. You should call the new dataset `classic_avengers`. 
+This data was originally collected for [a FiveThirtyEight article](https://fivethirtyeight.com/features/avengers-death-comics-age-of-ultron/).  The version of the `avengers` data we will work with here can be uploaded from the `avengers.csv` file. 
 
-*Now would be a good time to knit, commit, and push.*
+This dataset includes information about characters across the the entire Marvel Cinematic Universe (MCU), so some of the names will be familiar if you are a fan of the films or comics. Don't worry if you aren't a Marvel fan; no background knowledge is needed to succeed on this lab!
 
-2. Who are the newest Classic Avengers? Using `mutate`, please create a new variable called `years_served` that represents the number of years served **as of 2021.** (Hint: you can use either the `year` variable or `years_since_joining` variables to do this.) Then, please arrange the dataset in *ascending* order of `years_served`, select the `Name/Alias` and `years_served` variables and print the first three rows using `slice`. Report in words the names of the three newest Classic Avengers and how long they have served. Please do this using a single pipeline.
+The variable descriptions obtained from the [GitHub repo](https://github.com/fivethirtyeight/data/tree/master/avengers) are below. 
 
-3. Has the percentage of female Avengers changed much over time? Using `summarize` find the percentage of female Avengers in the `classic_avengers` dataset and compare it to the percentage of all female Avengers. Please describe in words what you observe. (Hint: before using `summarize`, in the same pipeline you should create a new numeric variable that will allow you to find the percentage of female Avengers.)
 
-*Now might be a good time for another knit, commit, and push.*
+Header | Definition
+---|---------
+`URL`| The URL of the comic character on the Marvel Wikia
+`Name/Alias` | The full name or alias of the character
+`Appearances` | The number of comic books that character appeared in as of April 30 
+`Current?` | Is the member currently active on an avengers affiliated team?
+`Gender` | The recorded gender of the character
+`Probationary` | Sometimes the character was given probationary status as an Avenger, this is the date that happened
+`Full/Reserve` | The month and year the character was introduced as a full or reserve member of the Avengers
+`Year` | The year the character was introduced as a full or reserve member of the Avengers
+`Years since joining` | 2015 minus the year
+`Honorary` | The status of the avenger, if they were given "Honorary" Avenger status, if they are simply in the "Academy," or "Full" otherwise
+`Death1` | Yes if the Avenger died, No if not. 
+`Return1` | Yes if the Avenger returned from their first death, No if  they did not, blank if not applicable
+`Death2` | Yes if the Avenger died a second time after their revival, No if they did not, blank if not applicable
+`Return2` | Yes if the Avenger returned from their second death, No if they did not, blank if not applicable
+`Death3` | Yes if the Avenger died a third time after their second revival, No if they did not, blank if not applicable
+`Return3` | Yes if the Avenger returned from their third death, No if they did not, blank if not applicable
+`Death4` | Yes if the Avenger died a fourth time after their third revival, No if they did not, blank if not applicable
+`Return4` | Yes if the Avenger returned from their fourth death, No if they did not, blank if not applicable
+`Death5` | Yes if the Avenger died a fifth time after their fourth revival, No if they did not, blank if not applicable
+`Return5` | Yes if the Avenger returned from their fifth death, No if they did not, blank if not applicable
+`Notes` | Descriptions of deaths and resurrections. 
 
-4. Arrange the overall `avengers` dataset in descending order of `appearances` and return only the columns `Name/Alias`, `Appearances`, `Death1`, and `Return1`. Slice the first five Avengers here. What do you notice about these Avengers in terms of deaths and returns?
 
-5. Using the `avengers` dataset `group_by()` and `summarize()` to examine the mean and median number of appearances for Avengers who have died at least once compared to those who *have not* died at least once. What do you learn about Marvel movies from your results? Also, does this tell you anything about the mean and median?
 
-*One more exercise, but first, knit, commit, and push!*
+1. You are interested in creating a dataset with the most "classic" Avengers. Use `filter` to a new dataset with only Avengers that were created 1) in 1970 or earlier and 2) were not given probationary status. Assign the new dataset as `classic_avengers`. Confirm that once you have filtered, you are left with a data frame with 27 observations. 
 
-6. Are newer or older Avengers more popular? Create a scatterplot of the mean appearances by year of introduction for Avengers. Add `geom_smooth()` with the argument `se = FALSE`. Please include informative axis labels and an informative title. Can you observe any trends in the data? Which years tend to have the Avengers with the most appearances? Briefly explain whether you need to use any caution in interpreting any portions of this graph.
+
+::: {.commit}
+`r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` Now is a good time to knit, commit, and push you work to GitHub.
+:::
+
+
+2. *Who are the newest classic Avengers?* Using a single pipeline: Create a new variable called `years_served` that represents the number of years served **as of 2021.** (Hint: you can use either the `year` variable or `years_since_joining` variables to do this.) Then, arrange the dataset in *ascending* order of `years_served`. Lastly,  select the `name` and `years_served` variables and print the first three rows using `slice`. 
+    - Report the names of the three newest classic Avengers and how long they have served in your narrative. 
+
+3. *Has the percentage of female Avengers changed much over time?* To explore this question, find the percentage of female Avengers in the `classic_avengers` dataset and compare it to the percentage of females among **all** Avengers.   What do you conclude based on these results? 
+
+::: {.commit}
+`r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` Now is another good time to knit, commit, and push you work to GitHub.
+:::
+
+4. Sort the full `avengers` dataset in descending order of `appearances` and display only the columns `name`, `appearances`, `death1`, and `return1`. Display the top five observations.
+    - What do you notice about these Avengers in terms of deaths and returns?
+
+5. Use the full `avengers` dataset to examine the mean and median number of appearances for Avengers who have died at least once compared to those who have **not** died at least once. What do you learn about Marvel movies from your results? What do the mean and median tell you about the distribution of appearances for these two groups? 
+
+::: {.commit}
+`r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` Now is another good time to knit, commit, and push you work to GitHub.
+:::
+
+
+6. *Are newer or older Avengers more popular?* Calculate the mean number of appearances for each introduction year (`year`). Then create a scatterplot of the mean appearances by introduction year. Do **not** include the introduction year 1900. 
+
+    What are 2 - 3 observations you have about the mean appearances based on introduction year? 
+
+::: {.commit}
+`r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` Knit, commit, and push your final changes to GitHub with a meaningful commit message.
+:::
+
+
+# Submission
 
 Once you are fully satisfied with your lab, **Knit to PDF** to create a PDF 
 document.
@@ -66,13 +119,33 @@ Be sure to identify which problems are on each page using Gradescope.
 
 # Grading
 
-Overall: 50 pts.
+Once you are finished with the lab, you will submit the PDF document produced from your final *knit, commit, and push* to Gradescope.
 
-- Exercise 1: 5 pts
-- Exercise 2: 8 pts
-- Exercise 3: 6 pts
-- Exercise 4: 4 pts
-- Exercise 5: 7 pts
-- Exercise 6: 8 pts
-- Overall:  8 pts
-  - Overall includes the number of commits made, naming chunks, updating the name on the assignment to your name, and following tidyverse style (see: https://style.tidyverse.org/). 
+**Before you wrap up the assignment, make sure all documents are updated on your GitHub repo. We will be checking these to make sure you have been practicing how to commit and push changes.** **Remember -- you must turn in a .pdf file to the Gradescope page by the submission deadline to be considered "on time".**
+
+To submit your assignment:
+
+-   Go to <http://www.gradescope.com> and click *Log in* in the top right corner.
+-   Click *School Credentials* $\rightarrow$ *Duke NetID* and log in using your NetID credentials.
+-   Click on your *STA 199* course.
+-   Click on the assignment, and you'll be prompted to submit it.
+-   Mark all the pages associated with exercise. All the pages of your lab should be associated with at least one question (i.e., should be "checked").
+-   Select the first page of your .pdf submission to be associated with the *"Workflow & formatting"* question.
+
+# Grading (50 pts)
+
+<br>
+
+| Component | Points |
+|:----------|:-------|
+| Ex 1      | 6      |
+| Ex 2      | 8   |
+| Ex 3      | 6    |
+| Ex 4      | 7     |
+| Ex 5      | 7      |
+| Ex 6      | 8    |
+| Workflow & formatting   | 8      |
+
+**Grading notes**:
+
+-   The "Workflow & formatting" grade is to assess the reproducible workflow. This includes having at least 3 informative commit messages, labeling the code chunks, and having readable code that does not exceed 80 characters (i.e., we can read all your code in the knitted PDF.)

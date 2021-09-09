@@ -147,8 +147,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul>
 <li><a href="#goals">Goals</a></li>
 <li><a href="#getting-started">Getting started</a></li>
-<li><a href="#the-greatest-crossover-event-in-the-history-of-sta199-labs">The Greatest Crossover Event in the History of STA199 Labs</a></li>
+<li><a href="#packages">Packages</a></li>
+<li><a href="#data">Data</a></li>
+<li><a href="#submission">Submission</a></li>
 <li><a href="#grading">Grading</a></li>
+<li><a href="#grading-50-pts">Grading (50 pts)</a></li>
 </ul>
 </div>
 
@@ -167,47 +170,215 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p>Clone the repo and start a new project in RStudio. See the <a href="https://sta199-fa21-003.netlify.app/labs/lab-01-hello-r.html">Lab 01 instructions</a> for details on cloning a repo and starting a new R project.</p></li>
 </ul>
 </div>
-<div id="the-greatest-crossover-event-in-the-history-of-sta199-labs" class="section level1">
-<h1>The Greatest Crossover Event in the History of STA199 Labs</h1>
-<p>We will also load the <code>tidyverse</code> package as usual.</p>
+<div id="packages" class="section level1">
+<h1>Packages</h1>
+<p>We just need the <strong>tidyverse</strong> for this lab.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div>
-<p>This data was originally collected for a <a href="https://fivethirtyeight.com/features/avengers-death-comics-age-of-ultron/">FiveThirtyEight</a> piece. The version of the <code>avengers</code> data we will work with here can be uploaded from the <code>avengers.csv</code> file provided with this lab. This dataset covers the entire Marvel Cinematic Universe(MCU), so some of the names will be familar if you are a fan of the filmes, while other might be from the comics. Don’t worry if you aren’t a Marvel fan though, no background knowledge is needed to succeed on this lab!</p>
-<p>More information on the variables is available at this link <a href="https://github.com/fivethirtyeight/data/tree/master/avengers">this link</a>.</p>
+</div>
+<div id="data" class="section level1">
+<h1>Data</h1>
+<div id="the-greatest-crossover-event-in-the-history-of-sta199-labs" class="section level2">
+<h2>The Greatest Crossover Event in the History of STA199 Labs</h2>
+<p>This data was originally collected for <a href="https://fivethirtyeight.com/features/avengers-death-comics-age-of-ultron/">a FiveThirtyEight article</a>. The version of the <code>avengers</code> data we will work with here can be uploaded from the <code>avengers.csv</code> file.</p>
+<p>This dataset includes information about characters across the the entire Marvel Cinematic Universe (MCU), so some of the names will be familiar if you are a fan of the films or comics. Don’t worry if you aren’t a Marvel fan; no background knowledge is needed to succeed on this lab!</p>
+<p>The variable descriptions obtained from the <a href="https://github.com/fivethirtyeight/data/tree/master/avengers">GitHub repo</a> are below.</p>
+<table>
+<colgroup>
+<col width="25%" />
+<col width="75%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Header</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>URL</code></td>
+<td>The URL of the comic character on the Marvel Wikia</td>
+</tr>
+<tr class="even">
+<td><code>Name/Alias</code></td>
+<td>The full name or alias of the character</td>
+</tr>
+<tr class="odd">
+<td><code>Appearances</code></td>
+<td>The number of comic books that character appeared in as of April 30</td>
+</tr>
+<tr class="even">
+<td><code>Current?</code></td>
+<td>Is the member currently active on an avengers affiliated team?</td>
+</tr>
+<tr class="odd">
+<td><code>Gender</code></td>
+<td>The recorded gender of the character</td>
+</tr>
+<tr class="even">
+<td><code>Probationary</code></td>
+<td>Sometimes the character was given probationary status as an Avenger, this is the date that happened</td>
+</tr>
+<tr class="odd">
+<td><code>Full/Reserve</code></td>
+<td>The month and year the character was introduced as a full or reserve member of the Avengers</td>
+</tr>
+<tr class="even">
+<td><code>Year</code></td>
+<td>The year the character was introduced as a full or reserve member of the Avengers</td>
+</tr>
+<tr class="odd">
+<td><code>Years since joining</code></td>
+<td>2015 minus the year</td>
+</tr>
+<tr class="even">
+<td><code>Honorary</code></td>
+<td>The status of the avenger, if they were given “Honorary” Avenger status, if they are simply in the “Academy,” or “Full” otherwise</td>
+</tr>
+<tr class="odd">
+<td><code>Death1</code></td>
+<td>Yes if the Avenger died, No if not.</td>
+</tr>
+<tr class="even">
+<td><code>Return1</code></td>
+<td>Yes if the Avenger returned from their first death, No if they did not, blank if not applicable</td>
+</tr>
+<tr class="odd">
+<td><code>Death2</code></td>
+<td>Yes if the Avenger died a second time after their revival, No if they did not, blank if not applicable</td>
+</tr>
+<tr class="even">
+<td><code>Return2</code></td>
+<td>Yes if the Avenger returned from their second death, No if they did not, blank if not applicable</td>
+</tr>
+<tr class="odd">
+<td><code>Death3</code></td>
+<td>Yes if the Avenger died a third time after their second revival, No if they did not, blank if not applicable</td>
+</tr>
+<tr class="even">
+<td><code>Return3</code></td>
+<td>Yes if the Avenger returned from their third death, No if they did not, blank if not applicable</td>
+</tr>
+<tr class="odd">
+<td><code>Death4</code></td>
+<td>Yes if the Avenger died a fourth time after their third revival, No if they did not, blank if not applicable</td>
+</tr>
+<tr class="even">
+<td><code>Return4</code></td>
+<td>Yes if the Avenger returned from their fourth death, No if they did not, blank if not applicable</td>
+</tr>
+<tr class="odd">
+<td><code>Death5</code></td>
+<td>Yes if the Avenger died a fifth time after their fourth revival, No if they did not, blank if not applicable</td>
+</tr>
+<tr class="even">
+<td><code>Return5</code></td>
+<td>Yes if the Avenger returned from their fifth death, No if they did not, blank if not applicable</td>
+</tr>
+<tr class="odd">
+<td><code>Notes</code></td>
+<td>Descriptions of deaths and resurrections.</td>
+</tr>
+</tbody>
+</table>
 <ol style="list-style-type: decimal">
-<li>You are interested in creating a dataset with the most “classic” Avengers. Using <code>filter</code>, create a new dataset with only Avengers that were created 1) in 1970 or earlier and 2) were not given probationary status. You should call the new dataset <code>classic_avengers</code>.</li>
+<li>You are interested in creating a dataset with the most “classic” Avengers. Use <code>filter</code> to a new dataset with only Avengers that were created 1) in 1970 or earlier and 2) were not given probationary status. Assign the new dataset as <code>classic_avengers</code>. Confirm that once you have filtered, you are left with a data frame with 27 observations.</li>
 </ol>
-<p><em>Now would be a good time to knit, commit, and push.</em></p>
+<div class="commit">
+<p>🧶 ✅ ⬆️ Now is a good time to knit, commit, and push you work to GitHub.</p>
+</div>
 <ol start="2" style="list-style-type: decimal">
-<li><p>Who are the newest Classic Avengers? Using <code>mutate</code>, please create a new variable called <code>years_served</code> that represents the number of years served <strong>as of 2021.</strong> (Hint: you can use either the <code>year</code> variable or <code>years_since_joining</code> variables to do this.) Then, please arrange the dataset in <em>ascending</em> order of <code>years_served</code>, select the <code>Name/Alias</code> and <code>years_served</code> variables and print the first three rows using <code>slice</code>. Report in words the names of the three newest Classic Avengers and how long they have served. Please do this using a single pipeline.</p></li>
-<li><p>Has the percentage of female Avengers changed much over time? Using <code>summarize</code> find the percentage of female Avengers in the <code>classic_avengers</code> dataset and compare it to the percentage of all female Avengers. Please describe in words what you observe. (Hint: before using <code>summarize</code>, in the same pipeline you should create a new numeric variable that will allow you to find the percentage of female Avengers.)</p></li>
+<li><em>Who are the newest classic Avengers?</em> Using a single pipeline: Create a new variable called <code>years_served</code> that represents the number of years served <strong>as of 2021.</strong> (Hint: you can use either the <code>year</code> variable or <code>years_since_joining</code> variables to do this.) Then, arrange the dataset in <em>ascending</em> order of <code>years_served</code>. Lastly, select the <code>name</code> and <code>years_served</code> variables and print the first three rows using <code>slice</code>.
+<ul>
+<li>Report the names of the three newest classic Avengers and how long they have served in your narrative.</li>
+</ul></li>
+<li><em>Has the percentage of female Avengers changed much over time?</em> To explore this question, find the percentage of female Avengers in the <code>classic_avengers</code> dataset and compare it to the percentage of females among <strong>all</strong> Avengers. What do you conclude based on these results?</li>
 </ol>
-<p><em>Now might be a good time for another knit, commit, and push.</em></p>
+<div class="commit">
+<p>🧶 ✅ ⬆️ Now is another good time to knit, commit, and push you work to GitHub.</p>
+</div>
 <ol start="4" style="list-style-type: decimal">
-<li><p>Arrange the overall <code>avengers</code> dataset in descending order of <code>appearances</code> and return only the columns <code>Name/Alias</code>, <code>Appearances</code>, <code>Death1</code>, and <code>Return1</code>. Slice the first five Avengers here. What do you notice about these Avengers in terms of deaths and returns?</p></li>
-<li><p>Using the <code>avengers</code> dataset <code>group_by()</code> and <code>summarize()</code> to examine the mean and median number of appearances for Avengers who have died at least once compared to those who <em>have not</em> died at least once. What do you learn about Marvel movies from your results? Also, does this tell you anything about the mean and median?</p></li>
+<li>Sort the full <code>avengers</code> dataset in descending order of <code>appearances</code> and display only the columns <code>name</code>, <code>appearances</code>, <code>death1</code>, and <code>return1</code>. Display the top five observations.
+<ul>
+<li>What do you notice about these Avengers in terms of deaths and returns?</li>
+</ul></li>
+<li>Use the full <code>avengers</code> dataset to examine the mean and median number of appearances for Avengers who have died at least once compared to those who have <strong>not</strong> died at least once. What do you learn about Marvel movies from your results? What do the mean and median tell you about the distribution of appearances for these two groups?</li>
 </ol>
-<p><em>One more exercise, but first, knit, commit, and push!</em></p>
+<div class="commit">
+<p>🧶 ✅ ⬆️ Now is another good time to knit, commit, and push you work to GitHub.</p>
+</div>
 <ol start="6" style="list-style-type: decimal">
-<li>Are newer or older Avengers more popular? Create a scatterplot of the mean appearances by year of introduction for Avengers. Add <code>geom_smooth()</code> with the argument <code>se = FALSE</code>. Please include informative axis labels and an informative title. Can you observe any trends in the data? Which years tend to have the Avengers with the most appearances? Briefly explain whether you need to use any caution in interpreting any portions of this graph.</li>
+<li><p><em>Are newer or older Avengers more popular?</em> Calculate the mean number of appearances for each introduction year (<code>year</code>). Then create a scatterplot of the mean appearances by introduction year. Do <strong>not</strong> include the introduction year 1900.</p>
+<p>What are 2 - 3 observations you have about the mean appearances based on introduction year?</p></li>
 </ol>
+<div class="commit">
+<p>🧶 ✅ ⬆️ Knit, commit, and push your final changes to GitHub with a meaningful commit message.</p>
+</div>
+</div>
+</div>
+<div id="submission" class="section level1">
+<h1>Submission</h1>
 <p>Once you are fully satisfied with your lab, <strong>Knit to PDF</strong> to create a PDF document.</p>
 <p>Follow the instructions in previous labs to submit your PDF to Gradescope.</p>
 <p>Be sure to identify which problems are on each page using Gradescope.</p>
 </div>
 <div id="grading" class="section level1">
 <h1>Grading</h1>
-<p>Overall: 50 pts.</p>
+<p>Once you are finished with the lab, you will submit the PDF document produced from your final <em>knit, commit, and push</em> to Gradescope.</p>
+<p><strong>Before you wrap up the assignment, make sure all documents are updated on your GitHub repo. We will be checking these to make sure you have been practicing how to commit and push changes.</strong> <strong>Remember – you must turn in a .pdf file to the Gradescope page by the submission deadline to be considered “on time”.</strong></p>
+<p>To submit your assignment:</p>
 <ul>
-<li>Exercise 1: 5 pts</li>
-<li>Exercise 2: 8 pts</li>
-<li>Exercise 3: 6 pts</li>
-<li>Exercise 4: 4 pts</li>
-<li>Exercise 5: 7 pts</li>
-<li>Exercise 6: 8 pts</li>
-<li>Overall: 8 pts
+<li>Go to <a href="http://www.gradescope.com" class="uri">http://www.gradescope.com</a> and click <em>Log in</em> in the top right corner.</li>
+<li>Click <em>School Credentials</em> <span class="math inline">\(\rightarrow\)</span> <em>Duke NetID</em> and log in using your NetID credentials.</li>
+<li>Click on your <em>STA 199</em> course.</li>
+<li>Click on the assignment, and you’ll be prompted to submit it.</li>
+<li>Mark all the pages associated with exercise. All the pages of your lab should be associated with at least one question (i.e., should be “checked”).</li>
+<li>Select the first page of your .pdf submission to be associated with the <em>“Workflow &amp; formatting”</em> question.</li>
+</ul>
+</div>
+<div id="grading-50-pts" class="section level1">
+<h1>Grading (50 pts)</h1>
+<p><br></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Component</th>
+<th align="left">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Ex 1</td>
+<td align="left">6</td>
+</tr>
+<tr class="even">
+<td align="left">Ex 2</td>
+<td align="left">8</td>
+</tr>
+<tr class="odd">
+<td align="left">Ex 3</td>
+<td align="left">6</td>
+</tr>
+<tr class="even">
+<td align="left">Ex 4</td>
+<td align="left">7</td>
+</tr>
+<tr class="odd">
+<td align="left">Ex 5</td>
+<td align="left">7</td>
+</tr>
+<tr class="even">
+<td align="left">Ex 6</td>
+<td align="left">8</td>
+</tr>
+<tr class="odd">
+<td align="left">Workflow &amp; formatting</td>
+<td align="left">8</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Grading notes</strong>:</p>
 <ul>
-<li>Overall includes the number of commits made, naming chunks, updating the name on the assignment to your name, and following tidyverse style (see: <a href="https://style.tidyverse.org/" class="uri">https://style.tidyverse.org/</a>).</li>
-</ul></li>
+<li>The “Workflow &amp; formatting” grade is to assess the reproducible workflow. This includes having at least 3 informative commit messages, labeling the code chunks, and having readable code that does not exceed 80 characters (i.e., we can read all your code in the knitted PDF.)</li>
 </ul>
 </div>
 
