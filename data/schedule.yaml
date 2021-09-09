@@ -54,7 +54,7 @@ lessons:
     hw: "hw-01.html"
   - date: "Thu, Sep 09"
     title: "Lab 03: Data wrangling"
-    labs: "lab-03-data-wrangling.html"
+    lab: "lab-03-data-wrangling.html"
 
   - week: "Week 04"
     date: "Mon, Sep 13"
