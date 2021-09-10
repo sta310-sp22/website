@@ -64,6 +64,7 @@ lessons:
   - date: "Wed, Sep 15"
     title: "Visualizing spatial data"
     prepare: "week-04.html"
+    slides: "https://sta199-f21-001.netlify.app/slides/spatial.html#1"
   - title: "HW 02 released"
     hw: "hw-02.html"
   - date: "Thu, Sep 16"

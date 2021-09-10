@@ -30,7 +30,7 @@ If you have questions about personal matters that are not appropriate for the pu
 If you're having trouble with your RStudio container...
 
 - First try opening the RStudio container using a different web browser. 
-- If you're still having issues, next try restarting the container. [Click here](https://www.introds.org/Restart_Docker_Container.pdf) for instructions on restarting. 
+- If you're still having issues, next try restarting the container. [Click here](https://www.introds.org/Restart_Docker_Container.pdf) for instructions on restarting the container.
 - Lastly, if the issues persist, submit a ticket to OIT and they can look into the issue further. [Click here](https://duke.qualtrics.com/jfe/form/SV_6s3DOsiCIzNya9w) to submit the ticket.
 
 
