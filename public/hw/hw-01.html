@@ -175,7 +175,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1>Packages</h1>
 <p>We will use the <strong>tidyverse</strong> package for this assignment. If you wish to use the viridis color palettes, you will need the <strong>viridis</strong> package as well.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(viridis) <span class="co">#optional</span></span></code></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggridges)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(viridis) <span class="co">#optional</span></span></code></pre></div>
 </div>
 <div id="data-the-nc-courage" class="section level1">
 <h1>Data: The NC Courage</h1>
@@ -241,7 +242,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>🧶 ✅ ⬆️ Now is another good time to knit, commit, and push.</p>
 </div>
 <ol start="7" style="list-style-type: decimal">
-<li><p>Let’s explore if the observations from the previous exercise differ by season. Create a new plot that builds upon the plot from the previous exercise by coloring the points by <code>season</code> and using <code>geom_smooth()</code> to show the general trend for each season. Include the argument <code>se = FALSE</code> to omit the bands around the smoothed curves.</p>
+<li><p>Let’s explore if the observations from the previous exercise differ by season. Create a new plot that builds upon the plot from the previous exercise by coloring the points by <code>season</code> and using <code>geom_smooth()</code> to show the general trend for each season. Include the argument <code>se = FALSE</code> to omit the bands around the smoothed curves. <em>Hint: Use <code>as.factor(season)</code></em> in the ggplot code, so <code>season</code> is treated as a categorical variable.*</p>
 <ul>
 <li>Does there seem to be a difference in the pattern by season? Briefly explain your response.</li>
 </ul></li>
