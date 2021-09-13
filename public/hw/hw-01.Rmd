@@ -105,7 +105,7 @@ courage <- courage %>%
 ```{marginfigure}
 See the [lecture notes](https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d04-viz-cat/u2-d04-viz-cat.html#14) and the [ggridges vignette](https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html) for more information and example code.
 ```
-    - Then create a ridge plot using `geom_density_ridges()`. [here](https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html).
+    - Then create a ridge plot using `geom_density_ridges()`.
     - What do the ridge plots reveal that boxplots do not? What do box plots reveal that ridge plots do not? 
 
 6. Each of Courage's seasons had 26 games, including playoff games. Do the total number of points scored in a game change over the course of a season? For example, do the total number of points decrease, perhaps due to fatigue, or do they increase over a season as teams get into a groove? To explore this question: 
