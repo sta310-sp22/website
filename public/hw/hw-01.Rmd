@@ -118,7 +118,7 @@ See the [lecture notes](https://rstudio-education.github.io/datascience-box/cour
 `r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` Now is another good time to knit, commit, and push.
 :::
 
-7. Let's explore if the observations from the previous exercise differ by season. Create a new plot that builds upon the plot from the previous exercise by coloring the points by `season` and using `geom_smooth()` to show the general trend for each season. Include the argument `se = FALSE` to omit the bands around the smoothed curves. *Hint: Use `as.factor(season)`* in the ggplot code, so `season` is treated as a categorical variable.*
+7. Let's explore if the observations from the previous exercise differ by season. Create a new plot that builds upon the plot from the previous exercise by coloring the points by `season` and using `geom_smooth()` to show the general trend for each season. Include the argument `se = FALSE` to omit the bands around the smoothed curves. *Hint: Use `as.factor(season)` in the ggplot code, so `season` is treated as a categorical variable.*
     
     - Does there seem to be a difference in the pattern by season? Briefly explain your response. 
 
