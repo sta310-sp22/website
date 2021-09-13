@@ -100,7 +100,6 @@ courage <- courage %>%
 5. *Does Courage have a home field advantage?* To explore this question, 
 
 
-
     - Create side-by-side box plots of the number of points scored by the Courage based on whether or not they were the home team.  
 ```{marginfigure}
 See the [lecture notes](https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d04-viz-cat/u2-d04-viz-cat.html#14) and the [ggridges vignette](https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html) for more information and example code.
