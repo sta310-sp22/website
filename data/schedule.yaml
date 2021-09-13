@@ -61,6 +61,7 @@ lessons:
     title: "Working with multiple data frames"
     prepare: "week-04.html"
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d08-multi-df/u2-d08-multi-df.html#1"
+    ae: "appex07-joins.html"
   - date: "Wed, Sep 15"
     title: "Visualizing spatial data"
     prepare: "week-04.html"

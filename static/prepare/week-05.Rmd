@@ -42,10 +42,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-
 ## For September 22
 
-TBD
+`r emo::ji("book")` Read [How to read an R help page](https://socviz.co/appendix.html#a-little-more-about-r)
 
 
 

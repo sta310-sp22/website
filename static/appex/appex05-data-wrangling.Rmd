@@ -13,7 +13,7 @@ library(tidyverse)
 
 ## Announcements
 
-- Professor Tackett's offices are moved to **Fridays 10a - 11a** on Zoom beginning this week
+- Professor Tackett's office hours are moved to **Fridays 10a - 11a** on Zoom beginning this week
 
 - Lab 02 due **today at 11:59p** on Gradescope
 
