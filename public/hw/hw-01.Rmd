@@ -121,7 +121,7 @@ See the [lecture notes](https://rstudio-education.github.io/datascience-box/cour
     
     - Does there seem to be a difference in the pattern by season? Briefly explain your response. 
 
-8. Now, let's focus just on points scored by Courage. when looking *only at the Courage*. Make a scatter plot to visualize the relationship between `game_number` and `courage_points`, faceted by `season`. 
+8. Now, let's focus just on points scored by Courage.  Make a scatter plot to visualize the relationship between `game_number` and `courage_points`, faceted by `season`. 
 
     - What are 2 observations you have from the plot? 
 
