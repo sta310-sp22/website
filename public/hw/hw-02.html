@@ -145,6 +145,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <div id="TOC">
 <ul>
+<li><a href="#goals">Goals</a></li>
 <li><a href="#getting-started">Getting started</a></li>
 <li><a href="#packages">Packages</a></li>
 <li><a href="#data-congressional-class-of-2018">Data: Congressional class of 2018</a></li>
@@ -154,8 +155,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 </div>
 
-<div id="goals" class="section level2">
-<h2>Goals</h2>
+<div id="goals" class="section level1">
+<h1>Goals</h1>
 <p>In this homework, you will…</p>
 <ul>
 <li>develop proficiency with data wrangling.</li>
@@ -209,41 +210,41 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="tips" class="section level2">
 <h2>Tips</h2>
 <ul>
-<li>As we’ve discussed in lecture, your plots should include an informative title, axes should be labeled, and careful consideration should be given to aesthetic choices.</li>
-<li>In addition, the code should not exceed the 80 character limit, so that all the code can be read when you knit to PDF. See the <a href="https://sta199-fa21-003.netlify.app/labs/lab-02-data-viz.html#exercises">Lab 02 instructions</a> for instructions to add a margin line at column 80.</li>
+<li>Your plots should include an informative title, axes should be labeled, and careful consideration should be given to aesthetic choices.</li>
+<li>In addition, the code should not exceed the 80 character limit, so that all the code can be read when you knit to PDF. See the <a href="https://sta199-fa21-003.netlify.app/labs/lab-02-data-viz.html#exercises">Lab 02 instructions</a> for instructions to add a margin line at column 80 to use as a guide.</li>
 <li>You should have at least 3 commits with meaningful commit messages by the end of the assignment.</li>
 </ul>
 <p>One ideology measure we will work with are <em>DW-Nominate</em> scores. These are created using advanced statistical methods. For the purpose of this assignment, we will be focusing on 1st Dimension DW-Nominate scores (<code>nominate_dim1</code>). These scores generally vary from -1 (most liberal) to 1 (most conservative). Since we are working with Democrats, all scores will be negative. If you are interested in learning more about this measure, <a href="https://www-cambridge-org.proxy.lib.duke.edu/core/journals/studies-in-american-political-development/article/nominate-and-american-political-development-a-primer/DC642ACEB095605E82EEF7EEC4AA9E01">this article</a> provides a primer about the scores.</p>
 <ol style="list-style-type: decimal">
-<li><p>Let’s start by creating an analysis data set that includes information from all three data sets.</p>
+<li><p>Let’s start by creating an analysis data set that includes variables from all three data sets.</p>
 <ul>
-<li><p>First, join the <code>district_info</code> to the <code>ideologies</code> data frame. The goal is to keep all of the rows and columns in the <code>ideologies</code> data frame. Call this new data set <code>full_data</code>.</p></li>
-<li><p>Next, use a join to add columns from the <code>caucus</code> data frame to <code>full_data</code>.</p></li>
-<li><p>Lastly, we need to add information to the data about the region a state is located in. We will use the region in later exercises. To do so, we will use information from two data sets that are already loaded as part of R - <code>state.region</code> and <code>state.abb</code>. Use the code below to create a tibble called <code>states</code> that includes the state abbreviation and the region. Then an appropriate join to add the region from <code>states</code> to <code>full_data</code>.</p></li>
+<li>First, join the <code>district_info</code> to the <code>ideologies</code> data frame. The goal is to keep all of the rows and columns in the <code>ideologies</code> data frame. Call this new data frame <code>full_data</code>.</li>
+<li>Next, use the appropriate join to add columns from the <code>caucus</code> data frame to <code>full_data</code>.</li>
+<li>Lastly, we need to add information to the data frame about the region a state is located in. We will use the region in later exercises. To do so, we will use information from two data sets that are already loaded as part of R - <code>state.region</code> and <code>state.abb</code>. Use the code below to create a tibble called <code>states</code> that includes the state abbreviation and the region. Then use an appropriate join to add the region from <code>states</code> to <code>full_data</code>.</li>
 </ul></li>
 </ol>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>states <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">state_abbrev =</span> state.abb, </span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>                 <span class="at">region =</span> state.region)</span></code></pre></div>
-<p>The final <code>full_data</code> data frame should have 238 observations and 11 variables.</p>
-<p><strong>We will use <code>full_data</code> for the remainder of the assignment</strong>.</p>
+<p>The final <code>full_data</code> should have 238 observations and 11 variables.</p>
+<p><strong>Use <code>full_data</code> for the remainder of the assignment</strong>.</p>
 <ol start="2" style="list-style-type: decimal">
-<li><p>We can see which states have the most progressive and most moderate Democratic delegations. Find the mean ideology by state and display the most progressive two states and most moderate two states. The ideology is measured by <code>nominate_dim1</code>. Show all code and output.</p>
+<li><p>We can see which states have the most progressive and most moderate Democratic delegations. Find the mean ideology by state and display the two states with the most progressive Democratic delegations and the two states with the most moderate Democratic delegations. The ideology is measured by <code>nominate_dim1</code>. Show all code and output.</p>
 <ul>
-<li><p>Which two states have the most progressive Democratic delegations? Which have the most moderate?</p></li>
+<li><p>Which two states have the most progressive Democratic delegations? Which two have the most moderate?</p></li>
 <li><p>Are there any concerns you have with using these values to represent the mean ideology for a state’s delegation? Briefly explain.</p></li>
 </ul></li>
-<li><p>Which 9 states do not have a Democratic representative? Use the <code>states</code> data frame and an appropriate join to help answer this question. Show all code and output, and report the names of the states in your narrative.</p></li>
-<li><p><em>Is there a relationship between the percentage of the vote Donald Trump received in a district in 2016 and the DW-Nominate score for the district’s representative?</em> to answer this question:</p>
+<li><p>Which 9 states have no Democratic representatives? Use the <code>states</code> data frame and an appropriate join to help answer this question. Show all code and output, and report the names of the states in your narrative.</p></li>
+<li><p><em>Is there a relationship between the percentage of the vote Donald Trump received in a district in 2016 and the DW-Nominate score for the district’s representative?</em> To answer this question:</p>
 <ul>
-<li>Find the correlation between these two variables.<br />
+<li>Find the correlation between <code>trump_16</code> and `nominate_dim1<br />
 </li>
-<li>Make a visualization showing the relationship between <code>trump_16</code> and <code>nominate_dim1</code>. Include an informative title and axis labels.</li>
+<li>Make a visualization showing the relationship between these two variables. Include an informative title and axis labels.</li>
 <li>Interpret the plot.</li>
 </ul></li>
 <li><p>Now let’s look at the caucus. Calculate the mean and standard deviation of ideology and the number of representatives for each caucus.</p>
 <ul>
 <li>Which caucus is the most progressive?</li>
-<li>Which caucus has the most variability in the ideology?</li>
+<li>Which caucus has the most variability in ideology?</li>
 <li>Which caucus is the largest?</li>
 </ul></li>
 <li><p>Let’s examine how caucus membership differs by region. Create a plot of the number of representatives in each caucus faceted by region. Include an informative title and axis labels.</p>
@@ -252,7 +253,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li><p><em>Are younger Democrats more likely to be in the Progressive Caucus than older Democrats?</em> To answer this question, create a new variable indicating whether the Democrat was born in the 1980’s (there has yet not been a Democrat elected to Congress who was born in the 1990s). Then, find the percentage of Democrats in each group (pre-1980 and 1980 or later) who are in the Progressive Caucus. <em>Hint: As a step along the way, you will also want to create a variable indicating if they are a Progressive Caucus member using <code>if_else</code> or <code>case_when</code>.</em></p>
 <ul>
-<li>State your response to the question based on your output.</li>
+<li>Report your answer to the question based on your analysis output.</li>
 </ul></li>
 </ol>
 </div>
