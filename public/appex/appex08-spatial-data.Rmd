@@ -17,6 +17,7 @@ library(tidyverse)
 
 - HW 02 due **Wednesday, September 20 at 11:59p**
   - focus on data wrangling & working with multiple data frames
+  - Repos released later today
 
 - Ed Discussion board for today's lecture: https://edstem.org/us/courses/8027/discussion/613186
 
