@@ -1,0 +1,167 @@
+---
+title: "Lab 04: Visualizing spatial data"
+subtitle: "due Monday, September 20 at  11:59p"
+output: 
+  tufte::tufte_html:
+    css: "sta199-labs.css"
+    tufte_variant: "envisioned"
+    highlight: pygments
+    toc: true
+    toc_depth: 1
+link-citations: yes
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+## Goals
+
+- Practice collaboration using the data science workflow
+- Develop effective spatial visualizations to answer research questions
+
+# Getting started
+
+Check the announcement on Sakai to determine your team number and members. 
+
+Before getting started on the lab, take a few minutes to develop a plan for 
+working as a team for the rest of the semester.
+
+- Introduce yourself.
+- Find a one hour block of time outside of class that you can use to work on the lab / project if needed. You won't need to use this, but it is good to have it in reserve. Tools like [Doodle](https://doodle.com/en/)
+and [When2Meet](https://www.when2meet.com/) are helpful.
+- Determine how your group will communicate (email, text, slack, discord, etc).
+
+Every team member should now go to the course GitHub organization and locate your lab04 repository, which should have the prefix **lab04**. Copy the URL of the repository and clone in RStudio. If you have trouble, see the first lab and lecture for step-by-step instructions or ask a teammate for help.
+
+Then, configure git in the **console** as we have done in previous labs, using your GitHub username and email address.
+
+**Do not edit the `.Rmd` file until explicitly asked to do so in the instructions.**
+
+
+```{r eval=FALSE}
+library(usethis)
+use_git_config(user.name = "GitHub username", user.email="your email")
+```
+
+# North Carolina Congressional Districts and Redistricting.
+
+In this lab you will use the `sf` package to visualize district-level congressional district data in the most recent congressional and presidential elections in North Carolina. Also, given the upcoming redistricting following the 2020 census, we will consider which districts may be overpopulated and thus may need to shrink. 
+
+The variables in the `nc_dists` dataset are as follows:
+
+- `DISTRICT `: The district number
+- `POPULATION`: District population as of 2010
+- `geometry`: `sf` geometry
+
+The variables in the `nc_newdata` file are as follows:
+
+- `District`: The district number
+-  `trump_pct_2020`: The two-party Republican presidential vote in 2020.
+(Calculated as Republican vote/Republican + Democratic vote) 
+- `trump_pct_2016`: The two-party Republican presidential vote in 2016.
+- `house_gop_pct_2020`: The two-party Republican U.S. House vote in 2020.
+- `population_2020`: The old/current district population in 2020 .
+
+The presidential election data is from [DailyKos Elections](https://www.dailykos.com/stories/2020/11/19/1163009/-Daily-Kos-Elections-presidential-results-by-congressional-district-for-2020-2016-and-2012) and the House election data is from the The CQ Voting and Elections Collection, accessed through Duke Libraries. The population data is from the 2020 census and has been compiled by [Daily Kos Elections](https://docs.google.com/spreadsheets/d/1Q62LAntj9AV4uRmzvp66-UA7oZ2HY91K1vosh8Y8mVg/edit#gid=853297232). 
+
+1. Before getting started, please write a group contract on how you will work together as a team this semester...
+
+# Team workflow
+
+Assign each team member a number 1 through 3 (or 4) and write your number down on a 
+piece of paper. This lab will walk you through the basics of team workflow 
+step-by-step.
+
+**Do the following exercises in order, following each step carefully.**
+
+**Only one person at a time should type in the `.Rmd` file and push updates.**
+
+**If you are working on any portion of the lab virtually, the person working should share their screen and the others should follow along.**
+
+<span style="color: red;">**Team member 1:**</span> Open the `lab04.Rmd` file 
+and change the author of the YAML header to the following "Team Number:
+Member 1, Member 2, Member 3" with your team number (for example 05-1) and the
+first and last names of all team members.
+
+<span style="color: red;">**Team member 1:**</span> Run the `load-data` code 
+chunk to read in the data and print the first six rows. Share the results with 
+your team members. Then, answer the questions below.
+
+2. Join the `nc` and `nc_newdata` datasets to form a dataset called `nc_data`. (Hint: the [as.character](https://www.rdocumentation.org/packages/fingerprint/versions/3.5.7/topics/as.character) command may be useful here.)
+
+<span style="color: red;">**Team member 1:**</span> When you have finished,
+knit to PDF, then stage, commit, and push your `.Rmd` and PDF to GitHub with an appropriate commit message.
+
+<span style="color: red;">**All other team members:**</span> Once your team 
+member has pushed the work, pull to get the updated documents from GitHub. Click on the `.Rmd` file and you should see the responses to the second exercise. Run the code chunks for #2 to update the file in your environment.
+
+<span style="color: red;">**Team member 2:**</span> It's your turn. Answer the questions below.
+
+3. Modify the `nc-plot-1` code chunk to create a plot of the 2020 presidential election in North Carolina by congressional District. 
+Use informative colors with the `scale_fill_gradient2` function. The colors 
+"#DE0100" and "#0015BC" look good for Republicans and Democrats, respectively, but the choice is yours. Please set a midpoint at 50% of the vote. Give the plot an informative title, subtitle, and legend title. When you are finished, remove `eval = FALSE`.
+
+<span style="color: red;">**Team member 2:**</span> Knit to PDF, then stage, commit, and push your `.Rmd` and PDF to GitHub with an appropriate commit 
+message.
+
+<span style="color: red;">**All other team members:**</span> Once your team 
+member has pushed the work, pull to get the updated documents from GitHub. Click on the `.Rmd` file and you should see the responses to the first three exercises.
+Run the code chunks for #2 and #3 to update the file in your environment. 
+
+<span style="color: red;">**Team member 3:**</span> It's your turn. Complete the exercises below. (If you have four team members, you could have person 3 do #4 and person 4 do #5. The main point is to make sure everyone is contributing!)
+
+4. Create a new variable using `mutate()` in the `gop-change` code chunk. 
+ Overwrite the nc_data dataset to add a  variable that measures the *change* in Republican vote share from 2020 in 2016 called `trump_change`. This variable should represent how much better (or worse) Trump did in a district in 2020 comprared to 2016. When you are finished, remove `eval = FALSE`.
+
+5. Modify the `nc-plot-2` code chunk to create a plot of the Trump vote share *change* from 2016 to 2020, with districts colored according to `trump_change`. When making the scale, use informative colors, and set a midpoint at 0 (thus representing **no change** from 2016 to 2020.) When you are finished, remove `eval = FALSE`. Please describe what you observe. Did Trump improve anywhere in the state in 2020 compared to 2016?
+
+<span style="color: red;">**Team member 3:**</span> Knit to PDF, then stage,
+commit, and push your `.Rmd` and PDF to GitHub with an appropriate commit
+message.
+
+<span style="color: red;">**All other team members:**</span> Once your team 
+member has pushed the work, pull to get the updated documents from GitHub. Click on the `.Rmd` file and you should see the responses to the first five exercises. Run the code chunks for #1 - #4 to update the file in your environment.
+
+<span style="color: red;">**Team member 1:**</span> It's your turn. Complete the exercise below. 
+
+6. Now, we are going to compare the Republican presidential performance in 2020 to the Republican *congressional* performance at the district level. The variable `house_gop_pct_2020` represents the two-party Republican percentage of the U.S. House vote in 2020. First, I would like you to create a new variable called `gop_house_overperformance` that measures the difference between the percentage of the vote received by the U.S. House candidate and the percentage received by the Republican presidential candidate in 2020. Modify the `nc-plot-3` code chunk to create a plot of the House Republican overperformance in 2020, with districts colored according to `gop_house_overperformance`. When making the scale, use informative colors, and set a midpoint at 0 (thus representing **no difference** between the House Republican candidate and Trump's vote percentage). When you are finished, remove `eval = FALSE`.
+
+Is this visualization informative? Why or why not? (You may need to do some research on the 2020 NC US House elections to answer this question- any major news website that has NC US House election results may be useful here).
+
+<span style="color: red;">**Team member 1:**</span> Knit to PDF, then stage, 
+commit, and push your `.Rmd` and PDF to GitHub with an appropriate commit 
+message.
+
+<span style="color: red;">**All other team members:**</span> Once your team 
+member has pushed the work, pull to get the updated documents from GitHub. Click  on the `.Rmd` file and you should see the responses to the first five  exercises. Run the code chunks for #1 - #4 to update the file in your environment. 
+
+<span style="color: red;">**Team member 2:**</span> Almost done! Just one more question...
+
+7. North Carolina is going to have to draw new congressional districts for 2022, following the 2020 Census and they will have to all have an equal population. North Carolina will now have a 14th Congressional District for the first time in its history! You will notice if you look at the `POPULATION` variable that, in 2010, there was a deviation of no more than 1 person in each district. Once again North Carolina will have to draw districts that have equal population. The variable `population_2020` contains a variable measuring the population of the current (2010 census) districts. 
+
+In the `nc_plot-4` chunk, please make a map of each district's population as of 2018, with districts colored based upon the district's estimated population in 2018. When making the scale use informative colors; you do not have to set a midpoint. When you are finished, remove `eval = FALSE`. What do you observe? Which regions of the state have the most overpopulated districts?
+
+<span style="color: red;">**Team member 2:**</span>  Check to confirm all code chunks are named, code does not exceed the 80 character limit and all code
+follows the tidyverse style guidelines. Make changes as necessary.
+
+<span style="color: red;">**Team member 2:**</span> When you have finished,
+knit to PDF, then stage, commit, and push your `.Rmd` and PDF to GitHub with an appropriate commit message.
+
+<span style="color: red;">**All other team members:**</span> Once your team 
+member has pushed the work, pull to get the updated documents from GitHub. Click on the `.Rmd` file to see your final version of the lab. 
+
+<span style="color: red;">**Team member 3:**</span> Upload your team's PDF to Gradescope. Include every team member's name in the Gradescope submission and identify which problems are on each in Gradescope. Associate the "Overall" section with the first page of your PDF.
+
+There should only be **one submission per team** on Gradescope.
+
+Rubric:
+
+- Ex 1: 4 pts
+- Ex 2: 6 pts
+- Ex 3: 8 pts
+- Ex 4: 2 pts
+- Ex 5: 8 pts
+- Ex 6: 8 pts
+- Ex 7: 8 pts
+- Workflow and formatting: 6 pts
+  - Workflow and formatting includes the number of commits made, naming chunks, updating the name on the assignment to your name, and following tidyverse style (see: https://style.tidyverse.org/).
