@@ -50,7 +50,7 @@ The variables in this dataset are:
 - `icpsr`: the [ICPSR](https://www.icpsr.umich.edu/web/pages/) code given to the representative.
 - `state_icpsr`: The ICPSR number given to the representative's state.
 - `district_code`: A code for the representative's district.
-- `nominate_dim`: The representatives' first dimension DW-Nominate Score.
+- `nominate_dim1`: The representatives' first dimension DW-Nominate Score.
 
 The `district_info` dataset contains information about the representatives' district. Observations are uniquely identified by `bioname` and `bioguide_id`.
 
@@ -77,7 +77,7 @@ The `caucus` dataset contains three variables:
 - In addition, the code should not exceed the 80 character limit, so that all the code can be read when you knit to PDF. See the [Lab 02 instructions](https://sta199-fa21-003.netlify.app/labs/lab-02-data-viz.html#exercises) for instructions to add a margin line at column 80.
 - You should have at least 3 commits with meaningful commit messages by the end of the assignment.
 
-One ideology measure we will work with are *DW-Nominate* scores. These are created using advanced statistical methods. For the purpose of this assignment, we will be focusing on 1st Dimension DW-Nominate scores (`nominate_dim`). These scores generally vary from -1 (most liberal) to 1 (most conservative). Since we are working with Democrats, all scores will be negative. If you are interested in learning more about this measure, [this article](https://www-cambridge-org.proxy.lib.duke.edu/core/journals/studies-in-american-political-development/article/nominate-and-american-political-development-a-primer/DC642ACEB095605E82EEF7EEC4AA9E01) provides a primer about the scores.
+One ideology measure we will work with are *DW-Nominate* scores. These are created using advanced statistical methods. For the purpose of this assignment, we will be focusing on 1st Dimension DW-Nominate scores (`nominate_dim1`). These scores generally vary from -1 (most liberal) to 1 (most conservative). Since we are working with Democrats, all scores will be negative. If you are interested in learning more about this measure, [this article](https://www-cambridge-org.proxy.lib.duke.edu/core/journals/studies-in-american-political-development/article/nominate-and-american-political-development-a-primer/DC642ACEB095605E82EEF7EEC4AA9E01) provides a primer about the scores.
 
 
 1. Let's start by creating an analysis data set that includes information from all three data sets. 
@@ -85,11 +85,7 @@ One ideology measure we will work with are *DW-Nominate* scores. These are creat
     - First, join the `district_info` to the `ideologies` data frame. The goal is to keep all of the rows and columns in the `ideologies` data frame. Call this new data set `full_data`. 
     - Next, use a join to add columns from the `caucus` data frame to `full_data`.
     
-```{marginfigure}
-Type `?state.region` or `?state.abb` in the **console** to read more about each data set.
-```
-
-  - Lastly, we need to add information to the data about the region a state is located in. We will use the region in later exercises. To do so, we will use information from two data sets that are already loaded as part of R - `state.region` and `state.abb`. Use the code below to create a tibble called `states` that includes the state abbreviation and the region. Then an appropriate join to add the region from `states` to `full_data`
+    - Lastly, we need to add information to the data about the region a state is located in. We will use the region in later exercises. To do so, we will use information from two data sets that are already loaded as part of R - `state.region` and `state.abb`. Use the code below to create a tibble called `states` that includes the state abbreviation and the region. Then an appropriate join to add the region from `states` to `full_data`.
   
 ```{r eval = F}
 states <- tibble(state_abbrev = state.abb, 
@@ -100,7 +96,7 @@ The final `full_data` data frame should have 238 observations and 11 variables.
 
 **We will use `full_data` for the remainder of the assignment**. 
 
-2. We can see which states have the most progressive and most moderate Democratic delegations. Find the mean ideology by state and display the most progressive two states and most moderate two states. The ideology is measured by `nominate_dim`. Show all code and output. 
+2. We can see which states have the most progressive and most moderate Democratic delegations. Find the mean ideology by state and display the most progressive two states and most moderate two states. The ideology is measured by `nominate_dim1`. Show all code and output. 
 
     - Which two states have the most progressive Democratic delegations? Which have the most moderate?   
 
@@ -116,9 +112,10 @@ The final `full_data` data frame should have 238 observations and 11 variables.
 
 
 5. Now let's look at the caucus. Calculate the mean and standard deviation of ideology and the number of representatives for each caucus.
-  - Which caucus is the most progressive?
-  - Which caucus has the most variability in the ideology?
-  - Which caucus is the largest? 
+    
+    - Which caucus is the most progressive?
+    - Which caucus has the most variability in the ideology?
+    - Which caucus is the largest? 
 
 
 6. Let's examine how caucus membership differs by region. Create a plot of the number of representatives in each caucus faceted by region. Include an informative title and axis labels. 
