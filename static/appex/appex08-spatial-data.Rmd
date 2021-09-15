@@ -28,7 +28,9 @@ library(tidyverse)
 
 ## Which visualization do you prefer? 
 
-Below are two maps showing the cumulative confirmed COVID-19 cases as of August 30, 2020. If you're doing an analysis to understand COVID spread in the US, which map do you prefer? Why? Place your vote on Ed Discussion: 
+Below are two maps showing the cumulative confirmed COVID-19 cases as of August 30, 2020. The maps are snapshots of the interactive visualization on [www.sharedgeo.org/COVID-19](https://www.sharedgeo.org/COVID-19/)  If you're doing an analysis to understand COVID spread in the US, which map do you prefer? Why? Place your vote and reasoning on Ed Discussion: https://edstem.org/us/courses/8027/discussion/613213
+
+
 
 ### Map A: Number of COVID-19 cumulative confirmed cases
 
