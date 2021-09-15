@@ -126,8 +126,6 @@ The final `full_data` data frame should have 238 observations and 11 variables.
 
     - State your response to the question based on your output.
     
-
-
 # Submission
 
 Once you are finished with the assignment, you will submit the PDF document produced from your final *knit, commit, and push* to Gradescope.
