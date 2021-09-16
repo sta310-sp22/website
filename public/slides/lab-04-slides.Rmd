@@ -56,9 +56,11 @@ countdown(minutes = 5, seconds = 0)
 
 - Open the **ae-08** repo. You can add this code to the bottom of your **ae-08** Rmd file. 
 
-- **Practice 2**: Make a map with the counties in NC filled in based on the median age. Use `scale_fill_gradient2` to set a color gradient with a midpoint at the overall median in the data set. 
 
 - **Practice 1**: Make a map with the counties in NC filled in based on the number of COVID-19 cases per 100,000 residents. You can use `cases` and `pp_2018` to calculate the number of COVID-19 cases per 100,000. 
+
+
+- **Practice 2**: Make a map with the counties in NC filled in based on the median age. Use `scale_fill_gradient2` to set a color gradient with a midpoint at the overall median in the data set. 
 
 ---
 
