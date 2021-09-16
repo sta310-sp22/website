@@ -145,44 +145,76 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <div id="TOC">
 <ul>
+<li><a href="#meet-your-team">Meet your team!</a></li>
 <li><a href="#getting-started">Getting started</a></li>
-<li><a href="#north-carolina-congressional-districts-and-redistricting.">North Carolina Congressional Districts and Redistricting.</a></li>
-<li><a href="#team-workflow">Team workflow</a></li>
+<li><a href="#workflow-using-git-and-github-as-a-team">Workflow: Using git and GitHub as a team</a></li>
+<li><a href="#packages">Packages</a></li>
+<li><a href="#data-north-carolina-congressional-districts-and-redistricting.">Data: North Carolina Congressional Districts and Redistricting.</a></li>
+<li><a href="#exercises">Exercises</a></li>
+<li><a href="#wrapping-up">Wrapping up</a></li>
+<li><a href="#submission">Submission</a></li>
+<li><a href="#grading">Grading</a></li>
 </ul>
 </div>
 
 <div id="goals" class="section level2">
 <h2>Goals</h2>
+<p>In this lab you will…</p>
 <ul>
-<li>Practice collaboration using the data science workflow</li>
-<li>Develop effective spatial visualizations to answer research questions</li>
+<li>practice collaboration using the data science workflow.</li>
+<li>create effective spatial visualizations.</li>
+<li>use spatial visualizations to answer analysis questions.</li>
+</ul>
+</div>
+<div id="meet-your-team" class="section level1">
+<h1>Meet your team!</h1>
+<p><a href="https://prodduke-my.sharepoint.com/:x:/g/personal/mt324_duke_edu/ET8EkNOunOpKr81yt0fwPqkBkcW3qMrTP1f5gvgQpRLLgg?e=LxIuCN">Click here</a> to see the team assignments for STA 199. This will be your team for labs and the final project.</p>
+<p>Before you get started on the lab, your TA will walk you through the following:</p>
+<p>✅ Icebreaker activity to get to know your teammates.</p>
+<p>✅ Come up with a team name. You can’t use the same name as another team, so I encourage you to be creative! Your TA will get your team name by the end of lab.</p>
+<p>✅ Fill out the team agreement. This will help you figure out a plan for communication,and working together during labs and outside of lab times. You can find the team agreement in the GitHub repo <strong>team-agreement-[github_team_name]</strong>.</p>
+<ul>
+<li>Have <strong>one person</strong> from the team clone the repo and start a new RStudio project. This person will type the team’s responses as you discuss the sections of the agreement. No one else in the team should type at this point but should be contributing to the discussion.</li>
+<li>Be sure to push the completed agreement to GitHub. Each team member can refer to the document in this repo or download the PDF of the agreement for future reference. <em>You do <u>not</u> need to submit the agreement on Gradescope.</em></li>
 </ul>
 </div>
 <div id="getting-started" class="section level1">
 <h1>Getting started</h1>
-<p>Check the announcement on Sakai to determine your team number and members.</p>
-<p>Before getting started on the lab, take a few minutes to develop a plan for working as a team for the rest of the semester.</p>
 <ul>
-<li>Introduce yourself.</li>
-<li>Find a one hour block of time outside of class that you can use to work on the lab / project if needed. You won’t need to use this, but it is good to have it in reserve. Tools like <a href="https://doodle.com/en/">Doodle</a> and <a href="https://www.when2meet.com/">When2Meet</a> are helpful.</li>
-<li>Determine how your group will communicate (email, text, slack, discord, etc).</li>
+<li><p>A repository has already been created for you and your teammates. Everyone in your team has access to the same repo.</p></li>
+<li><p>Go to the <a href="https://www.github.com/sta199-fa21-002">sta199-fa21-003 course organization</a> on GitHub.</p></li>
+<li><p>You should see a repo with the <strong>lab-04</strong> prefix.</p></li>
+<li><p>Each person on the team should clone the repository and open a new project in RStudio. <strong>Do not make any changes to the .Rmd file until the instructions tell you do to so.</strong></p></li>
 </ul>
-<p>Every team member should now go to the course GitHub organization and locate your lab04 repository, which should have the prefix <strong>lab04</strong>. Copy the URL of the repository and clone in RStudio. If you have trouble, see the first lab and lecture for step-by-step instructions or ask a teammate for help.</p>
-<p>Then, configure git in the <strong>console</strong> as we have done in previous labs, using your GitHub username and email address.</p>
-<p><strong>Do not edit the <code>.Rmd</code> file until explicitly asked to do so in the instructions.</strong></p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(usethis)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">use_git_config</span>(<span class="at">user.name =</span> <span class="st">&quot;GitHub username&quot;</span>, <span class="at">user.email=</span><span class="st">&quot;your email&quot;</span>)</span></code></pre></div>
 </div>
-<div id="north-carolina-congressional-districts-and-redistricting." class="section level1">
-<h1>North Carolina Congressional Districts and Redistricting.</h1>
-<p>In this lab you will use the <code>sf</code> package to visualize district-level congressional district data in the most recent congressional and presidential elections in North Carolina. Also, given the upcoming redistricting following the 2020 census, we will consider which districts may be overpopulated and thus may need to shrink.</p>
-<p>The variables in the <code>nc_dists</code> dataset are as follows:</p>
+<div id="workflow-using-git-and-github-as-a-team" class="section level1">
+<h1>Workflow: Using git and GitHub as a team</h1>
+<p><strong>Assign each person on your team a number 1 through 4. For teams of three, Team Member 1 can take on the role of Team Member 4.</strong></p>
+<p>The following exercises must be done in order. <strong>Only one person should type in the .Rmd file and push updates at a time.</strong> When it is not your turn to type, you should still share ideas and contribute to the team’s discussion.</p>
+<div id="update-yaml" class="section level2">
+<h2>Update YAML</h2>
+<div class="commit">
+<p>**Team Member 1: Change the author to your team name and include each team member’s name in the <code>author</code> field of the YAML in the following format. <code>Team Name: Member 1, Member 2, Member 3, Member 4</code>. Knit, commit, and push the changes to GitHub.</p>
+<p><strong>Team Members 2, 3, 4: Click the </strong>Pull** button in the Git pane to get the updated document. You should see the updated name in the .Rmd file.**</p>
+</div>
+</div>
+</div>
+<div id="packages" class="section level1">
+<h1>Packages</h1>
+<p>We will use the following packages:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sf)</span></code></pre></div>
+</div>
+<div id="data-north-carolina-congressional-districts-and-redistricting." class="section level1">
+<h1>Data: North Carolina Congressional Districts and Redistricting.</h1>
+<p>In this lab you will use the <code>sf</code> package to visualize district-level congressional district data in the most recent congressional and presidential elections in North Carolina. Given the upcoming redistricting following the 2020 census, we will consider which districts may be overpopulated and thus may shrink as a result of redistricting.</p>
+<p>The variables in <code>nc_dists</code>are as follows:</p>
 <ul>
 <li><code>DISTRICT</code>: The district number</li>
 <li><code>POPULATION</code>: District population as of 2010</li>
 <li><code>geometry</code>: <code>sf</code> geometry</li>
 </ul>
-<p>The variables in the <code>nc_newdata</code> file are as follows:</p>
+<p>The variables in <code>nc_newdata</code> are as follows:</p>
 <ul>
 <li><code>District</code>: The district number</li>
 <li><code>trump_pct_2020</code>: The two-party Republican presidential vote in 2020. (Calculated as Republican vote/Republican + Democratic vote)</li>
@@ -191,66 +223,132 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><code>population_2020</code>: The old/current district population in 2020 .</li>
 </ul>
 <p>The presidential election data is from <a href="https://www.dailykos.com/stories/2020/11/19/1163009/-Daily-Kos-Elections-presidential-results-by-congressional-district-for-2020-2016-and-2012">DailyKos Elections</a> and the House election data is from the The CQ Voting and Elections Collection, accessed through Duke Libraries. The population data is from the 2020 census and has been compiled by <a href="https://docs.google.com/spreadsheets/d/1Q62LAntj9AV4uRmzvp66-UA7oZ2HY91K1vosh8Y8mVg/edit#gid=853297232">Daily Kos Elections</a>.</p>
-<ol style="list-style-type: decimal">
-<li>Before getting started, please write a group contract on how you will work together as a team this semester…</li>
-</ol>
 </div>
-<div id="team-workflow" class="section level1">
-<h1>Team workflow</h1>
-<p>Assign each team member a number 1 through 3 (or 4) and write your number down on a piece of paper. This lab will walk you through the basics of team workflow step-by-step.</p>
+<div id="exercises" class="section level1">
+<h1>Exercises</h1>
 <p><strong>Do the following exercises in order, following each step carefully.</strong></p>
 <p><strong>Only one person at a time should type in the <code>.Rmd</code> file and push updates.</strong></p>
 <p><strong>If you are working on any portion of the lab virtually, the person working should share their screen and the others should follow along.</strong></p>
-<p><span style="color: red;"><strong>Team member 1:</strong></span> Open the <code>lab04.Rmd</code> file and change the author of the YAML header to the following “Team Number: Member 1, Member 2, Member 3” with your team number (for example 05-1) and the first and last names of all team members.</p>
-<p><span style="color: red;"><strong>Team member 1:</strong></span> Run the <code>load-data</code> code chunk to read in the data and print the first six rows. Share the results with your team members. Then, answer the questions below.</p>
+<div class="commit">
+<p>🧶 ✅ ⬆️ <strong>Team Member 1:</strong> Change the author to your team name and include each team member’s name in the <code>author</code> field of the YAML in the following format. <code>Team Name: Team member 1, Team member 2, Team member 3, Team member 4</code>.</p>
+<p>Type the team’s response to Exercises 1 - 2.</p>
+</div>
+<ol style="list-style-type: decimal">
+<li>Join the <code>nc</code> and <code>nc_newdata</code> data frames to create a new data frame called <code>nc_data</code>. <em>Hint: Include the argument <code>by = c(&quot;DISTRICT&quot; = &quot;District&quot;)</code> in the join function to join the data frames based on their respective district variable. The district is stored as numeric data in <code>nc_new.</code>. Use <a href="https://www.rdocumentation.org/packages/fingerprint/versions/3.5.7/topics/as.character">as.character()</a> to make district a character data type before joining.</em></li>
+</ol>
+<p><label for="tufte-mn-1" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-1" class="margin-toggle"><span class="marginnote"><span style="display: block;"><a href="https://ggplot2.tidyverse.org/reference/scale_gradient.html">Click here</a> for documentation on <code>scale_fill_gradient2</code>.</span></span></p>
 <ol start="2" style="list-style-type: decimal">
-<li>Join the <code>nc</code> and <code>nc_newdata</code> datasets to form a dataset called <code>nc_data</code>. (Hint: the <a href="https://www.rdocumentation.org/packages/fingerprint/versions/3.5.7/topics/as.character">as.character</a> command may be useful here.)</li>
+<li>Create a visualization with the congressional districts in North Carolina filled in based <code>trump_pct_2020</code>, the percent of votes in that congressional district for Donald Trump. Use <code>scale_fill_gradient2()</code> to apply an informative color palette. In the function, specify the <code>low</code> and <code>high</code> colors and set the <code>midpoint</code> to 50 (representing 50% of the vote).</li>
 </ol>
-<p><span style="color: red;"><strong>Team member 1:</strong></span> When you have finished, knit to PDF, then stage, commit, and push your <code>.Rmd</code> and PDF to GitHub with an appropriate commit message.</p>
-<p><span style="color: red;"><strong>All other team members:</strong></span> Once your team member has pushed the work, pull to get the updated documents from GitHub. Click on the <code>.Rmd</code> file and you should see the responses to the second exercise. Run the code chunks for #2 to update the file in your environment.</p>
-<p><span style="color: red;"><strong>Team member 2:</strong></span> It’s your turn. Answer the questions below.</p>
+<p>The colors “#DE0100” and “#0015BC” may be good choices for Republicans and Democrats, respectively, but you are welcome to choose different colors. Give the plot an informative title, subtitle, and label fill.</p>
+<ul>
+<li>Write 2 observations from the plot.</li>
+</ul>
+<div class="commit">
+<p>🧶 ✅ ⬆️ <strong>Team member 1</strong>: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.</p>
+<p><strong>All other team members</strong>: <strong>Pull</strong> to get the updated documents from GitHub. Click on the .Rmd file, and you should see the responses to exercises 1- 2.</p>
+<p><strong>Team Member 2</strong>: It’s your turn! Type the team’s response to exercises 3 - 4.</p>
+</div>
 <ol start="3" style="list-style-type: decimal">
-<li>Modify the <code>nc-plot-1</code> code chunk to create a plot of the 2020 presidential election in North Carolina by congressional District. Use informative colors with the <code>scale_fill_gradient2</code> function. The colors “#DE0100” and “#0015BC” look good for Republicans and Democrats, respectively, but the choice is yours. Please set a midpoint at 50% of the vote. Give the plot an informative title, subtitle, and legend title. When you are finished, remove <code>eval = FALSE</code>.</li>
+<li><p>Create a new variable called <code>trump_change</code> that measures the difference in the Republican vote share in 2020 and 2016. This variable should be calculated in way that represents how much better (or worse) Trump did in a district in 2020 compared to 2016.</p></li>
+<li><p>Create a visualization with the congressional districts in North Carolina filled in based on <code>trump_change</code>. Similar to Exercise 2, fill use informative colors, and set the midpoint to 0 (representing <strong>no change</strong> from 2016 to 2020.)</p></li>
 </ol>
-<p><span style="color: red;"><strong>Team member 2:</strong></span> Knit to PDF, then stage, commit, and push your <code>.Rmd</code> and PDF to GitHub with an appropriate commit message.</p>
-<p><span style="color: red;"><strong>All other team members:</strong></span> Once your team member has pushed the work, pull to get the updated documents from GitHub. Click on the <code>.Rmd</code> file and you should see the responses to the first three exercises. Run the code chunks for #2 and #3 to update the file in your environment.</p>
-<p><span style="color: red;"><strong>Team member 3:</strong></span> It’s your turn. Complete the exercises below. (If you have four team members, you could have person 3 do #4 and person 4 do #5. The main point is to make sure everyone is contributing!)</p>
-<ol start="4" style="list-style-type: decimal">
-<li><p>Create a new variable using <code>mutate()</code> in the <code>gop-change</code> code chunk. Overwrite the nc_data dataset to add a variable that measures the <em>change</em> in Republican vote share from 2020 in 2016 called <code>trump_change</code>. This variable should represent how much better (or worse) Trump did in a district in 2020 comprared to 2016. When you are finished, remove <code>eval = FALSE</code>.</p></li>
-<li><p>Modify the <code>nc-plot-2</code> code chunk to create a plot of the Trump vote share <em>change</em> from 2016 to 2020, with districts colored according to <code>trump_change</code>. When making the scale, use informative colors, and set a midpoint at 0 (thus representing <strong>no change</strong> from 2016 to 2020.) When you are finished, remove <code>eval = FALSE</code>. Please describe what you observe. Did Trump improve anywhere in the state in 2020 compared to 2016?</p></li>
-</ol>
-<p><span style="color: red;"><strong>Team member 3:</strong></span> Knit to PDF, then stage, commit, and push your <code>.Rmd</code> and PDF to GitHub with an appropriate commit message.</p>
-<p><span style="color: red;"><strong>All other team members:</strong></span> Once your team member has pushed the work, pull to get the updated documents from GitHub. Click on the <code>.Rmd</code> file and you should see the responses to the first five exercises. Run the code chunks for #1 - #4 to update the file in your environment.</p>
-<p><span style="color: red;"><strong>Team member 1:</strong></span> It’s your turn. Complete the exercise below.</p>
-<ol start="6" style="list-style-type: decimal">
-<li>Now, we are going to compare the Republican presidential performance in 2020 to the Republican <em>congressional</em> performance at the district level. The variable <code>house_gop_pct_2020</code> represents the two-party Republican percentage of the U.S. House vote in 2020. First, I would like you to create a new variable called <code>gop_house_overperformance</code> that measures the difference between the percentage of the vote received by the U.S. House candidate and the percentage received by the Republican presidential candidate in 2020. Modify the <code>nc-plot-3</code> code chunk to create a plot of the House Republican overperformance in 2020, with districts colored according to <code>gop_house_overperformance</code>. When making the scale, use informative colors, and set a midpoint at 0 (thus representing <strong>no difference</strong> between the House Republican candidate and Trump’s vote percentage). When you are finished, remove <code>eval = FALSE</code>.</li>
-</ol>
-<p>Is this visualization informative? Why or why not? (You may need to do some research on the 2020 NC US House elections to answer this question- any major news website that has NC US House election results may be useful here).</p>
-<p><span style="color: red;"><strong>Team member 1:</strong></span> Knit to PDF, then stage, commit, and push your <code>.Rmd</code> and PDF to GitHub with an appropriate commit message.</p>
-<p><span style="color: red;"><strong>All other team members:</strong></span> Once your team member has pushed the work, pull to get the updated documents from GitHub. Click on the <code>.Rmd</code> file and you should see the responses to the first five exercises. Run the code chunks for #1 - #4 to update the file in your environment.</p>
-<p><span style="color: red;"><strong>Team member 2:</strong></span> Almost done! Just one more question…</p>
-<ol start="7" style="list-style-type: decimal">
-<li>North Carolina is going to have to draw new congressional districts for 2022, following the 2020 Census and they will have to all have an equal population. North Carolina will now have a 14th Congressional District for the first time in its history! You will notice if you look at the <code>POPULATION</code> variable that, in 2010, there was a deviation of no more than 1 person in each district. Once again North Carolina will have to draw districts that have equal population. The variable <code>population_2020</code> contains a variable measuring the population of the current (2010 census) districts.</li>
-</ol>
-<p>In the <code>nc_plot-4</code> chunk, please make a map of each district’s population as of 2018, with districts colored based upon the district’s estimated population in 2018. When making the scale use informative colors; you do not have to set a midpoint. When you are finished, remove <code>eval = FALSE</code>. What do you observe? Which regions of the state have the most overpopulated districts?</p>
-<p><span style="color: red;"><strong>Team member 2:</strong></span> Check to confirm all code chunks are named, code does not exceed the 80 character limit and all code follows the tidyverse style guidelines. Make changes as necessary.</p>
-<p><span style="color: red;"><strong>Team member 2:</strong></span> When you have finished, knit to PDF, then stage, commit, and push your <code>.Rmd</code> and PDF to GitHub with an appropriate commit message.</p>
-<p><span style="color: red;"><strong>All other team members:</strong></span> Once your team member has pushed the work, pull to get the updated documents from GitHub. Click on the <code>.Rmd</code> file to see your final version of the lab.</p>
-<p><span style="color: red;"><strong>Team member 3:</strong></span> Upload your team’s PDF to Gradescope. Include every team member’s name in the Gradescope submission and identify which problems are on each in Gradescope. Associate the “Overall” section with the first page of your PDF.</p>
-<p>There should only be <strong>one submission per team</strong> on Gradescope.</p>
-<p>Rubric:</p>
 <ul>
-<li>Ex 1: 4 pts</li>
-<li>Ex 2: 6 pts</li>
-<li>Ex 3: 8 pts</li>
-<li>Ex 4: 2 pts</li>
-<li>Ex 5: 8 pts</li>
-<li>Ex 6: 8 pts</li>
-<li>Ex 7: 8 pts</li>
-<li>Workflow and formatting: 6 pts
+<li>Use the plot to describe the change in votes for Trump in 2020 compared to 2016 across different congressional districts in North Carolina.</li>
+</ul>
+<div class="commit">
+<p>🧶 ✅ ⬆️ <strong>Team member 2</strong>: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.</p>
+<p><strong>All other team members</strong>: <strong>Pull</strong> to get the updated documents from GitHub. Click on the .Rmd file, and you should see the responses to exercises 3 - 4.</p>
+<p><strong>Team Member 3</strong>: It’s your turn! Type the team’s response to exercise 5.</p>
+</div>
+<ol start="5" style="list-style-type: decimal">
+<li><p>Now let’s compare the Republican presidential performance in 2020 to the Republican <em>congressional</em> performance at the district level. The variable <code>house_gop_pct_2020</code> represents the two-party Republican percentage of the U.S. House vote in 2020.</p>
 <ul>
-<li>Workflow and formatting includes the number of commits made, naming chunks, updating the name on the assignment to your name, and following tidyverse style (see: <a href="https://style.tidyverse.org/" class="uri">https://style.tidyverse.org/</a>).</li>
+<li>First, create a new variable <code>gop_diff</code> that measures the difference between the percentage of the vote received by the Republican U.S. House candidate and the percentage received by the Republican presidential candidate in 2020.</li>
+<li>Then, create a plot with the congressional districts in North Carolina filled in based on <code>gop_diff</code>. Choose different colors and set the midpoint at 0 (thus representing <strong>no difference</strong> between the House Republican candidate and Trump’s vote percentage).</li>
+<li>It may be helpful to add the district numbers to the plot. You can do so by adding <code>geom_sf_text(aes(label = DISTRICT))</code> to the code used to make the plot.</li>
 </ul></li>
+</ol>
+<ul>
+<li>Describe what you observe from this plot. Why was <code>gop_diff</code> in one congressional district so much different from the others? (You may need to do brief research on the 2020 North Carolina U.S. House elections to answer this question - any major news website may be useful.)</li>
+</ul>
+<div class="commit">
+<p>🧶 ✅ ⬆️ <strong>Team member 3</strong>: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.</p>
+<p><strong>All other team members</strong>: <strong>Pull</strong> to get the updated documents from GitHub. Click on the .Rmd file, and you should see the responses to exercise 5.</p>
+<p><strong>Team Member 4</strong>: It’s your turn! Type the team’s response to exercise 6.</p>
+</div>
+<ol start="6" style="list-style-type: decimal">
+<li>In 2022, North Carolina will be required to draw new congressional districts, and they will all have to have equal population. The population is based on the 2020 U.S. Census. North Carolina will also have a 14th Congressional District for the first time in its history! The variable <code>population_2020</code> contains a variable measuring the population of the current (2010 census) districts.</li>
+</ol>
+<p>Make a map of each district’s population based on the 2020 U.S. Census. Choose a new color palette for the scale. You can use the <code>scale_fill_gradient</code> function and do not have to set a midpoint. - What do you observe? - Which which area(s) of the state have the most overpopulated districts and thus the districts that will have to reduce in size in redistricting?</p>
+<div class="commit">
+<p>🧶 ✅ ⬆️ <strong>Team member 4</strong>: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.</p>
+<p><strong>All other team members</strong>: <strong>Pull</strong> to get the updated documents from GitHub. Click on the .Rmd file, and you should see the team’s completed lab!</p>
+</div>
+</div>
+<div id="wrapping-up" class="section level1">
+<h1>Wrapping up</h1>
+<p>Go back through your write up to make sure you followed the coding style guidelines we discussed in class (e.g. no long lines of code)</p>
+<div class="commit">
+<p><strong>Team Member 2:</strong> Make any edits as needed. Then knit, commit, and push the updated documents to GitHub if you made any changes.</p>
+<p>All other team members can click to pull the finalized document.</p>
+</div>
+</div>
+<div id="submission" class="section level1">
+<h1>Submission</h1>
+<ul>
+<li><strong>Select <u>one</u> team member to upload the team’s PDF submission to Gradescope.</strong></li>
+<li>Be sure to include every team member’s name in the Gradescope submission</li>
+<li>Associate the “Workflow &amp; formatting” graded section with the first page of your PDF, and mark the page associated with each exercise. If any answer spans multiple pages, then mark all pages.</li>
+</ul>
+<p><strong>There should only be <u>one</u> submission per team on Gradescope.</strong></p>
+</div>
+<div id="grading" class="section level1">
+<h1>Grading</h1>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Component</th>
+<th align="left">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Team Agreement</td>
+<td align="left">4</td>
+</tr>
+<tr class="even">
+<td align="left">Ex 1</td>
+<td align="left">6</td>
+</tr>
+<tr class="odd">
+<td align="left">Ex 2</td>
+<td align="left">8</td>
+</tr>
+<tr class="even">
+<td align="left">Ex 3</td>
+<td align="left">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Ex 4</td>
+<td align="left">8</td>
+</tr>
+<tr class="even">
+<td align="left">Ex 5</td>
+<td align="left">8</td>
+</tr>
+<tr class="odd">
+<td align="left">Ex 6</td>
+<td align="left">8</td>
+</tr>
+<tr class="even">
+<td align="left">Workflow &amp; formatting</td>
+<td align="left">8</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>The “Workflow &amp; formatting” grade is to assess the reproducible workflow. This includes having at least one informative commit by each team member, labeling the code chunks, and having readable code in the tidyverse syntax that does not exceed 80 characters (i.e., we can read all your code in the knitted PDF.)</li>
 </ul>
 </div>
 
