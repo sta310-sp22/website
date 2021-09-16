@@ -174,7 +174,7 @@ Type the team's response to Exercises 1 - 2.
 
 # Wrapping up
 
-Go back through your write up to make sure you followed the coding style guidelines we discussed in class (e.g. no long lines of code)
+Go back through your write up to make sure you followed the coding style guidelines we discussed in class (e.g. no long lines of code).
 
 :::{.commit}
 **Team Member 2:** Make any edits as needed. Then knit, commit, and push the updated documents to GitHub if you made any changes.

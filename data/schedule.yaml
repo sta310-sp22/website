@@ -70,8 +70,9 @@ lessons:
   - title: "HW 02 released"
     hw: "hw-02.html"
   - date: "Thu, Sep 16"
-    title: "Lab 04"
-
+    title: "Lab 04: Visualizing spatial data"
+    slides: "https://sta199-fa21-003.netlify.app/slides/lab-04-slides.html"
+    lab: "lab-04-spatial-viz.html"
   - week: "Week 05"
     date: "Mon, Sep 20"
     title: "Data science ethics: Misrepresentation"
