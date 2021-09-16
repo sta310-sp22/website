@@ -56,7 +56,7 @@ The following exercises must be done in order. **Only one person should type in 
 ## Update YAML 
 
 :::{.commit}
-**Team Member 1: Change the author to your team name and include each team member's name in the `author` field of the YAML in the following format. `Team Name: Member 1, Member 2, Member 3, Member 4`. Knit, commit, and push the changes to GitHub. 
+**Team Member 1: Change the author to your team name and include each team member's name in the `author` field of the YAML in the following format. `Team Name: Member 1, Member 2, Member 3, Member 4`. Knit, commit, and push the changes to GitHub.**
 
 **Team Members 2, 3, 4: Click the **Pull** button in the Git pane to get the updated document. You should see the updated name in the .Rmd file.**
 :::
@@ -102,7 +102,7 @@ The presidential election data is from [DailyKos Elections](https://www.dailykos
 **If you are working on any portion of the lab virtually, the person working should share their screen and the others should follow along.**
 
 ::: {.commit}
-`r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` **Team Member 1:** Change the author to your team name and include each team member's name in the `author` field of the YAML in the following format. `Team Name: Team member 1, Team member 2, Team member 3, Team member 4`. 
+`r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` **Team Member 1:** If you haven't already, change the author to your team name and include each team member's name in the `author` field of the YAML in the following format. `Team Name: Team member 1, Team member 2, Team member 3, Team member 4`. 
 
 Type the team's response to Exercises 1 - 2. 
 ::: 
