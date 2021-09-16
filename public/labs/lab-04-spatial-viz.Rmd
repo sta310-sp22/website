@@ -24,7 +24,7 @@ In this lab you will...
 
 # Meet your team!
 
-[Click here](https://prodduke-my.sharepoint.com/:x:/g/personal/mt324_duke_edu/ET8EkNOunOpKr81yt0fwPqkBkcW3qMrTP1f5gvgQpRLLgg?e=LxIuCN) to see the team assignments for STA 199.  This will be your team for labs and the final project.
+[Click here](https://prodduke-my.sharepoint.com/:x:/g/personal/mt324_duke_edu/ET8EkNOunOpKr81yt0fwPqkBkcW3qMrTP1f5gvgQpRLLgg?e=ZIm5o0) to see the team assignments for STA 199.  This will be your team for labs and the final project.
 
 Before you get started on the lab, your TA will walk you through the following: 
 
