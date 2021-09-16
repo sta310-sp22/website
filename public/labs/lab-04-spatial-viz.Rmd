@@ -117,9 +117,9 @@ Type the team's response to Exercises 1 - 2.
 
 2. Create a visualization with the congressional districts in North Carolina filled in based `trump_pct_2020`, the percent of votes in that congressional district for Donald Trump. Use `scale_fill_gradient2()` to apply an informative color palette. In the function, specify the `low` and `high` colors and set the `midpoint` to 50 (representing 50% of the vote). 
 
-The colors "#DE0100" and "#0015BC" may be good choices for Republicans and Democrats, respectively, but you are welcome to choose different colors. Give the plot an informative title, subtitle, and label fill. 
+    The colors "#DE0100" and "#0015BC" may be good choices for Republicans and Democrats, respectively, but you are welcome to choose different colors. Give the plot an informative title, subtitle, and label fill. 
 
-- Write 2 observations from the plot. 
+    - Write 2 observations from the plot. 
 
 ::: {.commit}
 `r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` **Team member 1**: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.
@@ -133,7 +133,7 @@ The colors "#DE0100" and "#0015BC" may be good choices for Republicans and Democ
 
 4. Create a visualization with the congressional districts in North Carolina filled in based on `trump_change`. Similar to Exercise 2, fill use informative colors, and set the midpoint to 0 (representing **no change** from 2016 to 2020.) 
 
-  - Use the plot to describe the change in votes for Trump in 2020 compared to 2016 across different congressional districts in North Carolina. 
+    - Use the plot to describe the change in votes for Trump in 2020 compared to 2016 across different congressional districts in North Carolina. 
 
 ::: {.commit}
 `r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` **Team member 2**: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.
@@ -149,7 +149,7 @@ The colors "#DE0100" and "#0015BC" may be good choices for Republicans and Democ
     - Then, create a plot with the congressional districts in North Carolina filled in based on `gop_diff`. Choose different colors and set the midpoint at 0 (thus representing **no difference** between the House Republican candidate and Trump's vote percentage). 
     - It may be helpful to add the district numbers to the plot. You can do so by adding 
     `  geom_sf_text(aes(label = DISTRICT))` to the code used to make the plot.
-  - Describe what you observe from this plot. Why was `gop_diff` in one congressional district so much different from the others? (You may need to do brief research on  the 2020 North Carolina U.S. House elections to answer this question - any major news website may be useful.)
+    - Describe what you observe from this plot. Why was `gop_diff` in one congressional district so much different from the others? (You may need to do brief research on  the 2020 North Carolina U.S. House elections to answer this question - any major news website may be useful.)
 
 ::: {.commit}
 `r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` **Team member 3**: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.
@@ -161,9 +161,10 @@ The colors "#DE0100" and "#0015BC" may be good choices for Republicans and Democ
 
 6. In 2022, North Carolina will be required to draw new congressional districts, and they will all have to have equal population. The population is based on the 2020 U.S. Census. North Carolina will also have a 14th Congressional District for the first time in its history! The variable `population_2020` contains a variable measuring the population of the current (2010 census) districts. 
 
-Make a map of each district's population based on the 2020 U.S. Census. Choose a new color palette for the scale. You can use the `scale_fill_gradient` function and do not have to set a midpoint. 
-  - What do you observe? 
-  - Which which area(s) of the state have the most overpopulated districts and thus the districts that will have to reduce in size in redistricting?
+    Make a map of each district's population based on the 2020 U.S. Census. Choose a new color palette for the scale. You can use the `scale_fill_gradient` function and do not have to set a midpoint. 
+  
+    - What do you observe? 
+    - Which which area(s) of the state have the most overpopulated districts and thus the districts that will have to reduce in size in redistricting?
 
 ::: {.commit}
 `r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` **Team member 4**: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.
