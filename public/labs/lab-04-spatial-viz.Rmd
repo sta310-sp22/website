@@ -202,6 +202,6 @@ All other team members can click to pull the finalized document.
 | Ex 4      | 8     |
 | Ex 5     | 8   |
 | Ex 6    | 8   |
-| Workflow & formatting   | 8      |
+| Workflow & formatting   | 6      |
 
 - The "Workflow & formatting" grade is to assess the reproducible workflow. This includes having at least one informative commit by each team member,  labeling the code chunks, and having readable code in the tidyverse syntax that does not exceed 80 characters (i.e., we can read all your code in the knitted PDF.)
