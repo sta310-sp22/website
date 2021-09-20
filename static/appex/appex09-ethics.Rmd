@@ -16,7 +16,7 @@ library(tidyverse)
 
 - HW 02 due **Wednesday, September 20 at 11:59p**
 
-- Ed Discussion board for today's lecture: 
+- Ed Discussion board for today's lecture: https://edstem.org/us/courses/8027/discussion/627268
 - Exam 01 
   - covers Weeks 01 - 04
   - available Thursday, September 23 at 9a - Monday, September 27 at 11:59p
