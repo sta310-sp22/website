@@ -85,7 +85,7 @@ lessons:
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u3-d03-algorithmic-bias/u3-d03-algorithmic-bias.html#1"
   - date: "Wed, Sep 22"
     title: "Troubleshooting & Debugging"
-    appex: "appex10-debugging.html"
+    ae: "appex10-debugging.html"
     prepare: "week-05.html"
   - date: "Thu, Sep 23"
     title: "NO LAB: Work on Exam 01"
