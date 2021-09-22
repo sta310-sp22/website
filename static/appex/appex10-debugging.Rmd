@@ -37,8 +37,9 @@ library(tidyverse)
 
 ## AE 10: Debugging & Troubleshooting 
 
+### Artwork by [\@allison_horst](https://twitter.com/allison_horst)
+
 ![](img/faces-of-debugging.jpeg)
-Artwork by [\@allison_horst](https://twitter.com/allison_horst)
 
 ### Clone the repo + start a new project
 
