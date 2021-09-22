@@ -98,6 +98,7 @@ lessons:
     slides: "https://sta198f2021.github.io/website/slides/week-02/w2-l03-prob.html"
     prepare: "week-06.html"
   - title: "Exam 01 due"
+    exam: "exam-01.html"
   - date: "Wed, Sep 29"
     title: "Conditional probability"
     prepare: "week-06.html" 
