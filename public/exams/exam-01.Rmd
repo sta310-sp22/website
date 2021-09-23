@@ -42,9 +42,9 @@ be based on quality of commit history.
 -   You must cite any code you obtain outside of the course materials (notes and textbooks) you use as inspiration. A failure to cite is
     plagiarism. Cite any sources by providing a link to the original
     source in your exam write-up.
--   No TA office hours will be held Fri, Sep 24 - Tue, Sep 28. You may not discuss the exam during TA office hours, or email the TAs questions about the exam.
--   Ed Discussion will be inactive Thu, Sep 24 - Mon, Sep 27.
--   If you have questions email the instructor with "STA 199 Exam" in the subject line or attend office hours. Prof. Tackett will have office hours Fri, Sep 25, 10a - 11a.
+-   **No TA office hours will be held Fri, Sep 24 - Tue, Sep 28**. You may not discuss the exam during TA office hours, or email the TAs questions about the exam.
+-   **Ed Discussion will be inactive Thu, Sep 23 - Mon, Sep 27**.
+-   If you have questions email the instructor with "STA 199 Exam" in the subject line or attend office hours. Prof. Tackett will have office hours Fri, Sep 24, 10a - 11a.
 Questions should only be about understanding the data or the exam’s instructions. You may not ask questions on any topics from past assignments or material related to the exam.
 -   The instructor will provide code debugging if needed, but this will
     result in a **grade penalty** reflecting the portion of the question where debugging occurred.
