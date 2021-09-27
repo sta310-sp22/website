@@ -97,6 +97,7 @@ lessons:
     title: "Probability"
     slides: "https://sta198f2021.github.io/website/slides/week-02/w2-l03-prob.html"
     prepare: "week-06.html"
+    appex: "appex11-prob.html"
   - title: "Exam 01 due"
     exam: "exam-01.html"
   - date: "Wed, Sep 29"
