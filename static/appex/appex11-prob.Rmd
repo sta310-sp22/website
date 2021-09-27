@@ -17,8 +17,6 @@ library(tidyverse)
 
 - Prep Quiz 03 due **Wed, Sep 29 at 1:45p**
 
-- [Week 07](https://sta199-fa21-003.netlify.app/prepare/week-07.html) prepare
-
 
 ## AE 11: Probability 
 

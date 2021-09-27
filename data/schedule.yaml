@@ -114,6 +114,7 @@ lessons:
     title: "NO CLASS: FALL BREAK"
   - date: "Wed, Oct 06"
     title: "Foundations of inference"
+    prepare: "week-07.html"
   - title: "HW 03 released" 
     hw: "hw-03.html"
   - date: "Thu, Oct 07"

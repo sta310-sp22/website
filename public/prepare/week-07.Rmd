@@ -1,0 +1,26 @@
+---
+title: "Prepare: Week 07"
+output: 
+  html_document:
+    css: "prepare.css"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## October 04 - No class (Fall break)
+
+## For October 06
+
+**Note:** All required prepare activities are due **<u>by the beginning of class</u>** on the specified date
+
+### Required 
+
+Check back for videos and slides.
+
+
+
+
+
+
