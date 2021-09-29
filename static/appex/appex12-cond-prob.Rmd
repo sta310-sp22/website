@@ -16,6 +16,14 @@ library(tidyverse)
 
 - No class Mon, Oct 4: `r emo::ji("fallen_leaf")` **Happy Fall Break!** `r emo::ji("fallen_leaf")`
 
+### HackDuke event
+
+Hi everyone! HackDuke is excited to invite you to apply to Code for Good 2021, the nation’s largest collegiate hackathon for social good! Each year, we bring together over 600 students who are passionate about changing the intention and narrative behind how technology is used today to create meaningful hacks in a 24-hour sprint. Come learn, come discuss, and come code for good.
+
+This year, we will be holding our event from October 23-24 (in-person for Duke students!). Apply online at 2021.hackduke.org! Follow us on Twitter, Facebook, and Instagram (all @HackDuke) for updates, and feel free to reach out with any questions to hackers@hackduke.org. See you there!
+
+![](img/hd2021.png)
+
 
 ## AE 12: Conditional probability
 
