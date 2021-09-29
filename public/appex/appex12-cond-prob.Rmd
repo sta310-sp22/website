@@ -16,6 +16,8 @@ library(tidyverse)
 
 - No class Mon, Oct 4: `r emo::ji("fallen_leaf")` **Happy Fall Break!** `r emo::ji("fallen_leaf")`
 
+- No office hours Friday 3p - 4p.
+
 ### HackDuke event
 
 Hi everyone! HackDuke is excited to invite you to apply to Code for Good 2021, the nation’s largest collegiate hackathon for social good! Each year, we bring together over 600 students who are passionate about changing the intention and narrative behind how technology is used today to create meaningful hacks in a 24-hour sprint. Come learn, come discuss, and come code for good.
