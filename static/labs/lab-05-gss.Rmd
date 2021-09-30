@@ -56,11 +56,12 @@ Team Members 2, 3, 4: Click the Pull** button in the Git pane to get the updated
 
 # Packages 
 
-We will use the **tidyverse** package in this lab. You can also use the **viridis** for the visualizations. 
+We will use the **tidyverse** and **knitr** packages in this lab. You can also use the **viridis** for the visualizations. 
 
 ```{r}
 library(tidyverse)
 library(viridis)
+library(knitr)
 ```
 
 # Data 
@@ -97,7 +98,7 @@ Type the team's response to Exercises 1 - 3.
 
 2. By default, R will arrange the categories of a categorical variable in alphabetical order in any output and visualizations, but we want the levels for `indus` and `altenergy` to be in logical order. To achieve this, we will use the `factor()` function to make both of these variables factors (categorical variables with ordering) and specify the levels we wish to use. 
 
-The code to for `indus` is below. Use this code to make `indus` a factor, and write code to make `altenergy` a factor with the levels in the following order: "Don't know", "Too little", "About right", "Too much."  Save your result to the `gss` data frame, so the ordered variables are used throughout the lab. 
+The code to reorder levels for `indus` is below. Use this code to make `indus` a factor, and write code to make `altenergy` a factor with the levels in the following order: "Don't know", "Too little", "About right", "Too much."  Save your result to the `gss` data frame, so the reordered variables are used throughout the lab. 
 
 
 ```{r eval = F}
@@ -110,7 +111,7 @@ gss <- gss %>%
 Then, filter the data only observations with values for `indus` are included in the data set. Your updated data frame should have 783 observations. You will use this for the remainder of the lab.
 
 
-3. Before looking at the relationship between feelings on impact of industrial air pollution to environment and government spending on alternative energy sources, we'll look at the distribution of each variable individually.
+3. Before looking at the relationship between thoughts on impact of industrial air pollution to environment and government spending on alternative energy sources, we'll look at the distribution of each variable individually.
 
     - Make a bar plot to examine the distribution of `indus`. Then calculate the marginal probabilities for this variable.
     - In general, how do survey respondents feel about the impact of industrial air pollution? Write 1 - 2 observations from the visualization and probabilities to support your response. 
@@ -125,32 +126,32 @@ Then, filter the data only observations with values for `indus` are included in 
 :::
  
 
-4. Make a bar plot to examine the distribution of `altenergy` and calculate the marginal probabilities for this variable. In general, how do survey respondents feel about the amount of money the US government is spending on alternative energy sources? Write 1 - 2 observations from the graph to support your response. 
+4. Make a bar plot to examine the distribution of `altenergy` and calculate the marginal probabilities for this variable. In general, how do survey respondents feel about the amount of money the US government is spending on alternative energy sources? Write 1 - 2 observations from the visualization and probabilities to support your response. 
 
-5. What would you expect the relationship between feelings about the impact of industrial air pollution on the environment and the amount of government spending on alternative energy sources to be? 
+5. What would you expect the relationship between thoughts about the impact of industrial air pollution on the environment and the amount of government spending on alternative energy sources to be? 
 
 ::: {.commit}
 `r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` **Team member 2**: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.
 
 **All other team members**: **Pull** to get the updated documents from GitHub. Click on the .Rmd file, and you should see the responses to exercises 4 - 5.
 
-**Team Member 3**: It's your turn! Type the team's response to exercise 6 -7.
+**Team Member 3**: It's your turn! Type the team's response to exercise 6.
 :::
 
-
-6. Visualize the distribution of feelings about government spending on alternative energy sources based on levels of feeling about the impact of industrial air pollution on the environment. Write 2 - 3 observations from the graph.
-
-7. Let's focus on respondents who said the government is spending **too little** on alternative energy sources. How does the probability a randomly chosen respondent thinks the government  is spending too little on alternative energy sources compare for different feelings about the danger of industrial air pollution? Calculate the relevant probabilities needed to answer this question, and briefly explain your response in 2 - 3 sentences. 
+6. Visualize the distribution of thoughts about government spending on alternative energy sources based on levels of thoughts about the impact of industrial air pollution on the environment. Then make a contingency table that can be used to analyze the two variables. Write 2 - 3 observations from the graph and contingency table. (*Hint: Use the [`coord_flip()`](https://ggplot2.tidyverse.org/reference/coord_flip.html) function to change the axes and make the labels on the plot more readable*.)
 
 ::: {.commit}
 `r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` **Team member 3**: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.
 
-**All other team members**: **Pull** to get the updated documents from GitHub. Click on the .Rmd file, and you should see the responses to exercise 6 - 7
+**All other team members**: **Pull** to get the updated documents from GitHub. Click on the .Rmd file, and you should see the responses to exercise 6.
 
-**Team Member 4**: It's your turn! Type the team's response to exercise 8.
+**Team Member 4**: It's your turn! Type the team's response to exercises 7 - 8.
 :::
 
-8. *Are feelings on the impact of industrial air pollution to environment and government spending on alternative energy sources independent?* Briefly explain, supporting your response based on the analysis from Exercises 6 and 7. 
+7. A randomly chosen respondent thinks government is spending **too little** on alternative energy sources. What is the probability this individual thinks industrial air pollution is *Extremely dangerous*? What is the probability this individual thinks it is *Very dangerous*, *Somewhat dangerous* or *Not dangerous*? 
+
+
+8. *Are thoughts on the impact of industrial air pollution to environment and government spending on alternative energy sources independent?* Briefly explain, supporting your response based on the analysis from Exercises 6 and 7. 
 
 ::: {.commit}
 `r emo::ji("yarn")` `r emo::ji("white_check_mark")` `r emo::ji("arrow_up")` **Team member 4**: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.
@@ -172,17 +173,18 @@ Go back through your write up to make sure you followed the coding style guideli
 **There should only be <u>one</u> submission per team on Gradescope.**
 
 
-# Grading - To BE UDATED
+# Grading 
 
 | Component | Points |
 |:----------|:-------|
-| Team Agreement      | 4      |
-| Ex 1     | 6   |
-| Ex 2      | 8   |
-| Ex 3      | 2    |
-| Ex 4      | 8     |
-| Ex 5     | 8   |
-| Ex 6    | 8   |
+| Ex 1     | 2   |
+| Ex 2      | 5   |
+| Ex 3      | 7    |
+| Ex 4      | 7   |
+| Ex 5     | 3  |
+| Ex 6    | 10  |
+| Ex 7    | 6   |
+| Ex 8    | 4   |
 | Workflow & formatting   | 6      |
 
 - The "Workflow & formatting" grade is to assess the reproducible workflow. This includes having at least one informative commit by each team member,  labeling the code chunks, and having readable code in the tidyverse syntax that does not exceed 80 characters (i.e., we can read all your code in the knitted PDF.)

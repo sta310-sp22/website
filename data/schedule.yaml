@@ -109,6 +109,7 @@ lessons:
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u2-d16-simpsons-paradox/u2-d16-simpsons-paradox.html#1"
   - date: "Thu, Sep 30"
     title: "Lab 05: General Social Survey"
+    lab: "lab-05-gss.html"
    
   - week: "Week 07"
     date: "Mon, Oct 04"

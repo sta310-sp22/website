@@ -152,7 +152,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="#exercises">Exercises</a></li>
 <li><a href="#wrapping-up">Wrapping up</a></li>
 <li><a href="#submission">Submission</a></li>
-<li><a href="#grading---to-be-udated">Grading - To BE UDATED</a></li>
+<li><a href="#grading">Grading</a></li>
 </ul>
 </div>
 
@@ -189,9 +189,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="packages" class="section level1">
 <h1>Packages</h1>
-<p>We will use the <strong>tidyverse</strong> package in this lab. You can also use the <strong>viridis</strong> for the visualizations.</p>
+<p>We will use the <strong>tidyverse</strong> and <strong>knitr</strong> packages in this lab. You can also use the <strong>viridis</strong> for the visualizations.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(viridis)</span></code></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(viridis)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span></code></pre></div>
 </div>
 <div id="data" class="section level1">
 <h1>Data</h1>
@@ -221,14 +222,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p>How many observations are in this dataset? What does each observation represent?</p></li>
 <li><p>By default, R will arrange the categories of a categorical variable in alphabetical order in any output and visualizations, but we want the levels for <code>indus</code> and <code>altenergy</code> to be in logical order. To achieve this, we will use the <code>factor()</code> function to make both of these variables factors (categorical variables with ordering) and specify the levels we wish to use.</p></li>
 </ol>
-<p>The code to for <code>indus</code> is below. Use this code to make <code>indus</code> a factor, and write code to make <code>altenergy</code> a factor with the levels in the following order: “Don’t know”, “Too little”, “About right”, “Too much.” Save your result to the <code>gss</code> data frame, so the ordered variables are used throughout the lab.</p>
+<p>The code to reorder levels for <code>indus</code> is below. Use this code to make <code>indus</code> a factor, and write code to make <code>altenergy</code> a factor with the levels in the following order: “Don’t know”, “Too little”, “About right”, “Too much.” Save your result to the <code>gss</code> data frame, so the reordered variables are used throughout the lab.</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>gss <span class="ot">&lt;-</span> gss <span class="sc">%&gt;%</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">indus =</span> <span class="fu">factor</span>(indus, <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">&quot;Not dangerous&quot;</span>, <span class="st">&quot;Somewhat dangerous&quot;</span>, </span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>                                          <span class="st">&quot;Very dangerous&quot;</span>, </span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>                                          <span class="st">&quot;Extremely dangerous&quot;</span>)))</span></code></pre></div>
 <p>Then, filter the data only observations with values for <code>indus</code> are included in the data set. Your updated data frame should have 783 observations. You will use this for the remainder of the lab.</p>
 <ol start="3" style="list-style-type: decimal">
-<li><p>Before looking at the relationship between feelings on impact of industrial air pollution to environment and government spending on alternative energy sources, we’ll look at the distribution of each variable individually.</p>
+<li><p>Before looking at the relationship between thoughts on impact of industrial air pollution to environment and government spending on alternative energy sources, we’ll look at the distribution of each variable individually.</p>
 <ul>
 <li>Make a bar plot to examine the distribution of <code>indus</code>. Then calculate the marginal probabilities for this variable.</li>
 <li>In general, how do survey respondents feel about the impact of industrial air pollution? Write 1 - 2 observations from the visualization and probabilities to support your response.</li>
@@ -240,25 +241,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p><strong>Team Member 2</strong>: It’s your turn! Type the team’s response to exercises 4 - 5.</p>
 </div>
 <ol start="4" style="list-style-type: decimal">
-<li><p>Make a bar plot to examine the distribution of <code>altenergy</code> and calculate the marginal probabilities for this variable. In general, how do survey respondents feel about the amount of money the US government is spending on alternative energy sources? Write 1 - 2 observations from the graph to support your response.</p></li>
-<li><p>What would you expect the relationship between feelings about the impact of industrial air pollution on the environment and the amount of government spending on alternative energy sources to be?</p></li>
+<li><p>Make a bar plot to examine the distribution of <code>altenergy</code> and calculate the marginal probabilities for this variable. In general, how do survey respondents feel about the amount of money the US government is spending on alternative energy sources? Write 1 - 2 observations from the visualization and probabilities to support your response.</p></li>
+<li><p>What would you expect the relationship between thoughts about the impact of industrial air pollution on the environment and the amount of government spending on alternative energy sources to be?</p></li>
 </ol>
 <div class="commit">
 <p>🧶 ✅ ⬆️ <strong>Team member 2</strong>: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.</p>
 <p><strong>All other team members</strong>: <strong>Pull</strong> to get the updated documents from GitHub. Click on the .Rmd file, and you should see the responses to exercises 4 - 5.</p>
-<p><strong>Team Member 3</strong>: It’s your turn! Type the team’s response to exercise 6 -7.</p>
+<p><strong>Team Member 3</strong>: It’s your turn! Type the team’s response to exercise 6.</p>
 </div>
 <ol start="6" style="list-style-type: decimal">
-<li><p>Visualize the distribution of feelings about government spending on alternative energy sources based on levels of feeling about the impact of industrial air pollution on the environment. Write 2 - 3 observations from the graph.</p></li>
-<li><p>Let’s focus on respondents who said the government is spending <strong>too little</strong> on alternative energy sources. How does the probability a randomly chosen respondent thinks the government is spending too little on alternative energy sources compare for different feelings about the danger of industrial air pollution? Calculate the relevant probabilities needed to answer this question, and briefly explain your response in 2 - 3 sentences.</p></li>
+<li>Visualize the distribution of thoughts about government spending on alternative energy sources based on levels of thoughts about the impact of industrial air pollution on the environment. Then make a contingency table that can be used to analyze the two variables. Write 2 - 3 observations from the graph and contingency table. (<em>Hint: Use the <a href="https://ggplot2.tidyverse.org/reference/coord_flip.html"><code>coord_flip()</code></a> function to change the axes and make the labels on the plot more readable</em>.)</li>
 </ol>
 <div class="commit">
 <p>🧶 ✅ ⬆️ <strong>Team member 3</strong>: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.</p>
-<p><strong>All other team members</strong>: <strong>Pull</strong> to get the updated documents from GitHub. Click on the .Rmd file, and you should see the responses to exercise 6 - 7</p>
-<p><strong>Team Member 4</strong>: It’s your turn! Type the team’s response to exercise 8.</p>
+<p><strong>All other team members</strong>: <strong>Pull</strong> to get the updated documents from GitHub. Click on the .Rmd file, and you should see the responses to exercise 6.</p>
+<p><strong>Team Member 4</strong>: It’s your turn! Type the team’s response to exercises 7 - 8.</p>
 </div>
-<ol start="8" style="list-style-type: decimal">
-<li><em>Are feelings on the impact of industrial air pollution to environment and government spending on alternative energy sources independent?</em> Briefly explain, supporting your response based on the analysis from Exercises 6 and 7.</li>
+<ol start="7" style="list-style-type: decimal">
+<li><p>A randomly chosen respondent thinks government is spending <strong>too little</strong> on alternative energy sources. What is the probability this individual thinks industrial air pollution is <em>Extremely dangerous</em>? What is the probability this individual thinks it is <em>Very dangerous</em>, <em>Somewhat dangerous</em> or <em>Not dangerous</em>?</p></li>
+<li><p><em>Are thoughts on the impact of industrial air pollution to environment and government spending on alternative energy sources independent?</em> Briefly explain, supporting your response based on the analysis from Exercises 6 and 7.</p></li>
 </ol>
 <div class="commit">
 <p>🧶 ✅ ⬆️ <strong>Team member 4</strong>: Knit, commit and push your changes to GitHub with an informative commit message. Make sure to commit and push all changed files so that your Git pane is empty afterwards.</p>
@@ -278,8 +279,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 <p><strong>There should only be <u>one</u> submission per team on Gradescope.</strong></p>
 </div>
-<div id="grading---to-be-udated" class="section level1">
-<h1>Grading - To BE UDATED</h1>
+<div id="grading" class="section level1">
+<h1>Grading</h1>
 <table>
 <thead>
 <tr class="header">
@@ -289,34 +290,38 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Team Agreement</td>
-<td align="left">4</td>
-</tr>
-<tr class="even">
 <td align="left">Ex 1</td>
-<td align="left">6</td>
-</tr>
-<tr class="odd">
-<td align="left">Ex 2</td>
-<td align="left">8</td>
-</tr>
-<tr class="even">
-<td align="left">Ex 3</td>
 <td align="left">2</td>
 </tr>
+<tr class="even">
+<td align="left">Ex 2</td>
+<td align="left">5</td>
+</tr>
 <tr class="odd">
+<td align="left">Ex 3</td>
+<td align="left">7</td>
+</tr>
+<tr class="even">
 <td align="left">Ex 4</td>
-<td align="left">8</td>
-</tr>
-<tr class="even">
-<td align="left">Ex 5</td>
-<td align="left">8</td>
+<td align="left">7</td>
 </tr>
 <tr class="odd">
-<td align="left">Ex 6</td>
-<td align="left">8</td>
+<td align="left">Ex 5</td>
+<td align="left">3</td>
 </tr>
 <tr class="even">
+<td align="left">Ex 6</td>
+<td align="left">10</td>
+</tr>
+<tr class="odd">
+<td align="left">Ex 7</td>
+<td align="left">6</td>
+</tr>
+<tr class="even">
+<td align="left">Ex 8</td>
+<td align="left">4</td>
+</tr>
+<tr class="odd">
 <td align="left">Workflow &amp; formatting</td>
 <td align="left">6</td>
 </tr>
