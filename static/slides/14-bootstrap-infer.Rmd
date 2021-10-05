@@ -1,5 +1,5 @@
 ---
-title: "Bootstrap Estimation"
+title: "Bootstrapping"
 subtitle: "<br> <br> Introduction to Data Science @ Duke"
 author: "[introds.org](https://www.introds.org/)"
 output:
@@ -28,10 +28,13 @@ library(patchwork)
 knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ```
 
+```{r echo = F}
+abb <- read_csv("data/asheville.csv")
+```
 
 class: center, middle
 
-# Bootstrapping in R
+# Bootstrapping with infer
 
 ---
 
@@ -39,12 +42,10 @@ class: center, middle
 
 .pull-left[
 ![](img/14/infer.png)
-<br><br>
-[infer.netlify.com](http://infer.netlify.com)
+[infer.netlify.app](https://infer.netlify.app/index.html)
 ]
 
 .pull-right[
-<br/><br/><br/><br/>
 The objective of package `infer` is to perform statistical inference using an 
 expressive statistical grammar that coheres with the tidyverse design framework.
 
@@ -59,12 +60,11 @@ library(infer)
 
 Let's set a seed
 
-```{r}
+```{r eval = F}
 set.seed(123)
 ```
 
-Function `set.seed()` is a base R function that allows us to control R's
-random number generation. Use this to make your simulation work reproducible.
+`set.seed()` is an R function that allows us to control R's random number generation. Use this to make your simulation work reproducible.
 
 In other words, it ensures we'll get the same random sample each time we run the code or knit.
 
@@ -109,11 +109,11 @@ abb %>%
 ## Generate bootstrap means
 
 ```{r include=FALSE}
-set.seed(834782)
+set.seed(12345)
 ```
 
 ```{r}
-num_reps <- 100
+num_reps <- 15000
 ```
 
 ```{r}
@@ -142,14 +142,16 @@ boot_dist
 
 ---
 
-## Visualize the distribution
+## Visualize the bootstrap distribution
 
-```{r echo=FALSE}
-ggplot(data = boot_dist, mapping = aes(x = stat)) +
+```{r echo=FALSE, out.width = "65%"}
+boot_dist_plot <- ggplot(data = boot_dist, mapping = aes(x = stat)) +
   geom_histogram(binwidth = 5) +
   labs(title = "Bootstrap distribution centered around 75",
-       x = "Price per guest", y = "Count", caption = "Binwidth of 5") +
+       x = "Price per guest", y = "Count") +
   theme_minimal()
+
+boot_dist_plot
 ```
 
 ---
@@ -159,10 +161,6 @@ ggplot(data = boot_dist, mapping = aes(x = stat)) +
 A 95% confidence interval is bounded by the middle 95% of the bootstrap 
 distribution.
 
---
-
-Use `dplyr` functions:
-
 ```{r}
 boot_dist %>%
   summarize(lower_bound = quantile(stat, 0.025),
@@ -171,9 +169,7 @@ boot_dist %>%
 
 ---
 
-## Visualize a confidence interval
-
-Using `geom_vline()` to mark the bounds of the confidence interval
+## Visualize the confidence interval
 
 ```{r echo=FALSE}
 lower_bound <- boot_dist %>% 
@@ -185,26 +181,15 @@ upper_bound <- boot_dist %>%
   pull()
 ```
 
-```{r echo=FALSE, out.width = "75%"}
-ggplot(data = boot_dist, mapping = aes(x = stat)) +
-  geom_histogram(binwidth = 5, alpha = .5) +
+```{r echo=FALSE, out.width = "65%"}
+boot_dist_plot + 
   geom_vline(xintercept = c(lower_bound, upper_bound), 
-             color = "steelblue", lty = 2, size = 1) +
-  labs(title = "Bootstrap distribution of means",
-       subtitle = "with 95% confidence interval",
-       x = "Means", y = "Count") +
-  theme_minimal()
+             color = "skyblue", size = 2)
 ```
 
 ---
 
-class: center, middle
-
-# <span style="color:red">NO</span> `r emo::ji("x")`
-
----
-
-## Interpreting a confidence interval
+## What the interval tells us
 
 - The population parameter is either in our interval or it isn't. It can't have a
 "95% chance" of being in any specific interval.
@@ -227,8 +212,13 @@ we would *expect* 95% of these intervals to contian the population mean.
 
 ---
 
-## Interpretation 
+## Recall: Interpretation 
 
-.question[
-**We are 95% confident that the mean price per night for Airbnbs in Asheville, NC is between $`r round(lower_bound,1)` and $ `r round(upper_bound,1)`. **
-]
+```{r echo=FALSE, out.width = "65%"}
+boot_dist_plot + 
+  geom_vline(xintercept = c(lower_bound, upper_bound), 
+             color = "skyblue", size = 2)
+```
+
+**We are 95% confident that the mean price per night for Airbnbs in Asheville, NC is between $ `r round(lower_bound,2)` and $ `r round(upper_bound,2)`. **
+
