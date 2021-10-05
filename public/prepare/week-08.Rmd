@@ -1,5 +1,5 @@
 ---
-title: "Prepare: Week 07"
+title: "Prepare: Week 08"
 output: 
   html_document:
     css: "prepare.css"
@@ -9,11 +9,10 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## October 04 - No class (Fall break)
+## October 11
 
-## For October 06
+## For October 13
 
-No prep activities for October 06 lecture.
 
 
 

@@ -13,12 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## For October 06
 
-**Note:** All required prepare activities are due **<u>by the beginning of class</u>** on the specified date
-
-### Required 
-
-Check back for videos and slides.
-
+No prep activities for October 06 lecture.
 
 
 

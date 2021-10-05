@@ -116,6 +116,7 @@ lessons:
     title: "NO CLASS: FALL BREAK"
   - date: "Wed, Oct 06"
     title: "Foundations of inference"
+    slides: "https://sta199-fa21-003.netlify.app/slides/14-bootstrap.html"
     prepare: "week-07.html"
   - title: "HW 03 released" 
     hw: "hw-03.html"
@@ -124,9 +125,11 @@ lessons:
 
   - week: "Week 08"
     date: "Mon, Oct 11"
-    title: "Simulation-based inference"
+    title: "Estimation via bootstrapping"
+    prepare: "week-08.html"
   - date: "Wed, Oct 13"
-    title: "Simulation-based inference cont'd"
+    title: "Simulation-based Testing"
+    prepare: "week-08.html"
   - date: "Thu, Oct 14"
     title: "Lab 06"
 
