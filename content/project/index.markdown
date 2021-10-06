@@ -1,20 +1,20 @@
 ---
-title: "Project: Showcase your inner data scientist!"
+title: "STA 199 Final Project"
 ---
 
 ## Timeline
 
-Proposal due **Friday, October 9**
+Proposal due **Thursday, October 14**
 
-Draft report due **Wednesday, October 28** 
+Draft report due **Wednesday, November 17** 
 
-Peer feedback due **Thursday, November 5**
+Peer feedback due **Monday, November 22**
 
-Final written report due **Sunday, November 15** 
+Final written report due **Friday, December 3** 
 
-Presentation video, slides, repo due **Tuesday, November 17**
+Presentation video, slides, repo due **Wednesday, December 8**
 
-Presentation comments due **Friday, November 20**
+Presentation comments due **Friday, December 10**
 
 ## Introduction 
 
@@ -40,40 +40,38 @@ The four primary deliverables for the final project are
 
 The grade breakdown is as follows:
 
-Total                                                   | 115 pts
+Total                                                   | 100 pts
 --------------------------------------------------------|--------
-**Project proposal**                                    | 10 pts
+**Project proposal**                                    | 5 pts
 **Written report**                                      | 50 pts
-**Slides**                                              | 15 pts
-**Repository**                                          | 5 pts
+**Slides**                                              | 10 pts
+**GitHub repo & reproducibility**                       | 5 pts
 **Video presentation**                                  | 20 pts
-**Peer feedback**                                       | 15 pts
+**Peer feedback**                                       | 10 pts
 
 **<i>Note: No late projects are accepted.</i>**
 
 ## Data sources
 
-In order for you to have the greatest chance of success with this project it is important that you choose a manageable dataset. This means that the data should be readily accessible and large enough that multiple relationships can be explored. Therefore, **your dataset must have at least 50 observations and at least 10 variables (exceptions can be made but you must speak with me first).**
-
-In the dataset, there should be 
-
-- categorical variables
-- discrete numerical variables 
-- continuous numerical variables 
-
+In order for you to have the greatest chance of success with this project it is important that you choose a manageable dataset. This means that the data should be readily accessible and large enough that multiple relationships can be explored. Your dataset must have **at least 500 observations and at least ten variables (or has been approved by Prof. Tackett)**. The dataset should include a rich mix of categorical, discrete numeric, and continuous numeric data. 
 
 If you are using a dataset that comes in a 
 format that we haven't encountered in class (for instance, a `.DAT` file), make 
 sure that you are able to load it into RStudio as this can be tricky depending 
 on the source. If you are having trouble, ask for help before it is too late.
 
-**Reusing datasets from class:** Do not reuse datasets used in examples / homework 
-in the class. 
+**Data sets that can't be used:** 
+
+- Data sets that have been used for class examples or assignments. 
+in the class.
+- Data sets from Kaggle.
+- Data sets analyzed in another course.
+
+There will be limits on the number of groups that can use a given data set, so I encourage you to be creative! 
 
 Some resources that may be helpful:
 
 - [R Data Sources for Regression Analysis](https://rfun.library.duke.edu/blog/data-sources-for-regression-analysis/)
-- [kaggle](https://www.kaggle.com/datasets)
 - [FiveThirtyEight data](https://data.fivethirtyeight.com/)
 - [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
 
@@ -109,39 +107,48 @@ There are two main purposes of the project proposal:
 - To help you think about the project early, so you can get a head start on finding data, reading relevant literature, thinking about the questions you wish to answer, etc.
 - To ensure that the data you wish to analyze, methods you plan to use, and the scope of your analysis are feasible and will help you be successful for this project.
 
+Choose **three** substantially different datasets you are interested in analyzing. For each, identify the components below.
+
 Include the following in the proposal: 
 
-### Section 1 - Introduction
+### Introduction and Data
 
-The introduction section includes 
+For each data set, include the following: 
 
-- an introduction to the subject matter you're investigating
-- the motivation for your research question (citing any relevant literature)
-- the general research question you wish to explore 
-- your hypotheses regarding the research question of interest. 
+- Identify the source of the data, 
+- When and how it was originally collected (by the original data curator, not necessarily how you found the data) 
+- A brief description of the observations 
 
-### Section 2 - Data description 
+### Research question
 
-In this section, you will describe the data set you wish to explore. This includes a description of the observations in the data set, a general description of the variables in the data set, and a description of how the data was originally collected (not how you found the data but how the original curator of the data collected it). 
+- Describe the research topic along with a concise statement of the research question and hypotheses.
 
-### Section 3 - Glimpse of data
+### Data set
 
-Use the `glimpse` function print a summary of the data at the end of your proposal.
+- Use the `glimpse` function to provide a glimpse of the data set.
 
-Place your data in the `/data` folder of the repo. Later on you will include the codebook in the README of the data folder. 
+- Place the file containing your data in the `data` folder of the project repo. 
 
-### Submission
+### Submission 
 
-Submit the PDF of your proposal in the **Project Proposal** assignment on Gradescope. Be sure to select the names of all team members in the submission. The proposal is due on **Friday, October 9.** 
+Submit the PDF of your proposal on Gradescope by **Thursday, October 14 at 11:59pm**.Be sure to select the names of all team members in the submission and mark all the pages associated with each data set. The teaching team will provide feedback on your proposal to help you determine a data set to use for the project. 
 
-### Proposal grading
+### Notes 
 
-Total                                                   | 10 pts
---------------------------------------------------------|--------
-**Introduction**                                        | 4 pts
-**Data description**                                    | 4 pts
-**Glimpse of data**                                     | 2 pts
+- Project proposals should have no more than one page of **text.** (not including the output from `glimpse`). 
+- You **must** use one of the data sets in the proposal for the final project, unless instructed otherwise by Prof. Tackett. 
 
+### Proposal grading 
+
+The project proposal will be graded as follows:
+
+Total                                                   | 5 pts
+--------------------------------------------------------|-------
+**Introduction/data**                                   | 2 pts
+**Research questions**                                  | 2 pts
+**Results**                                             | 1 pts
+
+<!--
 ## Peer feedback
 
 Critically reviewing others' work is a crucial part of the scientific process, and STA 199 is no exception. You will be assigned a team to review. As part of the review process, you must provide your partner team a copy of your current report by **Wednesday, October 28**. After giving the report to your partner team, they will have until **Friday, November 5** to provide a detailed critique about the written report and data analysis. This feedback is intended to help you create a high quality final project, as well as give you experience 
@@ -403,7 +410,7 @@ ggplot(data = mpg, aes(x = manufacturer)) +
   geom_bar()
 ```
 
-<img src="/project/index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-3-1.png" width="672" />
 
 ✅ **YES! Names are readable**
 
@@ -414,7 +421,7 @@ ggplot(data = mpg, aes(x = manufacturer)) +
   coord_flip()
 ```
 
-<img src="/project/index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="672" />
 
 ### Do a little more to make the plot look professional!
 
@@ -439,7 +446,7 @@ mpg %>%
   theme_bw() 
 ```
 
-<img src="/project/index_files/figure-html/unnamed-chunk-5-1.png" width="672" />
+<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-5-1.png" width="672" />
 
 
 ### Tables and model output
@@ -486,7 +493,7 @@ tidy(model) %>%
   - [Data Visualization: A Practice Introduction](https://socviz.co/index.html)
   - [Patchwork R Package](https://patchwork.data-imaginist.com/index.html)
 
-
+-->
 
 
 

@@ -108,148 +108,167 @@ Go to &lt;a href=&#34;http://studentaffairs.duke.edu/dukereach&#34;&gt;studentaf
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
   
 <guid>/project/</guid>
-  <description>&lt;p&gt;&lt;em&gt;More detail about the project will be released when the project is assigned.&lt;/em&gt;&lt;/p&gt;
-&lt;!--
-## Timeline
-
-Proposal due **Friday, October 9**
-
-Draft report due **Wednesday, October 28** 
-
-Peer feedback due **Thursday, November 5**
-
-Final written report due **Sunday, November 15** 
-
-Presentation video, slides, repo due **Tuesday, November 17**
-
-Presentation comments due **Friday, November 20**
-
-## Introduction 
-
-**TL;DR**: *Pick a dataset and do something with it. That is your 
-final project.*
-
-The final project for this class will consist of analysis on a dataset of your own choosing. The dataset may already exist, you may collect your own data by scraping the web.  
-
-Choose the data based on your group&#39;s interests or work you all have done in other courses or research projects. The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this class (and beyond, if you like!) and apply them to a dataset to analyze it in a meaningful way. 
-
-### Logistics
-
-You will work on the project with your lab groups.
-
-The four primary deliverables for the final project are
-
-- A written, reproducible report detailing your analysis
-- A GitHub repository corresponding to your report
-- Slides + a video presentation
-- Formal peer review on another team&#39;s project
-
-## Overall grading
-
-The grade breakdown is as follows:
-
-Total                                                   | 115 pts
---------------------------------------------------------|--------
-**Project proposal**                                    | 10 pts
-**Written report**                                      | 50 pts
-**Slides**                                              | 15 pts
-**Repository**                                          | 5 pts
-**Video presentation**                                  | 20 pts
-**Peer feedback**                                       | 15 pts
-
-**&lt;i&gt;Note: No late projects are accepted.&lt;/i&gt;**
-
-## Data sources
-
-In order for you to have the greatest chance of success with this project it is important that you choose a manageable dataset. This means that the data should be readily accessible and large enough that multiple relationships can be explored. Therefore, **your dataset must have at least 50 observations and at least 10 variables (exceptions can be made but you must speak with me first).**
-
-In the dataset, there should be 
-
-- categorical variables
-- discrete numerical variables 
-- continuous numerical variables 
-
-
-If you are using a dataset that comes in a 
-format that we haven&#39;t encountered in class (for instance, a `.DAT` file), make 
-sure that you are able to load it into RStudio as this can be tricky depending 
-on the source. If you are having trouble, ask for help before it is too late.
-
-**Reusing datasets from class:** Do not reuse datasets used in examples / homework 
-in the class. 
-
-Some resources that may be helpful:
-
-- [R Data Sources for Regression Analysis](https://rfun.library.duke.edu/blog/data-sources-for-regression-analysis/)
-- [kaggle](https://www.kaggle.com/datasets)
-- [FiveThirtyEight data](https://data.fivethirtyeight.com/)
-- [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
-
-
-Additions:
-
-- [World Health Organization](https://www.who.int/gho/database/en/)
-- [The National Bureau of Economic Research](https://data.nber.org/data/)
-- [International Monetary Fund](https://data.imf.org/?sk=388DFA60-1D26-4ADE-B505-A05A558D9A42&amp;sId=1479329328660)
-- [General Social Survey](http://gss.norc.org/)
-- [United Nations Data](http://data.un.org/)
-- [United Nations Statistics Division](https://unstats.un.org/home/)
-- [U.K. Data](https://data.gov.uk/)
-- [U.S. Data](https://www.data.gov/)
-- [U.S. Census Data](https://www.census.gov/data.html)
-- [European Statistics](https://ec.europa.eu/eurostat/)
-- [Statistics Canada](https://www.statcan.gc.ca/eng/start)
-- [Pew Research](https://www.pewresearch.org/download-datasets/)
-- [UNICEF](https://data.unicef.org/)
-- [CDC](https://www.cdc.gov/datastatistics/index.html)
-- [World Bank](https://datacatalog.worldbank.org/)
-- [Election Studies](https://electionstudies.org//)
-
-All analyses must be done in RStudio, and your final written report and 
-analysis **must be reproducible**. This means that you must create an R Markdown
+  <description>&lt;h2 id=&#34;timeline&#34;&gt;Timeline&lt;/h2&gt;
+&lt;p&gt;Proposal due &lt;strong&gt;Thursday, October 14&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Draft report due &lt;strong&gt;Wednesday, November 17&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Peer feedback due &lt;strong&gt;Monday, November 22&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Final written report due &lt;strong&gt;Friday, December 3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Presentation video, slides, repo due &lt;strong&gt;Wednesday, December 8&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Presentation comments due &lt;strong&gt;Friday, December 10&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: &lt;em&gt;Pick a dataset and do something with it. That is your
+final project.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The final project for this class will consist of analysis on a dataset of your own choosing. The dataset may already exist, you may collect your own data by scraping the web.&lt;/p&gt;
+&lt;p&gt;Choose the data based on your group&amp;rsquo;s interests or work you all have done in other courses or research projects. The goal of this project is for you to demonstrate proficiency in the techniques we have covered in this class (and beyond, if you like!) and apply them to a dataset to analyze it in a meaningful way.&lt;/p&gt;
+&lt;h3 id=&#34;logistics&#34;&gt;Logistics&lt;/h3&gt;
+&lt;p&gt;You will work on the project with your lab groups.&lt;/p&gt;
+&lt;p&gt;The four primary deliverables for the final project are&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A written, reproducible report detailing your analysis&lt;/li&gt;
+&lt;li&gt;A GitHub repository corresponding to your report&lt;/li&gt;
+&lt;li&gt;Slides + a video presentation&lt;/li&gt;
+&lt;li&gt;Formal peer review on another team&amp;rsquo;s project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;overall-grading&#34;&gt;Overall grading&lt;/h2&gt;
+&lt;p&gt;The grade breakdown is as follows:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Total&lt;/th&gt;
+&lt;th&gt;100 pts&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Project proposal&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;5 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Written report&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;50 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Slides&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;10 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;GitHub repo &amp;amp; reproducibility&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;5 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Video presentation&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;20 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Peer feedback&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;10 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;&lt;i&gt;Note: No late projects are accepted.&lt;/i&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;data-sources&#34;&gt;Data sources&lt;/h2&gt;
+&lt;p&gt;In order for you to have the greatest chance of success with this project it is important that you choose a manageable dataset. This means that the data should be readily accessible and large enough that multiple relationships can be explored. Your dataset must have &lt;strong&gt;at least 500 observations and at least ten variables (or has been approved by Prof. Tackett)&lt;/strong&gt;. The dataset should include a rich mix of categorical, discrete numeric, and continuous numeric data.&lt;/p&gt;
+&lt;p&gt;If you are using a dataset that comes in a
+format that we haven&amp;rsquo;t encountered in class (for instance, a &lt;code&gt;.DAT&lt;/code&gt; file), make
+sure that you are able to load it into RStudio as this can be tricky depending
+on the source. If you are having trouble, ask for help before it is too late.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data sets that can&amp;rsquo;t be used:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Data sets that have been used for class examples or assignments.
+in the class.&lt;/li&gt;
+&lt;li&gt;Data sets from Kaggle.&lt;/li&gt;
+&lt;li&gt;Data sets analyzed in another course.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There will be limits on the number of groups that can use a given data set, so I encourage you to be creative!&lt;/p&gt;
+&lt;p&gt;Some resources that may be helpful:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rfun.library.duke.edu/blog/data-sources-for-regression-analysis/&#34;&gt;R Data Sources for Regression Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.fivethirtyeight.com/&#34;&gt;FiveThirtyEight data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rfordatascience/tidytuesday&#34;&gt;TidyTuesday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Additions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.who.int/gho/database/en/&#34;&gt;World Health Organization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.nber.org/data/&#34;&gt;The National Bureau of Economic Research&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.imf.org/?sk=388DFA60-1D26-4ADE-B505-A05A558D9A42&amp;amp;sId=1479329328660&#34;&gt;International Monetary Fund&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gss.norc.org/&#34;&gt;General Social Survey&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://data.un.org/&#34;&gt;United Nations Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://unstats.un.org/home/&#34;&gt;United Nations Statistics Division&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.gov.uk/&#34;&gt;U.K. Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.data.gov/&#34;&gt;U.S. Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.census.gov/data.html&#34;&gt;U.S. Census Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ec.europa.eu/eurostat/&#34;&gt;European Statistics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.statcan.gc.ca/eng/start&#34;&gt;Statistics Canada&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.pewresearch.org/download-datasets/&#34;&gt;Pew Research&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://data.unicef.org/&#34;&gt;UNICEF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cdc.gov/datastatistics/index.html&#34;&gt;CDC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://datacatalog.worldbank.org/&#34;&gt;World Bank&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://electionstudies.org//&#34;&gt;Election Studies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All analyses must be done in RStudio, and your final written report and
+analysis &lt;strong&gt;must be reproducible&lt;/strong&gt;. This means that you must create an R Markdown
 document attached to a GitHub repository that will create your written report
-exactly upon knitting.
-
-## Project proposal 
-
-There are two main purposes of the project proposal:
-
-- To help you think about the project early, so you can get a head start on finding data, reading relevant literature, thinking about the questions you wish to answer, etc.
-- To ensure that the data you wish to analyze, methods you plan to use, and the scope of your analysis are feasible and will help you be successful for this project.
-
-Include the following in the proposal: 
-
-### Section 1 - Introduction
-
-The introduction section includes 
-
-- an introduction to the subject matter you&#39;re investigating
-- the motivation for your research question (citing any relevant literature)
-- the general research question you wish to explore 
-- your hypotheses regarding the research question of interest. 
-
-### Section 2 - Data description 
-
-In this section, you will describe the data set you wish to explore. This includes a description of the observations in the data set, a general description of the variables in the data set, and a description of how the data was originally collected (not how you found the data but how the original curator of the data collected it). 
-
-### Section 3 - Glimpse of data
-
-Use the `glimpse` function print a summary of the data at the end of your proposal.
-
-Place your data in the `/data` folder of the repo. Later on you will include the codebook in the README of the data folder. 
-
-### Submission
-
-Submit the PDF of your proposal in the **Project Proposal** assignment on Gradescope. Be sure to select the names of all team members in the submission. The proposal is due on **Friday, October 9.** 
-
-### Proposal grading
-
-Total                                                   | 10 pts
---------------------------------------------------------|--------
-**Introduction**                                        | 4 pts
-**Data description**                                    | 4 pts
-**Glimpse of data**                                     | 2 pts
-
+exactly upon knitting.&lt;/p&gt;
+&lt;h2 id=&#34;project-proposal&#34;&gt;Project proposal&lt;/h2&gt;
+&lt;p&gt;There are two main purposes of the project proposal:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To help you think about the project early, so you can get a head start on finding data, reading relevant literature, thinking about the questions you wish to answer, etc.&lt;/li&gt;
+&lt;li&gt;To ensure that the data you wish to analyze, methods you plan to use, and the scope of your analysis are feasible and will help you be successful for this project.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Choose &lt;strong&gt;three&lt;/strong&gt; substantially different datasets you are interested in analyzing. For each, identify the components below.&lt;/p&gt;
+&lt;p&gt;Include the following in the proposal:&lt;/p&gt;
+&lt;h3 id=&#34;introduction-and-data&#34;&gt;Introduction and Data&lt;/h3&gt;
+&lt;p&gt;For each data set, include the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Identify the source of the data,&lt;/li&gt;
+&lt;li&gt;When and how it was originally collected (by the original data curator, not necessarily how you found the data)&lt;/li&gt;
+&lt;li&gt;A brief description of the observations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;research-question&#34;&gt;Research question&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Describe the research topic along with a concise statement of the research question and hypotheses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;data-set&#34;&gt;Data set&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Use the &lt;code&gt;glimpse&lt;/code&gt; function to provide a glimpse of the data set.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Place the file containing your data in the &lt;code&gt;data&lt;/code&gt; folder of the project repo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;submission&#34;&gt;Submission&lt;/h3&gt;
+&lt;p&gt;Submit the PDF of your proposal on Gradescope by &lt;strong&gt;Thursday, October 14 at 11:59pm&lt;/strong&gt;.Be sure to select the names of all team members in the submission and mark all the pages associated with each data set. The teaching team will provide feedback on your proposal to help you determine a data set to use for the project.&lt;/p&gt;
+&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Project proposals should have no more than one page of &lt;strong&gt;text.&lt;/strong&gt; (not including the output from &lt;code&gt;glimpse&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;You &lt;strong&gt;must&lt;/strong&gt; use one of the data sets in the proposal for the final project, unless instructed otherwise by Prof. Tackett.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;proposal-grading&#34;&gt;Proposal grading&lt;/h3&gt;
+&lt;p&gt;The project proposal will be graded as follows:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Total&lt;/th&gt;
+&lt;th&gt;5 pts&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Introduction/data&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Research questions&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;2 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Results&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;1 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--
 ## Peer feedback
 
 Critically reviewing others&#39; work is a crucial part of the scientific process, and STA 199 is no exception. You will be assigned a team to review. As part of the review process, you must provide your partner team a copy of your current report by **Wednesday, October 28**. After giving the report to your partner team, they will have until **Friday, November 5** to provide a detailed critique about the written report and data analysis. This feedback is intended to help you create a high quality final project, as well as give you experience 
@@ -453,14 +472,148 @@ knitr::opts_chunk$set(echo = FALSE,
                       message = FALSE)
 ```
 
+### Headers
+
+- Use headers to clearly label each section. Make sure there is a space between the last `#` and the title, so the header renders correctly. For example, `###Section Title` will not render as header, but `### Section Title` will. 
+
+### References 
+
+- Include all references in a section called &#34;References&#34; at the end of the report. 
+- This course does not have specific requirements for formatting citations and references.
+- See [Section 4.5](https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html) of the R Markdown Cookbook to learn about the citation functionality in R Markdown. 
+
+### Appendix
+
+- If you have additional work that does not fit or does not belong in the body of the report, you may put it at the end of the document in section called &#34;Appendix&#34;. 
+- The items in the appendix should be properly labeled. 
+- The appendix should only be for additional material. The reader should be able to fully understand your report without viewing content in the appendix.
+
+### Resize figures
+
+- Resize plots and figures, so you have more space for the narrative. 
+    - **Resize individual figures**: Use the code chunk header `{r plot1, fig.height = 3, fig.width = 5}`, replacing `plot1` with a meaningful label and the height and width with values appropriate for your write up.
+    - **Resize all figures**: Include the `fig_width` and `fig_height` options in your YAML header as shown below:
+
+```
+---
+title: &#34;Your Title&#34;
+author: &#34;Team Name + Group Members&#34;
+output: 
+  pdf_document:
+    fig_width: 5
+    fig_height: 3
+---
+```
+ 
+Replace the height and width values with values appropriate for your write up.
+
+### Arranging plots
+
+Arrange plots in a grid, instead of one after the other. This is especially useful when displaying plots for exploratory data analysis and to check assumptions. 
+
+- If you&#39;re using ggplot2 functions, the `patchwork` package makes it easy to arrange plots in a grid. See the documentation and examples [here](https://patchwork.data-imaginist.com/).
+
+- If you&#39;re using base R function, i.e. when using the `emplogit` functions, put the code `par(mfrow = c(rows,columns))` before the code to make the plots. For example, `par(mfrow = c(2,3))` will arrange plots in a grid with 2 rows and 3 columns.
+
+### Plot titles and axis labels
+
+Be sure all plot titles and axis labels are visible and easy to read. 
+
+- Use informative titles, &lt;u&gt;not&lt;/u&gt; variable names, for titles and axis labels.
+- Use `coord_flip()` to flip the *x* and *y* axes on the plot. This is useful if you a bar plot with an x-axis that is difficult to read due to overlapping text. 
+
+❌ **NO! The x-axis is hard to read because the names overlap.**
+
+
+```r
+ggplot(data = mpg, aes(x = manufacturer)) +
+  geom_bar()
+```
+
+&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
+
+✅ **YES! Names are readable**
+
+
+```r
+ggplot(data = mpg, aes(x = manufacturer)) +
+  geom_bar() +
+  coord_flip()
+```
+
+&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;
+
+### Do a little more to make the plot look professional!
+
+- Informative title and axis labels
+- Flipped coordinates to make names readable
+- Arranged bars based on count
+- Capitalized manufacturer names
+- *Optional: Added color - Use a coordinated color scheme throughout paper / presentation*
+- *Optional: Applied a theme - Use same theme throughout paper / presentation*
+
+
+```r
+mpg %&gt;%
+  count(manufacturer) %&gt;%
+  mutate(manufacturer = str_to_title(manufacturer)) %&gt;%
+  ggplot(aes(x = fct_reorder(manufacturer,n), y = n)) +
+  geom_bar(stat = &#34;identity&#34;, fill = &#34;steelblue&#34;) +
+  coord_flip() +
+  labs(x = &#34;Manufacturer&#34;, 
+       y = &#34;Count&#34;, 
+       title = &#34;The most common manufacturer is Dodge&#34;) +
+  theme_bw() 
+```
+
+&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;
+
+
+### Tables and model output
+
+- Use the `kable` function from the knitr package to neatly output all tables and model output. This will also ensure all model coefficients are displayed. 
+  - Use the `digits` argument to display only 3 or 4 significant digits. 
+  - Use the `caption` argument to add captions to your table. 
 
 
 
+```r
+model &lt;- lm(mpg ~ hp, data = mtcars)
+tidy(model) %&gt;%
+  kable(digits = 3)
+```
 
 
 
+|term        | estimate| std.error| statistic| p.value|
+|:-----------|--------:|---------:|---------:|-------:|
+|(Intercept) |   30.099|     1.634|    18.421|       0|
+|hp          |   -0.068|     0.010|    -6.742|       0|
 
 
+### Guidelines for communicating results 
+
+- **Don&#39;t use variable names in your narrative!** Use descriptive terms, so the reader understands your narrative without relying on the codebook.
+  - ❌ There is a negative linear relationship between mpg and hp.
+  - ✅ There is a negative linear relationship between a car&#39;s fuel economy (in miles per gallon) and its horsepower.
+- **Know your audience:** Your report should be written for a general audience who has an understanding of statistics at the level of STA 199.
+- **Avoid subject matter jargon:** Don&#39;t assume the audience knows all of the specific terminology related to your subject area. If you must use jargon, include a brief definition the first time you introduce a term. 
+- **Tell the &#34;so what&#34;:** Your report and presentation should be more than a list of interpretations and technical definitions. Focus on what the results mean, i.e. what you want the audience to know about your topic after reading your report or viewing your presentation. 
+- **Tell a story:** All visualizations, tables, model output, and narrative should tell a cohesive story!
+- **Use one voice:** Though multiple people are writing the report, it should read as if it&#39;s from a single author. At least one team member should read through the report before submission to ensure it reads like a cohesive document.
+
+### Additional resources
+
+- [R for Data Science](https://r4ds.had.co.nz/)
+- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
+- [Slides in R using Xaringan](https://slides.yihui.org/xaringan/#1)
+- Data visualization
+  - [ggplot2 Reference](https://ggplot2.tidyverse.org/reference/index.html)
+  - [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
+  - [Data Visualization: A Practice Introduction](https://socviz.co/index.html)
+  - [Patchwork R Package](https://patchwork.data-imaginist.com/index.html)
+
+--&gt;
 </description>
   </item>
   
