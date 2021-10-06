@@ -78,3 +78,5 @@ the document from Members 1 and 2. Read the error to your teammates. You can als
 Click to pull.  *Then, knit, commit, and push.* All merge conflicts should be resolved and all documents updated in the GitHub repo.
 
 <u> You do not need to submit anything on Gradescope for the merge conflict activity.</u> 
+
+
