@@ -118,7 +118,7 @@ Peer feedback due Monday, November 22
 Final written report due Friday, December 3
 Presentation video, slides, repo due Wednesday, December 8
 Presentation comments due Friday, December 10
-Introduction TL;DR: Pick a dataset and do something with it. That is your final project.
+Introduction &amp;amp; grading summary TL;DR: Pick a dataset and do something with it. That is your final project.
 The final project for this class will consist of analysis on a dataset of your own choosing.</description>
       <content>&lt;h2 id=&#34;timeline&#34;&gt;Timeline&lt;/h2&gt;
 &lt;p&gt;Proposal due &lt;strong&gt;Thursday, October 14&lt;/strong&gt;&lt;/p&gt;
@@ -127,7 +127,7 @@ The final project for this class will consist of analysis on a dataset of your o
 &lt;p&gt;Final written report due &lt;strong&gt;Friday, December 3&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Presentation video, slides, repo due &lt;strong&gt;Wednesday, December 8&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Presentation comments due &lt;strong&gt;Friday, December 10&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;h2 id=&#34;introduction--grading-summary&#34;&gt;Introduction &amp;amp; grading summary&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt;: &lt;em&gt;Pick a dataset and do something with it. That is your
 final project.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;The final project for this class will consist of analysis on a dataset of your own choosing. The dataset may already exist, you may collect your own data by scraping the web.&lt;/p&gt;
@@ -141,7 +141,7 @@ final project.&lt;/em&gt;&lt;/p&gt;
 &lt;li&gt;Slides + a video presentation&lt;/li&gt;
 &lt;li&gt;Formal peer review on another team&amp;rsquo;s project&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;overall-grading&#34;&gt;Overall grading&lt;/h2&gt;
+&lt;h3 id=&#34;grading-summary&#34;&gt;Grading summary&lt;/h3&gt;
 &lt;p&gt;The grade breakdown is as follows:&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -280,59 +280,75 @@ exactly upon knitting.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2 id=&#34;written-report&#34;&gt;Written report&lt;/h2&gt;
+&lt;p&gt;Your final report must be written using R Markdown. All team members must contribute to the GitHub repository, with regular meaningful commits / pushes.&lt;/p&gt;
+&lt;p&gt;Before you finalize your report, make sure the printing of code chunks is turned off with the option &lt;code&gt;echo = FALSE&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Submit the final report on Gradescope under the &lt;i&gt;Written Report&lt;/i&gt; assignment on Gradescope.&lt;/strong&gt; Your final report must match your GitHub repository &lt;em&gt;exactly&lt;/em&gt;. The mandatory components of the report are below. You are free to add additional sections as necessary. The report, including visualizations, should be &lt;strong&gt;no more than 10 pages long.&lt;/strong&gt; There is no minimum page requirement; however, you must comprehensively address all of the aspects mentioned below.&lt;/p&gt;
+&lt;p&gt;The written report is worth 50 points, broken down as follows:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Total&lt;/th&gt;
+&lt;th&gt;50 pts&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Introduction/data&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;5 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Methodology&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;10 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Results&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;20 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Discussion&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;10 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Formatting&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;5 pts&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;introduction-and-data-1&#34;&gt;Introduction and data&lt;/h4&gt;
+&lt;p&gt;The introduction provides motivation and context for your research. Describe
+your topic (citing sources) and provide a concise, clear statement of your
+research question and hypotheses.&lt;/p&gt;
+&lt;p&gt;Then identify the source of the data, when and how it was collected, the cases,
+a general description of relevant variables.&lt;/p&gt;
+&lt;h4 id=&#34;methodology&#34;&gt;Methodology&lt;/h4&gt;
+&lt;p&gt;The methodology section should include visualizations and summary statistics
+relevant to your research question. You should also justify the choice of
+statistical method(s) used to answer your research question.&lt;/p&gt;
+&lt;h4 id=&#34;results&#34;&gt;Results&lt;/h4&gt;
+&lt;p&gt;Showcase how you arrived at answers to your research question using the
+techniques we have learned in class (and beyond, if you’re feeling adventurous).&lt;/p&gt;
+&lt;p&gt;Provide only the main results from your analysis. The goal is not to do an
+exhaustive data analysis (calculate every possible statistic and perform every possible procedure for all variables). Rather, you should demonstrate that you are proficient at asking meaningful questions and answering them using data,
+that you are skilled in interpreting and presenting results, and that you can
+accomplish these tasks using R. More is not better.&lt;/p&gt;
+&lt;h4 id=&#34;discussion&#34;&gt;Discussion&lt;/h4&gt;
+&lt;p&gt;This section is a conclusion and discussion. This will require a summary of
+what you have learned about your research question along with statistical
+arguments supporting your conclusions. You should critique your own methods
+and provide suggestions for improving your analysis and future work. Issues
+pertaining to the reliability and validity of your data and the appropriateness of the statistical analyses should also be discussed. Also include a brief paragraph on what you would do differently if you were able to start over with
+the project.&lt;/p&gt;
+&lt;h3 id=&#34;formatting&#34;&gt;Formatting&lt;/h3&gt;
+&lt;p&gt;Your project should be professionally formatted. For example, this means labeling graphs and figures, turning off code chunks, and using tidyverse style.&lt;/p&gt;
+&lt;h2 id=&#34;peer-feedback&#34;&gt;Peer feedback&lt;/h2&gt;
+&lt;p&gt;Critically reviewing others&#39; work is a crucial part of the scientific process, and STA 199 is no exception. You will be assigned a team to review. As part of the review process, you must provide your partner team a copy of your current report by &lt;strong&gt;Wednesday, October 28&lt;/strong&gt;. After giving the report to your partner team, they will have until &lt;strong&gt;Friday, November 5&lt;/strong&gt; to provide a detailed critique about the written report and data analysis. This feedback is intended to help you create a high quality final project, as well as give you experience
+reading and constructively critiquing the work of others.&lt;/p&gt;
+&lt;p&gt;During the peer feedback process, you will be provided read-only access to your  partner team&amp;rsquo;s GitHub repo. Provide your feedback in the form of GitHub issues to your partner team&amp;rsquo;s GitHub repo.&lt;/p&gt;
+&lt;p&gt;Peer feedback will be graded on the extent to which it comprehensively and constructively addresses the components of the partner team&amp;rsquo;s report: the research context and motivation, exploratory data analysis, and any inference, modeling, or conclusions. As you work on the draft, the focus should be on the analysis and less on crafting the final report. &lt;strong&gt;Your draft must include a reasonable attempt at each analysis component - exploratory data analysis, inference or modeling, and drawing initial conclusions.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;&lt;/p&gt;
+&lt;h2 id=&#34;presentation-slides&#34;&gt;Presentation Slides&lt;/h2&gt;
 &lt;!--
-## Peer feedback
-
-Critically reviewing others&#39; work is a crucial part of the scientific process, and STA 199 is no exception. You will be assigned a team to review. As part of the review process, you must provide your partner team a copy of your current report by **Wednesday, October 28**. After giving the report to your partner team, they will have until **Friday, November 5** to provide a detailed critique about the written report and data analysis. This feedback is intended to help you create a high quality final project, as well as give you experience 
-reading and constructively critiquing the work of others.
-
-During the peer feedback process, you will be provided read-only access to your  partner team&#39;s GitHub repo. Provide your feedback in the form of GitHub issues to your partner team&#39;s GitHub repo. 
-
-Peer feedback will be graded on the extent to which it comprehensively and constructively addresses the components of the partner team&#39;s report: the research context and motivation, exploratory data analysis, and any inference, modeling, or conclusions. As you work on the draft, the focus should be on the analysis and less on crafting the final report. **Your draft must include a reasonable attempt at each analysis component - exploratory data analysis, inference or modeling, and drawing initial conclusions.** 
-
-## Written report
-
-Your written report must be done using R Markdown. All team members must contribute to the GitHub repository, with regular meaningful commits. 
-
-Before you finalize your write up, make sure the printing of code chunks is off with the option `echo = FALSE`. 
-
-**Submit the final report on Gradescope under the &lt;i&gt;Written Report&lt;/i&gt; assignment on Gradescope.** Your final report must match your GitHub repository *exactly*. The mandatory components of the report are below. You are free to add additional sections as necessary. The report, including visualizations, should be **no more than 10 pages long.** There is no minimum page requirement; however, you must comprehensively address all of the aspects mentioned below.
-
-Please be judicious in what you include in your final write-up.
-
-The written report is worth 50 points, broken down as
-
-Total                                                   | 50 pts
---------------------------------------------------------|--------
-**Introduction/data**                                   | 8 pts
-**Methodology**                                         | 17 pts
-**Results**                                             | 17 pts
-**Discussion**                                          | 8 pts
-
-
-### Introduction and data
-
-The introduction should introduce your general research question and your data  (where it came from, how it was collected, what are the cases, what are the  variables, etc.). 
-
-### Methodology 
-
-The methodology section should include the variables used to address your research question, as well as any useful visualizations or summary statistics. Additionally, you should introduce and justify the statistical method(s) that you believe will be useful in answering your research question. 
-
-### Results 
-
-Showcase how you arrived at answers to 
-your question using any techniques we have learned in this class (and some beyond, if you&#39;re feeling adventurous). Provide the main results from your analysis. The goal is not to do an exhaustive 
-data analysis (i.e., do not calculate every statistic and procedure you have learned for every variable), but rather let me know that you are proficient at asking meaningful questions and answering them with results of data analysis, that you are proficient in using R, and that you are proficient at interpreting 
-and presenting the results. Focus on methods that help you begin to answer your research questions. 
-
-### Discussion
-
-This section is a conclusion and discussion. This will require a 
-summary of what you have learned about your research question along with statistical arguments supporting your conclusions. Also, critique your own methods and provide suggestions for improving your analysis. Issues pertaining to the reliability and validity of your data and appropriateness of the statistical analysis should also be discussed here. A paragraph on what you would do differently if you were able to start over with the project or what you would do next if you were going to continue work on the project should also be included.
-
-
-## Presentation Slides
-
 In addition to the write-up, your team must also create presentation
 slides that summarize and showcase your project. Introduce your research question and dataset, showcase visualizations, and provide some conclusions. These slides should serve as a brief visual accompaniment to your write-up and will be graded for content and quality. **For submission, convert these slides to a .pdf document to be submitted to Gradescope.** The slides are due on **Tuesday, November 17**.
 
@@ -344,9 +360,9 @@ The slide deck should have no more than **6 content slides + 1 title slide**. He
 - Slide 3 - 4: Highlights from EDA
 - Slide 4 - 5: Inference / modeling
 - Slide 6: Conclusions + future work
-
-## Video presentation
-
+--&gt;
+&lt;h2 id=&#34;video-presentation&#34;&gt;Video presentation&lt;/h2&gt;
+&lt;!--
 Sometime by **Tuesday, November 17**, you/your group will upload a video presentation of your project to Warpwire. Note that all members must present, and that a ten-minute time limit is **strictly enforced**.
 
 For the presentation, you can speak over your slide deck, similar to the lecture content videos. I recommend using Zoom to record your presentation; however, you can use whatever platform works best for your group. Below are a few resources to help you record video presentations:
@@ -379,8 +395,9 @@ discussion forum.
 - You’re done! 
 
 You can see the Teaching team example in Sakai. 
-
-## Presentation comments 
+--&gt;
+&lt;h2 id=&#34;presentation-comments&#34;&gt;Presentation comments&lt;/h2&gt;
+&lt;!--
 
 Each student will be assigned 2 presentations to watch. [Click here](https://prodduke-my.sharepoint.com/:x:/g/personal/mt324_duke_edu/ES0ECPUhluBNqTJgeJkR8q8BsCHfmthaPPWruhda8Vp_cA?e=uo1FcX) to see your viewing assignments. 
 
@@ -390,7 +407,9 @@ You may start posting questions and comments on Wed, Nov 18 at 12a EST. **All qu
 
 **&lt;i&gt;This portion of the project will be assessed individually.&lt;/i&gt;**
 
-## Project repository
+--&gt;
+&lt;h2 id=&#34;project-repository&#34;&gt;Project repository&lt;/h2&gt;
+&lt;!--
 
 In addition to your Gradescope submissions, we will be checking your GitHub repository. This repository should be contributed to equally by all team members and should include
 
@@ -405,70 +424,72 @@ Style and format does count for this assignment, so please take the time to make
 
 The repository must be finalized by **Tuesday, November 17**.
 
-## Peer teamwork evaluation
-
-You will be asked to fill out a survey where you rate the contribution and teamwork of each team member by assigning a contribution percentage for each team member. Filling out the survey is a prerequisite for getting credit on the team member evaluation. If you are suggesting that an individual did less than  half the expected contribution given your team size (e.g., for a team of four students, if a student contributed less than 12.5% of the total effort), please
-provide some explanation. If any individual gets an average peer score 
-indicating that this was the case, their grade will be assessed accordingly.
-
-
-## Additional notes and tips
-
-The project is very open ended. For instance, in creating a compelling 
-visualization(s) of your data in R, there is no limit on what tools or 
-packages you may use. You do not need to visualize all of the data at once. A single high quality visualization will receive a much higher grade than a large number of poor quality visualizations.
-
-Before you finalize your write up, make sure the printing of code chunks is turned off with the option `echo = FALSE`. In addition to code chunks, ensure all messages are turned off with the options `warning = FALSE` and `echo = FALSE`. 
-
-Finally, pay attention to details in your write-up and presentation. Neatness, coherency, and clarity will count.
-
-
-### Tips
-
-- Ask questions if any of the expectations are 
-unclear.
-
-- *Code*: In your write up your code should be hidden (`echo = FALSE`) so that your document is neat and easy to read. However your document should include all your code such that if I re-knit your Rmd file I should be able to obtain the results you presented. 
-  - **Exception:** If you want to highlight something 
-specific about a piece of code, you&#39;re welcome to show that portion. 
-- Merge conflicts will 
-happen, issues will arise, and that’s fine! Commit and push often, and ask questions when stuck.
-- Make sure each team member is contributing, both in terms of quality and quantity of contribution (we will be reviewing commits from different team  members).
-- All team members are expected to contribute equally to the completion of this assignment and group assessments will be given at its completion - anyone judged to not have sufficient contributed to the final product will have their grade penalized. While different teams members may have different backgrounds and abilities, it is the responsibility of every team member to understand how and why all code and approaches in  the assignment works.
-
-### Grading summary
-
-Grading of the project will take into account the following:
-
-- Content - What is the quality of research and/or policy question and relevancy 
-of data to those questions?
-- Correctness - Are statistical procedures carried out and explained correctly?
-- Writing and Presentation - What is the quality of the statistical presentation, 
-writing, and explanations?
-- Creativity and Critical Thought - Is the project carefully thought out? Are the 
-limitations carefully considered? Does it appear that time and effort went into 
-the planning and implementation of the project?
-
-A general breakdown of scoring is as follows:
-
-- *90%-100%*: Outstanding effort. Student understands how to apply all statistical 
-concepts, can put the results into a cogent argument, can identify weaknesses in 
-the argument, and can clearly communicate the results to others.
-- *80%-89%*: Good effort. Student understands most of the concepts, puts together 
-an adequate argument, identifies some weaknesses of their argument, and communicates 
-most results clearly to others.
-- *70%-79%*: Passing effort. Student has misunderstanding of concepts in several 
-areas, has some trouble putting results together in a cogent argument, and communication 
-of results is sometimes unclear.
-- *60%-69%*: Struggling effort. Student is making some effort, but has misunderstanding 
-of many concepts and is unable to put together a cogent argument. Communication 
-of results is unclear.
-- *Below 60%*: Student is not making a sufficient effort.
-
-## Late work policy
-
-**There is no late work accepted on this project.** Be sure to turn in your work early to avoid any technological mishaps.
-
+--&gt;
+&lt;h2 id=&#34;peer-teamwork-evaluation&#34;&gt;Peer teamwork evaluation&lt;/h2&gt;
+&lt;p&gt;You will be asked to fill out a survey where you rate the contribution and teamwork of each team member by assigning a contribution percentage for each team member. Filling out the survey is a prerequisite for getting credit on the team member evaluation. If you are suggesting that an individual did less than  half the expected contribution given your team size (e.g., for a team of four students, if a student contributed less than 12.5% of the total effort), please
+provide some explanation. If any individual gets an average peer score
+indicating that this was the case, their grade will be assessed accordingly.&lt;/p&gt;
+&lt;h2 id=&#34;additional-notes-and-tips&#34;&gt;Additional notes and tips&lt;/h2&gt;
+&lt;p&gt;The project is very open ended. For instance, in creating a compelling
+visualization(s) of your data in R, there is no limit on what tools or
+packages you may use. You do not need to visualize all of the data at once. A single high quality visualization will receive a much higher grade than a large number of poor quality visualizations.&lt;/p&gt;
+&lt;p&gt;Before you finalize your write up, make sure the printing of code chunks is turned off with the option &lt;code&gt;echo = FALSE&lt;/code&gt;. In addition to code chunks, ensure all messages are turned off with the options &lt;code&gt;warning = FALSE&lt;/code&gt; and &lt;code&gt;echo = FALSE&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, pay attention to details in your write-up and presentation. Neatness, coherency, and clarity will count.&lt;/p&gt;
+&lt;h3 id=&#34;tips&#34;&gt;Tips&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ask questions if any of the expectations are
+unclear.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Code&lt;/em&gt;: In your write up your code should be hidden (&lt;code&gt;echo = FALSE&lt;/code&gt;) so that your document is neat and easy to read. However your document should include all your code such that if I re-knit your Rmd file I should be able to obtain the results you presented.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Exception:&lt;/strong&gt; If you want to highlight something
+specific about a piece of code, you&amp;rsquo;re welcome to show that portion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Merge conflicts will
+happen, issues will arise, and that’s fine! Commit and push often, and ask questions when stuck.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure each team member is contributing, both in terms of quality and quantity of contribution (we will be reviewing commits from different team  members).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;All team members are expected to contribute equally to the completion of this assignment and group assessments will be given at its completion - anyone judged to not have sufficient contributed to the final product will have their grade penalized. While different teams members may have different backgrounds and abilities, it is the responsibility of every team member to understand how and why all code and approaches in  the assignment works.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grading-details&#34;&gt;Grading details&lt;/h2&gt;
+&lt;p&gt;Grading of the project will take into account the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Content - What is the quality of research and/or policy question and relevancy
+of data to those questions?&lt;/li&gt;
+&lt;li&gt;Correctness - Are statistical procedures carried out and explained correctly?&lt;/li&gt;
+&lt;li&gt;Writing and Presentation - What is the quality of the statistical presentation,
+writing, and explanations?&lt;/li&gt;
+&lt;li&gt;Creativity and Critical Thought - Is the project carefully thought out? Are the
+limitations carefully considered? Does it appear that time and effort went into
+the planning and implementation of the project?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A general breakdown of scoring is as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;90%-100%&lt;/em&gt;: Outstanding effort. Student understands how to apply all statistical
+concepts, can put the results into a cogent argument, can identify weaknesses in
+the argument, and can clearly communicate the results to others.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;80%-89%&lt;/em&gt;: Good effort. Student understands most of the concepts, puts together
+an adequate argument, identifies some weaknesses of their argument, and communicates
+most results clearly to others.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;70%-79%&lt;/em&gt;: Passing effort. Student has misunderstanding of concepts in several
+areas, has some trouble putting results together in a cogent argument, and communication
+of results is sometimes unclear.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;60%-69%&lt;/em&gt;: Struggling effort. Student is making some effort, but has misunderstanding
+of many concepts and is unable to put together a cogent argument. Communication
+of results is unclear.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Below 60%&lt;/em&gt;: Student is not making a sufficient effort.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;late-work-policy&#34;&gt;Late work policy&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;There is no late work accepted on this project.&lt;/strong&gt; Be sure to turn in your work early to avoid any technological mishaps.&lt;/p&gt;
+&lt;!--
 ## Formatting + communication 
 
 ### Suppress Code, Warnings, &amp; Messages

@@ -59,3 +59,7 @@ Grade <- Total_Points / (0.25 + 0.15 + 0.175 + 0.05 +0.025)
 - Access the RStudio Docker containers at https://vm-manage.oit.duke.edu/containers
 
 - See the [Lab 01 instructions](https://sta199-fa21-003.netlify.app/labs/lab-01-hello-r.html) for details on cloning the repo and starting a new project in RStudio. 
+
+## Introduce project 
+
+Instructions available at [ta199-fa21-003.netlify.app/project](https://sta199-fa21-003.netlify.app/project/)

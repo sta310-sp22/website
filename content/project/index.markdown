@@ -16,7 +16,7 @@ Presentation video, slides, repo due **Wednesday, December 8**
 
 Presentation comments due **Friday, December 10**
 
-## Introduction 
+## Introduction & grading summary
 
 **TL;DR**: *Pick a dataset and do something with it. That is your 
 final project.*
@@ -36,7 +36,7 @@ The four primary deliverables for the final project are
 - Slides + a video presentation
 - Formal peer review on another team's project
 
-## Overall grading
+### Grading summary
 
 The grade breakdown is as follows:
 
@@ -148,7 +148,64 @@ Total                                                   | 5 pts
 **Research questions**                                  | 2 pts
 **Results**                                             | 1 pts
 
-<!--
+## Written report
+
+Your final report must be written using R Markdown. All team members must contribute to the GitHub repository, with regular meaningful commits / pushes. 
+
+Before you finalize your report, make sure the printing of code chunks is turned off with the option `echo = FALSE`.
+
+
+**Submit the final report on Gradescope under the <i>Written Report</i> assignment on Gradescope.** Your final report must match your GitHub repository *exactly*. The mandatory components of the report are below. You are free to add additional sections as necessary. The report, including visualizations, should be **no more than 10 pages long.** There is no minimum page requirement; however, you must comprehensively address all of the aspects mentioned below.
+
+The written report is worth 50 points, broken down as follows:
+
+Total                                                   | 50 pts
+--------------------------------------------------------|-------
+**Introduction/data**                                   | 5 pts
+**Methodology**                                         | 10 pts
+**Results**                                             | 20 pts
+**Discussion**                                          | 10 pts
+**Formatting**                                          | 5 pts
+
+#### Introduction and data
+
+The introduction provides motivation and context for your research. Describe
+your topic (citing sources) and provide a concise, clear statement of your 
+research question and hypotheses.
+
+Then identify the source of the data, when and how it was collected, the cases,
+a general description of relevant variables.
+
+#### Methodology 
+
+The methodology section should include visualizations and summary statistics 
+relevant to your research question. You should also justify the choice of 
+statistical method(s) used to answer your research question.
+
+#### Results 
+
+Showcase how you arrived at answers to your research question using the
+techniques we have learned in class (and beyond, if you’re feeling adventurous).
+
+Provide only the main results from your analysis. The goal is not to do an 
+exhaustive data analysis (calculate every possible statistic and perform every possible procedure for all variables). Rather, you should demonstrate that you are proficient at asking meaningful questions and answering them using data, 
+that you are skilled in interpreting and presenting results, and that you can 
+accomplish these tasks using R. More is not better.
+
+#### Discussion
+
+This section is a conclusion and discussion. This will require a summary of
+what you have learned about your research question along with statistical
+arguments supporting your conclusions. You should critique your own methods 
+and provide suggestions for improving your analysis and future work. Issues 
+pertaining to the reliability and validity of your data and the appropriateness of the statistical analyses should also be discussed. Also include a brief paragraph on what you would do differently if you were able to start over with 
+the project.
+
+### Formatting
+
+Your project should be professionally formatted. For example, this means labeling graphs and figures, turning off code chunks, and using tidyverse style.
+
+
 ## Peer feedback
 
 Critically reviewing others' work is a crucial part of the scientific process, and STA 199 is no exception. You will be assigned a team to review. As part of the review process, you must provide your partner team a copy of your current report by **Wednesday, October 28**. After giving the report to your partner team, they will have until **Friday, November 5** to provide a detailed critique about the written report and data analysis. This feedback is intended to help you create a high quality final project, as well as give you experience 
@@ -158,49 +215,10 @@ During the peer feedback process, you will be provided read-only access to your 
 
 Peer feedback will be graded on the extent to which it comprehensively and constructively addresses the components of the partner team's report: the research context and motivation, exploratory data analysis, and any inference, modeling, or conclusions. As you work on the draft, the focus should be on the analysis and less on crafting the final report. **Your draft must include a reasonable attempt at each analysis component - exploratory data analysis, inference or modeling, and drawing initial conclusions.** 
 
-## Written report
-
-Your written report must be done using R Markdown. All team members must contribute to the GitHub repository, with regular meaningful commits. 
-
-Before you finalize your write up, make sure the printing of code chunks is off with the option `echo = FALSE`. 
-
-**Submit the final report on Gradescope under the <i>Written Report</i> assignment on Gradescope.** Your final report must match your GitHub repository *exactly*. The mandatory components of the report are below. You are free to add additional sections as necessary. The report, including visualizations, should be **no more than 10 pages long.** There is no minimum page requirement; however, you must comprehensively address all of the aspects mentioned below.
-
-Please be judicious in what you include in your final write-up.
-
-The written report is worth 50 points, broken down as
-
-Total                                                   | 50 pts
---------------------------------------------------------|--------
-**Introduction/data**                                   | 8 pts
-**Methodology**                                         | 17 pts
-**Results**                                             | 17 pts
-**Discussion**                                          | 8 pts
-
-
-### Introduction and data
-
-The introduction should introduce your general research question and your data  (where it came from, how it was collected, what are the cases, what are the  variables, etc.). 
-
-### Methodology 
-
-The methodology section should include the variables used to address your research question, as well as any useful visualizations or summary statistics. Additionally, you should introduce and justify the statistical method(s) that you believe will be useful in answering your research question. 
-
-### Results 
-
-Showcase how you arrived at answers to 
-your question using any techniques we have learned in this class (and some beyond, if you're feeling adventurous). Provide the main results from your analysis. The goal is not to do an exhaustive 
-data analysis (i.e., do not calculate every statistic and procedure you have learned for every variable), but rather let me know that you are proficient at asking meaningful questions and answering them with results of data analysis, that you are proficient in using R, and that you are proficient at interpreting 
-and presenting the results. Focus on methods that help you begin to answer your research questions. 
-
-### Discussion
-
-This section is a conclusion and discussion. This will require a 
-summary of what you have learned about your research question along with statistical arguments supporting your conclusions. Also, critique your own methods and provide suggestions for improving your analysis. Issues pertaining to the reliability and validity of your data and appropriateness of the statistical analysis should also be discussed here. A paragraph on what you would do differently if you were able to start over with the project or what you would do next if you were going to continue work on the project should also be included.
-
-
+<
 ## Presentation Slides
 
+<!--
 In addition to the write-up, your team must also create presentation
 slides that summarize and showcase your project. Introduce your research question and dataset, showcase visualizations, and provide some conclusions. These slides should serve as a brief visual accompaniment to your write-up and will be graded for content and quality. **For submission, convert these slides to a .pdf document to be submitted to Gradescope.** The slides are due on **Tuesday, November 17**.
 
@@ -212,9 +230,11 @@ The slide deck should have no more than **6 content slides + 1 title slide**. He
 - Slide 3 - 4: Highlights from EDA
 - Slide 4 - 5: Inference / modeling
 - Slide 6: Conclusions + future work
+-->
 
 ## Video presentation
 
+<!--
 Sometime by **Tuesday, November 17**, you/your group will upload a video presentation of your project to Warpwire. Note that all members must present, and that a ten-minute time limit is **strictly enforced**.
 
 For the presentation, you can speak over your slide deck, similar to the lecture content videos. I recommend using Zoom to record your presentation; however, you can use whatever platform works best for your group. Below are a few resources to help you record video presentations:
@@ -247,8 +267,11 @@ discussion forum.
 - You’re done! 
 
 You can see the Teaching team example in Sakai. 
+-->
 
 ## Presentation comments 
+
+<!--
 
 Each student will be assigned 2 presentations to watch. [Click here](https://prodduke-my.sharepoint.com/:x:/g/personal/mt324_duke_edu/ES0ECPUhluBNqTJgeJkR8q8BsCHfmthaPPWruhda8Vp_cA?e=uo1FcX) to see your viewing assignments. 
 
@@ -258,7 +281,11 @@ You may start posting questions and comments on Wed, Nov 18 at 12a EST. **All qu
 
 **<i>This portion of the project will be assessed individually.</i>**
 
+-->
+
 ## Project repository
+
+<!--
 
 In addition to your Gradescope submissions, we will be checking your GitHub repository. This repository should be contributed to equally by all team members and should include
 
@@ -273,12 +300,13 @@ Style and format does count for this assignment, so please take the time to make
 
 The repository must be finalized by **Tuesday, November 17**.
 
+-->
+
 ## Peer teamwork evaluation
 
 You will be asked to fill out a survey where you rate the contribution and teamwork of each team member by assigning a contribution percentage for each team member. Filling out the survey is a prerequisite for getting credit on the team member evaluation. If you are suggesting that an individual did less than  half the expected contribution given your team size (e.g., for a team of four students, if a student contributed less than 12.5% of the total effort), please
 provide some explanation. If any individual gets an average peer score 
 indicating that this was the case, their grade will be assessed accordingly.
-
 
 ## Additional notes and tips
 
@@ -304,7 +332,7 @@ happen, issues will arise, and that’s fine! Commit and push often, and ask que
 - Make sure each team member is contributing, both in terms of quality and quantity of contribution (we will be reviewing commits from different team  members).
 - All team members are expected to contribute equally to the completion of this assignment and group assessments will be given at its completion - anyone judged to not have sufficient contributed to the final product will have their grade penalized. While different teams members may have different backgrounds and abilities, it is the responsibility of every team member to understand how and why all code and approaches in  the assignment works.
 
-### Grading summary
+## Grading details
 
 Grading of the project will take into account the following:
 
@@ -337,6 +365,7 @@ of results is unclear.
 
 **There is no late work accepted on this project.** Be sure to turn in your work early to avoid any technological mishaps.
 
+<!--
 ## Formatting + communication 
 
 ### Suppress Code, Warnings, & Messages
