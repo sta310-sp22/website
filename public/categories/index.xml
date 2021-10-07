@@ -174,8 +174,7 @@ sure that you are able to load it into RStudio as this can be tricky depending
 on the source. If you are having trouble, ask for help before it is too late.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Data sets that can&amp;rsquo;t be used:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Data sets that have been used for class examples or assignments.
-in the class.&lt;/li&gt;
+&lt;li&gt;Data sets that have been used for class examples or assignments.&lt;/li&gt;
 &lt;li&gt;Data sets from Kaggle.&lt;/li&gt;
 &lt;li&gt;Data sets analyzed in another course.&lt;/li&gt;
 &lt;/ul&gt;

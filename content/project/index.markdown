@@ -63,7 +63,6 @@ on the source. If you are having trouble, ask for help before it is too late.
 **Data sets that can't be used:** 
 
 - Data sets that have been used for class examples or assignments. 
-in the class.
 - Data sets from Kaggle.
 - Data sets analyzed in another course.
 
