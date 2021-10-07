@@ -130,7 +130,7 @@ For each data set, include the following:
 
 ### Submission 
 
-Submit the PDF of your proposal on Gradescope by **Thursday, October 14 at 11:59pm**.Be sure to select the names of all team members in the submission and mark all the pages associated with each data set. The teaching team will provide feedback on your proposal to help you determine a data set to use for the project. 
+Submit the PDF of your proposal on Gradescope by **Thursday, October 14 at 11:59pm**. Be sure to select the names of all team members in the submission and mark all the pages associated with each data set. The teaching team will provide feedback on your proposal to help you determine a data set to use for the project. 
 
 ### Notes 
 
