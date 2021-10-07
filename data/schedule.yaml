@@ -122,7 +122,8 @@ lessons:
   - title: "HW 03 released" 
     hw: "hw-03.html"
   - date: "Thu, Oct 07"
-    title: "Lab: Project"
+    title: "Lab: Project proposal"
+    project: "#data-sources"
 
   - week: "Week 08"
     date: "Mon, Oct 11"
@@ -133,6 +134,8 @@ lessons:
     prepare: "week-08.html"
   - date: "Thu, Oct 14"
     title: "Lab 06"
+  - title: "Project proposal due"
+    project: "#project-proposal"
 
   - week: "Week 09"
     date: "Mon, Oct 18"
