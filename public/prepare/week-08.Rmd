@@ -28,11 +28,14 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Required
 
+`r emo::ji("memo")` Take Prep Quiz 04 on Sakai 
 
-`r emo::ji("movie_camera")` Watch [Bootstrapping](https://youtu.be/bdqpI3iVOso)
+`r emo::ji("movie_camera")` Watch [Hypothesis Testing](https://warpwire.duke.edu/w/IQ4GAA/)
 
-- [Click here](https://rstudio-education.github.io/datascience-box/course-materials/slides/u4-d11-bootstrap/u4-d11-bootstrap.html#1) for slides
+- [Click here](https://sta199-fa21-003.netlify.app/slides/16-sim-testing.html#1) for slides
 
+### Optional 
 
+`r emo::ji("book")` Read [IMS: Chapter 11 - Hypothesis testing with randomization](https://openintro-ims.netlify.app/foundations-randomization.html)
 
 
