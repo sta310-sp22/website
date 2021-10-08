@@ -128,6 +128,7 @@ lessons:
   - week: "Week 08"
     date: "Mon, Oct 11"
     title: "Estimation via bootstrapping"
+    slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u4-d11-bootstrap/u4-d11-bootstrap.html#1"
     prepare: "week-08.html"
   - date: "Wed, Oct 13"
     title: "Simulation-based Testing"
