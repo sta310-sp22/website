@@ -1,13 +1,14 @@
 ---
 title: "Statistics Experience"
 subtitle: "due Friday, December 3 at 11:59pm"
-author: ""
 output: 
-  html_document: 
-  #  css: ""
+  tufte::tufte_html:
+    css: "sta199-hw.css"
+    tufte_variant: "envisioned"
+    highlight: pygments
     toc: true
-    toc_float: false
     toc_depth: 2
+link-citations: yes
 ---   
 
 The world of statistics and data science is vast and continually growing! The goal of the statistics experience assignments is to help you engage with the statistics and data science communities outside of the classroom.
