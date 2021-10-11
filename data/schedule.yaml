@@ -130,6 +130,7 @@ lessons:
     title: "Estimation via bootstrapping"
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u4-d11-bootstrap/u4-d11-bootstrap.html#1"
     prepare: "week-08.html"
+    ae: "appex15-bootstrap.html"
   - date: "Wed, Oct 13"
     title: "Hypothesis testing"
     slides: "https://sta199-fa21-003.netlify.app/slides/16-hypothesis-test.html#1"
@@ -201,4 +202,7 @@ lessons:
     title: "Special topics"
   - date: "Thu, Dec 02"
     title: "Project"
+  - date: "Fri, Dec 03"
+    title: "Statistics experience due"
+    hw: "stats-experience.html"
   

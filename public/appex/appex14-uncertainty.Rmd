@@ -62,4 +62,4 @@ Grade <- Total_Points / (0.25 + 0.15 + 0.175 + 0.05 +0.025)
 
 ## Introduce project 
 
-Instructions available at [ta199-fa21-003.netlify.app/project](https://sta199-fa21-003.netlify.app/project/)
+Instructions available at [sta199-fa21-003.netlify.app/project](https://sta199-fa21-003.netlify.app/project/)
