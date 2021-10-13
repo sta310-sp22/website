@@ -135,6 +135,7 @@ lessons:
     title: "Hypothesis testing"
     slides: "https://sta199-fa21-003.netlify.app/slides/16-hypothesis-test.html#1"
     prepare: "week-08.html"
+    ae: "appex16-testing.html"
   - date: "Thu, Oct 14"
     title: "Lab 06"
   - title: "Project proposal due"
