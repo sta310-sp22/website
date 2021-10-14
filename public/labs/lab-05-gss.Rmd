@@ -34,7 +34,7 @@ In this lab you will...
 
 - A repository has already been created for you and your teammates. Everyone in your team has access to the same repo.
 
-- Go to the [INSERT COURSE ORG] course organization on GitHub.
+- Go to the [sta199-fa21-003](https://github.com/sta199-fa21-003) course organization on GitHub.
 
 - You should see a repo with the *lab-05** prefix.
 
