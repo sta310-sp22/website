@@ -114,7 +114,7 @@ library(tidyverse)
 library(tidymodels)
 ```
 
-# The data
+# Data: Durham Resident Satisfaction Survey
 
 Today's data comes from the City of Durham's annual Resident
 Satisfaction Survey for 2020. [Click
