@@ -101,10 +101,9 @@ conflict activity.</u>
 
 ## Workflow: Using git and GitHub as a team
 
--   The following exercises must be done in order. Only one person
-    should type in the .Rmd file and push updates at a time. When it is
-    not your turn to type, you should still share ideas and contribute
-    to the team's discussion.
+The following exercises must be done in order. Only one person
+should type in the .Rmd file and push updates at a time. When it is not your turn to type, you should still share ideas and contribute
+to the team's discussion.
 
 ## Packages
 
@@ -121,7 +120,7 @@ Today's data comes from the City of Durham's annual Resident
 Satisfaction Survey for 2020. [Click
 here](https://www.dconc.gov/home/showpublisheddocument/33786/637477764750700000)
 to read the full report of results from the survey. In particular,
-`durham-survey-2020.csv` contains data from over 800 Durham residents on a variety of survey questions. Assume that the data are representative of
+`durham-survey-2020.csv` contains data from over 800 Durham residents on a variety of questions about their experience living in the city. Assume that the data are representative of
 Durham residents and may be generalized to the wider population of all
 city residents.
 
@@ -160,9 +159,7 @@ ____ <- read_csv("_______")
 ::: {.{commit}}
 -   Use a small number of reps (about 100) as you write and test out
     your code. Once you have finalized all of your code, increase the
-    number of reps to 10,000 to produce your final results. final
-    results.
-
+    number of reps to 10,000 to produce your final results.
 -   Write your code and narrative in a reproducible way, so you can
     easily change the number of reps. For example, consider ways you can
     write your narrative using inline code, so the relevant values
@@ -178,7 +175,7 @@ ____ <- read_csv("_______")
 
 ```{marginfigure}
 **Hint**: be careful with how missing values are coded in this survey. As well,
-don't forget to set a seed in order to ensure reproducibility!
+don't forget to set the seed specified in the instructions in order to ensure reproducibility!
 ```
 
 1.  We'll begin by analyzing the typical number of years current residents have
@@ -208,9 +205,9 @@ don't forget to set a seed in order to ensure reproducibility!
 
     -   Calcualte a 98% bootstrap confidence interval for the proportion
         of Durham residents who wore a mask frequently or always at
-        public outdoor events in 2020. Use `set.seed(3)` .
+        public outdoor events in 2020. Use `set.seed(3)`.
 
-    -   Interpret the interval in the context of the data.
+    -   Interpret the confidence interval in the context of the data.
 
 4.  According to data from the [United States
     Census](https://www.census.gov/data/tables/2019/demo/age-and-sex/2019-age-sex-composition.html),
@@ -268,7 +265,7 @@ guidelines we discussed in class (e.g. no long lines of code).
 
 **There should only be** <u>one</u> submission per team on Gradescope.
 
-# Grading
+# Grading (50 pts)
 
 | Component             | Points |
 |:----------------------|:-------|

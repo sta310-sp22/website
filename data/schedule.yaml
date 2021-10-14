@@ -137,7 +137,8 @@ lessons:
     prepare: "week-08.html"
     ae: "appex16-testing.html"
   - date: "Thu, Oct 14"
-    title: "Lab 06"
+    title: "Lab 06: Simulation-based inference"
+    lab: "lab-06-sim-inference.html"
   - title: "Project proposal due"
     project: "#project-proposal"
 

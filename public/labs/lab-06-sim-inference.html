@@ -197,9 +197,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="workflow-using-git-and-github-as-a-team" class="section level2">
 <h2>Workflow: Using git and GitHub as a team</h2>
-<ul>
-<li>The following exercises must be done in order. Only one person should type in the .Rmd file and push updates at a time. When it is not your turn to type, you should still share ideas and contribute to the team’s discussion.</li>
-</ul>
+<p>The following exercises must be done in order. Only one person should type in the .Rmd file and push updates at a time. When it is not your turn to type, you should still share ideas and contribute to the team’s discussion.</p>
 </div>
 <div id="packages" class="section level2">
 <h2>Packages</h2>
@@ -210,7 +208,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="the-data" class="section level1">
 <h1>The data</h1>
-<p>Today’s data comes from the City of Durham’s annual Resident Satisfaction Survey for 2020. <a href="https://www.dconc.gov/home/showpublisheddocument/33786/637477764750700000">Click here</a> to read the full report of results from the survey. In particular, <code>durham-survey-2020.csv</code> contains data from over 800 Durham residents on a variety of survey questions. Assume that the data are representative of Durham residents and may be generalized to the wider population of all city residents.</p>
+<p>Today’s data comes from the City of Durham’s annual Resident Satisfaction Survey for 2020. <a href="https://www.dconc.gov/home/showpublisheddocument/33786/637477764750700000">Click here</a> to read the full report of results from the survey. In particular, <code>durham-survey-2020.csv</code> contains data from over 800 Durham residents on a variety of questions about their experience living in the city. Assume that the data are representative of Durham residents and may be generalized to the wider population of all city residents.</p>
 <p>The following variables are used in this analysis:</p>
 <ul>
 <li><p><code>age</code>: Age category</p>
@@ -243,14 +241,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2>Instructions</h2>
 <div class="{.{commit}}">
 <ul>
-<li><p>Use a small number of reps (about 100) as you write and test out your code. Once you have finalized all of your code, increase the number of reps to 10,000 to produce your final results. final results.</p></li>
-<li><p>Write your code and narrative in a reproducible way, so you can easily change the number of reps. For example, consider ways you can write your narrative using inline code, so the relevant values update when you change the number of reps.</p></li>
-<li><p>For each exercise, filter out observations that have values corresponding to “no response” for the variable of interest in that exercise.</p></li>
-<li><p>For each simulation exercise, use the seed specified in the exercise instructions.</p></li>
-<li><p>All narrative should be written in full sentences, and visualizations should have clear title and axis labels.</p></li>
+<li>Use a small number of reps (about 100) as you write and test out your code. Once you have finalized all of your code, increase the number of reps to 10,000 to produce your final results.</li>
+<li>Write your code and narrative in a reproducible way, so you can easily change the number of reps. For example, consider ways you can write your narrative using inline code, so the relevant values update when you change the number of reps.</li>
+<li>For each exercise, filter out observations that have values corresponding to “no response” for the variable of interest in that exercise.</li>
+<li>For each simulation exercise, use the seed specified in the exercise instructions.</li>
+<li>All narrative should be written in full sentences, and visualizations should have clear title and axis labels.</li>
 </ul>
 </div>
-<p><label for="tufte-mn-1" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-1" class="margin-toggle"><span class="marginnote"><span style="display: block;"><strong>Hint</strong>: be careful with how missing values are coded in this survey. As well, don’t forget to set a seed in order to ensure reproducibility!</span></span></p>
+<p><label for="tufte-mn-1" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-1" class="margin-toggle"><span class="marginnote"><span style="display: block;"><strong>Hint</strong>: be careful with how missing values are coded in this survey. As well, don’t forget to set the seed specified in the instructions in order to ensure reproducibility!</span></span></p>
 <ol style="list-style-type: decimal">
 <li><p>We’ll begin by analyzing the typical number of years current residents have lived in Durham.</p>
 <ul>
@@ -263,8 +261,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p>Next, let’s look at how frequently Durham residents wore masks at public outdoor events in 2020. <label for="tufte-mn-2" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-2" class="margin-toggle"><span class="marginnote"><span style="display: block;"><strong>Hint:</strong> You will need to make a new variable.</span></span></p>
 <ul>
 <li><p>Calculate the proportion of survey respondents who wore a mask frequently (<code>4</code>) or always (<code>5</code>) at public outdoor events, among those who provided a response to this question.</p></li>
-<li><p>Calcualte a 98% bootstrap confidence interval for the proportion of Durham residents who wore a mask frequently or always at public outdoor events in 2020. Use <code>set.seed(3)</code> .</p></li>
-<li><p>Interpret the interval in the context of the data.</p></li>
+<li><p>Calcualte a 98% bootstrap confidence interval for the proportion of Durham residents who wore a mask frequently or always at public outdoor events in 2020. Use <code>set.seed(3)</code>.</p></li>
+<li><p>Interpret the confidence interval in the context of the data.</p></li>
 </ul></li>
 <li><p>According to data from the <a href="https://www.census.gov/data/tables/2019/demo/age-and-sex/2019-age-sex-composition.html">United States Census</a>, 46% of US adults are 18 - 44 years old. Is the proportion of adults in Durham who are 18 - 44 years different from the proportion of adults in this age range in the United States?</p>
 <ul>
