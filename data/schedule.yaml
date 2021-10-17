@@ -146,6 +146,7 @@ lessons:
     date: "Mon, Oct 18"
     title: "Simulation-based inference (Two Sample)"
     prepare: "week-09.html"
+    ae: "appex17-independence.html"
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u4-d12-hypothesis-testing/u4-d12-hypothesis-testing.html#33"
   - date: "Wed, Oct 20"
     title: "Central Limit Theorem (CLT)"
