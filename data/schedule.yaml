@@ -151,6 +151,7 @@ lessons:
   - date: "Wed, Oct 20"
     title: "Simulation-based inference recap"
     prepare: "week-09.html"
+    ae: "appex18-sim-inf-recap.html"
   - title: "HW 04 released"
     hw: "hw-04.html"
   - date: "Thu, Oct 21"
