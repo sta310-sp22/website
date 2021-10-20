@@ -25,7 +25,7 @@ In this homework assignment you will...
 
 # Getting started
 
-- Go to the [sta210-fa21-003](https://github.com/sta199-fa21-003) organization on GitHub. Click on the repo with the prefix **hw-03**. It contains the starter documents you need to complete the assignment.
+- Go to the [sta199-fa21-003](https://github.com/sta199-fa21-003) organization on GitHub. Click on the repo with the prefix **hw-03**. It contains the starter documents you need to complete the assignment.
 
 - Clone the repo and start a new project in RStudio. See the [Lab 01 instructions](https://sta199-fa21-003.netlify.app/labs/lab-01-hello-r.html) for details on cloning a repo and starting a new R project.
 
