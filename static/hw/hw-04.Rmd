@@ -140,7 +140,7 @@ uploaded document, mark where each answer is to the exercises. If any answer  sp
 |:----------|:-------|
 | Ex 1     |  3  |
 | Ex 2      |  4  |
-| Ex 3      | 8   |
+| Ex 3      | 5   |
 | Ex 4      |  6  |
 | Ex 5     |  3 |
 | Ex 6    |4  |
