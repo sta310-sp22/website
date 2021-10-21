@@ -112,37 +112,35 @@ The data are available in `burritos.csv`
 
 1. Sour cream on burritos: yay or nay? Explain.
 
-2. Suppose you are worried that the presence of sour cream adversely affects the perceived temperature of the burrito. You decide to conduct a hypothesis test to evaluate whether the  mean temperature of burritos with sour cream is lower than burritos without sour cream. 
+2. Suppose you are worried that the presence of sour cream adversely affects the uniformity of the burrito. You decide to conduct a hypothesis test to evaluate whether the  mean uniformity of burritos with sour cream is lower than burritos without sour cream. 
 
-  - State the null and alternative hypotheses in words and mathematical notation. 
--  Describe precisely how you would set up the simulation to construct the null distribution for this test. In your description, you can imagine using index cards to represent the data. Your description should also include specifics about the size of the sample drawn at each iteration and what statistic is calculated. You can assume the number of reps for the simulation is 10,000. (*Hint: Consider both how we've constructed the null distribution for difference in proportions and how we've constructed it for quantitative variables.* )
+    - State the null and alternative hypotheses in words and mathematical notation. 
+    -  Describe precisely how you would set up the simulation to construct the null distribution for this test. In your description, you can imagine using index cards to represent the data. Your description should also include specifics about the size of the sample drawn at each iteration and what statistic is calculated. You can assume the number of reps for the simulation is 10,000. (*Hint: Consider both how we've constructed the null distribution for difference in proportions and how we've constructed it for quantitative variables.* )
 
 3. Construct the null distribution for this test using `set.see(3)`.
 
-  - Visualize the simulated null distribution and shade the area corresponding to the p-value. 
-  - Then, calculate the p-value, and state your conclusion in the context of the data, using a significance level of 0.05.
+    - Visualize the simulated null distribution and shade the area corresponding to the p-value. 
+    - Then, calculate the p-value, and state your conclusion in the context of the data, using a significance level of 0.05.
 
 
-4. Calculate and interpret a 95% confidence interval for the 
-difference you investigated in Exercises2 and 3.
+4. Calculate and interpret a 90% confidence interval for the 
+difference you investigated in Exercises 2 and 3. Use `set.seed(4)`.
 
 5. Describe precisely how the simulation is set up to construct the bootstrap distribution used to calculate the confidence interval in Exercise 4. In your description, you can imagine using index cards to represent the data. Your description should also include specifics about the size of the sample drawn at each iteration and what statistic is calculated. You can assume the number of reps for the simulation is 10,000.
 
-6. Your friend suggests that there is some association between having sour cream and having guacamole on a burrito. Conduct a hypothesis test to evaluate whether the having sour cream and having guacamole are independent events. The hypotheses for this test is 
+6. Your friend suggests that having sour cream and having guacamole on a burrito are dependent events. You decide to conduct a hypothesis test to assess your friend's claim. The hypotheses for the test are $H_0: p_{S} = p_{NS} \text{ vs. }H_a: p_{S} \neq p_{NS}$
 
-$$H_0: p_{S} = p_{NS} \text{ vs. }H_0: p_{S} \neq p_{NS}$$
+    where $p_{S}$ is the proportion of burritos with sour cream that have guacamole and $p_{NS}$ is the proportion of burritos with no sour cream have guacamole
 
-where $p_{S}$ is the proportion of burritos with sour cream that have guacamole and $p_{NS}$ is the proportion of burritos with no sour cream have guacamole
+  
+    - Construct the null distribution using `set.seed(6)`. Visualize the simulated null distribution and shade the area corresponding to the p-value. 
+    - Then, calculate the p-value, and state your conclusion in the context of the data, using a significance level of 0.05.
 
-  - Construct the null distribution using `set.seed(6)`. Visualize the simulated null distribution and shade the area corresponding to the p-value. 
-  - State your conclusion using a significance level of 0.05. 
+7. Calculate and interpret a 95% confidence interval for the difference investigated in Exercise 6. Use `set.seed(7)`.
 
-7. Calculate and interpret a 95% confidence interval for the difference investigated in Exercise 6.
+8. Create a new variable for overall burrito quality by taking the average scores for all ratings (tortilla quality, temperature, meat quality, etc.) in the dataset. *Is there evidence that burritos with guacamole have a different average overall perceived quality score compared to burritos without guacamole?* Evaluate this claim using a 99% confidence interval. Use `set.seed(8)`.
 
-8. Create a new variable for overall burrito quality by taking the average scores for all ratings (tortilla quality, temperature, meat quality, etc.) in the dataset. *Is there evidence that burritos with guacamole have a different average overall perceived quality score compared to burritos without guacamole?*
-Evaluate this claim using an inferential method (confidence interval or hypothesis test) of your choice. 
-
-9. In the previous exercises, we've treated the rating variables as numeric variables. Evaluate the merits of this approach: is it appropriate? Could it potentially be misleading? Briefly explain.
+9. In the previous exercise, we've treated the rating variables as numeric variables. Evaluate the merits of this approach: is it appropriate? Could it potentially be misleading? Briefly explain.
 
 
 # Submission
@@ -155,3 +153,24 @@ Evaluate this claim using an inferential method (confidence interval or hypothes
     If any answer spans multiple pages, then mark all pages.
 
 **There should only be** <u>one</u> submission per team on Gradescope.
+
+# Grading (50 points)
+
+| Component             | Points |
+|:----------------------|:-------|
+| Ex 1                  |    1   |
+| Ex 2                  |   8   |
+| Ex 3                  |    6  |
+| Ex 4                  |    5  |
+| Ex 5                  |    4   |
+| Ex 6                  |   5  |
+| Ex 7                  | 5      |
+| Ex 8                  | 8      |
+| Ex 9                  | 4      |
+| Workflow & formatting | 4      |
+
+-   The "Workflow & formatting" grade is to assess the reproducible
+    workflow. This includes having at least one informative commit by
+    each team member, labeling the code chunks, and having readable code
+    in the tidyverse syntax that does not exceed 80 characters (i.e., we
+    can read all your code in the knitted PDF.)

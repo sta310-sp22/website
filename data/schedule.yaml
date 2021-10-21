@@ -155,7 +155,8 @@ lessons:
   - title: "HW 04 released"
     hw: "hw-04.html"
   - date: "Thu, Oct 21"
-    title: "Lab 07: Hypothesis testing"
+    title: "Lab 07: Two-sample inference"
+    lab: "lab-07-two-sample.html"
     
   - week: "Week 10"
     date: "Mon, Oct 25"
