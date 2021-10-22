@@ -114,7 +114,7 @@ The data are in `parkinsons.csv` located in the `data` folder. Write code to loa
 
     $H_0: p_{H} = p_{PD} \text{ vs. }H_a: p_{H} \neq p_{PD}$
 
-    where $p_{H}$ is the proportion of healthy adults how have "low" average vocal fundamental frequency and $p_{PD}$ is the proportion of adults with Parkinson's Disease who have "low" average vocal fundamental frequency. 
+    where $p_{H}$ is the proportion of healthy adults who have "low" average vocal fundamental frequency and $p_{PD}$ is the proportion of adults with Parkinson's Disease who have "low" average vocal fundamental frequency. 
 
     - Construct the null distribution using `set.seed(9)`. 
     - Visualize the null distribution and the shaded region corresponding to the p-value. 
