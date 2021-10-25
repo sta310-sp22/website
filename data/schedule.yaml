@@ -162,7 +162,7 @@ lessons:
     date: "Mon, Oct 25"
     title: "Central Limit Theorem (CLT)"
     slides: "https://sta199-fa21-003.netlify.app/slides/clt-intro.html#1"
-    appex: "appex19-clt.html"
+    ae: "appex19-clt.html"
     prepare: "week-10.html"
   - date: "Wed, Oct 27"
     title: "Inference using CLT"
