@@ -167,14 +167,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1>Getting started</h1>
 <ul>
 <li><p>A repository has already been created for you and your teammates. Everyone in your team has access to the same repo.</p></li>
-<li><p>Go to the [INSERT COURSE ORG] course organization on GitHub.</p></li>
-<li><p>You should see a repo with the <strong>lab-08</strong> prefix.</p></li>
+<li><p>Go to the <a href="https://github.com/sta199-fa21-003">sta199-fa21-003</a> course organization on GitHub.</p></li>
+<li><p>You should see a repo with the *lab-08** prefix.</p></li>
 <li><p>Each person on the team should clone the repository and open a new project in RStudio. Do not make any changes to the .Rmd file until the instructions tell you do to so.</p></li>
 </ul>
 </div>
 <div id="what-makes-a-good-burrito" class="section level1">
 <h1>What makes a good burrito?</h1>
-<p>The goal of today’s lab is to use simulation-based inference to assess what makes a good burrito.</p>
+<p>The goal of today’s lab is to use ClT-based inference to evaluate the synergy of burritos.</p>
 </div>
 <div id="the-data" class="section level1">
 <h1>The Data</h1>
@@ -206,7 +206,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h1>Exercises</h1>
 <div id="instructions" class="section level2">
 <h2>Instructions</h2>
-<div class="{.{commit}}">
+<div class="commit">
 <ul>
 <li>Make sure we see all relevant code and output in the knitted PDF. If you use inline code, make sure we can still see the code used to derive that answer.</li>
 <li>Write a narrative for each exercise.</li>
@@ -214,78 +214,79 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul>
 </div>
 <p>The goal of this analysis is to use inference based on the Central Limit Theorem to analyze the mean synergy rating of burritos.</p>
+<hr>
 <ol style="list-style-type: decimal">
-<li>We’ll start by examining the distribution of <code>synergy</code>, a rating indicating how well all the ingredients in the burrito come together.</li>
-</ol>
+<li><p>We’ll start by examining the distribution of <code>synergy</code>, a rating indicating how well all the ingredients in the burrito come together.</p>
 <ul>
-<li><p>Visualize the distribution of <code>synergy</code>.</p>
-<ul>
-<li>Then calculate the following summary statistics from the data, the mean, standard deviation, an sample size. Save the data frame of summary statistics as <code>summary_stat</code>. Be sure to still display the values of the summary statistics.</li>
+<li><p>Visualize the distribution of <code>synergy</code> using a histogram with binwidth of 0.5.</p></li>
+<li><p>Calculate the following summary statistics: the mean synergy, standard deviation of synergy, and sample size size. Save the summary statistics as <code>summary_stats</code>. Then display <code>summary_stat</code>.</p></li>
 </ul></li>
-</ul>
-<ol start="2" style="list-style-type: decimal">
 <li><p>The goal of this analysis is to use CLT-based inference to understand the true mean synergy rating of all burritos. What is your “best guess” for the mean synergy rating of burritos?</p></li>
-<li><p><em>Is the synergy in burritos generally pretty good?</em> To assess this, we will conduct a hypothesis test to evaluate if the mean synergy is greater than 3. Before conducting inference, we need to check the conditions to make sure the Central Limit Theorem can be applied in this analysis. For each condition, indicate whether it is satisfied and provide a brief explanation supporting your response.</p>
+<li><p><em>Is the synergy in burritos generally good?</em> To answer this question, we will conduct a hypothesis test to evaluate if the mean synergy is greater than 3. Before conducting inference, we need to check the conditions to make sure the Central Limit Theorem can be applied in this analysis. For each condition, indicate whether it is satisfied and provide a brief explanation supporting your response.</p>
 <ul>
 <li>Independence?</li>
 <li>Sample size / distribution?</li>
 </ul></li>
-<li><p>State the null and alternative hypotheses to evaluate the question posed in the previous exercise in words and in statistical notation.</p></li>
+<li><p>State the null and alternative hypotheses to evaluate the question posed in the previous exercise. Write the hypotheses in words and in statistical notation.</p></li>
 <li><p>Let <span class="math inline">\(\bar{x}\)</span> be the mean synergy score in a sample of 330 randomly selected burritos. Given the Central Limit Theorem and the hypotheses from the previous exercise</p></li>
 </ol>
 <ul>
 <li>What is the mean of the sampling distribution of <span class="math inline">\(\bar{x}\)</span>?</li>
 <li>What is the standard error of the sampling distribution of <span class="math inline">\(\bar{x}\)</span>?</li>
 </ul>
-<p>Use the <code>summary_stat</code> data frame to calculate and display these values. 6. Next, use R as a calculator to calculate the test statistic, <span class="math inline">\(T\)</span>. Recall</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Next, use R as a “calculator” to calculate the test statistic, <span class="math inline">\(T\)</span>. Recall the formula for the test statistic:</li>
+</ol>
 <p><span class="math display">\[T = \frac{\bar{x}- \mu_{0}}{s/\sqrt{n}}\]</span></p>
 <ul>
 <li>Explain what this value means in the context of this analysis.</li>
 <li>What is the distribution of the test statistic, <span class="math inline">\(T\)</span>? Be specific.</li>
 </ul>
 <ol start="7" style="list-style-type: decimal">
-<li>Lastly let’s look at the p-value.</li>
+<li>Now let’s calculate the p-value and draw a conclusion.</li>
 </ol>
 <ul>
-<li>Calculate the p-value using the <code>pt</code> function.</li>
+<li>Use the <code>pt()</code> function to calculate the p-value.</li>
 <li>Explain what this value means in the context of this analysis.</li>
 <li>State your conclusion in the context of the data using a significance level of <span class="math inline">\(\alpha = 0.01\)</span>.</li>
 </ul>
 <ol start="8" style="list-style-type: decimal">
-<li>Now let’s calculate a 90% confidence interval for the mean synergy score of all burritos. The confidence interval for a population mean is</li>
+<li>Now let’s calculate a 90% confidence interval for the mean synergy rating of all burritos. The confidence interval for a population mean is</li>
 </ol>
 <p><span class="math display">\[\bar{x} \pm t^*_{n-1} \times \frac{s}{\sqrt{n}}\]</span></p>
-<p>We already know <span class="math inline">\(\bar{x}\)</span> and <span class="math inline">\(\frac{s}{\sqrt{n}}\)</span>, so let’s focus on the calculating <span class="math inline">\(t^*_{n-1}\)</span>. We will use the <code>qt</code> function to calculate the critical value <span class="math inline">\(t^*_{n-1}\)</span>.</p>
-<p>For example, if we want to calculate a 95% confidence interval for the mean, we will use <code>qt(0.975, n-1)</code>, where 0.975 is the cumulative probability at the upper bound of the 95% confidence interval (recall we used this value to find the upper bound when using bootstrap intervals), and n-1 are the degrees of freedom.</p>
+<p>We already know <span class="math inline">\(\bar{x}\)</span> and <span class="math inline">\(\frac{s}{\sqrt{n}}\)</span>, so let’s focus on the calculating <span class="math inline">\(t^*_{n-1}\)</span>. We will use the <code>qt()</code> function to calculate the critical value <span class="math inline">\(t^*_{n-1}\)</span>.</p>
+<p><em>Here is an example: If we want to calculate a 95% confidence interval for the mean, we will use <code>qt(0.975, n-1)</code>, where 0.975 is the cumulative probability at the upper bound of the 95% confidence interval (recall we used this value to find the upper bound when calculating bootstrap confidence intervals), and (n-1) are the degrees of freedom. </em></p>
 <ul>
-<li><p>Calculate the critical value, <span class="math inline">\(t^*_{n-1}\)</span>, for the 90% confidence interval for the mean synergy score of all burritos.</p></li>
+<li><p>Calculate the critical value, <span class="math inline">\(t^*_{n-1}\)</span>, of the 90% confidence interval for the mean synergy rating of all burritos.</p></li>
 <li><p>Use R as a “calculator” to calculate the 90% confidence interval.</p></li>
 <li><p>Interpret the interval in the context of the data.</p></li>
 </ul>
 <ol start="9" style="list-style-type: decimal">
-<li>We can conduct CLT-based inference for a population mean using the <code>t_test</code> function in the <code>infer</code> R package.</li>
+<li>In the previous exercises, we conducted a hypothesis test and calculated a confidence interval step-by-step. We can also use <code>infer</code> for the calculations in CLT-based inference using the <code>t_test()</code> function.</li>
 </ol>
 <ul>
-<li>Fill in the code below to produce the test statistic and p-value to test the hypotheses in Exercise 4.</li>
+<li>Fill in the code below to produce the calculations for the hypothesis test you conducted in Exercises 4 - 7.</li>
 </ul>
+<p><label for="tufte-mn-1" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-1" class="margin-toggle"><span class="marginnote"><span style="display: block;">The results should be the same as the calculations you did in exercises in the previous exercises.</span></span></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>burritos <span class="sc">%&gt;%</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">t_test</span>(<span class="at">response =</span> _____, </span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>         <span class="at">alternative =</span> <span class="st">&quot;______&quot;</span>, </span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">mu =</span> ______, </span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>         <span class="at">conf_int =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
-<p>The results should be the same as the calculations you did in exercises 6 and 7.</p>
 <ul>
-<li>Fill in the code below to produce the 90% confidence interval for the mean synergy score. The results should be the same as the calculations from Exercise 8.</li>
+<li>Next, fill in the code below to produce the 90% confidence interval for the mean synergy rating.</li>
 </ul>
+<p><label for="tufte-mn-2" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-2" class="margin-toggle"><span class="marginnote"><span style="display: block;">The results should be the same as the calculations from Exercise 8.</span></span></p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>burritos <span class="sc">%&gt;%</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">t_test</span>(<span class="at">response =</span> _____, </span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>         <span class="at">conf_int =</span> <span class="cn">TRUE</span>, </span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">conf_level =</span> _____)</span></code></pre></div>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>         <span class="at">conf_level =</span> _____) <span class="sc">%&gt;%</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(lower_ci, upper_ci)</span></code></pre></div>
 <ol start="10" style="list-style-type: decimal">
 <li>Now let’s compare inference simulation-based inference versus inference using the Central Limit Theorem.</li>
 </ol>
 <ul>
-<li>What is one way conducting hypothesis tests is the same in both approaches? What is one way conducting hypothesis tests differ between the two approaches?</li>
+<li>What is one way conducting hypothesis tests is the same in both approaches? What is one way conducting hypothesis tests differs between the two approaches?</li>
 <li>What is one way calculating and interpreting confidence intervals is the same in both approaches? What is one way calculating and interpreting confidence intervals differs between the two approaches?</li>
 </ul>
 </div>

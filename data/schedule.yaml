@@ -170,7 +170,8 @@ lessons:
     prepare: "week-10.html"
     ae: "appex20-clt-inf.html"
   - date: "Thu, Oct 28"
-    title: "Lab 08"
+    title: "Lab 08: Inference using the Central Limit Theorem"
+    lab: "lab-08-clt-inference.html"
     
   - week: "Week 11"
     date: "Mon, Nov 01"
