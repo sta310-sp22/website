@@ -1,0 +1,31 @@
+---
+title: "Prepare: Week 12"
+output: 
+  html_document:
+    css: "prepare.css"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## November 08
+
+**Note:** All required prepare activities are due **<u>by the beginning of class</u>** on the specified date
+
+### Required
+
+
+`r emo::ji("memo") `Prep Quiz 06 due
+
+Check back for slides and video
+
+
+## For November 10
+
+### Required
+
+Check back for slides and video 
+
+
+

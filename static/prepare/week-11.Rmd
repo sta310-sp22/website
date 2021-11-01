@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Required
 
-`r emo::ji("memo")` Take Prep Quiz 06
+`r emo::ji("memo")` Take Prep Quiz 06 (due date extended to Mon, Nov 08)
 
 `r emo::ji("movie_camera")` Watch [Fitting and interpreting models](https://youtu.be/69U92Q3pwnA)
 
