@@ -183,6 +183,7 @@ lessons:
     title: "Fitting and interpreting models"
     slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u4-d02-fitting-interpreting-models/u4-d02-fitting-interpreting-models.html#1"
     prepare: "week-11.html"
+    ae: "appex22-linear-models-contd.html"
   - date: "Thu, Nov 04"
     title: "Lab 09"
 
