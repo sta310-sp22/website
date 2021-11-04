@@ -185,7 +185,8 @@ lessons:
     prepare: "week-11.html"
     ae: "appex22-linear-models-contd.html"
   - date: "Thu, Nov 04"
-    title: "Lab 09"
+    title: "Lab 09: Intro to linear regression"
+    lab: "lab-09-intro-regression.html"
 
   - week: "Week 12"
     date: "Mon, Nov 08"
