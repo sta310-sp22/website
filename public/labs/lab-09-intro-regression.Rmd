@@ -120,7 +120,7 @@ This is called a "logit" transformation and takes values between $(0, 1]$ and ma
     You can calculate $R^2$ using the `glance` function. For example, you can calculate $R^2$ for `dt_model` using the code `glance(dt_model)$r.squared`. 
 
     - Calculate $R^2$ for each model fit in the previous exercise. 
-    - Which variable predictor of parasite similarity? Briefly explain your choice. 
+    - Which variable is the strongest predictor of parasite similarity? Briefly explain your choice. 
 
 # Submission
 
