@@ -83,15 +83,15 @@ The data are available in `parasites.csv` in the `data` folder`.
 To get started, load the data and save the data frame as `parasites`.
 
 1. Let's start by examining the relationship between `divergence_time` and `parsim`. 
-    - Based on the intro above, what is your outcome variable?
-    - Visualize the relationship between the tow variables.
-    - Interpret the visualization to describe the relationship between the two variables.
+    - Based on the goals of the analysis, what is the response variable?
+    - Visualize the relationship between the two variables.
+    - Use the visualization to describe the relationship between the two variables.
 
 2. Fit the linear regression model and display the results. 
     - Write the regression equation. 
     - Interpret the slope and the intercept in the context of the data. 
     - Recreate the visualization from Exercise 1, this time adding a regression line to the visualization `geom_smooth(method = "lm")`. 
-    - Do you notice anything strange about the prediction (regression) line, particularly for very large divergence times?
+    - What do you notice about the prediction (regression) line that may be strange, particularly for very large divergence times?
 
 ```{marginfigure}
 This is called a "logit" transformation and takes values between $(0, 1]$ and maps them to $(-\infty, + \infty)$ like we desire while preserving their order.
