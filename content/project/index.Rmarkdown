@@ -147,6 +147,50 @@ Total                                                   | 5 pts
 **Research questions**                                  | 2 pts
 **Results**                                             | 1 pts
 
+## Draft report 
+
+The purpose of the draft and peer review is to give you an opportunity to get early feedback on your analysis. Therefore, the draft and peer review will focus primarily on the exploratory data analysis, modeling, and initial interpretations. 
+
+Write the draft in the **written-report.Rmd** file in your project repo. You do not need to submit the draft on Gradescope. 
+
+Below is a brief description of the sections to focus on in the draft: 
+
+#### Introduction and data
+
+The introduction provides motivation and context for your research. Describe
+your topic (citing sources) and provide a concise, clear statement of your 
+research question and hypotheses.
+
+Then identify the source of the data, when and how it was collected, the cases,
+a general description of relevant variables.
+
+#### Methodology 
+
+The methodology section should include visualizations and summary statistics 
+relevant to your research question. You should also justify the choice of 
+statistical method(s) used to answer your research question.
+
+#### Results 
+
+Showcase how you arrived at answers to your research question using the
+techniques we have learned in class (and beyond, if you’re feeling adventurous).
+
+Provide only the main results from your analysis. The goal is not to do an 
+exhaustive data analysis (calculate every possible statistic and perform every possible procedure for all variables). Rather, you should demonstrate that you are proficient at asking meaningful questions and answering them using data, 
+that you are skilled in interpreting and presenting results, and that you can 
+accomplish these tasks using R. More is not better.
+
+
+## Peer review
+
+Critically reviewing others' work is a crucial part of the scientific process, and STA 199 is no exception. You will be assigned a team to review. As part of the review process, you must provide your partner team a copy of your current report by **Wednesday, November 17 at 11:59pm**. After giving the report to your partner team, they will have until **Monday, November 22 at 11:59pm** to provide a detailed critique about the written report and data analysis. This feedback is intended to help you create a high quality final project, as well as give you experience 
+reading and constructively critiquing the work of others.
+
+During the peer feedback process, you will be provided read-only access to your  partner team's GitHub repo. Provide your feedback in the form of GitHub issues to your partner team's GitHub repo. 
+
+Peer feedback will be graded on the extent to which it comprehensively and constructively addresses the components of the partner team's report: the research context and motivation, exploratory data analysis, and any inference, modeling, or conclusions. As you work on the draft, the focus should be on the analysis and less on crafting the final report. **Your draft must include a reasonable attempt at each analysis component - exploratory data analysis, inference or modeling, and deriving initial results and conclusions.**
+
+
 ## Written report
 
 Your final report must be written using R Markdown. All team members must contribute to the GitHub repository, with regular meaningful commits / pushes. 
@@ -204,17 +248,6 @@ the project.
 
 Your project should be professionally formatted. For example, this means labeling graphs and figures, turning off code chunks, and using tidyverse style.
 
-
-## Peer feedback
-
-Critically reviewing others' work is a crucial part of the scientific process, and STA 199 is no exception. You will be assigned a team to review. As part of the review process, you must provide your partner team a copy of your current report by **Wednesday, October 28**. After giving the report to your partner team, they will have until **Friday, November 5** to provide a detailed critique about the written report and data analysis. This feedback is intended to help you create a high quality final project, as well as give you experience 
-reading and constructively critiquing the work of others.
-
-During the peer feedback process, you will be provided read-only access to your  partner team's GitHub repo. Provide your feedback in the form of GitHub issues to your partner team's GitHub repo. 
-
-Peer feedback will be graded on the extent to which it comprehensively and constructively addresses the components of the partner team's report: the research context and motivation, exploratory data analysis, and any inference, modeling, or conclusions. As you work on the draft, the focus should be on the analysis and less on crafting the final report. **Your draft must include a reasonable attempt at each analysis component - exploratory data analysis, inference or modeling, and drawing initial conclusions.** 
-
-<
 ## Presentation Slides
 
 <!--

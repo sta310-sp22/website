@@ -267,6 +267,32 @@ exactly upon knitting.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h2 id=&#34;draft-report&#34;&gt;Draft report&lt;/h2&gt;
+&lt;p&gt;The purpose of the draft and peer review is to give you an opportunity to get early feedback on your analysis. Therefore, the draft and peer review will focus primarily on the exploratory data analysis, modeling, and initial interpretations.&lt;/p&gt;
+&lt;p&gt;Write the draft in the &lt;strong&gt;written-report.Rmd&lt;/strong&gt; file in your project repo. You do not need to submit the draft on Gradescope.&lt;/p&gt;
+&lt;p&gt;Below is a brief description of the sections to focus on in the draft:&lt;/p&gt;
+&lt;h4 id=&#34;introduction-and-data-1&#34;&gt;Introduction and data&lt;/h4&gt;
+&lt;p&gt;The introduction provides motivation and context for your research. Describe
+your topic (citing sources) and provide a concise, clear statement of your
+research question and hypotheses.&lt;/p&gt;
+&lt;p&gt;Then identify the source of the data, when and how it was collected, the cases,
+a general description of relevant variables.&lt;/p&gt;
+&lt;h4 id=&#34;methodology&#34;&gt;Methodology&lt;/h4&gt;
+&lt;p&gt;The methodology section should include visualizations and summary statistics
+relevant to your research question. You should also justify the choice of
+statistical method(s) used to answer your research question.&lt;/p&gt;
+&lt;h4 id=&#34;results&#34;&gt;Results&lt;/h4&gt;
+&lt;p&gt;Showcase how you arrived at answers to your research question using the
+techniques we have learned in class (and beyond, if you’re feeling adventurous).&lt;/p&gt;
+&lt;p&gt;Provide only the main results from your analysis. The goal is not to do an
+exhaustive data analysis (calculate every possible statistic and perform every possible procedure for all variables). Rather, you should demonstrate that you are proficient at asking meaningful questions and answering them using data,
+that you are skilled in interpreting and presenting results, and that you can
+accomplish these tasks using R. More is not better.&lt;/p&gt;
+&lt;h2 id=&#34;peer-review&#34;&gt;Peer review&lt;/h2&gt;
+&lt;p&gt;Critically reviewing others&#39; work is a crucial part of the scientific process, and STA 199 is no exception. You will be assigned a team to review. As part of the review process, you must provide your partner team a copy of your current report by &lt;strong&gt;Wednesday, November 17 at 11:59pm&lt;/strong&gt;. After giving the report to your partner team, they will have until &lt;strong&gt;Monday, November 22 at 11:59pm&lt;/strong&gt; to provide a detailed critique about the written report and data analysis. This feedback is intended to help you create a high quality final project, as well as give you experience
+reading and constructively critiquing the work of others.&lt;/p&gt;
+&lt;p&gt;During the peer feedback process, you will be provided read-only access to your  partner team&amp;rsquo;s GitHub repo. Provide your feedback in the form of GitHub issues to your partner team&amp;rsquo;s GitHub repo.&lt;/p&gt;
+&lt;p&gt;Peer feedback will be graded on the extent to which it comprehensively and constructively addresses the components of the partner team&amp;rsquo;s report: the research context and motivation, exploratory data analysis, and any inference, modeling, or conclusions. As you work on the draft, the focus should be on the analysis and less on crafting the final report. &lt;strong&gt;Your draft must include a reasonable attempt at each analysis component - exploratory data analysis, inference or modeling, and deriving initial results and conclusions.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;written-report&#34;&gt;Written report&lt;/h2&gt;
 &lt;p&gt;Your final report must be written using R Markdown. All team members must contribute to the GitHub repository, with regular meaningful commits / pushes.&lt;/p&gt;
 &lt;p&gt;Before you finalize your report, make sure the printing of code chunks is turned off with the option &lt;code&gt;echo = FALSE&lt;/code&gt;.&lt;/p&gt;
@@ -302,17 +328,17 @@ exactly upon knitting.&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id=&#34;introduction-and-data-1&#34;&gt;Introduction and data&lt;/h4&gt;
+&lt;h4 id=&#34;introduction-and-data-2&#34;&gt;Introduction and data&lt;/h4&gt;
 &lt;p&gt;The introduction provides motivation and context for your research. Describe
 your topic (citing sources) and provide a concise, clear statement of your
 research question and hypotheses.&lt;/p&gt;
 &lt;p&gt;Then identify the source of the data, when and how it was collected, the cases,
 a general description of relevant variables.&lt;/p&gt;
-&lt;h4 id=&#34;methodology&#34;&gt;Methodology&lt;/h4&gt;
+&lt;h4 id=&#34;methodology-1&#34;&gt;Methodology&lt;/h4&gt;
 &lt;p&gt;The methodology section should include visualizations and summary statistics
 relevant to your research question. You should also justify the choice of
 statistical method(s) used to answer your research question.&lt;/p&gt;
-&lt;h4 id=&#34;results&#34;&gt;Results&lt;/h4&gt;
+&lt;h4 id=&#34;results-1&#34;&gt;Results&lt;/h4&gt;
 &lt;p&gt;Showcase how you arrived at answers to your research question using the
 techniques we have learned in class (and beyond, if you’re feeling adventurous).&lt;/p&gt;
 &lt;p&gt;Provide only the main results from your analysis. The goal is not to do an
@@ -328,12 +354,6 @@ pertaining to the reliability and validity of your data and the appropriateness 
 the project.&lt;/p&gt;
 &lt;h3 id=&#34;formatting&#34;&gt;Formatting&lt;/h3&gt;
 &lt;p&gt;Your project should be professionally formatted. For example, this means labeling graphs and figures, turning off code chunks, and using tidyverse style.&lt;/p&gt;
-&lt;h2 id=&#34;peer-feedback&#34;&gt;Peer feedback&lt;/h2&gt;
-&lt;p&gt;Critically reviewing others&#39; work is a crucial part of the scientific process, and STA 199 is no exception. You will be assigned a team to review. As part of the review process, you must provide your partner team a copy of your current report by &lt;strong&gt;Wednesday, October 28&lt;/strong&gt;. After giving the report to your partner team, they will have until &lt;strong&gt;Friday, November 5&lt;/strong&gt; to provide a detailed critique about the written report and data analysis. This feedback is intended to help you create a high quality final project, as well as give you experience
-reading and constructively critiquing the work of others.&lt;/p&gt;
-&lt;p&gt;During the peer feedback process, you will be provided read-only access to your  partner team&amp;rsquo;s GitHub repo. Provide your feedback in the form of GitHub issues to your partner team&amp;rsquo;s GitHub repo.&lt;/p&gt;
-&lt;p&gt;Peer feedback will be graded on the extent to which it comprehensively and constructively addresses the components of the partner team&amp;rsquo;s report: the research context and motivation, exploratory data analysis, and any inference, modeling, or conclusions. As you work on the draft, the focus should be on the analysis and less on crafting the final report. &lt;strong&gt;Your draft must include a reasonable attempt at each analysis component - exploratory data analysis, inference or modeling, and drawing initial conclusions.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&amp;lt;&lt;/p&gt;
 &lt;h2 id=&#34;presentation-slides&#34;&gt;Presentation Slides&lt;/h2&gt;
 &lt;!--
 In addition to the write-up, your team must also create presentation
