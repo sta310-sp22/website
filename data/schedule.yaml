@@ -210,6 +210,7 @@ lessons:
   - title: "Exam 02 due"
   - date: "Wed, Nov 17"
     title: "Logistic Regression"
+    prepare: "week-13.html"
   - title: "Project draft due on GitHub"
     project: "#draft-report"
   - title: "HW 05 released"
