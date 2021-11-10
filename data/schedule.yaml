@@ -211,6 +211,7 @@ lessons:
   - date: "Wed, Nov 17"
     title: "Logistic Regression"
     prepare: "week-13.html"
+    slides: "https://rstudio-education.github.io/datascience-box/course-materials/slides/u4-d06-logistic-reg/u4-d06-logistic-reg.html#1"
   - title: "Project draft due on GitHub"
     project: "#draft-report"
   - title: "HW 05 released"
