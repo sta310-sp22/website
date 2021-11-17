@@ -14,6 +14,11 @@ editor_options:
     wrap: sentence
 ---
 
+```{r include = F}
+knitr::opts_chunk$set(message = F, warning = F)
+```
+
+
 ```{r load-packages, echo=F, message=F}
 library(tidyverse)
 ```
@@ -65,7 +70,7 @@ ggplot(penguins, aes(x = flipper_length_mm, y = bill_length_mm,
 Depending on where the package comes from, how you install the package differs:
 
   - If the package is on CRAN (Comprehensive R Archive Network), you can install it with `install.packages`.
-  - If the package is only on Github (most likely because it is still under development), you need to use the `install_github` function, click [here](https://www.rdocumentation.org/packages/devtools/versions/1.13.6/topics/install_github) for more details.
+  - If the package is only on Github (most likely because it is still under development), you need to use the `install_github` function in the **devtools** package, click [here](https://www.rdocumentation.org/packages/devtools/versions/1.13.6/topics/install_github) for more details.
 
 -   Load the package. Regardless of how you installed the package you can load it with the `library` function.
 
