@@ -100,7 +100,12 @@ Your response to each question in the peer review has two parts:
 - Knit the .Rmd file. Are you able to reproduce all aspects of the report, including output, 
 visualizations, etc? This includes (1) being able to knit the document and (2) obtaining the same PDF as the original PDF. 
 - What questions and/or general feedback do you have for the authors?
-- After giving feedback to this group, what is one thing you want to change or continue working on for your report? 
+
+# Applying what you’ve learned to your project
+
+**Discuss the following as a group. You do <u>not</u> need to submit a response to this question.**
+
+After giving feedback to this group, what is one thing you want to change or continue working on for your report?
 
 
 # Submission
