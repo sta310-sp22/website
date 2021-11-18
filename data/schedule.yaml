@@ -219,7 +219,7 @@ lessons:
     project: "#draft-report"
   - date: "Thu, Nov 18"
     title: "Lab: Project peer review"
-    project: "#peer-review"
+    project: "peer-review.html"
   
   - week: "Week 14"
     date: "Mon, Nov 22"
