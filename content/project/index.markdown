@@ -190,6 +190,7 @@ During the peer feedback process, you will be provided read-only access to your 
 
 Peer feedback will be graded on the extent to which it comprehensively and constructively addresses the components of the partner team's report: the research context and motivation, exploratory data analysis, and any inference, modeling, or conclusions. As you work on the draft, the focus should be on the analysis and less on crafting the final report. **Your draft must include a reasonable attempt at each analysis component - exploratory data analysis, inference or modeling, and deriving initial results and conclusions.**
 
+[Click here](peer-review.html) for peer review instructions. 
 
 ## Written report
 
