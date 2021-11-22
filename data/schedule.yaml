@@ -223,7 +223,8 @@ lessons:
   
   - week: "Week 14"
     date: "Mon, Nov 22"
-    title: "Customizing R Markdown"
+    title: "Customizing R Markdown reports + presentations"
+    ae: "appex27-rmarkdown.html"
   - date: "Wed, Nov 24"
     title: "NO LECTURE: Thanksgiving break"
   - date: "Thu, Nov 25"
