@@ -231,29 +231,26 @@ statistical method(s) used to answer your research question.
 Showcase how you arrived at answers to your research question using the
 techniques we have learned in class (and beyond, if you’re feeling adventurous).
 
-Provide only the main results from your analysis. The goal is not to do an 
-exhaustive data analysis (calculate every possible statistic and perform every possible procedure for all variables). Rather, you should demonstrate that you are proficient at asking meaningful questions and answering them using data, 
-that you are skilled in interpreting and presenting results, and that you can 
-accomplish these tasks using R. More is not better.
+Provide only the main results from your analysis. The goal is not to do an exhaustive data analysis (calculate every possible statistic and perform every possible procedure for all variables). Rather, you should demonstrate that you are proficient at asking meaningful questions and answering them using data,  that you are skilled in interpreting and presenting results, and that you can  accomplish these tasks using R. More is not necessarily better.
 
 #### Discussion
 
 This section is a conclusion and discussion. This will require a summary of
 what you have learned about your research question along with statistical
 arguments supporting your conclusions. You should critique your own methods 
-and provide suggestions for improving your analysis and future work. Issues 
-pertaining to the reliability and validity of your data and the appropriateness of the statistical analyses should also be discussed. Also include a brief paragraph on what you would do differently if you were able to start over with 
-the project.
+and provide suggestions for improving your analysis and future work. Any potential issues 
+pertaining to the reliability and validity of your data and the appropriateness of the statistical analyses should also be discussed. Additionally, include a brief paragraph on ideas for future work.
 
 ### Formatting
 
-Your project should be professionally formatted. For example, this means labeling graphs and figures, turning off code chunks, and using tidyverse style.
+This is an assessment of the overall presentation and formatting of the written report.
 
-## Presentation Slides
+## Video presentation + slides
 
-<!--
+### Slides 
+
 In addition to the write-up, your team must also create presentation
-slides that summarize and showcase your project. Introduce your research question and dataset, showcase visualizations, and provide some conclusions. These slides should serve as a brief visual accompaniment to your write-up and will be graded for content and quality. **For submission, convert these slides to a .pdf document to be submitted to Gradescope.** The slides are due on **Tuesday, November 17**.
+slides that summarize and showcase your project. Introduce your research question and dataset, showcase visualizations, and provide some conclusions. These slides should serve as a brief visual accompaniment to your write-up and will be graded for content and quality. **For submission, convert these slides to a .pdf document to be submitted to Gradescope.** The slides are due on **Wednesday, December 8 at 11:59pm**
 
 The slide deck should have no more than **6 content slides + 1 title slide**. Here is a *<u>suggested</u>* outline as you think through the slides; you do *<u>not</u>* have to use this exact format for the slide deck.
 
@@ -263,21 +260,22 @@ The slide deck should have no more than **6 content slides + 1 title slide**. He
 - Slide 3 - 4: Highlights from EDA
 - Slide 4 - 5: Inference / modeling
 - Slide 6: Conclusions + future work
--->
+
 
 ## Video presentation
 
-<!--
-Sometime by **Tuesday, November 17**, you/your group will upload a video presentation of your project to Warpwire. Note that all members must present, and that a ten-minute time limit is **strictly enforced**.
+Sometime by **Wednesday, December 8**, your group will upload a video presentation of your project to Warpwire. Note that all members must present. The video presentation **must be no longer than 8 minutes**. It is fine if the video is shorter than 8 minutes, but the 8-minute time limit will be strictly enforced.
 
-For the presentation, you can speak over your slide deck, similar to the lecture content videos. I recommend using Zoom to record your presentation; however, you can use whatever platform works best for your group. Below are a few resources to help you record video presentations:
+For the presentation, you can speak over your slide deck, similar to the lecture content videos. Many groups have used Zoom to record the presentation; however, you can use whatever platform works best for your group. Below are a few resources to help you record video presentations:
 
 - [Recording presentations in Zoom](https://kb.siue.edu/61721)
 - [Apple Quicktime for screen recording]( https://support.apple.com/en-gb/guide/quicktime-player/qtp97b08e666/mac)
 - [Windows 10 built-in screen recording functionality](https://www.youtube.com/watch?v=OfPbr1mRDuo)
 - [Kap for screen recording](https://getkap.co/)
 
-You will post the presentation video in Warpwire, which is accessible from the the course Sakai site (bottom of the left-hand tool bar). 
+Once your video is ready, upload the video to Warpwire, then embed the video in a new discussion for the group.
+
+<!--
 
 **To upload your video to Warpwire:**
 
