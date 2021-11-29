@@ -10,7 +10,7 @@ Draft report due **Wednesday, November 17**
 
 Peer feedback due **Monday, November 22**
 
-Final written report due **Friday, December 3** 
+Final written report due **Friday, December 3** (accepted until December 5)
 
 Presentation video, slides, repo due **Wednesday, December 8**
 
@@ -262,7 +262,7 @@ The slide deck should have no more than **6 content slides + 1 title slide**. He
 - Slide 6: Conclusions + future work
 
 
-## Video presentation
+### Video presentation
 
 Sometime by **Wednesday, December 8**, your group will upload a video presentation of your project to Warpwire. Note that all members must present. The video presentation **must be no longer than 8 minutes**. It is fine if the video is shorter than 8 minutes, but the 8-minute time limit will be strictly enforced.
 
@@ -275,93 +275,60 @@ For the presentation, you can speak over your slide deck, similar to the lecture
 
 Once your video is ready, upload the video to Warpwire, then embed the video in a new discussion for the group.
 
-<!--
 
-**To upload your video to Warpwire:**
+#### To upload your video to Warpwire:
 
 - Click the Warpwire tab in the course Sakai site.
 - Click the “+” and select “Upload files”.
 - Locate the video on your computer and click to upload.
-- Once you’ve uploaded the video to Warpwire, click to share the video and make
-a copy of the video’s URL. You will need this when you post the video in the
-discussion forum.
+- Once you’ve uploaded the video to Warpwire, click to share the video and copy the video’s URL. You will need this when you post the video in the discussion forum.
 
-**To post the video to the discussion forum:**
+#### To post the video to the discussion forum
 
 - Click the Presentations tab in the course Sakai site. 
 - Click the Presentations topic. 
-- Click "Start New Presentation". 
-- Make the title "Your Team Name: Project Title". For example, "Teaching Team: Analysis of Cars in the US".
-- Click the Warpwire icon (between the flag and shopping cart icons).
+- Click "Start a new conversation". 
+- Make the title "Your Team Name: Project Title". For example, "Teaching Team: Our Awesome Presentation".
+- Click the Warpwire icon (between the table and shopping cart icons).
 - Select your video, then click “Insert 1 item.” This will embed your video in the conversation.
 - Under the video, paste the URL to your video.
 - You’re done! 
 
-You can see the Teaching team example in Sakai. 
--->
+You can see the Teaching Team example in Sakai.
+
 
 ## Presentation comments 
 
-<!--
-
-Each student will be assigned 2 presentations to watch. [Click here](https://prodduke-my.sharepoint.com/:x:/g/personal/mt324_duke_edu/ES0ECPUhluBNqTJgeJkR8q8BsCHfmthaPPWruhda8Vp_cA?e=uo1FcX) to see your viewing assignments. 
+Each student will be assigned 2 presentations to watch. [Click here](https://prodduke-my.sharepoint.com/:x:/g/personal/mt324_duke_edu/EUXmwBCW5CpBigEeh9xhaeoBWZSwiajLpPap7S3iM9CNFg?e=uZtBXs) to see your viewing assignments. 
 
 Watch the group's video, then click "Reply" to post a question for the group. You may not post a question that's already been asked on the discussion thread. Additionally, the question should be (i) substantive (i.e. it shouldn't be "Why did you use a bar plot instead of a pie chart"?), (ii) demonstrate your understanding of the content from the course, and (iii) relevant to that group's specific presentation, i.e demonstrating that you've watched the presentation. 
 
-You may start posting questions and comments on Wed, Nov 18 at 12a EST. **All questions must be posted by Fri, Nov 20 at 11:59p EST**. 
+You may start posting questions and comments on Thursday, December 09. **All comments must be posted by Friday, December 10 at 11:59pm.** 
 
 **<i>This portion of the project will be assessed individually.</i>**
 
--->
 
 ## Project repository
 
-<!--
+All written work (with exception of presentation slides) should be reproducible, and the GitHub repo should be neatly organized. 
 
-In addition to your Gradescope submissions, we will be checking your GitHub repository. This repository should be contributed to equally by all team members and should include
+The GitHub repo should have the following structure:
 
-- RMarkdown files (formatted to clearly present all of your code and results)
-that will output the proposal and write-up
-- Meaningful README file on the GitHub repository that contains a *codebook*
-for relevant variables
-- Dataset(s) (in csv or RData format, in a `/data` folder)
-- Presentation (if using Keynote/PowerPoint/Google Slides, export to PDF and put in repo, in a `/presentation` folder)
+- `README`: Short project description and data dictionary
+- `written-report.Rmd` & `written-report.pdf`
+- `/data`: Folder that contains the data set for the final project.
+- `project-proposal.Rmd` & `project-proposal.pdf`
+- `/presentation`: Folder with the presentation slides. 
+  - If your presentation slides are online, you can put a link to the slides in a `README.md` file in the `presentation` folder.
+  
+Points for reproducibility + organization will be based on the reproducibility of the written report and the organization of the project GitHub repo. The repo should be neatly organized as described above, there should be no extraneous files, all text in the README should be easily readable.
 
-Style and format does count for this assignment, so please take the time to make sure everything looks good and your data and code are properly formatted.
-
-The repository must be finalized by **Tuesday, November 17**.
-
--->
 
 ## Peer teamwork evaluation
 
 You will be asked to fill out a survey where you rate the contribution and teamwork of each team member by assigning a contribution percentage for each team member. Filling out the survey is a prerequisite for getting credit on the team member evaluation. If you are suggesting that an individual did less than  half the expected contribution given your team size (e.g., for a team of four students, if a student contributed less than 12.5% of the total effort), please
 provide some explanation. If any individual gets an average peer score 
 indicating that this was the case, their grade will be assessed accordingly.
-
-## Additional notes and tips
-
-The project is very open ended. For instance, in creating a compelling 
-visualization(s) of your data in R, there is no limit on what tools or 
-packages you may use. You do not need to visualize all of the data at once. A single high quality visualization will receive a much higher grade than a large number of poor quality visualizations.
-
-Before you finalize your write up, make sure the printing of code chunks is turned off with the option `echo = FALSE`. In addition to code chunks, ensure all messages are turned off with the options `warning = FALSE` and `echo = FALSE`. 
-
-Finally, pay attention to details in your write-up and presentation. Neatness, coherency, and clarity will count.
-
-
-### Tips
-
-- Ask questions if any of the expectations are 
-unclear.
-
-- *Code*: In your write up your code should be hidden (`echo = FALSE`) so that your document is neat and easy to read. However your document should include all your code such that if I re-knit your Rmd file I should be able to obtain the results you presented. 
-  - **Exception:** If you want to highlight something 
-specific about a piece of code, you're welcome to show that portion. 
-- Merge conflicts will 
-happen, issues will arise, and that’s fine! Commit and push often, and ask questions when stuck.
-- Make sure each team member is contributing, both in terms of quality and quantity of contribution (we will be reviewing commits from different team  members).
-- All team members are expected to contribute equally to the completion of this assignment and group assessments will be given at its completion - anyone judged to not have sufficient contributed to the final product will have their grade penalized. While different teams members may have different backgrounds and abilities, it is the responsibility of every team member to understand how and why all code and approaches in  the assignment works.
 
 ## Grading details
 
@@ -396,10 +363,34 @@ of results is unclear.
 
 **There is no late work accepted on this project.** Be sure to turn in your work early to avoid any technological mishaps.
 
-<!--
-## Formatting + communication 
 
-### Suppress Code, Warnings, & Messages
+## Additional notes and tips
+
+The project is very open ended. For instance, in creating a compelling 
+visualization(s) of your data in R, there is no limit on what tools or 
+packages you may use. You do not need to visualize all of the data at once. A single high quality visualization will receive a much higher grade than a large number of poor quality visualizations.
+
+Before you finalize your write up, make sure the printing of code chunks is turned off with the option `echo = FALSE`. In addition to code chunks, ensure all messages are turned off with the options `warning = FALSE` and `echo = FALSE`. 
+
+Finally, pay attention to details in your write-up and presentation. Neatness, coherency, and clarity will count.
+
+
+### Tips
+
+- Ask questions if any of the expectations are 
+unclear.
+
+- *Code*: In your write up your code should be hidden (`echo = FALSE`) so that your document is neat and easy to read. However your document should include all your code such that if I re-knit your Rmd file I should be able to obtain the results you presented. 
+  - **Exception:** If you want to highlight something 
+specific about a piece of code, you're welcome to show that portion. 
+- Merge conflicts will 
+happen, issues will arise, and that’s fine! Commit and push often, and ask questions when stuck.
+- Make sure each team member is contributing, both in terms of quality and quantity of contribution (we will be reviewing commits from different team  members).
+- All team members are expected to contribute equally to the completion of this assignment and group assessments will be given at its completion - anyone judged to not have sufficient contributed to the final product will have their grade penalized. While different teams members may have different backgrounds and abilities, it is the responsibility of every team member to understand how and why all code and approaches in  the assignment works.
+
+### Formatting + communication 
+
+#### Suppress Code, Warnings, & Messages
 
 ```{r echo = F, warning = F, message = F}
 library(tidyverse)
@@ -415,23 +406,23 @@ knitr::opts_chunk$set(echo = FALSE,
                       message = FALSE)
 ```
 
-### Headers
+#### Headers
 
 - Use headers to clearly label each section. Make sure there is a space between the last `#` and the title, so the header renders correctly. For example, `###Section Title` will not render as header, but `### Section Title` will. 
 
-### References 
+#### References 
 
 - Include all references in a section called "References" at the end of the report. 
 - This course does not have specific requirements for formatting citations and references.
 - See [Section 4.5](https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html) of the R Markdown Cookbook to learn about the citation functionality in R Markdown. 
 
-### Appendix
+#### Appendix
 
 - If you have additional work that does not fit or does not belong in the body of the report, you may put it at the end of the document in section called "Appendix". 
 - The items in the appendix should be properly labeled. 
 - The appendix should only be for additional material. The reader should be able to fully understand your report without viewing content in the appendix.
 
-### Resize figures
+#### Resize figures
 
 - Resize plots and figures, so you have more space for the narrative. 
     - **Resize individual figures**: Use the code chunk header `{r plot1, fig.height = 3, fig.width = 5}`, replacing `plot1` with a meaningful label and the height and width with values appropriate for your write up.
@@ -450,7 +441,7 @@ output:
  
 Replace the height and width values with values appropriate for your write up.
 
-### Arranging plots
+#### Arranging plots
 
 Arrange plots in a grid, instead of one after the other. This is especially useful when displaying plots for exploratory data analysis and to check assumptions. 
 
@@ -458,7 +449,7 @@ Arrange plots in a grid, instead of one after the other. This is especially usef
 
 - If you're using base R function, i.e. when using the `emplogit` functions, put the code `par(mfrow = c(rows,columns))` before the code to make the plots. For example, `par(mfrow = c(2,3))` will arrange plots in a grid with 2 rows and 3 columns.
 
-### Plot titles and axis labels
+#### Plot titles and axis labels
 
 Be sure all plot titles and axis labels are visible and easy to read. 
 
@@ -480,7 +471,7 @@ ggplot(data = mpg, aes(x = manufacturer)) +
   coord_flip()
 ```
 
-### Do a little more to make the plot look professional!
+#### Do a little more to make the plot look professional!
 
 - Informative title and axis labels
 - Flipped coordinates to make names readable
@@ -503,7 +494,7 @@ mpg %>%
 ```
 
 
-### Tables and model output
+#### Tables and model output
 
 - Use the `kable` function from the knitr package to neatly output all tables and model output. This will also ensure all model coefficients are displayed. 
   - Use the `digits` argument to display only 3 or 4 significant digits. 
@@ -517,7 +508,7 @@ tidy(model) %>%
 ```
 
 
-### Guidelines for communicating results 
+#### Guidelines for communicating results 
 
 - **Don't use variable names in your narrative!** Use descriptive terms, so the reader understands your narrative without relying on the codebook.
   - `r emo::ji("x")` There is a negative linear relationship between mpg and hp.
@@ -539,7 +530,6 @@ tidy(model) %>%
   - [Data Visualization: A Practice Introduction](https://socviz.co/index.html)
   - [Patchwork R Package](https://patchwork.data-imaginist.com/index.html)
 
--->
 
 
 

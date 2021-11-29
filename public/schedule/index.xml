@@ -115,7 +115,7 @@ Go to &lt;a href=&#34;http://studentaffairs.duke.edu/dukereach&#34;&gt;studentaf
       <description>Timeline Proposal due Thursday, October 14
 Draft report due Wednesday, November 17
 Peer feedback due Monday, November 22
-Final written report due Friday, December 3
+Final written report due Friday, December 3 (accepted until December 5)
 Presentation video, slides, repo due Wednesday, December 8
 Presentation comments due Friday, December 10
 Introduction &amp;amp; grading summary TL;DR: Pick a dataset and do something with it. That is your final project.
@@ -124,7 +124,7 @@ The final project for this class will consist of analysis on a dataset of your o
 &lt;p&gt;Proposal due &lt;strong&gt;Thursday, October 14&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Draft report due &lt;strong&gt;Wednesday, November 17&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Peer feedback due &lt;strong&gt;Monday, November 22&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Final written report due &lt;strong&gt;Friday, December 3&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Final written report due &lt;strong&gt;Friday, December 3&lt;/strong&gt; (accepted until December 5)&lt;/p&gt;
 &lt;p&gt;Presentation video, slides, repo due &lt;strong&gt;Wednesday, December 8&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Presentation comments due &lt;strong&gt;Friday, December 10&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;introduction--grading-summary&#34;&gt;Introduction &amp;amp; grading summary&lt;/h2&gt;
@@ -376,7 +376,7 @@ slides that summarize and showcase your project. Introduce your research questio
 &lt;li&gt;Slide 4 - 5: Inference / modeling&lt;/li&gt;
 &lt;li&gt;Slide 6: Conclusions + future work&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;video-presentation&#34;&gt;Video presentation&lt;/h2&gt;
+&lt;h3 id=&#34;video-presentation&#34;&gt;Video presentation&lt;/h3&gt;
 &lt;p&gt;Sometime by &lt;strong&gt;Wednesday, December 8&lt;/strong&gt;, your group will upload a video presentation of your project to Warpwire. Note that all members must present. The video presentation &lt;strong&gt;must be no longer than 8 minutes&lt;/strong&gt;. It is fine if the video is shorter than 8 minutes, but the 8-minute time limit will be strictly enforced.&lt;/p&gt;
 &lt;p&gt;For the presentation, you can speak over your slide deck, similar to the lecture content videos. Many groups have used Zoom to record the presentation; however, you can use whatever platform works best for your group. Below are a few resources to help you record video presentations:&lt;/p&gt;
 &lt;ul&gt;
@@ -386,93 +386,49 @@ slides that summarize and showcase your project. Introduce your research questio
 &lt;li&gt;&lt;a href=&#34;https://getkap.co/&#34;&gt;Kap for screen recording&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Once your video is ready, upload the video to Warpwire, then embed the video in a new discussion for the group.&lt;/p&gt;
-&lt;!--
-
-**To upload your video to Warpwire:**
-
-- Click the Warpwire tab in the course Sakai site.
-- Click the “+” and select “Upload files”.
-- Locate the video on your computer and click to upload.
-- Once you’ve uploaded the video to Warpwire, click to share the video and make
-a copy of the video’s URL. You will need this when you post the video in the
-discussion forum.
-
-**To post the video to the discussion forum:**
-
-- Click the Presentations tab in the course Sakai site. 
-- Click the Presentations topic. 
-- Click &#34;Start New Presentation&#34;. 
-- Make the title &#34;Your Team Name: Project Title&#34;. For example, &#34;Teaching Team: Analysis of Cars in the US&#34;.
-- Click the Warpwire icon (between the flag and shopping cart icons).
-- Select your video, then click “Insert 1 item.” This will embed your video in the conversation.
-- Under the video, paste the URL to your video.
-- You’re done! 
-
-You can see the Teaching team example in Sakai. 
---&gt;
+&lt;h4 id=&#34;to-upload-your-video-to-warpwire&#34;&gt;To upload your video to Warpwire:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Click the Warpwire tab in the course Sakai site.&lt;/li&gt;
+&lt;li&gt;Click the “+” and select “Upload files”.&lt;/li&gt;
+&lt;li&gt;Locate the video on your computer and click to upload.&lt;/li&gt;
+&lt;li&gt;Once you’ve uploaded the video to Warpwire, click to share the video and copy the video’s URL. You will need this when you post the video in the discussion forum.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;to-post-the-video-to-the-discussion-forum&#34;&gt;To post the video to the discussion forum&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Click the Presentations tab in the course Sakai site.&lt;/li&gt;
+&lt;li&gt;Click the Presentations topic.&lt;/li&gt;
+&lt;li&gt;Click &amp;ldquo;Start a new conversation&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Make the title &amp;ldquo;Your Team Name: Project Title&amp;rdquo;. For example, &amp;ldquo;Teaching Team: Our Awesome Presentation&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Click the Warpwire icon (between the table and shopping cart icons).&lt;/li&gt;
+&lt;li&gt;Select your video, then click “Insert 1 item.” This will embed your video in the conversation.&lt;/li&gt;
+&lt;li&gt;Under the video, paste the URL to your video.&lt;/li&gt;
+&lt;li&gt;You’re done!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can see the Teaching Team example in Sakai.&lt;/p&gt;
 &lt;h2 id=&#34;presentation-comments&#34;&gt;Presentation comments&lt;/h2&gt;
-&lt;!--
-
-Each student will be assigned 2 presentations to watch. [Click here](https://prodduke-my.sharepoint.com/:x:/g/personal/mt324_duke_edu/ES0ECPUhluBNqTJgeJkR8q8BsCHfmthaPPWruhda8Vp_cA?e=uo1FcX) to see your viewing assignments. 
-
-Watch the group&#39;s video, then click &#34;Reply&#34; to post a question for the group. You may not post a question that&#39;s already been asked on the discussion thread. Additionally, the question should be (i) substantive (i.e. it shouldn&#39;t be &#34;Why did you use a bar plot instead of a pie chart&#34;?), (ii) demonstrate your understanding of the content from the course, and (iii) relevant to that group&#39;s specific presentation, i.e demonstrating that you&#39;ve watched the presentation. 
-
-You may start posting questions and comments on Wed, Nov 18 at 12a EST. **All questions must be posted by Fri, Nov 20 at 11:59p EST**. 
-
-**&lt;i&gt;This portion of the project will be assessed individually.&lt;/i&gt;**
-
---&gt;
+&lt;p&gt;Each student will be assigned 2 presentations to watch. &lt;a href=&#34;https://prodduke-my.sharepoint.com/:x:/g/personal/mt324_duke_edu/EUXmwBCW5CpBigEeh9xhaeoBWZSwiajLpPap7S3iM9CNFg?e=uZtBXs&#34;&gt;Click here&lt;/a&gt; to see your viewing assignments.&lt;/p&gt;
+&lt;p&gt;Watch the group&amp;rsquo;s video, then click &amp;ldquo;Reply&amp;rdquo; to post a question for the group. You may not post a question that&amp;rsquo;s already been asked on the discussion thread. Additionally, the question should be (i) substantive (i.e. it shouldn&amp;rsquo;t be &amp;ldquo;Why did you use a bar plot instead of a pie chart&amp;rdquo;?), (ii) demonstrate your understanding of the content from the course, and (iii) relevant to that group&amp;rsquo;s specific presentation, i.e demonstrating that you&amp;rsquo;ve watched the presentation.&lt;/p&gt;
+&lt;p&gt;You may start posting questions and comments on Thursday, December 09. &lt;strong&gt;All comments must be posted by Friday, December 10 at 11:59pm.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;i&gt;This portion of the project will be assessed individually.&lt;/i&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;project-repository&#34;&gt;Project repository&lt;/h2&gt;
-&lt;!--
-
-In addition to your Gradescope submissions, we will be checking your GitHub repository. This repository should be contributed to equally by all team members and should include
-
-- RMarkdown files (formatted to clearly present all of your code and results)
-that will output the proposal and write-up
-- Meaningful README file on the GitHub repository that contains a *codebook*
-for relevant variables
-- Dataset(s) (in csv or RData format, in a `/data` folder)
-- Presentation (if using Keynote/PowerPoint/Google Slides, export to PDF and put in repo, in a `/presentation` folder)
-
-Style and format does count for this assignment, so please take the time to make sure everything looks good and your data and code are properly formatted.
-
-The repository must be finalized by **Tuesday, November 17**.
-
---&gt;
+&lt;p&gt;All written work (with exception of presentation slides) should be reproducible, and the GitHub repo should be neatly organized.&lt;/p&gt;
+&lt;p&gt;The GitHub repo should have the following structure:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;README&lt;/code&gt;: Short project description and data dictionary&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;written-report.Rmd&lt;/code&gt; &amp;amp; &lt;code&gt;written-report.pdf&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/data&lt;/code&gt;: Folder that contains the data set for the final project.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;project-proposal.Rmd&lt;/code&gt; &amp;amp; &lt;code&gt;project-proposal.pdf&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;/presentation&lt;/code&gt;: Folder with the presentation slides.
+&lt;ul&gt;
+&lt;li&gt;If your presentation slides are online, you can put a link to the slides in a &lt;code&gt;README.md&lt;/code&gt; file in the &lt;code&gt;presentation&lt;/code&gt; folder.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Points for reproducibility + organization will be based on the reproducibility of the written report and the organization of the project GitHub repo. The repo should be neatly organized as described above, there should be no extraneous files, all text in the README should be easily readable.&lt;/p&gt;
 &lt;h2 id=&#34;peer-teamwork-evaluation&#34;&gt;Peer teamwork evaluation&lt;/h2&gt;
 &lt;p&gt;You will be asked to fill out a survey where you rate the contribution and teamwork of each team member by assigning a contribution percentage for each team member. Filling out the survey is a prerequisite for getting credit on the team member evaluation. If you are suggesting that an individual did less than  half the expected contribution given your team size (e.g., for a team of four students, if a student contributed less than 12.5% of the total effort), please
 provide some explanation. If any individual gets an average peer score
 indicating that this was the case, their grade will be assessed accordingly.&lt;/p&gt;
-&lt;h2 id=&#34;additional-notes-and-tips&#34;&gt;Additional notes and tips&lt;/h2&gt;
-&lt;p&gt;The project is very open ended. For instance, in creating a compelling
-visualization(s) of your data in R, there is no limit on what tools or
-packages you may use. You do not need to visualize all of the data at once. A single high quality visualization will receive a much higher grade than a large number of poor quality visualizations.&lt;/p&gt;
-&lt;p&gt;Before you finalize your write up, make sure the printing of code chunks is turned off with the option &lt;code&gt;echo = FALSE&lt;/code&gt;. In addition to code chunks, ensure all messages are turned off with the options &lt;code&gt;warning = FALSE&lt;/code&gt; and &lt;code&gt;echo = FALSE&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Finally, pay attention to details in your write-up and presentation. Neatness, coherency, and clarity will count.&lt;/p&gt;
-&lt;h3 id=&#34;tips&#34;&gt;Tips&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Ask questions if any of the expectations are
-unclear.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;Code&lt;/em&gt;: In your write up your code should be hidden (&lt;code&gt;echo = FALSE&lt;/code&gt;) so that your document is neat and easy to read. However your document should include all your code such that if I re-knit your Rmd file I should be able to obtain the results you presented.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Exception:&lt;/strong&gt; If you want to highlight something
-specific about a piece of code, you&amp;rsquo;re welcome to show that portion.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Merge conflicts will
-happen, issues will arise, and that’s fine! Commit and push often, and ask questions when stuck.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Make sure each team member is contributing, both in terms of quality and quantity of contribution (we will be reviewing commits from different team  members).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;All team members are expected to contribute equally to the completion of this assignment and group assessments will be given at its completion - anyone judged to not have sufficient contributed to the final product will have their grade penalized. While different teams members may have different backgrounds and abilities, it is the responsibility of every team member to understand how and why all code and approaches in  the assignment works.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2 id=&#34;grading-details&#34;&gt;Grading details&lt;/h2&gt;
 &lt;p&gt;Grading of the project will take into account the following:&lt;/p&gt;
 &lt;ul&gt;
@@ -503,164 +459,190 @@ of results is unclear.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;late-work-policy&#34;&gt;Late work policy&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;There is no late work accepted on this project.&lt;/strong&gt; Be sure to turn in your work early to avoid any technological mishaps.&lt;/p&gt;
-&lt;!--
-## Formatting + communication 
-
-### Suppress Code, Warnings, &amp; Messages
-
-
-
-- Include the following code in a code chunk at the top of your .Rmd file to suppress all code, warnings, and other messages. Use the code chunk header `{r set-up, include = FALSE}` to suppress this set up code. 
-
-
-```r
-knitr::opts_chunk$set(echo = FALSE,
-                      warning = FALSE, 
-                      message = FALSE)
-```
-
-### Headers
-
-- Use headers to clearly label each section. Make sure there is a space between the last `#` and the title, so the header renders correctly. For example, `###Section Title` will not render as header, but `### Section Title` will. 
-
-### References 
-
-- Include all references in a section called &#34;References&#34; at the end of the report. 
-- This course does not have specific requirements for formatting citations and references.
-- See [Section 4.5](https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html) of the R Markdown Cookbook to learn about the citation functionality in R Markdown. 
-
-### Appendix
-
-- If you have additional work that does not fit or does not belong in the body of the report, you may put it at the end of the document in section called &#34;Appendix&#34;. 
-- The items in the appendix should be properly labeled. 
-- The appendix should only be for additional material. The reader should be able to fully understand your report without viewing content in the appendix.
-
-### Resize figures
-
-- Resize plots and figures, so you have more space for the narrative. 
-    - **Resize individual figures**: Use the code chunk header `{r plot1, fig.height = 3, fig.width = 5}`, replacing `plot1` with a meaningful label and the height and width with values appropriate for your write up.
-    - **Resize all figures**: Include the `fig_width` and `fig_height` options in your YAML header as shown below:
-
-```
----
-title: &#34;Your Title&#34;
-author: &#34;Team Name + Group Members&#34;
+&lt;h2 id=&#34;additional-notes-and-tips&#34;&gt;Additional notes and tips&lt;/h2&gt;
+&lt;p&gt;The project is very open ended. For instance, in creating a compelling
+visualization(s) of your data in R, there is no limit on what tools or
+packages you may use. You do not need to visualize all of the data at once. A single high quality visualization will receive a much higher grade than a large number of poor quality visualizations.&lt;/p&gt;
+&lt;p&gt;Before you finalize your write up, make sure the printing of code chunks is turned off with the option &lt;code&gt;echo = FALSE&lt;/code&gt;. In addition to code chunks, ensure all messages are turned off with the options &lt;code&gt;warning = FALSE&lt;/code&gt; and &lt;code&gt;echo = FALSE&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, pay attention to details in your write-up and presentation. Neatness, coherency, and clarity will count.&lt;/p&gt;
+&lt;h3 id=&#34;tips&#34;&gt;Tips&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Ask questions if any of the expectations are
+unclear.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Code&lt;/em&gt;: In your write up your code should be hidden (&lt;code&gt;echo = FALSE&lt;/code&gt;) so that your document is neat and easy to read. However your document should include all your code such that if I re-knit your Rmd file I should be able to obtain the results you presented.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Exception:&lt;/strong&gt; If you want to highlight something
+specific about a piece of code, you&amp;rsquo;re welcome to show that portion.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Merge conflicts will
+happen, issues will arise, and that’s fine! Commit and push often, and ask questions when stuck.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make sure each team member is contributing, both in terms of quality and quantity of contribution (we will be reviewing commits from different team  members).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;All team members are expected to contribute equally to the completion of this assignment and group assessments will be given at its completion - anyone judged to not have sufficient contributed to the final product will have their grade penalized. While different teams members may have different backgrounds and abilities, it is the responsibility of every team member to understand how and why all code and approaches in  the assignment works.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;formatting--communication&#34;&gt;Formatting + communication&lt;/h3&gt;
+&lt;h4 id=&#34;suppress-code-warnings--messages&#34;&gt;Suppress Code, Warnings, &amp;amp; Messages&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Include the following code in a code chunk at the top of your .Rmd file to suppress all code, warnings, and other messages. Use the code chunk header &lt;code&gt;{r set-up, include = FALSE}&lt;/code&gt; to suppress this set up code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;knitr&lt;span style=&#34;color:#666&#34;&gt;::&lt;/span&gt;opts_chunk&lt;span style=&#34;color:#666&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#00f&#34;&gt;set&lt;/span&gt;(echo &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#008000;font-weight:bold&#34;&gt;FALSE&lt;/span&gt;,
+                      warning &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#008000;font-weight:bold&#34;&gt;FALSE&lt;/span&gt;, 
+                      message &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#008000;font-weight:bold&#34;&gt;FALSE&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;headers&#34;&gt;Headers&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Use headers to clearly label each section. Make sure there is a space between the last &lt;code&gt;#&lt;/code&gt; and the title, so the header renders correctly. For example, &lt;code&gt;###Section Title&lt;/code&gt; will not render as header, but &lt;code&gt;### Section Title&lt;/code&gt; will.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;references&#34;&gt;References&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Include all references in a section called &amp;ldquo;References&amp;rdquo; at the end of the report.&lt;/li&gt;
+&lt;li&gt;This course does not have specific requirements for formatting citations and references.&lt;/li&gt;
+&lt;li&gt;See &lt;a href=&#34;https://bookdown.org/yihui/rmarkdown-cookbook/bibliography.html&#34;&gt;Section 4.5&lt;/a&gt; of the R Markdown Cookbook to learn about the citation functionality in R Markdown.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;appendix&#34;&gt;Appendix&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;If you have additional work that does not fit or does not belong in the body of the report, you may put it at the end of the document in section called &amp;ldquo;Appendix&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;The items in the appendix should be properly labeled.&lt;/li&gt;
+&lt;li&gt;The appendix should only be for additional material. The reader should be able to fully understand your report without viewing content in the appendix.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;resize-figures&#34;&gt;Resize figures&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Resize plots and figures, so you have more space for the narrative.
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Resize individual figures&lt;/strong&gt;: Use the code chunk header &lt;code&gt;{r plot1, fig.height = 3, fig.width = 5}&lt;/code&gt;, replacing &lt;code&gt;plot1&lt;/code&gt; with a meaningful label and the height and width with values appropriate for your write up.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resize all figures&lt;/strong&gt;: Include the &lt;code&gt;fig_width&lt;/code&gt; and &lt;code&gt;fig_height&lt;/code&gt; options in your YAML header as shown below:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: &amp;quot;Your Title&amp;quot;
+author: &amp;quot;Team Name + Group Members&amp;quot;
 output: 
   pdf_document:
     fig_width: 5
     fig_height: 3
 ---
-```
- 
-Replace the height and width values with values appropriate for your write up.
-
-### Arranging plots
-
-Arrange plots in a grid, instead of one after the other. This is especially useful when displaying plots for exploratory data analysis and to check assumptions. 
-
-- If you&#39;re using ggplot2 functions, the `patchwork` package makes it easy to arrange plots in a grid. See the documentation and examples [here](https://patchwork.data-imaginist.com/).
-
-- If you&#39;re using base R function, i.e. when using the `emplogit` functions, put the code `par(mfrow = c(rows,columns))` before the code to make the plots. For example, `par(mfrow = c(2,3))` will arrange plots in a grid with 2 rows and 3 columns.
-
-### Plot titles and axis labels
-
-Be sure all plot titles and axis labels are visible and easy to read. 
-
-- Use informative titles, &lt;u&gt;not&lt;/u&gt; variable names, for titles and axis labels.
-- Use `coord_flip()` to flip the *x* and *y* axes on the plot. This is useful if you a bar plot with an x-axis that is difficult to read due to overlapping text. 
-
-❌ **NO! The x-axis is hard to read because the names overlap.**
-
-
-```r
-ggplot(data = mpg, aes(x = manufacturer)) +
-  geom_bar()
-```
-
-&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;
-
-✅ **YES! Names are readable**
-
-
-```r
-ggplot(data = mpg, aes(x = manufacturer)) +
-  geom_bar() +
-  coord_flip()
-```
-
-&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;
-
-### Do a little more to make the plot look professional!
-
-- Informative title and axis labels
-- Flipped coordinates to make names readable
-- Arranged bars based on count
-- Capitalized manufacturer names
-- *Optional: Added color - Use a coordinated color scheme throughout paper / presentation*
-- *Optional: Applied a theme - Use same theme throughout paper / presentation*
-
-
-```r
-mpg %&gt;%
-  count(manufacturer) %&gt;%
-  mutate(manufacturer = str_to_title(manufacturer)) %&gt;%
-  ggplot(aes(x = fct_reorder(manufacturer,n), y = n)) +
-  geom_bar(stat = &#34;identity&#34;, fill = &#34;steelblue&#34;) +
-  coord_flip() +
-  labs(x = &#34;Manufacturer&#34;, 
-       y = &#34;Count&#34;, 
-       title = &#34;The most common manufacturer is Dodge&#34;) +
-  theme_bw() 
-```
-
-&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;
-
-
-### Tables and model output
-
-- Use the `kable` function from the knitr package to neatly output all tables and model output. This will also ensure all model coefficients are displayed. 
-  - Use the `digits` argument to display only 3 or 4 significant digits. 
-  - Use the `caption` argument to add captions to your table. 
-
-
-
-```r
-model &lt;- lm(mpg ~ hp, data = mtcars)
-tidy(model) %&gt;%
-  kable(digits = 3)
-```
-
-
-
-|term        | estimate| std.error| statistic| p.value|
-|:-----------|--------:|---------:|---------:|-------:|
-|(Intercept) |   30.099|     1.634|    18.421|       0|
-|hp          |   -0.068|     0.010|    -6.742|       0|
-
-
-### Guidelines for communicating results 
-
-- **Don&#39;t use variable names in your narrative!** Use descriptive terms, so the reader understands your narrative without relying on the codebook.
-  - ❌ There is a negative linear relationship between mpg and hp.
-  - ✅ There is a negative linear relationship between a car&#39;s fuel economy (in miles per gallon) and its horsepower.
-- **Know your audience:** Your report should be written for a general audience who has an understanding of statistics at the level of STA 199.
-- **Avoid subject matter jargon:** Don&#39;t assume the audience knows all of the specific terminology related to your subject area. If you must use jargon, include a brief definition the first time you introduce a term. 
-- **Tell the &#34;so what&#34;:** Your report and presentation should be more than a list of interpretations and technical definitions. Focus on what the results mean, i.e. what you want the audience to know about your topic after reading your report or viewing your presentation. 
-- **Tell a story:** All visualizations, tables, model output, and narrative should tell a cohesive story!
-- **Use one voice:** Though multiple people are writing the report, it should read as if it&#39;s from a single author. At least one team member should read through the report before submission to ensure it reads like a cohesive document.
-
-### Additional resources
-
-- [R for Data Science](https://r4ds.had.co.nz/)
-- [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
-- [Slides in R using Xaringan](https://slides.yihui.org/xaringan/#1)
-- Data visualization
-  - [ggplot2 Reference](https://ggplot2.tidyverse.org/reference/index.html)
-  - [ggplot2: Elegant Graphics for Data Analysis](https://ggplot2-book.org/)
-  - [Data Visualization: A Practice Introduction](https://socviz.co/index.html)
-  - [Patchwork R Package](https://patchwork.data-imaginist.com/index.html)
-
---&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Replace the height and width values with values appropriate for your write up.&lt;/p&gt;
+&lt;h4 id=&#34;arranging-plots&#34;&gt;Arranging plots&lt;/h4&gt;
+&lt;p&gt;Arrange plots in a grid, instead of one after the other. This is especially useful when displaying plots for exploratory data analysis and to check assumptions.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;If you&amp;rsquo;re using ggplot2 functions, the &lt;code&gt;patchwork&lt;/code&gt; package makes it easy to arrange plots in a grid. See the documentation and examples &lt;a href=&#34;https://patchwork.data-imaginist.com/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you&amp;rsquo;re using base R function, i.e. when using the &lt;code&gt;emplogit&lt;/code&gt; functions, put the code &lt;code&gt;par(mfrow = c(rows,columns))&lt;/code&gt; before the code to make the plots. For example, &lt;code&gt;par(mfrow = c(2,3))&lt;/code&gt; will arrange plots in a grid with 2 rows and 3 columns.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;plot-titles-and-axis-labels&#34;&gt;Plot titles and axis labels&lt;/h4&gt;
+&lt;p&gt;Be sure all plot titles and axis labels are visible and easy to read.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use informative titles, &lt;u&gt;not&lt;/u&gt; variable names, for titles and axis labels.&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;coord_flip()&lt;/code&gt; to flip the &lt;em&gt;x&lt;/em&gt; and &lt;em&gt;y&lt;/em&gt; axes on the plot. This is useful if you a bar plot with an x-axis that is difficult to read due to overlapping text.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;❌ &lt;strong&gt;NO! The x-axis is hard to read because the names overlap.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#00f&#34;&gt;ggplot&lt;/span&gt;(data &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mpg, &lt;span style=&#34;color:#00f&#34;&gt;aes&lt;/span&gt;(x &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; manufacturer)) &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#00f&#34;&gt;geom_bar&lt;/span&gt;()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;✅ &lt;strong&gt;YES! Names are readable&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#00f&#34;&gt;ggplot&lt;/span&gt;(data &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mpg, &lt;span style=&#34;color:#00f&#34;&gt;aes&lt;/span&gt;(x &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; manufacturer)) &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#00f&#34;&gt;geom_bar&lt;/span&gt;() &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#00f&#34;&gt;coord_flip&lt;/span&gt;()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;do-a-little-more-to-make-the-plot-look-professional&#34;&gt;Do a little more to make the plot look professional!&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Informative title and axis labels&lt;/li&gt;
+&lt;li&gt;Flipped coordinates to make names readable&lt;/li&gt;
+&lt;li&gt;Arranged bars based on count&lt;/li&gt;
+&lt;li&gt;Capitalized manufacturer names&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Optional: Added color - Use a coordinated color scheme throughout paper / presentation&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Optional: Applied a theme - Use same theme throughout paper / presentation&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;mpg &lt;span style=&#34;color:#666&#34;&gt;%&amp;gt;%&lt;/span&gt;
+  &lt;span style=&#34;color:#00f&#34;&gt;count&lt;/span&gt;(manufacturer) &lt;span style=&#34;color:#666&#34;&gt;%&amp;gt;%&lt;/span&gt;
+  &lt;span style=&#34;color:#00f&#34;&gt;mutate&lt;/span&gt;(manufacturer &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#00f&#34;&gt;str_to_title&lt;/span&gt;(manufacturer)) &lt;span style=&#34;color:#666&#34;&gt;%&amp;gt;%&lt;/span&gt;
+  &lt;span style=&#34;color:#00f&#34;&gt;ggplot&lt;/span&gt;(&lt;span style=&#34;color:#00f&#34;&gt;aes&lt;/span&gt;(x &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#00f&#34;&gt;fct_reorder&lt;/span&gt;(manufacturer,n), y &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; n)) &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#00f&#34;&gt;geom_bar&lt;/span&gt;(stat &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ba2121&#34;&gt;&amp;#34;identity&amp;#34;&lt;/span&gt;, fill &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ba2121&#34;&gt;&amp;#34;steelblue&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#00f&#34;&gt;coord_flip&lt;/span&gt;() &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#00f&#34;&gt;labs&lt;/span&gt;(x &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ba2121&#34;&gt;&amp;#34;Manufacturer&amp;#34;&lt;/span&gt;, 
+       y &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ba2121&#34;&gt;&amp;#34;Count&amp;#34;&lt;/span&gt;, 
+       title &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ba2121&#34;&gt;&amp;#34;The most common manufacturer is Dodge&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#666&#34;&gt;+&lt;/span&gt;
+  &lt;span style=&#34;color:#00f&#34;&gt;theme_bw&lt;/span&gt;() 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;/project/index_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;tables-and-model-output&#34;&gt;Tables and model output&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Use the &lt;code&gt;kable&lt;/code&gt; function from the knitr package to neatly output all tables and model output. This will also ensure all model coefficients are displayed.
+&lt;ul&gt;
+&lt;li&gt;Use the &lt;code&gt;digits&lt;/code&gt; argument to display only 3 or 4 significant digits.&lt;/li&gt;
+&lt;li&gt;Use the &lt;code&gt;caption&lt;/code&gt; argument to add captions to your table.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;model &lt;span style=&#34;color:#666&#34;&gt;&amp;lt;-&lt;/span&gt; &lt;span style=&#34;color:#00f&#34;&gt;lm&lt;/span&gt;(mpg &lt;span style=&#34;color:#666&#34;&gt;~&lt;/span&gt; hp, data &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; mtcars)
+&lt;span style=&#34;color:#00f&#34;&gt;tidy&lt;/span&gt;(model) &lt;span style=&#34;color:#666&#34;&gt;%&amp;gt;%&lt;/span&gt;
+  &lt;span style=&#34;color:#00f&#34;&gt;kable&lt;/span&gt;(digits &lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#666&#34;&gt;3&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;term&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;estimate&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;std.error&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;statistic&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;p.value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;(Intercept)&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;30.099&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;1.634&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;18.421&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;hp&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;-0.068&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0.010&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;-6.742&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;guidelines-for-communicating-results&#34;&gt;Guidelines for communicating results&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Don&amp;rsquo;t use variable names in your narrative!&lt;/strong&gt; Use descriptive terms, so the reader understands your narrative without relying on the codebook.
+&lt;ul&gt;
+&lt;li&gt;❌ There is a negative linear relationship between mpg and hp.&lt;/li&gt;
+&lt;li&gt;✅ There is a negative linear relationship between a car&amp;rsquo;s fuel economy (in miles per gallon) and its horsepower.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Know your audience:&lt;/strong&gt; Your report should be written for a general audience who has an understanding of statistics at the level of STA 199.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Avoid subject matter jargon:&lt;/strong&gt; Don&amp;rsquo;t assume the audience knows all of the specific terminology related to your subject area. If you must use jargon, include a brief definition the first time you introduce a term.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tell the &amp;ldquo;so what&amp;rdquo;:&lt;/strong&gt; Your report and presentation should be more than a list of interpretations and technical definitions. Focus on what the results mean, i.e. what you want the audience to know about your topic after reading your report or viewing your presentation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tell a story:&lt;/strong&gt; All visualizations, tables, model output, and narrative should tell a cohesive story!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use one voice:&lt;/strong&gt; Though multiple people are writing the report, it should read as if it&amp;rsquo;s from a single author. At least one team member should read through the report before submission to ensure it reads like a cohesive document.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;additional-resources&#34;&gt;Additional resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://bookdown.org/yihui/rmarkdown-cookbook/&#34;&gt;R Markdown Cookbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://slides.yihui.org/xaringan/#1&#34;&gt;Slides in R using Xaringan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Data visualization
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ggplot2.tidyverse.org/reference/index.html&#34;&gt;ggplot2 Reference&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ggplot2-book.org/&#34;&gt;ggplot2: Elegant Graphics for Data Analysis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://socviz.co/index.html&#34;&gt;Data Visualization: A Practice Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://patchwork.data-imaginist.com/index.html&#34;&gt;Patchwork R Package&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </content>
     </item>
     
