@@ -1,0 +1,40 @@
+---
+title: "AE 29: Interactive data visualizations" 
+subtitle: ""
+date: "`r Sys.Date()`"
+output: 
+  html_document: 
+    fig_height: 3
+    fig_width: 6
+    theme: readable
+    code_folding: hide
+---
+
+```{r include = F}
+knitr::opts_chunk$set(warning = F, 
+                      message = F)
+```
+
+
+## Announcements
+
+- Ed Discussion for this class: 
+
+- **Project due dates:** 
+  - [Written report](https://sta199-fa21-003.netlify.app/project/#written-report) due **Fri, Dec 03** (accepted until Sun, Dec 05 with no late penalty)
+  - [Video presentation + slides](https://sta199-fa21-003.netlify.app/project/#video-presentation--slides) due **Wed, Dec 08 at 11:59pm**
+  - [Project GitHub repo](https://sta199-fa21-003.netlify.app/project/#project-repository) **due Wed, Dec 08 at 11:59pm**
+  - [Presentation comments](https://sta199-fa21-003.netlify.app/project/#presentation-comments) **Thu, Dec 09 - Fri, Dec 10 at 11:59pm**
+  
+- **Other due dates:**
+  - [Statistics experience](https://sta210-fa21.netlify.app/hw/stats-experience.html) due **Fri, Dec 03 at 11:59pm** on Gradescope
+  - Team Feedback #2 **due Fri, Dec 03 at 11:59pm**
+
+##  AE 29: Interactive data visualizations
+
+- Go to the ae-29-[GITHUB USERNAME] repo in the GitHub course organization: https://github.com/sta210-fa21
+
+- Access the RStudio Docker containers at https://vm-manage.oit.duke.edu/containers
+
+- See the [Lab 01 instructions](https://sta199-fa21-003.netlify.app/labs/lab-01-hello-r.html) for details on cloning the repo and starting a new project in RStudio.
+

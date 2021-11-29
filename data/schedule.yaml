@@ -232,9 +232,11 @@ lessons:
   
   - week: "Week 15"
     date: "Mon, Nov 29"
-    title: "Interactive web apps using R Shiny"
+    title: "Interactive data visualizations"
+    slides: "https://sta199-fa21-003.netlify.app/slides/interactive-viz.pdf"
+    ae: "appex29-shiny.html"
   - date: "Wed, Dec 01"
-    title: "Interactive web apps / project"
+    title: "Interactive data visualizations / project"
   - date: "Thu, Dec 02"
     title: "Lab: Project Work Day"
   - date: "Fri, Dec 03"
