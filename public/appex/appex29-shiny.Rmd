@@ -18,7 +18,7 @@ knitr::opts_chunk$set(warning = F,
 
 ## Announcements
 
-- Ed Discussion for this class: 
+- Ed Discussion for this class: https://edstem.org/us/courses/8027/discussion/900594
 
 - [HW 05](https://sta199-fa21-003.netlify.app/hw/hw-05.html) **due TODAY at 11:59pm**
 
@@ -30,7 +30,17 @@ knitr::opts_chunk$set(warning = F,
   
 - **Other due dates:**
   - [Statistics experience](https://sta210-fa21.netlify.app/hw/stats-experience.html) due **Fri, Dec 03 at 11:59pm** on Gradescope
-  - Team Feedback #2 **due Fri, Dec 03 at 11:59pm**
+  - Team Feedback #2 **due Fri, Dec 03 at 11:59pm** (Check email sent Nov 29 around 9am)
+
+## Course evaluations
+
+Please take a few minutes to fill out the course evaluations!
+
+*To complete your course evaluation feedback, you will access a new system.  The new system will have more open access to past course evaluations for students.*
+
+*Your investment in completing this evaluation thoughtfully for about 15 minutes today will help us improve this course for future students but will also help select the questions for the future evals for all courses at Duke!* 
+
+*Thank you in advance for the time you spend on this today. We hope you’ll enjoy using the new system and will find the forms you help to design useful for your (and future students’) course decisions.*
 
 ##  AE 29: Interactive data visualizations
 
