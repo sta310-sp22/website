@@ -20,6 +20,8 @@ knitr::opts_chunk$set(warning = F,
 
 - Ed Discussion for this class: 
 
+- [HW 05](https://sta199-fa21-003.netlify.app/hw/hw-05.html) **due TODAY at 11:59pm**
+
 - **Project due dates:** 
   - [Written report](https://sta199-fa21-003.netlify.app/project/#written-report) due **Fri, Dec 03** (accepted until Sun, Dec 05 with no late penalty)
   - [Video presentation + slides](https://sta199-fa21-003.netlify.app/project/#video-presentation--slides) due **Wed, Dec 08 at 11:59pm**
