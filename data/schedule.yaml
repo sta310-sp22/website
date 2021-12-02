@@ -239,7 +239,7 @@ lessons:
     title: "Project Work Day"
   - date: "Thu, Dec 02"
     title: "Lab: Project Work Day"
-    lab: "dec02-lab-slides.html"  
+    slides: "https://sta199-fa21-003.netlify.app/slides/dec02-lab-slides.html"  
   - date: "Fri, Dec 03"
     title: "Statistics experience due"
     hw: "stats-experience.html"
