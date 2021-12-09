@@ -330,6 +330,10 @@ You will be asked to fill out a survey where you rate the contribution and teamw
 provide some explanation. If any individual gets an average peer score 
 indicating that this was the case, their grade will be assessed accordingly.
 
+**Update (12/9/2021)**
+
+If you have concerns with the teamwork and/or contribution from any team members, please email me by Friday, December 10 at 11:59pm with a brief description of your concerns. **You only need to email me if you have concerns**. Otherwise, I will assume everyone on the team equally contributed and will receive full credit for the teamwork portion of the grade.
+
 ## Grading details
 
 Grading of the project will take into account the following:
