@@ -1,6 +1,6 @@
 # Website for STA 310: Generalized Linear Models at Duke University (Spring 2022)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b5482937-2683-4da7-a16b-028071cd40f6/deploy-status)](https://app.netlify.com/sites/sta199-fa21-003/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0fd614ed-c71b-4d70-9779-dfb9426be684/deploy-status)](https://app.netlify.com/sites/sta310-sp22/deploys)
 
 :link: [sta199-fa21-003.netlify.app](https://sta199-fa21-003.netlify.app/)
 
