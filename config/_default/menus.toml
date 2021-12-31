@@ -15,7 +15,7 @@
 
 [[main]]
    # pre = "<i class=\"fa fa-info-circle\"></i>"
-    name = "Project"
+    name = "Projects"
     url = "/project/"
     weight = 30
 
@@ -40,20 +40,21 @@
     weight = 60
     
 
-[[main]]
-    url = "https://vm-manage.oit.duke.edu/containers"
-    name = "<i class=\"fab fa-r-project fa-lg\"></i>"
-    weight = 70
+# [[main]]
+#    url = "https://vm-manage.oit.duke.edu/containers"
+#    name = "<i class=\"fab fa-r-project fa-lg\"></i>"
+#    weight = 70
+
     
 [[main]]
-    url = "https://www.github.com/sta199-fa21-003"
+    url = "https://www.github.com/sta310-sp22"
     name  = "<i class='fab fa-github fa-lg'></i>"
     weight = 80
     
-[[main]]
-    url = "https://edstem.org/us/courses/8027/discussion/"
-    name = "<i class=\"fas fa-comments fa-lg\"></i>"
-    weight = 90
+# [[main]]
+#    url = "https://edstem.org/us/courses/8027/discussion/"
+#    name = "<i class=\"fas fa-comments fa-lg\"></i>"
+#    weight = 90
 
     
 

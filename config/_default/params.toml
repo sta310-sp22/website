@@ -1,5 +1,5 @@
 # Description for social sharing and search engines.
-description = "Website for STA 199: Intro to Data Science at Duke University"
+description = "Website for STA 310: Generalized Linear Models at Duke University"
 
 # Default image for social sharing and search engines. Place image in `static/images/` folder and specify image name here.
 sharing_image = ""
@@ -7,8 +7,8 @@ twitter_image = ""
 
 # Link custom CSS and JS assets
 #   (relative to /static/css and /static/js respectively)
-custom_css = ["sta199.css"]
-custom_js = ["sta199.js"]
+custom_css = ["sta310.css"]
+custom_js = ["sta310.js"]
 
 # Define base hex url for index page (where the stickers link out to)
 hex_base_url = ""
