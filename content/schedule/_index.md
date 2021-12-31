@@ -3,7 +3,7 @@ title: "Schedule"
 slug: schedule
 ---
 
-This page contains the schedule for the semester. Note that this schedule may be updated as the semester progresses, with all changes documented here.
+**Note**:The schedule may be subject to changes as the semester progresses. Assignments are posted on the day they are due.
 
 <!--
 - **Prepare** (<i class="fas fa-book-reader fa-lg"></i>): Videos, readings, and slides to prepare for lecture and in-class activities. 
