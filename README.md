@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0fd614ed-c71b-4d70-9779-dfb9426be684/deploy-status)](https://app.netlify.com/sites/sta310-sp22/deploys)
 
-:link: [sta199-fa21-003.netlify.app](https://sta199-fa21-003.netlify.app/)
+:link: [sta310-sp22.netlify.app](https://sta310-sp22.netlify.app/)
 
 ## Colors
 
