@@ -2,7 +2,7 @@
 title: Syllabus
 ---
 
-[**Click here**](sta199-fa21-003-syllabus.pdf) **to download a PDF copy of the syllabus.**
+<font color="#AF5A94"><i class="fas fa-file-pdf"></i></font> [**Click here**](sta310-sp22-syllabus.pdf) **to download a PDF copy of the syllabus.**
 
 ## Teaching team & office hours
 
@@ -12,7 +12,7 @@ title: Syllabus
 
   Name    |   Contact    |  Office hours  |  <span></span>
 |-------------------|------------------|------------------|------------------ 
-|[Prof. Maria Tackett](http://stat.duke.edu/~mt324/) | <a href="mailto:maria.tackett@duke.edu" title="email"><i class="fa fa-envelope"></i></a>  | Fri 10a - 11a | [Zoom](https://duke.zoom.us/j/94653677939)
+|[Prof. Maria Tackett](http://stat.duke.edu/~mt324/) | <a href="mailto:maria.tackett@duke.edu" title="email"><i class="fa fa-envelope"></i></a>  | TBD | TBD
 | |  | or by appointment | 
 
 <br> 
@@ -21,49 +21,31 @@ title: Syllabus
 
 Name    | Contact    | Office hours  |  <span></span>
 |-------------------|------------------|------------------|------------------ 
-| Meredith Brown| <a href="mailto:meredith.brown@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Mon 9a - 10a | Old Chem 203B |
-| |  | Mon 12p - 1p | Zoom |
-| Carson Garcia| <a href="mailto:carson.garcia@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Fri 3p - 5p | Zoom |
-|Shannon Houser | <a href="mailto:shannon.houser@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Tue 3p - 4p | Zoom |
-| |  | Thu 2p - 3p | Old Chem 203B |
-| [Rob Kravec](https://www.linkedin.com/in/robert-kravec-49873a89) | <a href="mailto:robert.kravec@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Thu  9 - 11a| Zoom |
-| Shirley Mathur| <a href="mailto:shirley.mathurc@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Tue 6p - 7p | Zoom |
-| |  | Wed 10a - 11a | Zoom |
-| Manny Mokel| <a href="mailto:emmanuel.mokel@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Tue 5p - 6p  |Zoom|
-|| | Thu 5p - 6p  |Zoom|
-| Margaret Reed| <a href="mailto:margaret.reed@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Tue 10a - 11a | Zoom|
-| |  | Wed 5p - 6p | Zoom|
-| Camilla Yu| <a href="mailto:yue.yu652@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Tue 9a - 10a | Zoom |
-| |  | Wed 5p - 6p | Zoom |
+|Jose | <a href="mailto:FILL IN" title="email"><i class="fa fa-envelope"></i></a> | TBD | TBD |
+|Raphael | <a href="mailto:FILL IN" title="email"><i class="fa fa-envelope"></i></a> | TBD | TBD |
 
-## Course info 
+# Course info 
 
  <span></span> | Day  |   Time   |  Location  | 
 |-------------------|------------------|------------------|------------------|
-Lectures | Mon & Wed | 1:45p - 3p | Soc Sci 136 |
-Lab 07 |Thu | 12p - 1:15p | Soc Sci 311 |
-Lab 08 |Thu | 3:30p - 4:45p | Perkins 071 (Link #5)|
-Lab 09 |Thu | 5:15p - 6:30p |  Perkins 071 (Link #5) |
+Lectures | Mon & Wed | 3:30 - 4:45pm | Perkins 071 (Link #5) |
+Labs |Thu | 3:30 - 4:45pm | Perkins 071 (Link #5)|
+
 
 ## Textbooks
 
-### Texts
-
-All books are freely available online. Hardcopies are also available for purchase.
+All books are freely available online. Hard copies are also available for purchase.
 
  <span></span>     | <span></span> | <span></span> 
 -----------|---------------------------------|----------------------------------
-[R for Data Science](http://r4ds.had.co.nz/) | Grolemund, Wickham | O'Reilly, 1st edition, 2016
-[Introduction to Modern Statistics ](https://openintro-ims.netlify.app/) | Çetinkaya-Rundel, Hardin | OpenIntro Inc., 1st Edition, 2021
+[Beyond Multiple Linear Regression](https://bookdown.org/roback/bookdown-BeyondMLR/) | Roback, Legler | CRC Press, 1st edition, 2020 |
+[R for Data Science](http://r4ds.had.co.nz/) | Grolemund, Wickham | O'Reilly, 1st edition, 2016 |
 
 ## Course Learning Objectives
 
 By the end of the semester, you will...
 
--   learn to explore, visualize, and analyze data in a reproducible and shareable manner
--   gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, and data visualization
--   work on problems and case studies inspired by and based on real-world questions and data
--   learn to effectively communicate results through written assignments and final project presentation
+UPDATE
 
 ## Course community
 
@@ -90,15 +72,10 @@ If there is any portion of the course that is not accessible to you due to chall
 
 The [Student Disability Access Office (SDAO)](https://access.duke.edu/students) is available to ensure that students are able to engage with their courses and related assignments. Students should be in touch with the Student Disability Access Office to [request or update accommodations](https://access.duke.edu/requests) under these circumstances.
 
-### Attendance Policy Related to COVID Symptoms, Exposure, or Infection
-
-Student health, safety, and well-being are the university's top priorities. To help ensure your well-being and the well-being of those around you, **please do not come to class if you have symptoms related to COVID-19, have had a known exposure to COVID-19, or have tested positive for COVID-19.** If any of these situations apply to you, you must follow university guidance related to the ongoing COVID-19 pandemic and current health and safety protocols.
-
-If you are experiencing any COVID-19 symptoms, contact student health at 919-681-9355. To keep the university community as safe and healthy as possible, you will be expected to follow these guidelines. Please reach out to me and your academic dean as soon as possible if you need to quarantine or isolate so that we can discuss arrangements for your continued participation in class.  
 
 ### Communication
 
-All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website, [sta199-fa21-003.netlify.app](https://sta199-fa21-003.netlify.app/)
+All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website, [sta310-sp22.netlify.app](https://sta310-sp22.netlify.app/)
 
 Announcements will be emailed through Sakai Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course.
 
@@ -112,51 +89,53 @@ Check out the [Help](/help/) tab for more resources.
 
 ### Email
 
-If there is a question that's not appropriate for the public forum, you are welcome to email me directly. **If you email me, please include "STA 199" in the subject line.** Barring extenuating circumstances, I will respond to STA 199 emails within 48 hours Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.
+If there is a question that's not appropriate for the public forum, you are welcome to email me directly. **If you email me, please include "STA 310" in the subject line.** Barring extenuating circumstances, I will respond to STA 310 emails within 48 hours Monday - Thursday. Response time may be slower for emails received Friday - Sunday.
 
-## Activities & Assessment
+## Activities & Assessment - UPDATE
 
-The activities and assessments in this course are designed to help you successfully achieve the course learning objectives. They are designed to follow the **Prepare, Practice, Perform** format.
+The activities and assessments in this course are designed to help you successfully achieve the course learning objectives.
 
+<!--
 -   **Prepare**: Includes short videos, reading assignments, and a short quiz to introduce new concepts and ensure a basic comprehension of the material. The goal is to help you prepare for the in-class activities during lecture.
 
 -   **Practice**: Includes in-class application exercises where you will begin to the concepts and methods introduced in the prepare assignment. the activities will graded for completion, as they are designed for you to gain experience with the statistical and computing techniques before working on graded assignments.
 
 -   **Perform**: Includes labs, homework, exams, and the final project. These assignments build upon the prepare and practice assignments and are the opportunity for you to demonstrate your understanding of the course material and how it is applied to analyze real-world data.
+-->
 
-### Prep quizzes (Prepare)
+### Readings 
 
+<!--
 These are low-stakes quizzes that will be completed at the beginning of each unit (about once per week) as part of the preparation for lecture. These quizzes include multiple choice and fill-in-the-blank questions. Each quiz will be administered in Sakai and may be taken up to three times. The quiz is due by the beginning of lecture on the specified due date. An overall score of 80% on all quizzes will result in full credit for prep quizzes in the final course grade.
+-->
 
-### Application Exercises (Practice)
+### Lectures
 
+<!--
 A majority of the in-class lectures will be dedicated to working on Application Exercises (AEs). These exercises which give you an opportunity to practice apply the statistical concepts and code introduced in the prepare assignment. These AEs are due within three days of the corresponding lecture period. Specifically, AEs from Monday lectures are due Thursday by 11:59p ET, and AEs from Wednesday lectures are due Saturday by 11:59p ET.
 
 Because these AEs are for practice, they will be graded based on completion, i.e., a good-faith effort has been made in attempting all parts. Successful on-time completion of at least 80% of AEs will result in full credit for AEs in the final course grade.
 
 In addition to AEs will be periodic activities help build a learning community. These will be short, fun activities that will help everyone in the class connect throughout the semester.
+-->
 
-### Labs (Perform)
-
-In labs, you will apply the concepts discussed in lecture to various data analysis scenarios, with a focus on the computation. Most lab assignments will be completed in teams, and all team members are expected to contribute equally to the completion of each assignment. You are expected to use the team's Git repository on the course's GitHub page as the central platform for collaboration. Commits to this repository will be used as a metric of each team member's relative contribution for each lab, and there will be periodic peer evaluation on the team collaboration. Lab assignments will be completed using R Markdown, correspond to an appropriate GitHub repository, and submitted for grading in Gradescope.
-
-*The lowest lab grade will be dropped at the end of the semester.*
-
-### Homework (Perform)
+### Homework 
 
 In homework, you will apply what you've learned during lecture and lab to complete data analysis tasks. You may discuss homework assignments with other students; however, homework should be completed and submitted individually. Similar to lab assignments, homework must be typed up using R Markdown and GitHub and submitted as a PDF in Gradescope.
 
-One homework assignment will be dedicated to a *statistics experience*. The statistics experience is an opportunity to engage with statistics and data science outside of the classroom through podcasts, books, seminars, data analysis competitions, and other activities. As you complete these experiences, the goal is to consider how the material you're learning in the course connects with society more broadly.
-
 *The lowest homework grade will be dropped at the end of the semester.*
 
-### Exams (Perform)
+### Quizzes 
 
+<!--
 There will be two, take-home, open-note exams. Through these exams you have the opportunity to demonstrate what you've learned in the course thus far. Each exam will include small analysis and computational tasks related to the content in the prepare, practice, and perform assignments. More details about the content and structure of the exams will be discussed during the semester.
+-->
 
-### Final Project (Perform)
+### Projects
 
+<!--
 The purpose of the [final project](/project/) is to apply what you've learned throughout the semester to analyze an interesting data-driven research question. The project will be completed with your lab teams, and each team will present their work in video and in writing during the final exam period. More information about the project will be provided during the semester.
+-->
 
 ## Grading
 
@@ -166,14 +145,11 @@ The final course grade will be calculated as follows:
 
 | Category              | Percentage |
 |-----------------------|------------|
-| Homework              | 25%        |
-| Labs                  | 15%        |
-| Final Project         | 15%        |
-| Exam 01               | 17.5%      |
-| Exam 02               | 17.5%      |
-| Prep quizzes          | 5%         |
-| Application Exercises | 2.5%       |
-| Teamwork              | 2.5%       |
+| Homework              | 40%        |
+| Mini-project 01       | 10%        |
+| Mini-project 02       | 10%        |
+| Final project         | 25%        |
+| Quizzes               | 15%        |
 
 </center>
 
@@ -216,11 +192,11 @@ Any violations in academic honesty standards as outlined in the [Duke Community 
 
 ### Late work & extensions
 
-The due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Note that the lowest homework and lab assignment will be dropped to accommodate such circumstances.
+The due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Note that the lowest homework assignment will be dropped to accommodate such circumstances.
 
 ### Late work policy
 
--   Homework and labs may be submitted up to 3 days late. There will be a 5% deduction for each 24-hour period the assignment is late.
+-   Homework will be accepted up to 3 days after the due date. There will be a 5% deduction for each 24-hour period the assignment is late.
 
 -   There is no late work accepted for prep quizzes or application exercises, since these are designed to help you prepare for labs and homework.
 
@@ -234,11 +210,19 @@ If there are circumstances that prevent you from completing a lab or homework as
 
 If there are circumstances that are having a longer-term impact on your academic performance, please let your academic dean know, as they can be a resource. Please let Professor Tackett know if you need help contacting your academic dean.
 
-### Regrade Requests
+### Regrade Requests - UPDATE
 
 Regrade requests must be submitted on Gradescope within a week of when an assignment is returned. Regrade requests will be considered if there was an error in the grade calculation or if you feel a correct answer was mistakenly marked as incorrect. Requests to dispute the number of points deducted for an incorrect response will not be considered. Note that by submitting a regrade request, the entire question will be graded which could potentially result in losing points.
 
-*No grades will be changed after the final project presentations.*
+### Attendance 
+
+[ADD GENERAL ATTENDANCE POLICY ]
+
+### Attendance Policy Related to COVID Symptoms, Exposure, or Infection
+
+Student health, safety, and well-being are the university's top priorities. To help ensure your well-being and the well-being of those around you, **please do not come to class if you have symptoms related to COVID-19, have had a known exposure to COVID-19, or have tested positive for COVID-19.** If any of these situations apply to you, you must follow university guidance related to the ongoing COVID-19 pandemic and current health and safety protocols.
+
+If you are experiencing any COVID-19 symptoms, contact student health at 919-681-9355. To keep the university community as safe and healthy as possible, you will be expected to follow these guidelines. Please reach out to me and your academic dean as soon as possible if you need to quarantine or isolate so that we can discuss arrangements for your continued participation in class.  
 
 ## Additional resources
 
@@ -252,13 +236,13 @@ There are times may need help with the class that is beyond what can be provided
 
 ## Important dates
 
--   **Aug 23:** Classes begin
--   **Sep 3**: Drop/add ends
--   **Oct 4-5**: Fall break
--   **Nov 5**: Last day to withdraw with W
--   **Nov 24-26:** Thanksgiving recess
--   **Dec 3**: Classes end
--   **Dec 4-7**: Reading period
--   **Dec 8-13**: Final exams
+-   **Jan 05:** Classes begin
+-   **Jan 17**: Martin Luther King, Jr. Holiday - No classes
+-   **Jan 19**: Drop/add ends
+-   **Mar 07 - 11**: Spring break
+-   **Mar 23:** Last day to withdraw with W
+-   **Apr 20:**: LDOC
+-   **Apr 21 - 24**: Reading period
+-   **Apr 25 - 30**: Final exams
 
-Click [here](https://registrar.duke.edu/fall-2021-academic-calendar) for the full Duke academic calendar.
+Click [here](https://registrar.duke.edu/spring-2022-academic-calendar) for the full academic calendar.
