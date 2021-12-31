@@ -21,8 +21,8 @@ title: Syllabus
 
 Name    | Contact    | Office hours  |  <span></span>
 |-------------------|------------------|------------------|------------------ 
-|Jose | <a href="mailto:FILL IN" title="email"><i class="fa fa-envelope"></i></a> | TBD | TBD |
-|Raphael | <a href="mailto:FILL IN" title="email"><i class="fa fa-envelope"></i></a> | TBD | TBD |
+|Raphaël Morsomme | <a href="mailto:raphael.morsomme@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | TBD |
+|Jose Pliego San Martin | <a href="mailto:jose.pliego.san.martin@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | TBD |
 
 # Course info 
 
