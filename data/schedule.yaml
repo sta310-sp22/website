@@ -21,6 +21,8 @@ lessons:
     title: "No Class: Martin Luther King, Jr. Holiday"
   - date: "Wed, Jan 19"
     title: "Likelihood / distribution theory"
+  - title: "HW 01 due"
+    assignment: "https://www.github.com/sta310-sp22"
   - date: "Thu, Jan 20"
     title: "Lab"
 
@@ -38,6 +40,8 @@ lessons:
     title: "Poisson regression"
   - date: "Wed, Feb 02"
     title: "Mini-project 01 peer review"
+  - title: "HW 02 due"
+    assignment: "https://www.github.com/sta310-sp22"
   - date: "Thu, Feb 03"
     title: "Poisson regression"
 
@@ -64,6 +68,8 @@ lessons:
     title: "Correlated data"
   - date: "Wed, Feb 23"
     title: "Multilevel models"
+  - title: "HW 03 due"
+    assignment: "https://www.github.com/sta310-sp22"
   - date: "Thu, Feb 24"
 
   - week: "Week 09"
@@ -104,7 +110,9 @@ lessons:
     date: "Mon, Mar 28"
     title: "Two-level longitudinal data"
   - date: "Wed, Mar 30"
-    title: "Multilevel data with more than 2 levels "
+    title: "Multilevel data with more than 2 levels"
+  - title: "HW 04 due"
+    assignment: "https://www.github.com/sta310-sp22"
   - date: "Thu, Mar 31"
     title: "Lab"
 
@@ -113,6 +121,8 @@ lessons:
     title: "Multilevel data with more than 2 levels "
   - date: "Wed, Apr 06"
     title: "Multilevel GLMs"
+  - title: "HW 05 due"
+    assignment: "https://www.github.com/sta310-sp22"
   - date: "Thu, Apr 07"
     title: "Lab"
 
