@@ -28,7 +28,7 @@ MathJaxCDN = "//cdn.bootcss.com"
 MathJaxVersion = "2.7.1"
 
 [footer]
-    github_url = "https://github.com/sta199-fa20-002/website"
+    github_url = "https://github.com/sta310-sp22/website"
     twitter_url = ""
     support = "This website was derived from [tidymodels.org](https://tidymodels.org) with inspiration from [datavizm20](https://datavizm20.classes.andrewheiss.com/) and [introds.org](https://introds.org/)."
 
