@@ -14,35 +14,21 @@ If you have a question during lecture or lab, feel free to ask it! There are lik
 
 The teaching team is here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments. A lot of questions are most effectively answered in-person, so office hours are a valuable resource. Please use them!
 
-Join using the Zoom link in [Sakai](https://sakai.duke.edu). You can find the office hours schedule on the [homepage](https://sta199-fa20-002.netlify.app/) and in Sakai. 
+You can find the office hours schedule and Zoom links in the [syllabus](/syllabus/#teaching-team--office-hours).
 
-## Ed Discussion
+## Discussion forum
 
-Outside of class and office hours, any general questions about course content or assignments should be posted on [Ed Discussion](https://edstem.org/us/courses/8027/discussion/). There is a chance another student has already asked a similar question, so please check the other posts on Ed Discussion before adding a new question. If you know the answer to a question posted on Ed Discussion, I encourage you to respond! 
+Outside of class and office hours, any general questions about course content or assignments should be posted on the class [GitHub Discussion Forum](https://github.com/sta310-sp22/discussion/discussions). There is a chance another student has already asked a similar question, so please check the other posts before adding a new question. If you know the answer to a question posted in the forum, I encourage you to respond! 
 
 ## Email 
 
-If you have questions about personal matters that are not appropriate for the public forum on Ed Discussion (e.g. illness, accommodations, etc.), you may email Professor Tackett at [maria.tackett@duke.edu](mailto:maria.tackett@duke.edu). 
+If you have questions about personal matters that are not appropriate for the discussion forum (e.g. illness, accommodations, etc.), you may email Professor Tackett at [maria.tackett@duke.edu](mailto:maria.tackett@duke.edu). 
 
 
-## RStudio Containers
+## Computing resources
 
-If you're having trouble with your RStudio container...
-
-- First try opening the RStudio container using a different web browser. 
-- If you're still having issues, next try restarting the container. [Click here](https://www.introds.org/Restart_Docker_Container.pdf) for instructions on restarting the container.
-- Lastly, if the issues persist, submit a ticket to OIT and they can look into the issue further. [Click here](https://duke.qualtrics.com/jfe/form/SV_6s3DOsiCIzNya9w) to submit the ticket.
-
-
-## Resources for the course
-
-- [Introduction to Modern Statistics](https://openintro-ims.netlify.app/) by Mine &Ccedil;etinkaya-Rundel and Johanna Hardin
-  
-- [R for Data Science](https://r4ds.had.co.nz/) by Garret Grolemund and Hadley Wickham
-
-- [Statistical Inference via Data Science: A ModernDive into R and the Tidyverse](https://moderndive.com/) by Chester Ismay and Albert Kim
-
-- [Modern Data Science with R](https://beanumber.github.io/mdsr2e/) by Ben Baumer, Daniel Kaplan, and Nick Horton
+- [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+- [R for Data Science](https://r4ds.had.co.nz/)
 
 ## Resources for mental health and wellness
 
