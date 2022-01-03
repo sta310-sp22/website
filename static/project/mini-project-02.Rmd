@@ -1,0 +1,10 @@
+---
+title: "Mini-Project 02"
+output: 
+  html_document:
+    theme: cerulean
+---
+
+Instructions will be posted when the project is assigned.
+
+ 

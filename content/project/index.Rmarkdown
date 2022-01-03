@@ -12,9 +12,9 @@ library(tidyverse)
 ```{r echo = F, warning = F, message = F}
 projects <- tibble(name = c("Mini Project 01", "Mini Project 02", 
                              "Final Project"), 
-                   url = c("https://sta310-sp22.netlify.app/projects/mini-project-01.html",
-                           "https://sta310-sp22.netlify.app/projects/mini-project-02.html",
-                           "https://sta310-sp22.netlify.app/projects/final-project.html"),
+                   url = c("https://sta310-sp22.netlify.app/project/mini-project-01.html",
+                           "https://sta310-sp22.netlify.app/project/mini-project-02.html",
+                           "https://sta310-sp22.netlify.app/project/final-project.html"),
                    image = c("https://i.insider.com/6123b263de5f560019e84732?width=1300&format=jpeg&auto=webp",                       "https://i.insider.com/6123b263de5f560019e84732?width=1300&format=jpeg&auto=webp", 
                              "https://i.insider.com/6123b263de5f560019e84732?width=1300&format=jpeg&auto=webp"), 
                    blurb = c("Group project focused on generalized linear models",
