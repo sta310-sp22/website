@@ -34,7 +34,7 @@ Labs |Thu | 3:30 - 4:45pm | Perkins 071 (Link #5)|
 
 ## Textbooks
 
-All books are freely available online. Hard copies are also available for purchase.
+All books are freely available online. Print copies are also available for purchase.
 
  <span></span>     | <span></span> | <span></span> 
 -----------|---------------------------------|----------------------------------
@@ -43,9 +43,14 @@ All books are freely available online. Hard copies are also available for purcha
 
 ## Course Learning Objectives
 
-By the end of the semester, you will...
+By the end of the semester, you will be able to ... 
 
-UPDATE
+- describe generalized linear models (GLMs) as a unified framework.
+- explain how specific models fit into the GLM framework, including extensions for correlated data.
+- identify the appropriate model given the data and analysis objective.
+- analyze real-world data by fitting and interpreting GLMs.
+- use R Markdown to write reproducible reports and GitHub for version control and collaboration.
+- effectively communicate results from statistical analyses to a general audience.
 
 ## Course community
 
