@@ -6,8 +6,6 @@ title: Syllabus
 
 ## Teaching team & office hours
 
-[Click here](https://docs.google.com/spreadsheets/d/1M_E0l5iXmQVkqoCeeM7XpyCo4_oQAirCe860SUjjgII/edit?usp=sharing) for the TA office hours Zoom links and locations. You are welcome to attend the office hours for **any** STA 199 TA, regardless of section. 
-
 **Instructor**
 
   Name    |   Contact    |  Office hours  |  <span></span>
@@ -20,11 +18,11 @@ title: Syllabus
 **Teaching Assistants**
 
 Name    | Contact    | Office hours  |  <span></span>
-|-------------------|------------------|------------------|------------------ 
+|-------------------|------------------|------------------|------------------| 
 |Raphaël Morsomme | <a href="mailto:raphael.morsomme@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | TBD |
 |Jose Pliego San Martin | <a href="mailto:jose.pliego.san.martin@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | TBD | TBD |
 
-# Course info 
+## Course info 
 
  <span></span> | Day  |   Time   |  Location  | 
 |-------------------|------------------|------------------|------------------|
@@ -88,59 +86,48 @@ Announcements will be emailed through Sakai Announcements periodically. Please c
 
 -   If you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
 -   The teaching team is here to help you be successful in the course. You are encouraged to attend office hours to ask questions about the course content and assignments. Many questions are most effectively answered as you discuss them with others, so office hours are a valuable resource. Please use them!
--   Outside of class and office hours, any general questions about course content or assignments should be posted on [Ed Discussion](https://edstem.org/us/courses/8027/discussion/). There is a chance another student has already asked a similar question, so please check the other posts in Ed Discussion before adding a new question. If you know the answer to a question posted in the discussion forum, I encourage you to respond!
+- Outside of class and office hours, any general questions about course content or assignments should be posted on the class [GitHub Discussion Forum](https://github.com/sta310-sp22/discussion/discussions). There is a chance another student has already asked a similar question, so please check the other posts before adding a new question. If you know the answer to a question posted in the discussion forum, I encourage you to respond!
 
 Check out the [Help](/help/) tab for more resources.
 
 ### Email
 
-If there is a question that's not appropriate for the public forum, you are welcome to email me directly. **If you email me, please include "STA 310" in the subject line.** Barring extenuating circumstances, I will respond to STA 310 emails within 48 hours Monday - Thursday. Response time may be slower for emails received Friday - Sunday.
+If there is a question that's not appropriate for the public forum, you are welcome to email me directly with "STA 310" in the subject line. Barring extenuating circumstances, I will respond to STA 310 emails within 48 hours Monday - Thursday. Response time may be slower for emails received Friday - Sunday.
 
-## Activities & Assessment - UPDATE
+## Activities & Assessment
 
-The activities and assessments in this course are designed to help you successfully achieve the course learning objectives.
+The activities and assessments in this course are designed to help you successfully achieve the course learning objectives. Each activity and assessment is part of the *prepare, practice, perform* cycle for each topic. 
 
-<!--
--   **Prepare**: Includes short videos, reading assignments, and a short quiz to introduce new concepts and ensure a basic comprehension of the material. The goal is to help you prepare for the in-class activities during lecture.
+-   **Prepare**: Includes reading assignments and occasional videos to introduce new concepts and ensure a basic comprehension of the material.
 
--   **Practice**: Includes in-class application exercises where you will begin to the concepts and methods introduced in the prepare assignment. the activities will graded for completion, as they are designed for you to gain experience with the statistical and computing techniques before working on graded assignments.
+- **Practice**: Includes in-class activities and application exercises to explore the topics new topics in more depth. These activities will be completed during lecture. As they are intended for practice, they will not be graded.
 
--   **Perform**: Includes labs, homework, exams, and the final project. These assignments build upon the prepare and practice assignments and are the opportunity for you to demonstrate your understanding of the course material and how it is applied to analyze real-world data.
--->
+-   **Perform**: Includes homework, quizzes, and the projects. These assignments are an opportunity for you to demonstrate your understanding of the course material and how it is applied to the analysis of real-world data.
+
 
 ### Readings 
 
-<!--
-These are low-stakes quizzes that will be completed at the beginning of each unit (about once per week) as part of the preparation for lecture. These quizzes include multiple choice and fill-in-the-blank questions. Each quiz will be administered in Sakai and may be taken up to three times. The quiz is due by the beginning of lecture on the specified due date. An overall score of 80% on all quizzes will result in full credit for prep quizzes in the final course grade.
--->
+There will be reading assignments to accompany each topic. Readings will primarily come from the course textbook *Beyond Multiple Linear Regression*, but they may periodically include articles and other resources. It is strongly recommended that you complete the readings before lectures, so you have an introduction to the topic before class.
 
 ### Lectures
 
-<!--
-A majority of the in-class lectures will be dedicated to working on Application Exercises (AEs). These exercises which give you an opportunity to practice apply the statistical concepts and code introduced in the prepare assignment. These AEs are due within three days of the corresponding lecture period. Specifically, AEs from Monday lectures are due Thursday by 11:59p ET, and AEs from Wednesday lectures are due Saturday by 11:59p ET.
-
-Because these AEs are for practice, they will be graded based on completion, i.e., a good-faith effort has been made in attempting all parts. Successful on-time completion of at least 80% of AEs will result in full credit for AEs in the final course grade.
-
-In addition to AEs will be periodic activities help build a learning community. These will be short, fun activities that will help everyone in the class connect throughout the semester.
--->
+Lectures will be interactive with a mix of presenting lecture notes, short in-class activities, and application exercises. The activities and application exercises will give you an opportunity to explore concepts in more depth and get practice applying them to real-world data. 
 
 ### Homework 
 
-In homework, you will apply what you've learned during lecture and lab to complete data analysis tasks. You may discuss homework assignments with other students; however, homework should be completed and submitted individually. Similar to lab assignments, homework must be typed up using R Markdown and GitHub and submitted as a PDF in Gradescope.
+There will be about 5 homework assignments during the semester. In these assignments, you will apply what you've learned as you answer conceptual questions and complete guided and unguided analyses. You may discuss homework assignments with other students; however, homework should be completed and submitted individually.
 
-*The lowest homework grade will be dropped at the end of the semester.*
+*The lowest homework grade will be dropped*
 
 ### Quizzes 
 
-<!--
-There will be two, take-home, open-note exams. Through these exams you have the opportunity to demonstrate what you've learned in the course thus far. Each exam will include small analysis and computational tasks related to the content in the prepare, practice, and perform assignments. More details about the content and structure of the exams will be discussed during the semester.
--->
+There will be periodic short quizzes during the semester. These quizzes will cover the readings, lecture notes and activities, and any assignments since the previous quiz. More details about the format and content for each quiz will be available as they are assigned. 
+
+*The lowest quiz grade will be dropped at the end of the semester.*
 
 ### Projects
 
-<!--
-The purpose of the [final project](/project/) is to apply what you've learned throughout the semester to analyze an interesting data-driven research question. The project will be completed with your lab teams, and each team will present their work in video and in writing during the final exam period. More information about the project will be provided during the semester.
--->
+There will be 2 mini group projects and 1 final individual project in this course. Teams will be randomly assigned for each of the mini projects. More details about each project will be available under the [projects](/project/) tab as they are assigned.
 
 ## Grading
 
@@ -185,12 +172,10 @@ The final letter grade will be determined based on the following thresholds:
 
 ### Academic honesty
 
-**TL;DR: Don't cheat!**
-
-Please abide by the following as you work on assignments in this course:
+By participating in this course, you agree to abide by the following when completing assignments: 
 
 -   You may discuss individual homework and lab assignments with other students; however, you may not directly share (or copy) code or write up with other students. For team assignments, you may collaborate freely within your team. You may discuss the assignment with other teams; however, you may not directly share (or copy) code or write up with another team. Unauthorized sharing (or copying) of the code or write up will be considered a violation for all students involved.
--   You may not discuss or otherwise work with others on the exams. Unauthorized collaboration or using unauthorized materials will be considered a violation for all students involved. More details will be given closer to the exam date.
+-   You may not discuss or otherwise work with others on the quizzes. Unauthorized collaboration or using unauthorized materials will be considered a violation for all students involved. More details will be given closer to the exam date.
 -   **Reusing code**: Unless explicitly stated otherwise, you may make use of online resources (e.g. StackOverflow) for coding examples on assignments. If you directly use code from an outside source (or use it as inspiration), you must explicitly cite where you obtained the code. Any recycled code that is discovered and is not explicitly cited will be treated as plagiarism.
 
 Any violations in academic honesty standards as outlined in the [Duke Community Standard](https://studentaffairs.duke.edu/conduct/about-us/duke-community-standard) and those specific to this course will automatically result in a 0 for the assignment and will be reported to the [Office of Student Conduct](https://studentaffairs.duke.edu/conduct) for further action.
@@ -201,27 +186,26 @@ The due dates for assignments are there to help you keep up with the course mate
 
 ### Late work policy
 
--   Homework will be accepted up to 3 days after the due date. There will be a 5% deduction for each 24-hour period the assignment is late.
+-   Homework will be accepted up to 72 hours (3 days) after the due date. There will be a 5% deduction for each 24-hour period the assignment is late. A late waiver may be used for one homework assignment. See [late waiver](#late-waiver) policy for more information. 
 
--   There is no late work accepted for prep quizzes or application exercises, since these are designed to help you prepare for labs and homework.
-
--   The late work policy for exams will be provided with the exam instructions.
+-  No late work is accepted on quizzes, and there are no makeups for missed quizzes. 
 
 -   The late work policy for the project will be provided with the project instructions.
 
-### Waiver for extenuating circumstances
+### Late waiver for extenuating circumstances
 
-If there are circumstances that prevent you from completing a lab or homework assignment by the stated due date, you may email Professor Tackett before the deadline to waive the late penalty. In your email, you only need to request the waiver; you do not need to provide explanation. This waiver may only be used for once in the semester, so only use it for a truly extenuating circumstance.
+If there are circumstances that prevent you from completing a homework assignment by the stated due date, you may email Professor Tackett before the deadline to waive the late penalty. In your email, you only need to request the waiver; you do not need to provide explanation. This waiver may only be used for once in the semester, so only use it for a truly extenuating circumstance.
 
 If there are circumstances that are having a longer-term impact on your academic performance, please let your academic dean know, as they can be a resource. Please let Professor Tackett know if you need help contacting your academic dean.
 
-### Regrade Requests - UPDATE
+### Regrade requests
 
-Regrade requests must be submitted on Gradescope within a week of when an assignment is returned. Regrade requests will be considered if there was an error in the grade calculation or if you feel a correct answer was mistakenly marked as incorrect. Requests to dispute the number of points deducted for an incorrect response will not be considered. Note that by submitting a regrade request, the entire question will be graded which could potentially result in losing points.
+Regrade requests must be submitted on Gradescope within a week of when an assignment is returned. Regrade requests should only be submitted if a correct answer was mistakenly marked as incorrect. Requests to dispute the number of points deducted for an incorrect response will not be considered. Note that by submitting a regrade request, the entire question will be graded which could potentially result in losing points.
 
 ### Attendance 
 
-[ADD GENERAL ATTENDANCE POLICY ]
+You are expected to attend all lectures and labs with a fully-charged laptop or tablet with access to RStudio to participate. We understand there may be times when you are unable to attend a class meeting; in such instances it is your responsibility to make up the missed material. Labs will primarily be used to work on homework and the projects. If you miss a lab meeting dedicated to group work, please communicate with your teammates to make a plan to contribute to the assignment. [Click here](https://trinity.duke.edu/undergraduate/academic-policies/class-attendance-and-missed-work) for more information on the Trinity attendance policies.
+
 
 ### Attendance Policy Related to COVID Symptoms, Exposure, or Infection
 
@@ -237,7 +221,7 @@ There are times may need help with the class that is beyond what can be provided
 
 ### CAPS
 
-[Duke Counseling & Pyschological Services (CAPS)](https://studentaffairs.duke.edu/caps) helps Duke Students enhance strengths and develop abilities to successfully live, grow and learn in their personal and academic lives. CAPS recognizes that we are living in unprecedented times and that the changes, challenges and stressors brought on by the COVID-19 pandemic have impacted everyone, often in ways that are tax our well-being. CAPS offers many services to Duke undergraduate students, including brief individual and group counseling, couples counseling and more. CAPS staff also provides outreach to student groups, particularly programs supportive of at-risk populations, on a wide range of issues impacting them in various aspects of campus life. CAPS provides services to students via Telehealth. To initiate services, you can contact their front desk at 919-660-1000.
+[Duke Counseling & Psychological Services (CAPS)](https://studentaffairs.duke.edu/caps) helps Duke Students enhance strengths and develop abilities to successfully live, grow and learn in their personal and academic lives. CAPS recognizes that we are living in unprecedented times and that the changes, challenges and stressors brought on by the COVID-19 pandemic have impacted everyone, often in ways that are tax our well-being. CAPS offers many services to Duke undergraduate students, including brief individual and group counseling, couples counseling and more. CAPS staff also provides outreach to student groups, particularly programs supportive of at-risk populations, on a wide range of issues impacting them in various aspects of campus life. CAPS provides services to students via Telehealth. To initiate services, you can contact their front desk at 919-660-1000.
 
 ## Important dates
 
