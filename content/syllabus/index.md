@@ -229,8 +229,8 @@ There are times may need help with the class that is beyond what can be provided
 -   **Jan 17**: Martin Luther King, Jr. Holiday - No classes
 -   **Jan 19**: Drop/add ends
 -   **Mar 07 - 11**: Spring break
--   **Mar 23:** Last day to withdraw with W
--   **Apr 20:**: LDOC
+-   **Mar 23**: Last day to withdraw with W
+-   **Apr 20**: LDOC
 -   **Apr 21 - 24**: Reading period
 -   **Apr 25 - 30**: Final exams
 
