@@ -51,10 +51,10 @@
     name  = "<i class='fab fa-github fa-lg'></i>"
     weight = 80
     
-# [[main]]
-#    url = "https://edstem.org/us/courses/8027/discussion/"
-#    name = "<i class=\"fas fa-comments fa-lg\"></i>"
-#    weight = 90
+ [[main]]
+    url = "https://github.com/sta310-sp22/discussion/discussions"
+    name = "<i class=\"fas fa-comments fa-lg\"></i>"
+    weight = 90
 
     
 
