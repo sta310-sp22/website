@@ -10,9 +10,11 @@ lessons:
   
   - week:  "Week 02"
     date:  "Mon, Jan 10"
-    title: "Review: linear regression"
+    title: "Review: multiple linear regression"
+    readings: "#week-01-jan-10---14"
+    
   - date:  "Wed, Jan 12"
-    title: "Review: linear regression"
+    title: "Review: multiple linear regression"
   - date:  "Thu, Jan 13"
     title: "Lab"
  

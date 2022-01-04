@@ -86,6 +86,20 @@ Go to &lt;a href=&#34;http://studentaffairs.duke.edu/dukereach&#34;&gt;studentaf
   </item>
   
 <item>
+  <title>Readings</title>
+  <link>/readings/</link>
+  <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+  
+<guid>/readings/</guid>
+  <description>&lt;p&gt;This page contains the reading assignments for STA 310: Generalized Linear Models. Most reading assignments will come from the textbook &lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/&#34;&gt;Beyond Multiple Linear Regression&lt;/a&gt; by Paul Roback and Julie Legler.&lt;/p&gt;
+&lt;h2 id=&#34;week-01-jan-10---14&#34;&gt;Week 01: Jan 10 - 14&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Beyond Multiple Linear Regression (BMLR): &lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/ch-MLRreview.html&#34;&gt;Chapter 1 - Review of Multiple Linear Regression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+  </item>
+  
+<item>
   <title>STA 310 Projects</title>
   <link>/project/</link>
   <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
