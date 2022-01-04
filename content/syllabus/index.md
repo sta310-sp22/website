@@ -213,15 +213,32 @@ Student health, safety, and well-being are the university's top priorities. To h
 
 If you are experiencing any COVID-19 symptoms, contact student health at 919-681-9355. To keep the university community as safe and healthy as possible, you will be expected to follow these guidelines. Please reach out to me and your academic dean as soon as possible if you need to quarantine or isolate so that we can discuss arrangements for your continued participation in class.  
 
-## Additional resources
+## Additional support
 
 ### Academic Resource Center
 
-There are times may need help with the class that is beyond what can be provided by the teaching team. In those instances, I encourage you to visit the Academic Resource Center. The [Academic Resource Center (ARC)](https://arc.duke.edu) offers free services to all students during their undergraduate careers at Duke. Services include Learning Consultations, Peer Tutoring and Study Groups, ADHD/LD Coaching, Outreach Workshops, and more. Because learning is a process unique to every individual, they work with each student to discover and develop their own academic strategy for success at Duke. Contact the ARC to schedule an appointment. Undergraduates in any year, studying any discipline can benefit! Contact <a href="mailto:arc@duke.edu" title="email">ARC\@duke.edu</a>, 919-684-5917.
+The Academic Resource Center (the ARC) offers services to support students academically during their undergraduate careers at Duke. The ARC can provide support with time management, academic skills and strategies, unique learning styles, peer tutoring, learning consultations, learning communities, and more. ARC services are available free to any Duke undergraduate student, in any year, studying in any discipline.
 
-### CAPS
+ Contact <a href="mailto:arc@duke.edu" title="email">ARC\@duke.edu</a>, 919-684-5917.
 
-[Duke Counseling & Psychological Services (CAPS)](https://studentaffairs.duke.edu/caps) helps Duke Students enhance strengths and develop abilities to successfully live, grow and learn in their personal and academic lives. CAPS recognizes that we are living in unprecedented times and that the changes, challenges and stressors brought on by the COVID-19 pandemic have impacted everyone, often in ways that are tax our well-being. CAPS offers many services to Duke undergraduate students, including brief individual and group counseling, couples counseling and more. CAPS staff also provides outreach to student groups, particularly programs supportive of at-risk populations, on a wide range of issues impacting them in various aspects of campus life. CAPS provides services to students via Telehealth. To initiate services, you can contact their front desk at 919-660-1000.
+### Mental health and wellness resources
+
+Student mental health and wellness is of primary importance at Duke, and the university offers resources to support students in managing daily stress and self-care. Duke offers several resources for students to seek assistance on coursework and to nurture daily habits that support overall well-being, some of which are listed below
+
+- **DuWell**: (919) 681-8421, provides Moments of Mindfulness (stress management and resilience building) and Koru (meditation) programming to assist students in developing a daily emotional well-being practice. [Click here](https://studentaffairs.duke.edu/duwell) to see schedules for programs please see. All are welcome and no experience necessary.  [duwell@studentaffairs.duke.edu](mailto:duwell@studentaffairs.duke.edu), or [studentaffairs.duke.edu/duwell](https://studentaffairs.duke.edu/duwell)
+ 
+If your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to help you through difficult times. Duke encourages all students to access these resources. 
+
+- **DukeReach**: Provides comprehensive outreach services to identify and support students in managing all aspects of well-being. If you have concerns about a student's behavior or health visit the website for resources and assistance. [studentaffairs.duke.edu/dukereach](http://studentaffairs.duke.edu/dukereach)
+- **Counseling and Psychological Services (CAPS)**: CAPS services include individual, group, and couples counseling services, health coaching, psychiatric services, and workshops and discussions. CAPS also provides referral to off-campus resources for specialized care. (919) 660-1000. [studentaffairs.duke.edu/caps](https://studentaffairs.duke.edu/caps)
+- **Blue Devils Care**: A convenient, confidential, and free way for Duke students to receive 24/7 mental health support through TalkNow and scheduled counseling. [bluedevilscare.duke.edu](https://bluedevilscare.duke.edu)
+- **Two-Click Support**: Duke Student Government and DukeReach partnership that connects students to help in just two clicks. [bit.ly/TwoClickSupport](https://bit.ly/TwoClickSupport)
+
+### Technology Accommodations
+
+Students with demonstrated high financial need who have limited access to computers may request assistance in the form of loaner laptops. For new Spring 2022 technology assistance requests, please go [here](https://dukelife.duke.edu/technology-assistance-program/). Please note that supplies are limited. 
+
+See the [Help](/help/) page for a more comprehensive list of academic and mental health wellness resources.
 
 ## Important dates
 

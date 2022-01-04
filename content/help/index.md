@@ -39,11 +39,15 @@ Go to [studentaffairs.duke.edu/dukereach](http://studentaffairs.duke.edu/dukerea
 
 - **Blue Devils Care**. A convenient and cost-effective way for Duke students to receive 24/7 mental health support through TalkNow. Go to [bluedevilscare.duke.edu](https://www.timely.md/faq/blue-devils-care-faq/)
 
-## Resources for academic support and wellness
+## Resources for academic support and mental wellness
 
 - **The Academic Resource Center**: Contact the ARC at (919) 684-5917, [theARC@duke.edu](mailto:theARC@duke.edu), or visit their website [arc.duke.edu](https://arc.duke.edu/)
 
 - **DuWell**: Contact DuWell at (919) 681-8421, [duwell@studentaffairs.duke.edu](mailto:duwell@studentaffairs.duke.edu), or [studentaffairs.duke.edu/duwell](https://studentaffairs.duke.edu/duwell)
 
 - **WellTrack**: Contact WellTrack at [app.welltrack.com](https://app.welltrack.com/)
+
+- **Two-Click Support**: Duke Student Government and DukeReach partnership that connects students to help in just two clicks. [bit.ly/TwoClickSupport](https://bit.ly/TwoClickSupport)
+
+
 
