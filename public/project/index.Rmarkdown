@@ -15,8 +15,8 @@ projects <- tibble(name = c("Mini Project 01", "Mini Project 02",
                    url = c("https://sta310-sp22.netlify.app/project/mini-project-01.html",
                            "https://sta310-sp22.netlify.app/project/mini-project-02.html",
                            "https://sta310-sp22.netlify.app/project/final-project.html"),
-                   image = c("https://i.insider.com/6123b263de5f560019e84732?width=1300&format=jpeg&auto=webp",                       "https://i.insider.com/6123b263de5f560019e84732?width=1300&format=jpeg&auto=webp", 
-                             "https://i.insider.com/6123b263de5f560019e84732?width=1300&format=jpeg&auto=webp"), 
+                   image = c("https://sta310-sp22.netlify.app/img/sta310_sticker.png",                       "https://sta310-sp22.netlify.app/img/sta310_sticker.png", 
+                             "https://sta310-sp22.netlify.app/img/sta310_sticker.png"), 
                    blurb = c("Group project focused on generalized linear models",
                    "Group project focused on multilevel models",
                    "Individual final project")
@@ -29,10 +29,8 @@ projects %>%
         link = url, 
         image = image,
         text = blurb, 
-       # layout = "label-left", 
        layout = "label-only",
-        breakpoint = 5, 
-        width = 4)
+       width = 2)
 ```
 
 

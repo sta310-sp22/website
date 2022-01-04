@@ -102,7 +102,7 @@ Go to &lt;a href=&#34;http://studentaffairs.duke.edu/dukereach&#34;&gt;studentaf
     </description>
       <content>&lt;p&gt;Instructions will be posted as the projects are assigned.&lt;/p&gt;
 &lt;div&gt;
-&lt;div class=&#34;row p-0 row-cols-1 row-cols-lg-2&#34; style=&#34;margin-left: -.2rem; margin-right: -.2rem; margin-top: 1rem; margin-bottom: 1rem; &#34;&gt;
+&lt;div class=&#34;row p-0 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4&#34; style=&#34;margin-left: -.2rem; margin-right: -.2rem; margin-top: 1rem; margin-bottom: 1rem; &#34;&gt;
 &lt;div class=&#34;card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah &#34; style=&#34;padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;&#34;&gt;
 &lt;div class=&#34;card-body justify-content-end m-0 p-0&#34; style=&#34;visibility: visible; background-color: inherits; border-style:solid; border-color:inherits; border-width:1px; border-radius: .6rem .6rem .6rem .6rem ;&#34;&gt;
 &lt;a href=&#34;https://sta310-sp22.netlify.app/project/mini-project-01.html&#34;&gt;
