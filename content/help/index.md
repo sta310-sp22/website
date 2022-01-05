@@ -1,12 +1,8 @@
 ---
-title: Help
+title: Resources & Support
 ---
 
-## Getting help in the course
-
-We expect everyone will have questions at some point in the semester, so we encourage you to use the following resources for help: 
-
-## Ask questions during lectures and lab
+## Asking questions during lectures and lab
 
 If you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
 

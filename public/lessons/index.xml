@@ -37,17 +37,30 @@ width: 65%;
     </item>
     
     <item>
-      <title>Help</title>
+      <title>Readings</title>
+      <link>/readings/</link>
+      <pubDate>12 Mar 17 10:00 +0000</pubDate>
+      
+      <guid>/readings/</guid>
+      <description>This page contains the reading assignments for STA 310: Generalized Linear Models. Most reading assignments will come from the textbook Beyond Multiple Linear Regression by Paul Roback and Julie Legler.
+Week 01: Jan 10 - 14  Beyond Multiple Linear Regression (BMLR): Chapter 1 - Review of Multiple Linear Regression  </description>
+      <content>&lt;p&gt;This page contains the reading assignments for STA 310: Generalized Linear Models. Most reading assignments will come from the textbook &lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/&#34;&gt;Beyond Multiple Linear Regression&lt;/a&gt; by Paul Roback and Julie Legler.&lt;/p&gt;
+&lt;h2 id=&#34;week-01-jan-10---14&#34;&gt;Week 01: Jan 10 - 14&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Beyond Multiple Linear Regression (BMLR): &lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/ch-MLRreview.html&#34;&gt;Chapter 1 - Review of Multiple Linear Regression&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Resources &amp; Support</title>
       <link>/help/</link>
       <pubDate>12 Mar 17 10:00 +0000</pubDate>
       
       <guid>/help/</guid>
-      <description>Getting help in the course We expect everyone will have questions at some point in the semester, so we encourage you to use the following resources for help:
-Ask questions during lectures and lab If you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
-Office hours The teaching team is here to help you be successful in the course.</description>
-      <content>&lt;h2 id=&#34;getting-help-in-the-course&#34;&gt;Getting help in the course&lt;/h2&gt;
-&lt;p&gt;We expect everyone will have questions at some point in the semester, so we encourage you to use the following resources for help:&lt;/p&gt;
-&lt;h2 id=&#34;ask-questions-during-lectures-and-lab&#34;&gt;Ask questions during lectures and lab&lt;/h2&gt;
+      <description>Asking questions during lectures and lab If you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
+Office hours The teaching team is here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments.</description>
+      <content>&lt;h2 id=&#34;asking-questions-during-lectures-and-lab&#34;&gt;Asking questions during lectures and lab&lt;/h2&gt;
 &lt;p&gt;If you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.&lt;/p&gt;
 &lt;h2 id=&#34;office-hours&#34;&gt;Office hours&lt;/h2&gt;
 &lt;p&gt;The teaching team is here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments. A lot of questions are most effectively answered in-person, so office hours are a valuable resource. Please use them!&lt;/p&gt;
@@ -88,22 +101,6 @@ Go to &lt;a href=&#34;http://studentaffairs.duke.edu/dukereach&#34;&gt;studentaf
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Two-Click Support&lt;/strong&gt;: Duke Student Government and DukeReach partnership that connects students to help in just two clicks. &lt;a href=&#34;https://bit.ly/TwoClickSupport&#34;&gt;bit.ly/TwoClickSupport&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </item>
-    
-    <item>
-      <title>Readings</title>
-      <link>/readings/</link>
-      <pubDate>12 Mar 17 10:00 +0000</pubDate>
-      
-      <guid>/readings/</guid>
-      <description>This page contains the reading assignments for STA 310: Generalized Linear Models. Most reading assignments will come from the textbook Beyond Multiple Linear Regression by Paul Roback and Julie Legler.
-Week 01: Jan 10 - 14  Beyond Multiple Linear Regression (BMLR): Chapter 1 - Review of Multiple Linear Regression  </description>
-      <content>&lt;p&gt;This page contains the reading assignments for STA 310: Generalized Linear Models. Most reading assignments will come from the textbook &lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/&#34;&gt;Beyond Multiple Linear Regression&lt;/a&gt; by Paul Roback and Julie Legler.&lt;/p&gt;
-&lt;h2 id=&#34;week-01-jan-10---14&#34;&gt;Week 01: Jan 10 - 14&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Beyond Multiple Linear Regression (BMLR): &lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/ch-MLRreview.html&#34;&gt;Chapter 1 - Review of Multiple Linear Regression&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
@@ -290,13 +287,13 @@ Teaching team &amp;amp; office hours Instructor
 &lt;h3 id=&#34;communication&#34;&gt;Communication&lt;/h3&gt;
 &lt;p&gt;All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website, &lt;a href=&#34;https://sta310-sp22.netlify.app/&#34;&gt;sta310-sp22.netlify.app&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Announcements will be emailed through Sakai Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course.&lt;/p&gt;
-&lt;h3 id=&#34;where-to-get-help&#34;&gt;Where to get help&lt;/h3&gt;
+&lt;h3 id=&#34;class-support--resources&#34;&gt;Class support &amp;amp; resources&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;If you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.&lt;/li&gt;
 &lt;li&gt;The teaching team is here to help you be successful in the course. You are encouraged to attend office hours to ask questions about the course content and assignments. Many questions are most effectively answered as you discuss them with others, so office hours are a valuable resource. Please use them!&lt;/li&gt;
 &lt;li&gt;Outside of class and office hours, any general questions about course content or assignments should be posted on the class &lt;a href=&#34;https://github.com/sta310-sp22/discussion/discussions&#34;&gt;GitHub Discussion Forum&lt;/a&gt;. There is a chance another student has already asked a similar question, so please check the other posts before adding a new question. If you know the answer to a question posted in the discussion forum, I encourage you to respond!&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Check out the &lt;a href=&#34;/help/&#34;&gt;Help&lt;/a&gt; tab for more resources.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&#34;/help/&#34;&gt;Support&lt;/a&gt; tab for more resources.&lt;/p&gt;
 &lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;
 &lt;p&gt;If there is a question that&amp;rsquo;s not appropriate for the public forum, you are welcome to email me directly with &amp;ldquo;STA 310&amp;rdquo; in the subject line. Barring extenuating circumstances, I will respond to STA 310 emails within 48 hours Monday - Thursday. Response time may be slower for emails received Friday - Sunday.&lt;/p&gt;
 &lt;h2 id=&#34;activities--assessment&#34;&gt;Activities &amp;amp; Assessment&lt;/h2&gt;
@@ -471,7 +468,7 @@ Teaching team &amp;amp; office hours Instructor
 &lt;/ul&gt;
 &lt;h3 id=&#34;technology-accommodations&#34;&gt;Technology Accommodations&lt;/h3&gt;
 &lt;p&gt;Students with demonstrated high financial need who have limited access to computers may request assistance in the form of loaner laptops. For new Spring 2022 technology assistance requests, please go &lt;a href=&#34;https://dukelife.duke.edu/technology-assistance-program/&#34;&gt;here&lt;/a&gt;. Please note that supplies are limited.&lt;/p&gt;
-&lt;p&gt;See the &lt;a href=&#34;/help/&#34;&gt;Help&lt;/a&gt; page for a more comprehensive list of academic and mental health wellness resources.&lt;/p&gt;
+&lt;p&gt;See the &lt;a href=&#34;/help/&#34;&gt;Support&lt;/a&gt; page for a more comprehensive list of academic and mental health wellness resources.&lt;/p&gt;
 &lt;h2 id=&#34;important-dates&#34;&gt;Important dates&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Jan 05:&lt;/strong&gt; Classes begin&lt;/li&gt;
