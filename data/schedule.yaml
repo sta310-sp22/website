@@ -5,6 +5,7 @@ lessons:
   - week: "Week 01"
     date: "Wed, Jan 05"
     title: "Welcome to STA 310!"
+    slides: "https://sta310-sp22.github.io/slides/01-welcome/01-welcome.html#1"
   - date: "Thu, Jan 06"
     title: "No class (Labs start Jan 13)"
   
