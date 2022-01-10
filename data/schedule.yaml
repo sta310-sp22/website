@@ -13,9 +13,10 @@ lessons:
     date:  "Mon, Jan 10"
     title: "Review: multiple linear regression"
     readings: "#week-01-jan-10---14"
-    
+    slides: "https://sta310-sp22.github.io/slides/02-mlr-review-pt1/02-mlr-review-pt1.html#1"
   - date:  "Wed, Jan 12"
     title: "Review: multiple linear regression"
+    readings: "#week-01-jan-10---14"
   - date:  "Thu, Jan 13"
     title: "Lab"
  
