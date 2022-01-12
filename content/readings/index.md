@@ -8,3 +8,7 @@ This page contains the reading assignments for STA 310: Generalized Linear Model
 
 - Beyond Multiple Linear Regression (BMLR): [Chapter 1 - Review of Multiple Linear Regression](https://bookdown.org/roback/bookdown-BeyondMLR/ch-MLRreview.html)
 
+## Week 02: Jan 17 - 19
+
+- [BMLR: Chapter 2 - Beyond Least Squares: Using Likelihoods](https://bookdown.org/roback/bookdown-BeyondMLR/ch-beyondmost.html)
+
