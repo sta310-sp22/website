@@ -43,13 +43,13 @@ width: 65%;
       
       <guid>/readings/</guid>
       <description>This page contains the reading assignments for STA 310: Generalized Linear Models. Most reading assignments will come from the textbook Beyond Multiple Linear Regression by Paul Roback and Julie Legler.
-Week 01: Jan 10 - 14  Beyond Multiple Linear Regression (BMLR): Chapter 1 - Review of Multiple Linear Regression  Week 02: Jan 17 - 19  BMLR: Chapter 2 - Beyond Least Squares: Using Likelihoods  </description>
+Week 01: Jan 10 - 14  Beyond Multiple Linear Regression (BMLR): Chapter 1 - Review of Multiple Linear Regression  Week 02: Jan 17 - 21  BMLR: Chapter 2 - Beyond Least Squares: Using Likelihoods  </description>
       <content>&lt;p&gt;This page contains the reading assignments for STA 310: Generalized Linear Models. Most reading assignments will come from the textbook &lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/&#34;&gt;Beyond Multiple Linear Regression&lt;/a&gt; by Paul Roback and Julie Legler.&lt;/p&gt;
 &lt;h2 id=&#34;week-01-jan-10---14&#34;&gt;Week 01: Jan 10 - 14&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Beyond Multiple Linear Regression (BMLR): &lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/ch-MLRreview.html&#34;&gt;Chapter 1 - Review of Multiple Linear Regression&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;week-02-jan-17---19&#34;&gt;Week 02: Jan 17 - 19&lt;/h2&gt;
+&lt;h2 id=&#34;week-02-jan-17---21&#34;&gt;Week 02: Jan 17 - 21&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/ch-beyondmost.html&#34;&gt;BMLR: Chapter 2 - Beyond Least Squares: Using Likelihoods&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
