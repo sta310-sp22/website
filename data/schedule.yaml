@@ -19,7 +19,7 @@ lessons:
     readings: "#week-01-jan-10---14"
     slides: "https://sta310-sp22.github.io/slides/03-mlr-review-pt2/03-mlr-review-pt2.html#1"
   - date:  "Thu, Jan 13"
-    title: "Lab"
+    title: "Lab: Intro + HW 01"
  
   - week: "Week 03"
     date: "Mon, Jan 17"
@@ -27,10 +27,10 @@ lessons:
   - date: "Wed, Jan 19"
     title: "Likelihood / distribution theory"
   - title: "HW 01 due"
-    assignment: "https://www.github.com/sta310-sp22"
+    assignment: "https://sta310-sp22.github.io/assignments/hw/hw-01.html"
     readings: "#week-02-jan-17--21"
   - date: "Thu, Jan 20"
-    title: "Lab: Intro + HW 01"
+    title: "Lab"
 
   - week: "Week 04"
     date: "Mon, Jan 24"
