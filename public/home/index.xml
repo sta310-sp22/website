@@ -43,7 +43,7 @@ width: 65%;
       
       <guid>/readings/</guid>
       <description>This page contains the reading assignments for STA 310: Generalized Linear Models. Most reading assignments will come from the textbook Beyond Multiple Linear Regression by Paul Roback and Julie Legler.
-Week 01: Jan 10 - 14  Beyond Multiple Linear Regression (BMLR): Chapter 1 - Review of Multiple Linear Regression  Week 02: Jan 17 - 21  BMLR: Chapter 2 - Beyond Least Squares: Using Likelihoods  </description>
+Week 01: Jan 10 - 14  Beyond Multiple Linear Regression (BMLR): Chapter 1 - Review of Multiple Linear Regression  Week 02: Jan 17 - 21  BMLR: Chapter 2 - Beyond Least Squares: Using Likelihoods  Week 03: Jan 24 - 28   BMLR:Sections 2.</description>
       <content>&lt;p&gt;This page contains the reading assignments for STA 310: Generalized Linear Models. Most reading assignments will come from the textbook &lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/&#34;&gt;Beyond Multiple Linear Regression&lt;/a&gt; by Paul Roback and Julie Legler.&lt;/p&gt;
 &lt;h2 id=&#34;week-01-jan-10---14&#34;&gt;Week 01: Jan 10 - 14&lt;/h2&gt;
 &lt;ul&gt;
@@ -52,6 +52,15 @@ Week 01: Jan 10 - 14  Beyond Multiple Linear Regression (BMLR): Chapter 1 - Revi
 &lt;h2 id=&#34;week-02-jan-17---21&#34;&gt;Week 02: Jan 17 - 21&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/ch-beyondmost.html&#34;&gt;BMLR: Chapter 2 - Beyond Least Squares: Using Likelihoods&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;week-03-jan-24---28&#34;&gt;Week 03: Jan 24 - 28&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/ch-beyondmost.html#case-study-analysis-of-the-nlsy-data&#34;&gt;BMLR:Sections 2.6 -2.10 &lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://bookdown.org/roback/bookdown-BeyondMLR/ch-distthry.html&#34;&gt;BMLR: Chapter 3: Distribution Theory&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
@@ -160,7 +169,7 @@ Go to &lt;a href=&#34;http://studentaffairs.duke.edu/dukereach&#34;&gt;studentaf
       <guid>/syllabus/</guid>
       <description>Click here to download a PDF copy of the syllabus.
 Teaching team &amp;amp; office hours Instructor
-   Name Contact Office hours      Prof. Maria Tackett  Thu 2 - 3pm Zoom (link in Sakai)     Fri 2 - 3pm Zoom (link in Sakai)     or by appointment     Teaching Assistants
+   Name Contact Office hours      Prof. Maria Tackett  Thu &amp;amp; Fri 2 - 3pm Zoom (link in Sakai)     or by appointment     Teaching Assistants
    Name Contact Office hours      Raphaël Morsomme  Tue 2 - 4pm Old Chem Room TBD   Jose Pliego San Martin  Mon 12 - 1pm Zoom (Link in Sakai)     Tue 12 - 1pm Old Chem Room TBD    Course info     Day Time Location     Lectures Mon &amp;amp; Wed 3:30 - 4:45pm Perkins 071 (Link #5)   Labs Thu 3:30 - 4:45pm Perkins 071 (Link #5)    Textbooks All books are freely available online.</description>
       <content>&lt;p&gt;&lt;font color=&#34;#AF5A94&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt;&lt;/font&gt; &lt;a href=&#34;sta310-sp22-syllabus.pdf&#34;&gt;&lt;strong&gt;Click here&lt;/strong&gt;&lt;/a&gt; &lt;strong&gt;to download a PDF copy of the syllabus.&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;teaching-team--office-hours&#34;&gt;Teaching team &amp;amp; office hours&lt;/h2&gt;
@@ -178,13 +187,7 @@ Teaching team &amp;amp; office hours Instructor
 &lt;tr&gt;
 &lt;td&gt;&lt;a href=&#34;http://stat.duke.edu/~mt324/&#34;&gt;Prof. Maria Tackett&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;mailto:maria.tackett@duke.edu&#34; title=&#34;email&#34;&gt;&lt;i class=&#34;fa fa-envelope&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;Thu 2 - 3pm&lt;/td&gt;
-&lt;td&gt;Zoom (link in Sakai)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Fri 2 - 3pm&lt;/td&gt;
+&lt;td&gt;Thu &amp;amp; Fri 2 - 3pm&lt;/td&gt;
 &lt;td&gt;Zoom (link in Sakai)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;

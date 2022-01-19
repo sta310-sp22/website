@@ -12,3 +12,9 @@ This page contains the reading assignments for STA 310: Generalized Linear Model
 
 - [BMLR: Chapter 2 - Beyond Least Squares: Using Likelihoods](https://bookdown.org/roback/bookdown-BeyondMLR/ch-beyondmost.html)
 
+
+## Week 03: Jan 24 - 28
+
+- [BMLR:Sections 2.6 -2.10 ](https://bookdown.org/roback/bookdown-BeyondMLR/ch-beyondmost.html#case-study-analysis-of-the-nlsy-data)
+
+- [BMLR: Chapter 3: Distribution Theory](https://bookdown.org/roback/bookdown-BeyondMLR/ch-distthry.html)

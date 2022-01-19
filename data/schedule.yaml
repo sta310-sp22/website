@@ -25,7 +25,8 @@ lessons:
     date: "Mon, Jan 17"
     title: "No Class: Martin Luther King, Jr. Holiday"
   - date: "Wed, Jan 19"
-    title: "Likelihood / distribution theory"
+    title: "Likelihoods"
+    slides: "https://sta310-sp22.github.io/slides/04-likelihoods/04-likelihoods.html#1"
   - title: "HW 01 due"
     assignment: "https://sta310-sp22.github.io/assignments/hw/hw-01.html"
     readings: "#week-02-jan-17--21"
@@ -34,7 +35,8 @@ lessons:
 
   - week: "Week 04"
     date: "Mon, Jan 24"
-    title: "Distribution theory"
+    title: "Likelihoods/Distribution theory"
+    readings: 
   - date: "Wed, Jan 26"
     title: "Poisson regression"  
   - title: "Quiz 01 due"  
