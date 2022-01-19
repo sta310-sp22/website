@@ -36,9 +36,10 @@ lessons:
   - week: "Week 04"
     date: "Mon, Jan 24"
     title: "Likelihoods/Distribution theory"
-    readings: 
+    readings: "#week-03-jan-24---28"
   - date: "Wed, Jan 26"
-    title: "Poisson regression"  
+    title: "Distribution theory" 
+    readings: "#week-03-jan-24---28"
   - title: "Quiz 01 due"  
     assignment: "https://www.gradescope.com/"
   - date: "Thu, Jan 27"
