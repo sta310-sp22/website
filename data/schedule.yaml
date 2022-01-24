@@ -39,7 +39,7 @@ lessons:
     title: "Likelihoods/Distribution theory"
     readings: "#week-03-jan-24---28"
   - date: "Wed, Jan 26"
-    title: "Distribution theory" 
+    title: "Poisson regression" 
     readings: "#week-03-jan-24---28"
   - title: "Quiz 01 due"  
     assignment: "https://www.gradescope.com/"

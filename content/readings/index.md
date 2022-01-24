@@ -17,4 +17,6 @@ This page contains the reading assignments for STA 310: Generalized Linear Model
 
 - [BMLR:Sections 2.6 -2.10 ](https://bookdown.org/roback/bookdown-BeyondMLR/ch-beyondmost.html#case-study-analysis-of-the-nlsy-data)
 
-- [BMLR: Chapter 3: Distribution Theory](https://bookdown.org/roback/bookdown-BeyondMLR/ch-distthry.html)
+- [BMLR: Chapter 3 - Distribution Theory](https://bookdown.org/roback/bookdown-BeyondMLR/ch-distthry.html) (for reference)
+
+- [BMLR: Chapter 4 - Poisson Regression](https://bookdown.org/roback/bookdown-BeyondMLR/ch-poissonreg.html)
