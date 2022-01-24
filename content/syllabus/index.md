@@ -19,9 +19,9 @@ title: Syllabus
 
 Name    | Contact    | Office hours  |  <span></span>
 |-------------------|------------------|------------------|------------------| 
-|Raphaël Morsomme | <a href="mailto:raphael.morsomme@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Tue 2 - 4pm | Old Chem Room TBD |
+|Raphaël Morsomme | <a href="mailto:raphael.morsomme@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Tue 2 - 4pm |Zoom (link in Sakai) |
 |Jose Pliego San Martin | <a href="mailto:jose.pliego.san.martin@duke.edu" title="email"><i class="fa fa-envelope"></i></a> | Mon 12 - 1pm | Zoom (Link in Sakai)|
-| |  | Tue 12 - 1pm | Old Chem Room TBD|
+| |  | Tue 12 - 1pm | Zoom (link in Sakai)|
 
 ## Course info 
 
