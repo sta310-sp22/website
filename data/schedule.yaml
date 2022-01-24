@@ -38,16 +38,18 @@ lessons:
     date: "Mon, Jan 24"
     title: "Likelihoods/Distribution theory"
     readings: "#week-03-jan-24---28"
+    slides: "https://sta310-sp22.github.io/slides/05-compare-models/05-compare-models.html"
   - date: "Wed, Jan 26"
     title: "Poisson regression" 
     readings: "#week-03-jan-24---28"
-  - title: "Quiz 01 due"  
-    assignment: "https://www.gradescope.com/"
   - date: "Thu, Jan 27"
     title: "Lab: Work on Mini-project 01"
+  - title: "Quiz 01 due at 3:30pm"  
+    assignment: "https://www.gradescope.com/"
   - title: "(Optional) Submit analysis plan by 11:59pm for feedback"
     assignment: "https://sta310-sp22.github.io/assignments/projects/mini-project-01.html"
-
+ 
+    
   - week: "Week 05"
     date: "Mon, Jan 31"
     title: "Poisson regression"
