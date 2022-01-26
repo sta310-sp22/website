@@ -54,7 +54,6 @@ lessons:
   - week: "Week 05"
     date: "Mon, Jan 31"
     title: "Poisson regression"
-  - date: "Tue, Feb 01"
   - date: "Wed, Feb 02"
     title: "Mini-project 01 draft due at 12pm (noon)"
     assignment: "https://sta310-sp22.github.io/assignments/projects/mini-project-01.html"
