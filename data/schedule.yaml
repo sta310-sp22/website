@@ -47,7 +47,7 @@ lessons:
   - title: "Quiz 01 due at 3:30pm"  
     assignment: "https://www.gradescope.com/"
   - date: "Fri, Jan 28"
-  - title: "(Optional) Submit analysis plan by 11:59pm for feedback"
+    title: "(Optional) Submit analysis plan by 11:59pm for feedback"
     assignment: "https://sta310-sp22.github.io/assignments/projects/mini-project-01.html"
  
     
