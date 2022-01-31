@@ -53,7 +53,9 @@ lessons:
     
   - week: "Week 05"
     date: "Mon, Jan 31"
-    title: "Poisson regression"
+    title: "Poisson regression: Goodness of fit & overdispersion"
+    slides: "https://sta310-sp22.github.io/slides/07-poisson-pt2/07-poisson-pt2.html#1"
+    readings: "#week-04-jan-31---feb-04"
   - date: "Wed, Feb 02"
     title: "Mini-project 01 draft due at 12pm (noon)"
     assignment: "https://sta310-sp22.github.io/assignments/projects/mini-project-01.html"
@@ -61,10 +63,12 @@ lessons:
     assignment: "https://sta310-sp22.github.io/assignments/projects/mini-project-01.html"
   - date: "Thu, Feb 03"
     title: "Poisson regression"
+    readings: "#week-04-jan-31---feb-04"
 
   - week: "Week 06"
     date: "Mon, Feb 07"
     title: "Unifying framework for GLMs"
+    readings: "#week-05-feb-07---11"
   - title: "HW 02 due"
     assignment: "https://www.github.com/sta310-sp22"
   - date: "Wed, Feb 09"

@@ -20,3 +20,15 @@ This page contains the reading assignments for STA 310: Generalized Linear Model
 - [BMLR: Chapter 3 - Distribution Theory](https://bookdown.org/roback/bookdown-BeyondMLR/ch-distthry.html) (for reference)
 
 - [BMLR: Chapter 4 - Poisson Regression](https://bookdown.org/roback/bookdown-BeyondMLR/ch-poissonreg.html)
+
+## Week 04: Jan 31 - Feb 04
+
+- [BMLR: Chapter 4 - Poisson Regression](https://bookdown.org/roback/bookdown-BeyondMLR/ch-poissonreg.html)
+  - Sections 4.4 - 4.5, 4.9
+  
+- [BMLR: Chapter 4 - Poisson Regression](https://bookdown.org/roback/bookdown-BeyondMLR/ch-poissonreg.html)
+  - Sections 4.6, 4.10
+  
+## Week 05: Feb 07 - 11
+
+- [BMLR: Chapter 5 - Generalized Linear Models: A Unifying Theory](https://bookdown.org/roback/bookdown-BeyondMLR/ch-glms.html)
