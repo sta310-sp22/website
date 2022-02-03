@@ -62,7 +62,8 @@ lessons:
   - title: "Peer review Mini-project 01 due at 11:59pm"
     assignment: "https://sta310-sp22.github.io/assignments/projects/mini-project-01.html"
   - date: "Thu, Feb 03"
-    title: "Poisson regression"
+    title: "Poisson regression: offset & ZIP models"
+    slides: "https://sta310-sp22.github.io/slides/08-poisson-pt3/08-poisson-pt3.html"
     readings: "#week-04-jan-31---feb-04"
 
   - week: "Week 06"
