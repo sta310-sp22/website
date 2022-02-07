@@ -31,4 +31,9 @@ This page contains the reading assignments for STA 310: Generalized Linear Model
   
 ## Week 05: Feb 07 - 11
 
-- [BMLR: Chapter 5 - Generalized Linear Models: A Unifying Theory](https://bookdown.org/roback/bookdown-BeyondMLR/ch-glms.html)
+- [BMLR: Chapter 4 - Poisson Regression](https://bookdown.org/roback/bookdown-BeyondMLR/ch-poissonreg.html)
+  - Sections 4.4.5, 4.10
+
+## Week 06: Feb 14 - 18
+
+- [BMLR: Chapter 5 - Generalized linear models: A unifying framework](https://bookdown.org/roback/bookdown-BeyondMLR/ch-glms.html)
