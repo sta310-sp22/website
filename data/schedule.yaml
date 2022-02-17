@@ -95,6 +95,7 @@ lessons:
   - date: "Thu, Feb 17"
     title: "Lecture: Logistic regression"
     readings: "#week-07-feb-14---18"
+    slides: "https://sta310-sp22.github.io/slides/12-logistic/12-logistic.html"
   - date: "Fri, Feb 18"
     title: "Quiz 02 due at 11:59pm"
     assignment: "https://www.gradescope.com"
