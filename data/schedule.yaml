@@ -102,7 +102,8 @@ lessons:
 
   - week: "Week 08"
     date: "Mon, Feb 21"
-    title: "Logistic regression"
+    title: "Binomial and Ordinal logistic regression"
+    slides: "https://sta310-sp22.github.io/slides/13-logistic-pt2/13-logistic-pt2.html#1"
     readings: "#week-08-feb-21---25"
   - date: "Wed, Feb 23"
     title: "Correlated data"
