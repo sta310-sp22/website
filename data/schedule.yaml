@@ -115,7 +115,7 @@ lessons:
     date: "Mon, Feb 28"
     title: "Multilevel models"
   - title: "HW 03 due"
-    assignment: "https://www.gradescope.com"
+    assignment: "https://sta310-sp22.github.io/assignments/hw/hw-03.html"
 
   - date: "Wed, Mar 02"
     title: "Multilevel models"
