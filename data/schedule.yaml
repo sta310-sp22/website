@@ -107,7 +107,7 @@ lessons:
     readings: "#week-08-feb-21---25"
   - date: "Wed, Feb 23"
     title: "Correlated data"
-    assignment: "https://www.github.com/sta310-sp22"
+    slides: "https://sta310-sp22.github.io/slides/14-correlated-data/14-correlated-data.html#1"
   - date: "Thu, Feb 24"
     title: "Lab"
 
