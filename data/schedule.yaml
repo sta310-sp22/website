@@ -114,6 +114,8 @@ lessons:
   - week: "Week 09"
     date: "Mon, Feb 28"
     title: "Multilevel models"
+    slides: "https://sta310-sp22.github.io/slides/15-multilevel-models/15-multilevel-models.html#1"
+ 
   - date: "Tue, Mar 01"
     title: "HW 03 due"
     assignment: "https://sta310-sp22.github.io/assignments/hw/hw-03.html"
