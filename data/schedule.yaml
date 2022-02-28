@@ -115,15 +115,16 @@ lessons:
     date: "Mon, Feb 28"
     title: "Multilevel models"
     slides: "https://sta310-sp22.github.io/slides/15-multilevel-models/15-multilevel-models.html#1"
- 
+    readings: "#week-09-feb-28---mar-04"
   - date: "Tue, Mar 01"
     title: "HW 03 due"
     assignment: "https://sta310-sp22.github.io/assignments/hw/hw-03.html"
 
   - date: "Wed, Mar 02"
     title: "Multilevel models"
+    readings: "#week-09-feb-28---mar-04"
   - date: "Thu, Mar 03"
-    title: "Lab"
+    title: "Lab: Mini-project 02"
 
   - week: "Week 10"
     date: "Mon, Mar 07"

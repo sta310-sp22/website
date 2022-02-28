@@ -50,3 +50,8 @@ This page contains the reading assignments for STA 310: Generalized Linear Model
 - [BMLR: Chapter 6 - Logistic Regression](https://bookdown.org/roback/bookdown-BeyondMLR/ch-logreg.html)
 
 - [BMLR Chapter 7 - Correlated Data](https://bookdown.org/roback/bookdown-BeyondMLR/ch-corrdata.html)
+
+
+## Week 09: Feb 28 - Mar 04
+
+- [BMLR Chapter 8 - Introduction to Multilevel Models](https://bookdown.org/roback/bookdown-BeyondMLR/ch-multilevelintro.html#twolevelmodelingunified)
