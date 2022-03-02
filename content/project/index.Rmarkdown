@@ -13,7 +13,7 @@ library(tidyverse)
 projects <- tibble(name = c("Mini Project 01", "Mini Project 02", 
                              "Final Project"), 
                    url = c("https://sta310-sp22.github.io/assignments/projects/mini-project-01.html",
-                           "https://sta310-sp22.netlify.app/project/mini-project-02.html",
+                           "https://sta310-sp22.github.io/assignments/projects/mini-project-02.html",
                            "https://sta310-sp22.netlify.app/project/final-project.html"),
                    image = c("https://sta310-sp22.netlify.app/img/sta310_sticker.png",                       "https://sta310-sp22.netlify.app/img/sta310_sticker.png", 
                              "https://sta310-sp22.netlify.app/img/sta310_sticker.png"), 
