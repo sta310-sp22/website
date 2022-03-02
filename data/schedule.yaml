@@ -121,7 +121,8 @@ lessons:
     assignment: "https://sta310-sp22.github.io/assignments/hw/hw-03.html"
 
   - date: "Wed, Mar 02"
-    title: "Multilevel models"
+    title: "Multilevel models: Part 2"
+    slides: "https://sta310-sp22.github.io/slides/16-multilevel-models-pt2/16-multilevel-models-pt2.html#1"
     readings: "#week-09-feb-28---mar-04"
   - date: "Thu, Mar 03"
     title: "Lab: Mini-project 02"
