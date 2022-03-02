@@ -16,7 +16,7 @@ Instructions will be posted as the projects are assigned.
 </div>
 <div class="card bg-transparent m-0 border-0 collapse.show bs4cards-blahblahblah " style="padding: .2rem ; border-width: 0; border-radius: .6rem .6rem .6rem .6rem ;">
 <div class="card-body justify-content-end m-0 p-0" style="visibility: visible; background-color: inherits; border-style:solid; border-color:inherits; border-width:1px; border-radius: .6rem .6rem .6rem .6rem ;">
-<a href="https://sta310-sp22.netlify.app/project/mini-project-02.html">
+<a href="https://sta310-sp22.github.io/assignments/projects/mini-project-02.html">
 <h5 class="card-title my-auto px-3 pt-3 pb-1">Mini Project 02</h5>
 </a>
 <p class="card-text my-auto px-3 pb-3 pt-1">Group project focused on multilevel models</p>
