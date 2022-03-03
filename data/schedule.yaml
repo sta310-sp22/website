@@ -126,6 +126,10 @@ lessons:
     readings: "#week-09-feb-28---mar-04"
   - date: "Thu, Mar 03"
     title: "Lab: Mini-project 02"
+  - date: "Fri, Mar 04"
+    title: "Mini-project 02: Article evaluation due"
+    assignment: "https://sta310-sp22.github.io/assignments/projects/mini-project-02.html"
+
 
   - week: "Week 10"
     date: "Mon, Mar 07"
