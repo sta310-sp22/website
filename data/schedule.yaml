@@ -182,6 +182,8 @@ lessons:
     title: "Multilevel GLMs"
   - date: "Wed, Apr 13"
     title: "Multilevel GLMs"
+  - title: "Final Project: Round 1 submission (optional)"
+    assignment: "https://sta310-sp22.github.io/assignments/projects/final-project.html"
   - title: "Quiz 04 due"
     assignment: "https://www.gradescope.com"
   - date: "Thu, Apr 14"
@@ -192,3 +194,9 @@ lessons:
     title: "Wrap up"
   - date: "Wed, Apr 20"
     title: "Final projects"
+
+  - week: "Exam period"
+    date: "Wed, Apr 27"
+    title: "Final Project due"
+    assignment: "https://sta310-sp22.github.io/assignments/projects/final-project.html"
+ 
