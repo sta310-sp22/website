@@ -150,7 +150,7 @@ lessons:
   - date: "Thu, Mar 17"
     title: "Lab: Work on Mini-project 02"
   - date: "Fri, Mar 18"  
-  - title: "Quiz 03 due at 11:59pm"
+    title: "Quiz 03 due at 11:59pm"
     assignment: "https://www.gradescope.com"
     
   - week: "Week 12"
