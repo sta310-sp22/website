@@ -55,3 +55,14 @@ This page contains the reading assignments for STA 310: Generalized Linear Model
 ## Week 09: Feb 28 - Mar 04
 
 - [BMLR Chapter 8 - Introduction to Multilevel Models](https://bookdown.org/roback/bookdown-BeyondMLR/ch-multilevelintro.html#twolevelmodelingunified)
+
+## Week 10: Mar 07 - 11
+
+Spring Break
+
+## Week 11: Mar 14 - 18
+
+- [BMLR Chapter 8 - Introduction to Multilevel Models](https://bookdown.org/roback/bookdown-BeyondMLR/ch-multilevelintro.html#twolevelmodelingunified)
+  - Sections 8.5 - 8.12
+
+- [BMLR: Chapter 9 - Two-level Longitudinal data](https://bookdown.org/roback/bookdown-BeyondMLR/ch-lon.html)
