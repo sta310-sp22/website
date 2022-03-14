@@ -141,8 +141,9 @@ lessons:
 
   - week: "Week 11"
     date: "Mon, Mar 14"
-    title: "Multilevel models"
+    title: "Multilevel models: Estimation + Interpretation"
     readings: "#week-11-mar-14---18"
+    slides: "https://sta310-sp22.github.io/slides/17-multilevel-models-pt3/17-multilevel-models-pt3.html#1"
   - date: "Wed, Mar 16"
     title: "Two-level longitudinal data"
     readings: "#week-11-mar-14---18"
