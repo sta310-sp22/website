@@ -147,6 +147,7 @@ lessons:
   - date: "Wed, Mar 16"
     title: "Two-level longitudinal data"
     readings: "#week-11-mar-14---18"
+    slides: "https://sta310-sp22.github.io/slides/18-longitudinal/18-longitudinal.html#1"
   - date: "Thu, Mar 17"
     title: "Lab: Work on Mini-project 02"
   - date: "Fri, Mar 18"  
