@@ -159,7 +159,8 @@ lessons:
     title: "Two-level longitudinal data: Inference"
     slides: "https://sta310-sp22.github.io/slides/19-longitudinal-pt2/19-longitudinal-pt2.html#1"
   - date: "Wed, Mar 23"
-    title: "Two-level longitudinal data: Covariance structure"
+    title: "Two-level longitudinal data: Inference cont'd"
+    slides: "https://sta310-sp22.github.io/slides/20-longitudinal-pt3/20-longitudinal-pt3.html#1"
   - date: "Thu, Mar 24"
     title: "Lab: Mini-project 02 peer review"
     
@@ -182,7 +183,6 @@ lessons:
     title: "Multilevel data with more than 2 levels "
   - date: "Wed, Apr 06"
     title: "Multilevel GLMs"
-    assignment: "https://www.github.com/sta310-sp22"
   - date: "Thu, Apr 07"
     title: "Lab: Work on Final Project"
 
