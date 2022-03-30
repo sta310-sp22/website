@@ -66,3 +66,12 @@ Spring Break
   - Sections 8.5 - 8.12
 
 - [BMLR: Chapter 9 - Two-level Longitudinal data](https://bookdown.org/roback/bookdown-BeyondMLR/ch-lon.html)
+
+
+## Week 12: Mar 21 - 25
+
+- [BMLR: Chapter 9 - Two-level Longitudinal data](https://bookdown.org/roback/bookdown-BeyondMLR/ch-lon.html)
+
+## Week 13: Mar 28 - Apr 01
+
+ - [BMLR: Chapter 10 - Multilevel data with more than two levels](https://bookdown.org/roback/bookdown-BeyondMLR/ch-3level.html)
