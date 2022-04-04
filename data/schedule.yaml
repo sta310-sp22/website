@@ -186,7 +186,8 @@ lessons:
 
   - week: "Week 14"
     date: "Mon, Apr 04"
-    title: "Covariance structure + diagnostics"
+    title: "Multilevel models with more than two levels cont'd"
+    slides: "https://sta310-sp22.github.io/slides/23-three-level-models-pt2/23-three-level-models-pt2.html#1"
   - date: "Wed, Apr 06"
     title: "Multilevel GLMs"
   - date: "Thu, Apr 07"
