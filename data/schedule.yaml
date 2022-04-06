@@ -189,7 +189,8 @@ lessons:
     title: "Multilevel models with more than two levels cont'd"
     slides: "https://sta310-sp22.github.io/slides/23-three-level-models-pt2/23-three-level-models-pt2.html#1"
   - date: "Wed, Apr 06"
-    title: "Multilevel GLMs"
+    title: "Covariance structure of observations"
+    slides: "https://sta310-sp22.github.io/slides/24-covariance-structure/24-covariance-structure.html#1"
   - date: "Thu, Apr 07"
     title: "Lab: Work on Final Project"
 
@@ -209,9 +210,9 @@ lessons:
   
   - week: "Week 16"
     date: "Mon, Apr 18"
-    title: "Wrap up"
+    title: "Multilevel GLMs"
   - date: "Wed, Apr 20"
-    title: "Final projects"
+    title: "Final project meetings"
 
   - week: "Exam period"
     date: "Wed, Apr 27"
