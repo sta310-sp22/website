@@ -75,3 +75,14 @@ Spring Break
 ## Week 13: Mar 28 - Apr 01
 
  - [BMLR: Chapter 10 - Multilevel data with more than two levels](https://bookdown.org/roback/bookdown-BeyondMLR/ch-3level.html)
+ 
+## Week 14: Apr 04 - 08
+
+ - [BMLR: Section 9.7 - Covariance structure among observations](https://bookdown.org/roback/bookdown-BeyondMLR/ch-lon.html#errorcovariance)
+  - [BMLR: Section 10.9 - Covariance structure](https://bookdown.org/roback/bookdown-BeyondMLR/ch-3level.html#error-3level)
+  
+  - Jones, K. (1991). [Specifying and estimating multi-level models for geographical research](https://sakai.duke.edu/access/content/group/ec265469-bdb3-47a7-beb0-317956b6f86f/jones-1991.pdf). Transactions of the institute of British geographers, 148-159.
+
+## Week 15: Apr 11 - 15
+
+- [BMLR: Chapter 11: Multilevel Generalized Linear Models](https://bookdown.org/roback/bookdown-BeyondMLR/ch-GLMM.html)
