@@ -199,6 +199,7 @@ lessons:
   - week: "Week 15"
     date: "Mon, Apr 11"
     title: "Multilevel GLMs"
+    slides: "https://sta310-sp22.github.io/slides/25-multilevel-glms/25-multilevel-glms.html#1"
     readings: "#week-15-apr-11---15"
   - date: "Wed, Apr 13"
     title: "Multilevel GLMs"
