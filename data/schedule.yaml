@@ -206,12 +206,11 @@ lessons:
     readings: "#week-15-apr-11---15"
   - date: "Thu, Apr 14"
     title: "Lab: Work on Final Project"
-  - title: "Quiz 04 due"
-    assignment: "https://www.gradescope.com"
   - date: "Fri, Apr 15"
     title: "Final Project: Round 1 submission (optional)"
     assignment: "https://sta310-sp22.github.io/assignments/projects/final-project.html"
-
+  - title: "Quiz 04 due"
+    assignment: "https://www.gradescope.com"
   
   - week: "Week 16"
     date: "Mon, Apr 18"
