@@ -216,6 +216,7 @@ lessons:
   - week: "Week 16"
     date: "Mon, Apr 18"
     title: "Multilevel GLMs"
+    slides: "https://sta310-sp22.github.io/slides/27-multilevel-example/27-multilevel-example.html#1"
   - date: "Wed, Apr 20"
     title: "Final project meetings"
 
